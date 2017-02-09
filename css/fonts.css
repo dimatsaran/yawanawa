@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "AmaticRegularSC";
+	src: url("../fonts/Amatic/eot/amaticsc-regular-webfont.eot");
+	src: url("../fonts/Amatic/eot/amaticsc-regular-webfont?#iefix")format("embedded-opentype"),
+		url("../fonts/Amatic/woff/amaticsc-regular-webfont.woff") format("woff"),
+		url("../fonts/Amatic/ttf/amaticsc-regular-webfont.ttf") format("truetype"),
+		url('../fonts/Amatic/svg/amaticsc-regular-webfont.svg#ralewaythin') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: "QwigleyRegular";
+	src: url("../fonts/Qwigley/eot/qwigley-regular-webfont.eot");
+	src: url("../fonts/Qwigley/eot/qwigley-regular-webfont?#iefix")format("embedded-opentype"),
+		url("../fonts/Qwigley/woff/qwigley-regular-webfont.woff") format("woff"),
+		url("../fonts/Qwigley/ttf/qwigley-regular-webfont.ttf") format("truetype"),
+		url('../fonts/Qwigley/svg/qwigley-regular-webfont.svg#ralewaythin') format('svg');
+	font-style: normal;
+}
