@@ -1,10 +1,10 @@
 @font-face {
-	font-family: "AmaticRegularSC";
+	font-family: "AmaticSCRegular";
 	src: url("../fonts/Amatic/eot/amaticsc-regular-webfont.eot");
 	src: url("../fonts/Amatic/eot/amaticsc-regular-webfont?#iefix")format("embedded-opentype"),
 		url("../fonts/Amatic/woff/amaticsc-regular-webfont.woff") format("woff"),
 		url("../fonts/Amatic/ttf/amaticsc-regular-webfont.ttf") format("truetype"),
-		url('../fonts/Amatic/svg/amaticsc-regular-webfont.svg#ralewaythin') format('svg');
+		url('../fonts/Amatic/svg/amaticsc-regular-webfont.svg#amatic_scregular') format('svg');
 	font-style: normal;
 }
 @font-face {
@@ -13,6 +13,33 @@
 	src: url("../fonts/Qwigley/eot/qwigley-regular-webfont?#iefix")format("embedded-opentype"),
 		url("../fonts/Qwigley/woff/qwigley-regular-webfont.woff") format("woff"),
 		url("../fonts/Qwigley/ttf/qwigley-regular-webfont.ttf") format("truetype"),
-		url('../fonts/Qwigley/svg/qwigley-regular-webfont.svg#ralewaythin') format('svg');
+		url('../fonts/Qwigley/svg/qwigley-regular-webfont.svg#qwigleyregular') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: "RalewayRegular";
+	src: url("../fonts/Raleway/eot/raleway-regular.eot");
+	src: url("../fonts/Raleway/eot/raleway-regular?#iefix")format("embedded-opentype"),
+		url("../fonts/Raleway/woff/raleway-regular.woff") format("woff"),
+		url("../fonts/Raleway/ttf/raleway-regular.ttf") format("truetype"),
+		url('../fonts/Raleway/svg/raleway-regular.svg#ralewayregular') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: "RalewaySemibold";
+	src: url("../fonts/Raleway/eot/raleway-semibold.eot");
+	src: url("../fonts/Raleway/eot/raleway-semibold?#iefix")format("embedded-opentype"),
+		url("../fonts/Raleway/woff/raleway-semibold.woff") format("woff"),
+		url("../fonts/Raleway/ttf/raleway-semibold.ttf") format("truetype"),
+		url('../fonts/Raleway/svg/raleway-semibold.svg#ralewaysemibold') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: "RalewayBold";
+	src: url("../fonts/Raleway/eot/raleway-bold.eot");
+	src: url("../fonts/Raleway/eot/raleway-bold?#iefix")format("embedded-opentype"),
+		url("../fonts/Raleway/woff/raleway-bold.woff") format("woff"),
+		url("../fonts/Raleway/ttf/raleway-bold.ttf") format("truetype"),
+		url('../fonts/Raleway/svg/raleway-bold.svg#ralewaybold') format('svg');
 	font-style: normal;
 }
