@@ -1,0 +1,163 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* for mobile header */
+/* line 10, ../assets/scss/partials/elements/_base.scss */
+*, *::after, *::before {
+  box-sizing: border-box;
+  transition: all 0.4s ease 0s;
+}
+
+/* line 2, ../assets/scss/partials/elements/_base.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+/* line 1, ../assets/scss/partials/blocks/_blog_all.scss */
+.header-blog-all-block {
+  position: relative;
+  background: transparent url("../img/blog-all-header.jpg") no-repeat scroll;
+  background-position: top center;
+  min-height: 520px;
+  background-size: cover;
+}
+/* line 14, ../assets/scss/partials/blocks/_blog_all.scss */
+.header-blog-all-block .title-block {
+  text-align: center;
+  padding-top: 10%;
+  min-height: 520px;
+}
+/* line 27, ../assets/scss/partials/blocks/_blog_all.scss */
+.header-blog-all-block .title-block .site-label {
+  font-family: QwigleyRegular;
+  color: #614f43;
+  font-size: 80px;
+}
+/* line 32, ../assets/scss/partials/blocks/_blog_all.scss */
+.header-blog-all-block .title-block .title-description {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+/* line 43, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block {
+  position: relative;
+  text-align: center;
+}
+/* line 47, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block .menu {
+  display: inline-block;
+}
+/* line 52, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block .search-block {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: #eeeeee;
+  border-style: solid;
+  border-width: 0 1px 0 1px;
+}
+/* line 61, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block .search-block a {
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+/* line 71, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block .item-menu {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 76, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block .item-menu a {
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 88, ../assets/scss/partials/blocks/_blog_all.scss */
+.ready-form-block {
+  position: relative;
+  background: transparent url("../img/ready-form-block.jpg") no-repeat scroll;
+  background-position: top center;
+  min-height: 432px;
+  background-size: cover;
+}
+
+/* line 102, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks {
+  background-color: #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 106, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .content-block {
+  padding: 10px;
+}
+/* line 113, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .item-block {
+  background-color: #ffffff;
+}
+/* line 117, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .img-block img {
+  width: 100%;
+}
+/* line 121, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+}
+/* line 124, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block a {
+  text-decoration: none;
+}
+/* line 128, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block .title-category a {
+  color: #984089;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+/* line 134, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block .title {
+  padding-top: 20px;
+}
+/* line 136, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block .title a {
+  color: #313131;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* line 142, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block .desc {
+  padding-top: 20px;
+}
+/* line 144, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block .desc p {
+  font-size: 15px;
+}
+/* line 148, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block .date {
+  text-align: right;
+  padding-top: 20px;
+}
+/* line 151, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .text-block .date span {
+  color: #8e8a8a;
+  font-size: 15px;
+}
