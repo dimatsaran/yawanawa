@@ -407,46 +407,79 @@
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 28px;
+  padding-right: 28px;
   border-color: #eeeeee;
   border-style: solid;
   border-width: 0 1px 0 1px;
+  margin-left: 30px;
 }
-/* line 55, ../assets/scss/partials/blocks/_blog_all.scss */
+@media screen and (max-width: 768px) {
+  /* line 46, ../assets/scss/partials/blocks/_blog_all.scss */
+  .menu-block .search-block {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* line 60, ../assets/scss/partials/blocks/_blog_all.scss */
 .menu-block .search-block a {
   text-transform: uppercase;
   color: #000000;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 12px;
+  -moz-transition: color 0.3;
+  -o-transition: color 0.3;
+  -webkit-transition: color 0.3;
+  transition: color 0.3;
 }
-/* line 65, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 69, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block .search-block a:hover {
+  color: #eb5449;
+}
+/* line 73, ../assets/scss/partials/blocks/_blog_all.scss */
+.menu-block .search-block .icon-search {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/icon/icon-search.png");
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+/* line 88, ../assets/scss/partials/blocks/_blog_all.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 70, ../assets/scss/partials/blocks/_blog_all.scss */
+@media screen and (max-width: 768px) {
+  /* line 88, ../assets/scss/partials/blocks/_blog_all.scss */
+  .menu-block .item-menu {
+    width: 100%;
+  }
+}
+/* line 96, ../assets/scss/partials/blocks/_blog_all.scss */
 .menu-block .item-menu a {
+  display: inline-block;
   text-transform: uppercase;
   color: #000000;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 11px;
-  -moz-transition: color 0.5;
-  -o-transition: color 0.5;
-  -webkit-transition: color 0.5;
-  transition: color 0.5;
+  font-size: 12px;
+  -moz-transition: color 0.3;
+  -o-transition: color 0.3;
+  -webkit-transition: color 0.3;
+  transition: color 0.3;
 }
-/* line 79, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 106, ../assets/scss/partials/blocks/_blog_all.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 86, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 113, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block {
   position: relative;
   background: transparent url("../img/ready-form-block.jpg") no-repeat scroll;
@@ -455,7 +488,7 @@
   background-size: cover;
   text-align: center;
 }
-/* line 94, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 121, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .container-form {
   max-width: 600px;
 }
@@ -467,7 +500,7 @@
   clear: both;
   height: 0;
 }
-/* line 99, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 126, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .title-block {
   padding-top: 80px;
   color: #ffffff;
@@ -475,51 +508,51 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
-/* line 106, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 133, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .desc {
   padding-top: 40px;
   color: #ffffff;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 111, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 138, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 115, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 142, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .yawanawa-form {
   padding-top: 20px;
 }
-/* line 118, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 145, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item-pair {
   /* text-align: center; */
   margin: 0 auto;
 }
-/* line 123, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 150, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item {
   width: 40%;
 }
-/* line 125, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 152, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 132, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 159, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks {
   background-color: #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 136, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 163, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .content-block {
   padding: 10px;
 }
-/* line 143, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 170, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .item-block {
   background-color: #ffffff;
 }
-/* line 147, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 174, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a {
   opacity: 1;
   -moz-transition: opacity 0.3;
@@ -527,24 +560,24 @@
   -webkit-transition: opacity 0.3;
   transition: opacity 0.3;
 }
-/* line 150, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 177, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a:hover {
   opacity: 0.7;
 }
-/* line 154, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 181, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block img {
   width: 100%;
 }
-/* line 158, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 185, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 20px;
 }
-/* line 161, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 188, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block a {
   text-decoration: none;
 }
-/* line 165, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 192, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a {
   color: #984089;
   font-size: 15px;
@@ -554,15 +587,15 @@
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 170, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 197, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a:hover {
   color: #eb5449;
 }
-/* line 175, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 202, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title {
   padding-top: 20px;
 }
-/* line 177, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 204, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a {
   color: #313131;
   font-size: 20px;
@@ -572,42 +605,42 @@
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 182, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 209, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 187, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 214, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc {
   padding-top: 20px;
 }
-/* line 189, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 216, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc p {
   font-size: 15px;
   line-height: 1.2;
 }
-/* line 194, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 221, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date {
   text-align: right;
   padding-top: 20px;
 }
-/* line 197, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 224, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date span {
   color: #8e8a8a;
   font-size: 15px;
 }
-/* line 203, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 230, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 28px;
 }
-/* line 207, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 234, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more {
   color: #b4634f;
   padding: 10px 10px;
 }
 
-/* line 213, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 240, ../assets/scss/partials/blocks/_blog_all.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
