@@ -934,7 +934,7 @@
   background-size: cover;
   text-align: center;
 }
-/* line 203, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 201, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .container-form {
   max-width: 600px;
 }
@@ -946,7 +946,7 @@
   clear: both;
   height: 0;
 }
-/* line 207, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 205, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .title-block {
   padding-top: 60px;
   color: #ffffff;
@@ -956,7 +956,7 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 215, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 213, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .desc {
   padding-top: 30px;
   color: #ffffff;
@@ -965,30 +965,30 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 221, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 219, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 225, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 223, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .yawanawa-form {
   padding-top: 30px;
 }
-/* line 228, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 226, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .form-item-pair {
   /* text-align: center; */
   margin: 0 auto;
 }
-/* line 233, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 231, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .form-item {
   width: 40%;
 }
-/* line 235, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 233, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .read-more-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 242, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 240, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
