@@ -37,6 +37,7 @@
   padding: 10px 40px;
   margin: auto;
   border: 1px solid transparent;
+  border-radius: 0;
   -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
   border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
@@ -47,7 +48,7 @@
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
-/* line 23, ../assets/scss/partials/elements/_buttons.scss */
+/* line 24, ../assets/scss/partials/elements/_buttons.scss */
 .btn:hover, .btn.focus, .btn:focus {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -500,7 +501,7 @@
   clear: both;
   height: 0;
 }
-/* line 126, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 125, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .title-block {
   padding-top: 80px;
   color: #ffffff;
@@ -508,51 +509,51 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
-/* line 133, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 132, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .desc {
   padding-top: 40px;
   color: #ffffff;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 138, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 137, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 142, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 141, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .yawanawa-form {
   padding-top: 20px;
 }
-/* line 145, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 144, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item-pair {
   /* text-align: center; */
   margin: 0 auto;
 }
-/* line 150, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 149, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item {
   width: 40%;
 }
-/* line 152, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 151, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 159, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 163, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks {
   background-color: #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 163, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 167, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .content-block {
   padding: 10px;
 }
-/* line 170, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 174, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .item-block {
   background-color: #ffffff;
 }
-/* line 174, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 178, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a {
   opacity: 1;
   -moz-transition: opacity 0.3;
@@ -560,24 +561,24 @@
   -webkit-transition: opacity 0.3;
   transition: opacity 0.3;
 }
-/* line 177, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 181, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a:hover {
   opacity: 0.7;
 }
-/* line 181, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 185, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block img {
   width: 100%;
 }
-/* line 185, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 189, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 20px;
 }
-/* line 188, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 192, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block a {
   text-decoration: none;
 }
-/* line 192, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 196, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a {
   color: #984089;
   font-size: 15px;
@@ -587,15 +588,15 @@
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 197, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 201, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a:hover {
   color: #eb5449;
 }
-/* line 202, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 206, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title {
   padding-top: 20px;
 }
-/* line 204, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 208, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a {
   color: #313131;
   font-size: 20px;
@@ -605,42 +606,56 @@
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 209, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 213, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 214, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 218, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc {
   padding-top: 20px;
 }
-/* line 216, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 220, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc p {
   font-size: 15px;
   line-height: 1.2;
 }
-/* line 221, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 225, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date {
   text-align: right;
   padding-top: 20px;
 }
-/* line 224, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 228, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date span {
   color: #8e8a8a;
   font-size: 15px;
 }
-/* line 230, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 234, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 28px;
 }
-/* line 234, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 238, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more {
   color: #b4634f;
   padding: 10px 10px;
+  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border-image-slice: 1;
+}
+/* line 242, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .link-more-block .link-more:hover {
+  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  border-image-slice: 1;
+  opacity: 0.5;
 }
 
-/* line 240, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 248, ../assets/scss/partials/blocks/_blog_all.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
@@ -654,13 +669,13 @@
   max-height: 360px;
   background-size: cover;
 }
-/* line 8, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 7, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .header-blog-yawanawa-block .title-block {
   text-align: center;
   padding-top: 140px;
   min-height: 360px;
 }
-/* line 13, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 11, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .header-blog-yawanawa-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
@@ -670,7 +685,19 @@
   max-width: 600px;
   margin: 0 auto;
 }
-/* line 22, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+@media screen and (max-width: 768px) {
+  /* line 11, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+  .header-blog-yawanawa-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 11, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+  .header-blog-yawanawa-block .title-block .site-label {
+    font-size: 25px;
+  }
+}
+/* line 26, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .header-blog-yawanawa-block .title-block .title-description {
   font-family: "Open Sans", sans-serif;
   color: #000000;
@@ -679,14 +706,26 @@
   font-weight: 700;
   padding-top: 28px;
 }
+@media screen and (max-width: 768px) {
+  /* line 26, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+  .header-blog-yawanawa-block .title-block .title-description {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 26, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+  .header-blog-yawanawa-block .title-block .title-description {
+    font-size: 22px;
+  }
+}
 
-/* line 33, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 43, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block {
   background-color: #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 37, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 47, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .title-block {
   max-width: 920px;
   margin: 0 auto;
@@ -695,29 +734,29 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 44, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 54, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .title-block .title {
   color: #984089;
   font-size: 25px;
   font-weight: 600;
 }
-/* line 49, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 59, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .title-block .desc {
   padding-top: 20px;
   color: #000000;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.68;
   font-weight: 600;
 }
-/* line 57, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 67, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .content-block {
   padding: 10px;
 }
-/* line 64, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 74, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .item-block {
   background-color: #ffffff;
 }
-/* line 68, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 78, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .img-block a {
   opacity: 1;
   -moz-transition: opacity 0.3;
@@ -725,24 +764,24 @@
   -webkit-transition: opacity 0.3;
   transition: opacity 0.3;
 }
-/* line 71, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 81, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .img-block a:hover {
   opacity: 0.7;
 }
-/* line 75, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 85, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .img-block img {
   width: 100%;
 }
-/* line 79, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 89, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 20px;
 }
-/* line 82, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 92, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block a {
   text-decoration: none;
 }
-/* line 86, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 96, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .title-category a {
   color: #984089;
   font-size: 15px;
@@ -752,15 +791,15 @@
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 91, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 101, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .title-category a:hover {
   color: #eb5449;
 }
-/* line 96, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 106, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .title {
   padding-top: 20px;
 }
-/* line 98, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 108, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .title a {
   color: #313131;
   font-size: 20px;
@@ -770,65 +809,146 @@
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 103, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 113, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 108, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 118, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .desc {
   padding-top: 20px;
 }
-/* line 110, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 120, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .desc p {
   font-size: 15px;
   line-height: 1.2;
 }
-/* line 115, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 125, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .date {
   text-align: right;
   padding-top: 20px;
 }
-/* line 118, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 128, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .text-block .date span {
   color: #8e8a8a;
   font-size: 15px;
 }
-/* line 124, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 134, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 28px;
 }
-/* line 128, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 138, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .blogs-block .link-more-block .link-more {
   color: #b4634f;
   padding: 10px 10px;
-}
-
-/* line 134, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block {
-  position: relative;
-  background: transparent url("../img/ready-form-block.jpg") no-repeat scroll;
-  background-position: top center;
-  min-height: 432px;
-  background-size: cover;
-  text-align: center;
+  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border-image-slice: 1;
 }
 /* line 142, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .container-form {
-  max-width: 600px;
+.blogs-block .link-more-block .link-more:hover {
+  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  border-image-slice: 1;
+  opacity: 0.5;
+}
+
+/* line 148, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  background: transparent url("../img/ready-start-block-bg.jpg") no-repeat scroll;
+  background-position: bottom center;
+  height: 430px;
+  background-size: cover;
+}
+/* line 156, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block .container-form {
+  max-width: 540px;
+  text-align: center;
 }
 /* line 2, ../assets/scss/partials/elements/_base.scss */
-.ready-form-block .container-form:after {
+.ready-start-block .container-form:after {
   visibility: hidden;
   display: block;
   content: "";
   clear: both;
   height: 0;
 }
-/* line 147, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .title-block {
-  padding-top: 80px;
+/* line 161, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block .title-block {
+  padding-top: 120px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 170, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block .link-more-block {
+  padding-top: 37px;
+}
+/* line 172, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block .link-more-block .link-more {
+  color: #ffffff;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 176, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block .link-more-block .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
+}
+/* line 183, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block .text-link {
+  padding-top: 60px;
+  color: #ffffff;
+  font-size: 14px;
+}
+/* line 187, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.ready-start-block .text-link a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* line 194, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block {
+  position: relative;
+  background-color: #984089;
+  min-height: 360px;
+  background-size: cover;
+  text-align: center;
+}
+/* line 203, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .container-form {
+  max-width: 600px;
+}
+/* line 2, ../assets/scss/partials/elements/_base.scss */
+.read-more-form-block .container-form:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 207, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .title-block {
+  padding-top: 60px;
   color: #ffffff;
   font-size: 28px;
   font-family: "Open Sans", sans-serif;
@@ -836,39 +956,39 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 156, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .desc {
-  padding-top: 40px;
+/* line 215, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .desc {
+  padding-top: 30px;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 162, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .desc p {
+/* line 221, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 166, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .yawanawa-form {
-  padding-top: 20px;
+/* line 225, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .yawanawa-form {
+  padding-top: 30px;
 }
-/* line 169, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .form-item-pair {
+/* line 228, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .form-item-pair {
   /* text-align: center; */
   margin: 0 auto;
 }
-/* line 174, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .form-item {
+/* line 233, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .form-item {
   width: 40%;
 }
-/* line 176, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
-.ready-form-block .form-item input {
+/* line 235, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.read-more-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 183, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+/* line 242, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
