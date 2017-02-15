@@ -29,6 +29,11 @@ body {
   height: 0;
 }
 
+/* line 29, ../assets/scss/partials/elements/_base.scss */
+img {
+  vertical-align: middle;
+}
+
 /* line 1, ../assets/scss/partials/elements/_buttons.scss */
 .btn {
   background-color: transparent;
@@ -67,6 +72,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   border-image-slice: 1;
   opacity: 0.5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   text-decoration: none;
   color: #b4634f;
 }
@@ -540,34 +548,33 @@ body {
 }
 /* line 146, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item-pair {
-  /* text-align: center; */
   margin: 0 auto;
 }
-/* line 151, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 149, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item {
   width: 40%;
 }
-/* line 153, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 151, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 165, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 157, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks {
   background-color: #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 169, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 161, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .content-block {
   padding: 10px;
 }
-/* line 176, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 168, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .item-block {
   background-color: #ffffff;
 }
-/* line 180, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 172, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a {
   opacity: 1;
   -moz-transition: opacity 0.3;
@@ -575,24 +582,25 @@ body {
   -webkit-transition: opacity 0.3;
   transition: opacity 0.3;
 }
-/* line 183, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 175, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a:hover {
   opacity: 0.7;
 }
-/* line 187, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 179, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block img {
   width: 100%;
 }
-/* line 191, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 183, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 20px;
+  min-height: 210px;
 }
-/* line 194, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 187, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block a {
   text-decoration: none;
 }
-/* line 198, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 191, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a {
   color: #984089;
   font-size: 15px;
@@ -602,54 +610,55 @@ body {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 203, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 196, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a:hover {
   color: #eb5449;
 }
-/* line 208, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 201, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title {
   padding-top: 20px;
 }
-/* line 210, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 203, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a {
   color: #313131;
   font-size: 20px;
+  line-height: 1.2;
   font-weight: 600;
   -moz-transition: color 0.5;
   -o-transition: color 0.5;
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 215, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 209, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 220, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 214, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc {
   padding-top: 20px;
 }
-/* line 222, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 216, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc p {
   font-size: 15px;
   line-height: 1.2;
 }
-/* line 227, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 221, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date {
   text-align: right;
   padding-top: 20px;
 }
-/* line 230, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 224, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date span {
   color: #8e8a8a;
   font-size: 15px;
 }
-/* line 236, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 230, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 28px;
 }
-/* line 240, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 234, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more {
   color: #b4634f;
   padding: 10px 10px;
@@ -659,7 +668,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 244, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 238, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -669,7 +678,7 @@ body {
   opacity: 0.5;
 }
 
-/* line 250, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 244, ../assets/scss/partials/blocks/_blog_all.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
