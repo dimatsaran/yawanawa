@@ -1091,7 +1091,7 @@ img {
 /* line 57, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .img-block {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 /* line 60, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .img-block img {
@@ -1100,7 +1100,6 @@ img {
 /* line 63, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .img-block .desc {
   padding-top: 50px;
-  padding-bottom: 10px;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   text-align: center;
