@@ -1950,42 +1950,68 @@ img {
   margin-left: 10px;
   font-weight: 600;
 }
-/* line 643, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 642, ../assets/scss/partials/blocks/_soma_retreat.scss */
+.booking-policy-block .price-block .card-block {
+  padding-top: 20px;
+}
+/* line 644, ../assets/scss/partials/blocks/_soma_retreat.scss */
+.booking-policy-block .price-block .card-block .icon {
+  margin: 7px;
+  width: 47px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/icon/icon-visa.png");
+  background-repeat: no-repeat;
+}
+/* line 657, ../assets/scss/partials/blocks/_soma_retreat.scss */
+.booking-policy-block .price-block .card-block .icon.icon-visa {
+  background-image: url("../img/icon/icon-visa.png");
+}
+/* line 660, ../assets/scss/partials/blocks/_soma_retreat.scss */
+.booking-policy-block .price-block .card-block .icon.icon-mastercard {
+  background-image: url("../img/icon/icon-mastercard.png");
+}
+/* line 663, ../assets/scss/partials/blocks/_soma_retreat.scss */
+.booking-policy-block .price-block .card-block .icon.icon-paypal {
+  background-image: url("../img/icon/icon-paypal.png");
+}
+/* line 670, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block {
   position: relative;
 }
-/* line 645, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 672, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block {
   padding-top: 30px;
 }
-/* line 647, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 674, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 651, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 678, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 656, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 683, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 662, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 689, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
-/* line 669, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 696, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block {
   padding-top: 37px;
 }
-/* line 671, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 698, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -1995,7 +2021,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 675, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 702, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
