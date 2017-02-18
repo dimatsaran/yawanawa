@@ -17,6 +17,5 @@ $(document).ready(function() {
       title: "Yawanawa"
     });
   }
-
   window.onload = initMap;
 });
