@@ -2336,15 +2336,15 @@ img {
 }
 /* line 720, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block .icon.icon-visa {
-  background-image: url("../img/icon/icon-visa.png");
+  background-image: url("../img/icon/icon-visa-na.png");
 }
 /* line 723, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block .icon.icon-mastercard {
-  background-image: url("../img/icon/icon-mastercard.png");
+  background-image: url("../img/icon/icon-mastercard-na.png");
 }
 /* line 726, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block .icon.icon-paypal {
-  background-image: url("../img/icon/icon-paypal.png");
+  background-image: url("../img/icon/icon-paypal-na.png");
 }
 /* line 733, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .dates-block {
