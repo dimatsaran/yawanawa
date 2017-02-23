@@ -4,7 +4,34 @@
 	src: url("../fonts/Amatic/eot/amaticsc-regular-webfont?#iefix")format("embedded-opentype"),
 		url("../fonts/Amatic/woff/amaticsc-regular-webfont.woff") format("woff"),
 		url("../fonts/Amatic/ttf/amaticsc-regular-webfont.ttf") format("truetype"),
-		url('../fonts/Amatic/svg/amaticsc-regular-webfont.svg#amatic_scregular') format('svg');
+		url("../fonts/Amatic/svg/amaticsc-regular-webfont.svg#amatic_scregular") format("svg");
+	font-style: normal;
+}
+@font-face {
+	font-family: "OpenSansLight";
+	src: url("../fonts/OpenSans/eot/OpenSans-Light.eot?v=1.1.0");
+	src: url("../fonts/OpenSans/eot/OpenSans-Light.eot?#iefix&v=1.1.0")format("embedded-opentype"),
+	url("../fonts/OpenSans/woff/OpenSans-Light.woff?v=1.1.0") format("woff"),
+	url("../fonts/OpenSans/ttf/OpenSans-Light.ttf?v=1.1.0") format("truetype"),
+	url("../fonts/OpenSans/svg/OpenSans-Light.svg?v=1.1.0?v=1.1.0#Light") format("svg");
+	font-style: normal;
+}
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSans/eot/OpenSans-Regular.eot?v=1.1.0");
+	src: url("../fonts/OpenSans/eot/OpenSans-Regular.eot?#iefix&v=1.1.0")format("embedded-opentype"),
+	url("../fonts/OpenSans/woff/OpenSans-Regular.woff?v=1.1.0") format("woff"),
+	url("../fonts/OpenSans/ttf/OpenSans-Regular.ttf?v=1.1.0") format("truetype"),
+	url("../fonts/OpenSans/svg/OpenSans-Regular.svg?v=1.1.0?v=1.1.0#Regular") format("svg");
+	font-style: normal;
+}
+@font-face {
+	font-family: "OpenSansSemibold";
+	src: url("../fonts/OpenSans/eot/OpenSans-Semibold.eot?v=1.1.0");
+	src: url("../fonts/OpenSans/eot/OpenSans-Semibold.eot?#iefix&v=1.1.0")format("embedded-opentype"),
+	url("../fonts/OpenSans/woff/OpenSans-Semibold.woff?v=1.1.0") format("woff"),
+	url("../fonts/OpenSans/ttf/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"),
+	url("../fonts/OpenSans/svg/OpenSans-Semibold.svg?v=1.1.0?v=1.1.0#Semibold") format("svg");
 	font-style: normal;
 }
 @font-face {
@@ -13,7 +40,7 @@
 	src: url("../fonts/Qwigley/eot/qwigley-regular-webfont?#iefix")format("embedded-opentype"),
 		url("../fonts/Qwigley/woff/qwigley-regular-webfont.woff") format("woff"),
 		url("../fonts/Qwigley/ttf/qwigley-regular-webfont.ttf") format("truetype"),
-		url('../fonts/Qwigley/svg/qwigley-regular-webfont.svg#qwigleyregular') format('svg');
+		url("../fonts/Qwigley/svg/qwigley-regular-webfont.svg#qwigleyregular") format("svg");
 	font-style: normal;
 }
 @font-face {
@@ -22,7 +49,7 @@
 	src: url("../fonts/Raleway/eot/raleway-regular?#iefix")format("embedded-opentype"),
 		url("../fonts/Raleway/woff/raleway-regular.woff") format("woff"),
 		url("../fonts/Raleway/ttf/raleway-regular.ttf") format("truetype"),
-		url('../fonts/Raleway/svg/raleway-regular.svg#ralewayregular') format('svg');
+		url("../fonts/Raleway/svg/raleway-regular.svg#ralewayregular") format("svg");
 	font-style: normal;
 }
 @font-face {
@@ -31,7 +58,7 @@
 	src: url("../fonts/Raleway/eot/raleway-semibold?#iefix")format("embedded-opentype"),
 		url("../fonts/Raleway/woff/raleway-semibold.woff") format("woff"),
 		url("../fonts/Raleway/ttf/raleway-semibold.ttf") format("truetype"),
-		url('../fonts/Raleway/svg/raleway-semibold.svg#ralewaysemibold') format('svg');
+		url("../fonts/Raleway/svg/raleway-semibold.svg#ralewaysemibold") format("svg");
 	font-style: normal;
 }
 @font-face {
@@ -40,6 +67,6 @@
 	src: url("../fonts/Raleway/eot/raleway-bold?#iefix")format("embedded-opentype"),
 		url("../fonts/Raleway/woff/raleway-bold.woff") format("woff"),
 		url("../fonts/Raleway/ttf/raleway-bold.ttf") format("truetype"),
-		url('../fonts/Raleway/svg/raleway-bold.svg#ralewaybold') format('svg');
+		url("../fonts/Raleway/svg/raleway-bold.svg#ralewaybold") format("svg");
 	font-style: normal;
 }
