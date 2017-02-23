@@ -44,17 +44,17 @@
 		overflow-y: scroll;
 	}
 	.header {
-		height: 0;
-		overflow: hidden;
+		background-color: #0d1516;
 	}
 	.header .container {
 		height: 100%;
-		background-color: #0d1516;
+		padding: 82px 0 0;
+		overflow-x: hidden;
+		overflow-y: scroll;
 		display: none;
 	}
 	.header ul {
 		font-family: "OpenSansLight", sans-serif;
-		display: none;
 	}
 	.header ul li {
 		padding: 11px 0;
@@ -95,6 +95,11 @@
 	.content {
 		overflow: hidden;
 	}
+	
+	.header {
+		width: 100%;
+	}
+	
 	.burger {
 		display: none;
 	}
