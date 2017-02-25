@@ -1576,7 +1576,7 @@ img {
 /* line 17, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .header-yawa-retreat-block .title-block {
   text-align: center;
-  padding-top: 340px;
+  padding-top: 300px;
 }
 @media screen and (max-width: 768px) {
   /* line 17, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
@@ -1596,10 +1596,11 @@ img {
   color: #ffffff;
   font-size: 78px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
   max-width: 700px;
   margin: 0 auto;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 @media screen and (max-width: 768px) {
   /* line 26, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
@@ -1619,29 +1620,30 @@ img {
     font-size: 35px;
   }
 }
-/* line 45, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 46, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .header-yawa-retreat-block .title-block .title-description {
   font-family: "Open Sans", sans-serif;
   color: #000000;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
-  padding-top: 44px;
+  padding-top: 35px;
+  letter-spacing: 2px;
 }
 @media screen and (max-width: 768px) {
-  /* line 45, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 46, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .header-yawa-retreat-block .title-block .title-description {
     font-size: 26px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 45, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 46, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .header-yawa-retreat-block .title-block .title-description {
     font-size: 22px;
   }
 }
 
-/* line 61, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 63, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block {
   position: relative;
   text-align: center;
@@ -1658,12 +1660,12 @@ img {
   clear: both;
   height: 0;
 }
-/* line 74, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 76, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 81, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 83, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .search-block {
   vertical-align: top;
   display: inline-block;
@@ -1677,13 +1679,13 @@ img {
   margin-left: 30px;
 }
 @media screen and (max-width: 768px) {
-  /* line 81, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 83, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .menu-yawa-block .search-block {
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 96, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 98, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .search-block a {
   text-transform: uppercase;
   color: #000000;
@@ -1692,11 +1694,11 @@ img {
   font-size: 12px;
   line-height: 1.2;
 }
-/* line 106, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 108, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .search-block a:hover {
   color: #eb5449;
 }
-/* line 110, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 112, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .search-block .icon-search {
   width: 16px;
   height: 16px;
@@ -1706,23 +1708,23 @@ img {
   background-repeat: no-repeat;
   margin-right: 20px;
 }
-/* line 118, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 120, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .search-block .icon-search:hover {
   color: #eb5449;
 }
-/* line 127, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 129, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 127, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 129, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .menu-yawa-block .item-menu {
     width: 100%;
   }
 }
-/* line 135, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 137, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1738,27 +1740,27 @@ img {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 148, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 150, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .menu-yawa-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 155, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 157, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 50px;
-  padding-bottom: 65px;
+  padding-bottom: 75px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  /* line 161, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 164, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 165, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 168, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .title-block .title {
   color: #984089;
   text-transform: uppercase;
@@ -1766,24 +1768,24 @@ img {
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
-  /* line 165, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 168, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 165, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 168, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 165, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 168, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 175, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 178, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .title-block .desc {
   padding-top: 45px;
   color: #000000;
@@ -1793,22 +1795,22 @@ img {
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 175, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 178, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 175, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 178, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 185, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 188, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .title-block .desc p {
   padding-bottom: 30px;
 }
-/* line 192, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 195, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -1820,7 +1822,7 @@ img {
   left: 0;
   top: 10px;
 }
-/* line 203, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 206, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -1832,41 +1834,42 @@ img {
   z-index: 50;
   position: relative;
 }
-/* line 215, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 218, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .price-block {
   position: relative;
   padding-bottom: 27px;
+  margin-top: 50px;
 }
-/* line 219, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 222, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .price-block .price {
-  color: #eb5449;
+  color: #8e8a8a;
   text-transform: uppercase;
-  padding-top: 30px;
+  padding-top: 27px;
 }
-/* line 223, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 227, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .price-block .price .big {
   font-size: 40px;
   padding-right: 10px;
 }
 @media screen and (max-width: 768px) {
-  /* line 223, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 227, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .price-block .price .big {
     font-size: 37px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 223, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 227, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .price-block .price .big {
     font-size: 34px;
   }
 }
 @media (max-width: 420px) {
-  /* line 223, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 227, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .price-block .price .big {
     font-size: 31px;
   }
 }
-/* line 230, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 234, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .price-block .price .down-payment {
   display: inline-block;
   max-width: 180px;
@@ -1875,68 +1878,68 @@ img {
   font-weight: 600;
 }
 @media screen and (max-width: 640px) {
-  /* line 230, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 234, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .price-block .price .down-payment {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
   }
 }
-/* line 244, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 248, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .dates-block {
   position: relative;
 }
-/* line 246, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 250, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .dates-block .termes-block {
   padding-top: 40px;
 }
-/* line 249, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 253, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 253, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 257, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 258, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 262, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 264, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 268, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
 @media screen and (max-width: 640px) {
-  /* line 264, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 268, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .sentence-yawa-block .dates-block .termes-block .termes .desc-red {
     padding-bottom: 20px;
   }
 }
-/* line 378, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 382, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .yawanawa-form {
   max-width: 430px;
   margin: 0 auto;
 }
-/* line 381, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 385, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .yawanawa-form .desc-red {
   padding: 40px 20px 44px;
   color: #eb5449;
   font-size: 18px;
-  line-height: 1.44;
+  line-height: 1.32;
   font-weight: 600;
 }
-/* line 390, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 394, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .yawanawa-form .form-item-pair .form-item input {
   text-transform: uppercase;
 }
-/* line 395, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 399, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .yawanawa-form .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -1946,7 +1949,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 399, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 403, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .sentence-yawa-block .yawanawa-form .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -1956,96 +1959,97 @@ img {
   opacity: 1;
 }
 
-/* line 407, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 411, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .recommended-yawa-block {
   padding: 70px 50px;
   background: transparent url("../img/recommended-you-block-bg.jpg") no-repeat scroll;
   background-size: cover;
   background-position: bottom center;
-  min-height: 700px;
+  min-height: 720px;
   position: relative;
 }
 @media screen and (max-width: 640px) {
-  /* line 407, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 411, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .recommended-yawa-block {
     padding: 20px 20px;
     min-height: 400px;
   }
 }
 @media (max-width: 420px) {
-  /* line 407, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 411, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .recommended-yawa-block {
     padding: 10px 0;
   }
 }
-/* line 419, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 422, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .recommended-yawa-block .container-bg {
   background-color: rgba(249, 243, 244, 0.75);
 }
-/* line 422, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 425, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .recommended-yawa-block .content-block {
   text-align: center;
-  padding: 110px 50px;
+  padding: 120px 50px 145px;
   width: 100%;
   height: 100%;
 }
 @media screen and (max-width: 640px) {
-  /* line 422, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 425, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .recommended-yawa-block .content-block {
     padding: 20px 20px;
   }
 }
-/* line 430, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 434, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .recommended-yawa-block .content-block .title {
   color: #984089;
   font-size: 30px;
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  /* line 430, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 434, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .recommended-yawa-block .content-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 430, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 434, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .recommended-yawa-block .content-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 430, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 434, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .recommended-yawa-block .content-block .title {
     font-size: 21px;
   }
 }
-/* line 438, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 442, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .recommended-yawa-block .content-block .desc {
   padding-top: 47px;
   color: #000000;
   font-size: 18px;
   line-height: 2.04;
   font-weight: 600;
-  max-width: 650px;
+  max-width: 700px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 438, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 442, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .recommended-yawa-block .content-block .desc {
     font-size: 14px;
     line-height: 1.68;
   }
 }
-/* line 450, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 455, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .recommended-yawa-block .content-block .desc p {
   padding-bottom: 18px;
 }
 
-/* line 457, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 462, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .description-yawa-block {
   background-color: #eeeeee;
+  min-height: 650px;
 }
-/* line 459, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 465, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .description-yawa-block .content-block {
   text-align: center;
   margin: 0 auto;
@@ -2054,40 +2058,40 @@ img {
   padding-bottom: 195px;
 }
 @media screen and (max-width: 768px) {
-  /* line 459, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 465, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .description-yawa-block .content-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 469, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 475, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .description-yawa-block .content-block .title-block {
   color: #984089;
   font-size: 24px;
   line-height: 1.56;
   font-weight: 600;
 }
-/* line 476, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 482, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .description-yawa-block .content-block .desc {
-  padding-top: 60px;
+  padding-top: 35px;
   color: #000000;
   font-size: 18px;
   line-height: 2.04;
 }
-/* line 482, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 489, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .description-yawa-block .content-block .desc p {
   padding-bottom: 30px;
 }
 
-/* line 488, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 495, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block {
   background: transparent url("../img/ready-start-yawa-block-bg.jpg") no-repeat scroll;
   background-size: cover;
   background-position: bottom center;
-  min-height: 430px;
+  min-height: 432px;
   text-align: center;
 }
-/* line 494, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 501, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block .title {
   padding-top: 97px;
   color: #ffffff;
@@ -2096,11 +2100,12 @@ img {
   font-weight: 600;
   line-height: 1.32;
   margin: 0 auto;
-  max-width: 350px;
+  max-width: 360px;
+  letter-spacing: 0.7px;
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 505, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 513, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block .desc {
   padding-top: 27px;
   color: #ffffff;
@@ -2110,11 +2115,11 @@ img {
   max-width: 410px;
   text-align: center;
 }
-/* line 514, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 522, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block .link-more-block {
   padding-top: 35px;
 }
-/* line 516, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 524, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block .link-more-block .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -2124,7 +2129,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 520, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 528, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -2133,36 +2138,36 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   opacity: 1;
 }
-/* line 527, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 535, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block .text-link {
   padding-top: 50px;
   color: #ffffff;
   font-size: 14px;
 }
-/* line 531, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 539, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .ready-start-yawa-block .text-link a {
   color: #ffffff;
   text-decoration: underline;
 }
 
-/* line 538, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 546, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block {
   background-color: #eeeeee;
-  padding-bottom: 50px;
+  padding-bottom: 65px;
 }
-/* line 541, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 551, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .container-form {
   max-width: 940px;
 }
-/* line 544, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 554, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .title-block {
-  padding-top: 35px;
+  padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
   position: relative;
   border-bottom: 1px solid #dedede;
 }
-/* line 550, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 560, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .title-block .title {
   color: #984089;
   font-size: 20px;
@@ -2172,42 +2177,45 @@ img {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 559, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 569, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .title-block .termes-block {
-  padding-top: 20px;
+  padding-top: 25px;
 }
-/* line 561, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 571, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .title-block .termes-block .termes {
-  padding: 0 50px;
   display: inline-block;
   text-transform: uppercase;
-  border-left: 1px solid #000000;
-  font-size: 11px;
+  border-left: 2px solid #575757;
+  font-size: 12px;
+  font-weight: 600;
+  width: 180px;
+  vertical-align: top;
+  letter-spacing: 0.2px;
 }
 @media screen and (max-width: 640px) {
-  /* line 561, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 571, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .details-yawa-block .title-block .termes-block .termes {
     font-size: 10px;
     padding: 0 20px;
   }
 }
 @media (max-width: 420px) {
-  /* line 561, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 571, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .details-yawa-block .title-block .termes-block .termes {
     font-size: 10px;
   }
 }
-/* line 575, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 590, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .title-block .termes-block .termes:last-of-type {
-  border-right: 1px solid #000000;
+  border-right: 2px solid #575757;
 }
-/* line 578, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 593, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .title-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
-/* line 585, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 600, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .sub-title {
-  padding-top: 50px;
+  padding-top: 55px;
   padding-bottom: 5px;
   text-align: center;
   position: relative;
@@ -2223,7 +2231,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 598, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 613, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block {
   padding-top: 20px;
   padding-left: 10px;
@@ -2232,71 +2240,100 @@ img {
   display: inline-block;
   vertical-align: top;
 }
-/* line 606, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 621, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block:last-of-type {
   float: right;
   padding-left: 30px;
 }
-/* line 610, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 625, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block:last-of-type .list-text .bold-style {
   padding-bottom: 20px;
 }
-/* line 615, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 630, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list-text {
   padding-bottom: 20px;
   font-size: 15px;
   margin-left: -12px;
 }
-/* line 619, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
-.details-yawa-block .list-block .list-text .bold-style {
-  padding-bottom: 10px;
-}
-/* line 622, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 637, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list-text p {
   font-size: 15px;
   line-height: 1.56;
 }
-/* line 626, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 641, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list-text .list {
   list-style-type: disc;
   padding-left: 12px;
 }
-/* line 629, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 644, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list-text .list p {
   line-height: 1.44;
   font-size: 15px;
 }
-/* line 633, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 648, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list-text .list li {
   font-size: 8px;
 }
-/* line 636, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 651, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list-text .list li p {
   line-height: 1.44;
   font-size: 15px;
 }
-/* line 643, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
-.details-yawa-block .list-block .list {
-  list-style-type: disc;
-  list-style-position: outside;
-}
-/* line 646, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 661, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list p {
   line-height: 1.44;
   font-size: 15px;
 }
-/* line 650, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 665, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list li {
   font-size: 8px;
 }
-/* line 652, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 667, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .details-yawa-block .list-block .list li p {
-  padding-bottom: 20px;
+  padding-bottom: 14px;
   line-height: 1.56;
   font-size: 15px;
 }
+/* line 679, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.details-yawa-block .first-block .list-block .list p {
+  position: relative;
+  letter-spacing: -0.4px;
+}
+/* line 682, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.details-yawa-block .first-block .list-block .list p:before {
+  content: '.';
+  position: absolute;
+  left: -8px;
+  top: -5px;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1;
+}
+/* line 697, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.details-yawa-block .second-block {
+  padding-top: 25px;
+}
+/* line 699, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.details-yawa-block .second-block .list-block {
+  padding-top: 25px;
+}
+/* line 701, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.details-yawa-block .second-block .list-block:last-of-type {
+  padding-left: 20px;
+}
+/* line 704, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.details-yawa-block .second-block .list-block .list-text {
+  padding-bottom: 10px;
+}
+/* line 707, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.details-yawa-block .second-block .list-block .list-text .bold-style {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
-/* line 671, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 716, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .hero-bg-block {
   background: transparent url("../img/hero-bg-block.jpg") no-repeat scroll;
   background-size: cover;
@@ -2304,62 +2341,66 @@ img {
   min-height: 720px;
 }
 
-/* line 677, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 722, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .quote-yawa-block {
   text-align: center;
   background-color: #984089;
   color: #ffffff;
   min-height: 360px;
 }
-/* line 682, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 727, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .quote-yawa-block .title-block {
-  padding-top: 85px;
+  padding-top: 100px;
   padding-bottom: 10px;
 }
 @media screen and (max-width: 640px) {
-  /* line 682, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 727, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .quote-yawa-block .title-block {
     padding-top: 35px;
   }
 }
-/* line 686, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 731, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .quote-yawa-block .title-block .autor {
-  padding-top: 20px;
+  padding-top: 25px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
 }
-/* line 692, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 738, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .quote-yawa-block .title-block .desc {
-  line-height: 1.68;
+  line-height: 1.86;
 }
-/* line 694, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 741, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .quote-yawa-block .title-block .desc .icon-quote {
   font-size: 30px;
   line-height: 5px;
   vertical-align: middle;
 }
 
-/* line 704, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 750, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.how-maps-yawa-block {
+  min-height: 575px;
+}
+/* line 752, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .title-block {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* line 708, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 756, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .title-block .title {
   color: #984089;
   font-size: 25px;
   font-weight: 600;
 }
-/* line 713, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 761, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .title-block .desc {
   padding-top: 20px;
   color: #000000;
   font-size: 15px;
   font-weight: 600;
 }
-/* line 720, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 768, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .content-block {
   padding-bottom: 40px;
 }
@@ -2371,7 +2412,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 724, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 772, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .map-block {
   max-width: 275px;
   display: inline-block;
@@ -2380,13 +2421,13 @@ img {
   float: left;
 }
 @media screen and (max-width: 768px) {
-  /* line 724, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 772, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .how-maps-yawa-block .map-block {
     max-width: 100%;
     width: 100%;
   }
 }
-/* line 735, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 783, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .map-block .map-round {
   width: 274px;
   height: 274px;
@@ -2399,12 +2440,12 @@ img {
   background: #eeeeee;
 }
 @media screen and (max-width: 768px) {
-  /* line 735, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 783, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .how-maps-yawa-block .map-block .map-round {
     margin: 0 auto;
   }
 }
-/* line 750, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 798, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .map-block .map {
   position: absolute;
   top: 12px;
@@ -2418,7 +2459,7 @@ img {
   overflow: hidden;
   z-index: 2;
 }
-/* line 763, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 811, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .map-block .link-map {
   display: block;
   text-align: center;
@@ -2428,8 +2469,9 @@ img {
   margin: 35px  auto 0;
   max-width: 130px;
   padding-top: 35px;
+  font-size: 14px;
 }
-/* line 773, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 822, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .map-block .link-map:before {
   content: '';
   width: 17px;
@@ -2443,19 +2485,20 @@ img {
   left: 40%;
   top: 0;
 }
-/* line 788, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 837, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .map-block .link-map:hover {
   text-decoration: none;
 }
-/* line 801, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 850, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .map-block .link-map span {
   display: block;
   width: 100%;
 }
-/* line 808, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 857, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .text-block {
   padding-top: 10px;
   max-width: 570px;
+  max-width: 630px;
   display: inline-block;
   vertical-align: top;
   padding-left: 70px;
@@ -2463,36 +2506,36 @@ img {
   float: left;
 }
 @media (max-width: 1169px) {
-  /* line 808, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 857, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .how-maps-yawa-block .text-block {
     padding-left: 20px;
     max-width: 450px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 808, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 857, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .how-maps-yawa-block .text-block {
     max-width: 100%;
     width: 100%;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 808, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 857, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .how-maps-yawa-block .text-block {
     padding-left: 0;
   }
 }
-/* line 828, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 878, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .text-block .desc {
   font-size: 15px;
 }
-/* line 831, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 881, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .text-block .title-info {
   font-weight: 600;
   padding-bottom: 0;
   position: relative;
 }
-/* line 835, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 885, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .text-block .title-info:before {
   content: '.';
   display: inline-block;
@@ -2504,18 +2547,23 @@ img {
   color: #000000;
   vertical-align: middle;
 }
-/* line 847, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 897, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .text-block p {
   padding-bottom: 20px;
   padding-left: 20px;
 }
-/* line 851, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 900, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+.how-maps-yawa-block .text-block p.with-link {
+  padding-top: 55px;
+}
+/* line 904, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .how-maps-yawa-block .text-block a {
   color: #984089;
   text-decoration: underline;
+  font-size: 12px;
 }
 
-/* line 857, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 911, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .round-bg-block {
   background: transparent url("../img/round-bg-block.jpg") no-repeat scroll;
   background-size: cover;
@@ -2523,42 +2571,43 @@ img {
   min-height: 720px;
 }
 
-/* line 863, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 917, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block {
   text-align: center;
   background-color: #eeeeee;
-  padding-top: 50px;
+  padding-top: 55px;
   padding-bottom: 65px;
 }
-/* line 870, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 925, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .title-block .title {
   color: #984089;
   font-size: 20px;
-  padding-bottom: 20px;
+  font-weight: 600;
+  padding-bottom: 40px;
 }
-/* line 876, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 933, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .title-block .desc {
   color: #000000;
   font-size: 14px;
-  line-height: 1.44;
-  padding-bottom: 30px;
+  line-height: 1.68;
   max-width: 800px;
   margin: 0 auto;
+  padding-bottom: 25px;
 }
-/* line 888, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 945, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .title-block .desc a {
   text-decoration: underline;
   color: #984089;
 }
-/* line 892, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 949, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .title-block .desc .italy-style {
   font-style: italic;
 }
-/* line 895, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 952, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .title-block .desc .bold-style {
   font-weight: 600;
 }
-/* line 902, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 959, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -2570,7 +2619,7 @@ img {
   left: 0;
   top: 10px;
 }
-/* line 913, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 970, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -2582,42 +2631,42 @@ img {
   z-index: 50;
   position: relative;
 }
-/* line 925, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 982, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block {
   position: relative;
   margin-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
-/* line 929, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 986, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .price {
   color: #8e8a8a;
   text-transform: uppercase;
   padding-top: 30px;
 }
-/* line 933, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 990, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .price .big {
   font-size: 40px;
   padding-right: 10px;
 }
 @media screen and (max-width: 768px) {
-  /* line 933, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 990, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .booking-yawa-policy-block .price-block .price .big {
     font-size: 37px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 933, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 990, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .booking-yawa-policy-block .price-block .price .big {
     font-size: 34px;
   }
 }
 @media (max-width: 420px) {
-  /* line 933, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 990, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .booking-yawa-policy-block .price-block .price .big {
     font-size: 31px;
   }
 }
-/* line 940, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 997, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .price .down-payment {
   display: inline-block;
   max-width: 180px;
@@ -2626,18 +2675,18 @@ img {
   font-weight: 600;
 }
 @media screen and (max-width: 640px) {
-  /* line 940, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 997, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .booking-yawa-policy-block .price-block .price .down-payment {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
   }
 }
-/* line 953, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1010, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block {
-  padding-top: 20px;
+  padding-top: 18px;
 }
-/* line 955, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1013, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block .icon {
   margin: 7px;
   width: 47px;
@@ -2647,72 +2696,73 @@ img {
   background-image: url("../img/icon/icon-visa.png");
   background-repeat: no-repeat;
 }
-/* line 968, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1026, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block .icon.icon-visa {
   background-image: url("../img/icon/icon-visa-na.png");
 }
-/* line 971, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1029, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block .icon.icon-mastercard {
   background-image: url("../img/icon/icon-mastercard-na.png");
 }
-/* line 974, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1032, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .price-block .card-block .icon.icon-paypal {
   background-image: url("../img/icon/icon-paypal-na.png");
 }
-/* line 981, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1039, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .dates-block {
   position: relative;
 }
-/* line 983, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1041, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .dates-block .termes-block {
   padding-top: 30px;
 }
-/* line 985, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1043, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 989, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1047, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 994, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1052, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 1000, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1058, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
 @media screen and (max-width: 640px) {
-  /* line 1000, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+  /* line 1058, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .booking-yawa-policy-block .dates-block .termes-block .termes .desc-red {
     padding-bottom: 20px;
   }
 }
-/* line 1008, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1066, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .yawanawa-form {
   max-width: 430px;
   margin: 0 auto;
 }
-/* line 1011, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1075, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .yawanawa-form .desc-red {
+  padding: 25px 20px 44px;
   color: #eb5449;
   font-size: 18px;
-  line-height: 1.2;
-  padding: 20px 10px 40px;
+  line-height: 1.32;
+  font-weight: 600;
 }
-/* line 1019, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1084, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .yawanawa-form .form-item-pair .form-item input {
   text-transform: uppercase;
 }
-/* line 1024, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1089, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .yawanawa-form .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -2722,7 +2772,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 1028, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
+/* line 1093, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .booking-yawa-policy-block .yawanawa-form .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -3475,7 +3525,7 @@ img {
 .details-block .title-block .termes-block .termes {
   display: inline-block;
   text-transform: uppercase;
-  border-left: 1px solid #000000;
+  border-left: 2px solid #575757;
   font-size: 12px;
   font-weight: 600;
   width: 180px;
@@ -3497,7 +3547,7 @@ img {
 }
 /* line 603, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block .termes-block .termes:last-of-type {
-  border-right: 1px solid #000000;
+  border-right: 2px solid #575757;
 }
 /* line 607, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block .termes-block .termes .desc-red {
@@ -3876,8 +3926,9 @@ img {
   margin: 35px  auto 0;
   max-width: 130px;
   padding-top: 35px;
+  font-size: 14px;
 }
-/* line 1077, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1078, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .link-map:before {
   content: '';
   width: 17px;
@@ -3891,16 +3942,16 @@ img {
   left: 40%;
   top: 0;
 }
-/* line 1092, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1093, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .link-map:hover {
   text-decoration: none;
 }
-/* line 1105, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1106, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .link-map span {
   display: block;
   width: 100%;
 }
-/* line 1112, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block {
   padding-top: 10px;
   max-width: 630px;
@@ -3911,30 +3962,30 @@ img {
   float: left;
 }
 @media (max-width: 1169px) {
-  /* line 1112, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     padding-left: 20px;
     max-width: 450px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 1112, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     max-width: 100%;
     width: 100%;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 1112, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     padding-left: 0;
   }
 }
-/* line 1133, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1134, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .desc {
   font-size: 15px;
 }
-/* line 1139, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1140, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .title-info {
   font-weight: 600;
   padding-bottom: 20px;
@@ -3942,29 +3993,29 @@ img {
   font-size: 15px;
   line-height: 1;
 }
-/* line 1146, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1147, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .title-info.pad-top {
   padding-top: 10px;
   padding-bottom: 8px;
 }
-/* line 1151, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1152, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block p {
   padding-bottom: 20px;
   padding-left: 10px;
   letter-spacing: -0.4px;
 }
-/* line 1156, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1157, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block p.with-link {
   padding-top: 35px;
 }
-/* line 1160, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1161, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block a {
   color: #984089;
   text-decoration: underline;
   font-size: 12px;
 }
 
-/* line 1167, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1168, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .interior-bg-block {
   background: transparent url("../img/interior-bg-block.jpg") no-repeat scroll;
   background-size: cover;
@@ -3972,21 +4023,21 @@ img {
   min-height: 720px;
 }
 
-/* line 1173, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1174, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 75px;
 }
-/* line 1181, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1182, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .title {
   color: #984089;
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 40px;
 }
-/* line 1188, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1189, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc {
   color: #000000;
   font-size: 14px;
@@ -3995,20 +4046,20 @@ img {
   margin: 0 auto;
   padding-bottom: 25px;
 }
-/* line 1202, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1203, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc a {
   text-decoration: underline;
   color: #984089;
 }
-/* line 1206, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1207, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .italy-style {
   font-style: italic;
 }
-/* line 1209, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1210, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .bold-style {
   font-weight: 600;
 }
-/* line 1216, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1217, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -4020,7 +4071,7 @@ img {
   left: 0;
   top: 10px;
 }
-/* line 1227, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1228, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -4032,13 +4083,13 @@ img {
   z-index: 50;
   position: relative;
 }
-/* line 1239, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1240, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block {
   position: relative;
   margin-top: 20px;
   padding-bottom: 30px;
 }
-/* line 1244, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1245, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price {
   color: #eb5449;
   text-transform: uppercase;
@@ -4046,33 +4097,33 @@ img {
   max-width: 450px;
   margin: 0 auto;
 }
-/* line 1250, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1251, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price span {
   display: inline-block;
 }
-/* line 1253, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .big {
   font-size: 40px;
 }
 @media screen and (max-width: 768px) {
-  /* line 1253, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 37px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 1253, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 34px;
   }
 }
 @media (max-width: 420px) {
-  /* line 1253, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 31px;
   }
 }
-/* line 1260, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1261, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .down-payment {
   display: inline-block;
   max-width: 180px;
@@ -4081,18 +4132,18 @@ img {
   font-weight: 600;
 }
 @media screen and (max-width: 640px) {
-  /* line 1260, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1261, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .down-payment {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
   }
 }
-/* line 1273, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1274, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block {
   padding-top: 20px;
 }
-/* line 1275, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1276, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon {
   margin: 7px;
   width: 47px;
@@ -4103,7 +4154,7 @@ img {
   background-repeat: no-repeat;
   position: relative;
 }
-/* line 1284, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1285, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.na:after {
   content: '';
   position: absolute;
@@ -4114,60 +4165,60 @@ img {
   display: inline-block;
   background: rgba(238, 238, 238, 0.5);
 }
-/* line 1299, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1300, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-visa {
   background-image: url("../img/icon/icon-visa.png");
 }
-/* line 1302, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1303, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-mastercard {
   background-image: url("../img/icon/icon-mastercard.png");
 }
-/* line 1305, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1306, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-paypal {
   background-image: url("../img/icon/icon-paypal.png");
 }
-/* line 1312, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1313, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block {
   position: relative;
 }
-/* line 1314, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1315, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block {
   padding-top: 45px;
 }
-/* line 1317, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1318, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 1321, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1322, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 1326, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1327, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 1332, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1333, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
 @media screen and (max-width: 640px) {
-  /* line 1332, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1333, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .dates-block .termes-block .termes .desc-red {
     padding-bottom: 20px;
   }
 }
-/* line 1340, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1341, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block {
   padding-top: 30px;
 }
-/* line 1342, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1343, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -4177,7 +4228,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 1346, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1347, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
