@@ -170,4 +170,38 @@
 		background-color: #af865b;
 		color: #ffffff;
 	}
+	
+	
+	
+	/**/
+	
+	.row.reorder-md {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+		
+		direction: rtl;/**/
+		
+/*		text-align: center;/**/
+		
+	}
+	
+/*	.row.reorder-md [class*="col-"] {/**/
+	.row.reorder-md .col-xs-12 {
+		-webkit-transform: rotate(-180deg);
+		-moz-transform: rotate(-180deg);
+		-ms-transform: rotate(-180deg);
+		-o-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+		
+		direction: ltr;/**/
+		
+		
+		
+	}
+	
+	/**/
+	
 }
