@@ -64,34 +64,34 @@ table {
 }
 
 /* for mobile header */
-/* line 15, ../assets/scss/partials/elements/_base.scss */
+/* line 19, ../assets/scss/partials/elements/_base.scss */
 *, *::after, *::before {
   box-sizing: border-box;
   transition: all 0.4s ease 0s;
 }
 
-/* line 19, ../assets/scss/partials/elements/_base.scss */
+/* line 23, ../assets/scss/partials/elements/_base.scss */
 *:focus {
   outline: 0;
 }
 
-/* line 22, ../assets/scss/partials/elements/_base.scss */
+/* line 26, ../assets/scss/partials/elements/_base.scss */
 html {
   min-width: 320px;
 }
 
-/* line 26, ../assets/scss/partials/elements/_base.scss */
+/* line 30, ../assets/scss/partials/elements/_base.scss */
 body {
   font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 420px) {
-  /* line 26, ../assets/scss/partials/elements/_base.scss */
+  /* line 30, ../assets/scss/partials/elements/_base.scss */
   body {
     overflow-x: hidden;
   }
 }
 
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -101,39 +101,39 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  /* line 37, ../assets/scss/partials/elements/_base.scss */
+  /* line 41, ../assets/scss/partials/elements/_base.scss */
   .row {
     margin: 0;
   }
 }
 
-/* line 42, ../assets/scss/partials/elements/_base.scss */
+/* line 46, ../assets/scss/partials/elements/_base.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 45, ../assets/scss/partials/elements/_base.scss */
+/* line 49, ../assets/scss/partials/elements/_base.scss */
 .bold-style {
   font-weight: 600;
 }
 
-/* line 48, ../assets/scss/partials/elements/_base.scss */
+/* line 52, ../assets/scss/partials/elements/_base.scss */
 .italy-style {
   font-style: italic;
 }
 
-/* line 51, ../assets/scss/partials/elements/_base.scss */
+/* line 55, ../assets/scss/partials/elements/_base.scss */
 .under-style {
   border-bottom: 1px solid #8e8a8a;
 }
 
-/* line 57, ../assets/scss/partials/elements/_base.scss */
+/* line 61, ../assets/scss/partials/elements/_base.scss */
 .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 
-/* line 61, ../assets/scss/partials/elements/_base.scss */
+/* line 65, ../assets/scss/partials/elements/_base.scss */
 .desc-red {
   color: #eb5449;
 }
@@ -427,7 +427,7 @@ img {
 .yawanawa-form .form-item-pair {
   margin: 0 -20px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .yawanawa-form .form-item-pair:after {
   visibility: hidden;
   display: block;
@@ -770,7 +770,7 @@ img {
   box-shadow: 0px 1px 2px 2px rgba(49, 49, 49, 0.2);
   margin-bottom: 2px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .menu-blog-all-block:after {
   visibility: hidden;
   display: block;
@@ -884,7 +884,7 @@ img {
 .ready-form-block .container-form {
   max-width: 600px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .ready-form-block .container-form:after {
   visibility: hidden;
   display: block;
@@ -1331,7 +1331,7 @@ img {
   max-width: 540px;
   text-align: center;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .ready-start-block .container-form:after {
   visibility: hidden;
   display: block;
@@ -1397,7 +1397,7 @@ img {
 .read-more-form-block .container-form {
   max-width: 600px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .read-more-form-block .container-form:after {
   visibility: hidden;
   display: block;
@@ -1652,7 +1652,7 @@ img {
   box-shadow: 0px 1px 2px 2px rgba(49, 49, 49, 0.2);
   margin-bottom: 2px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .menu-yawa-block:after {
   visibility: hidden;
   display: block;
@@ -2223,7 +2223,7 @@ img {
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .details-yawa-block .block-list:after {
   visibility: hidden;
   display: block;
@@ -2417,7 +2417,7 @@ img {
 .how-maps-yawa-block .content-block {
   padding-bottom: 40px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .how-maps-yawa-block .content-block:after {
   visibility: hidden;
   display: block;
@@ -2900,7 +2900,7 @@ img {
   box-shadow: 0px 1px 2px 2px rgba(49, 49, 49, 0.2);
   margin-bottom: 2px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .menu-soma-block:after {
   visibility: hidden;
   display: block;
@@ -3324,7 +3324,7 @@ img {
     padding: 20px 20px;
   }
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .recommended-those-block .content-block:after {
   visibility: hidden;
   display: block;
@@ -3645,7 +3645,7 @@ img {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .additional-options-block .item-block .text-block:after {
   visibility: hidden;
   display: block;
@@ -3702,7 +3702,7 @@ img {
   background-color: #ffffff;
   padding: 0 30px 10px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .additional-options-block .treatments-block:after {
   visibility: hidden;
   display: block;
@@ -3874,7 +3874,7 @@ img {
 .how-maps-block .content-block {
   padding-bottom: 40px;
 }
-/* line 7, ../assets/scss/partials/elements/_base.scss */
+/* line 11, ../assets/scss/partials/elements/_base.scss */
 .how-maps-block .content-block:after {
   visibility: hidden;
   display: block;
