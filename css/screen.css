@@ -65,30 +65,13 @@ table {
 
 /* for mobile header */
 /* line 19, ../assets/scss/partials/elements/_base.scss */
-*, *::after, *::before {
-  box-sizing: border-box;
-  transition: all 0.4s ease 0s;
-}
-
-/* line 23, ../assets/scss/partials/elements/_base.scss */
 *:focus {
   outline: 0;
 }
 
-/* line 26, ../assets/scss/partials/elements/_base.scss */
-html {
-  min-width: 320px;
-}
-
-/* line 30, ../assets/scss/partials/elements/_base.scss */
+/* line 25, ../assets/scss/partials/elements/_base.scss */
 body {
   font-family: "Open Sans", sans-serif;
-}
-@media (max-width: 420px) {
-  /* line 30, ../assets/scss/partials/elements/_base.scss */
-  body {
-    overflow-x: hidden;
-  }
 }
 
 /* line 11, ../assets/scss/partials/elements/_base.scss */
@@ -100,40 +83,27 @@ body {
   height: 0;
 }
 
-@media screen and (max-width: 640px) {
-  /* line 41, ../assets/scss/partials/elements/_base.scss */
-  .row {
-    margin: 0;
-  }
-}
-
-/* line 46, ../assets/scss/partials/elements/_base.scss */
+/* line 33, ../assets/scss/partials/elements/_base.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 49, ../assets/scss/partials/elements/_base.scss */
+/* line 36, ../assets/scss/partials/elements/_base.scss */
 .bold-style {
   font-weight: 600;
 }
 
-/* line 52, ../assets/scss/partials/elements/_base.scss */
+/* line 39, ../assets/scss/partials/elements/_base.scss */
 .italy-style {
   font-style: italic;
 }
 
-/* line 55, ../assets/scss/partials/elements/_base.scss */
+/* line 42, ../assets/scss/partials/elements/_base.scss */
 .under-style {
   border-bottom: 1px solid #8e8a8a;
 }
 
-/* line 61, ../assets/scss/partials/elements/_base.scss */
-.container-retreat {
-  max-width: 930px;
-  margin: 0 auto;
-}
-
-/* line 65, ../assets/scss/partials/elements/_base.scss */
+/* line 47, ../assets/scss/partials/elements/_base.scss */
 .desc-red {
   color: #eb5449;
 }
@@ -2196,13 +2166,13 @@ img {
   /* line 571, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .details-yawa-block .title-block .termes-block .termes {
     font-size: 10px;
-    padding: 0 20px;
+    width: 160px;
   }
 }
 @media (max-width: 420px) {
   /* line 571, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
   .details-yawa-block .title-block .termes-block .termes {
-    font-size: 10px;
+    width: 140px;
   }
 }
 /* line 590, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
@@ -3507,11 +3477,11 @@ img {
   background-color: #eeeeee;
   padding-bottom: 20px;
 }
-/* line 561, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 560, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .container-form {
   max-width: 940px;
 }
-/* line 564, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 563, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -3519,7 +3489,7 @@ img {
   position: relative;
   border-bottom: 1px solid #dedede;
 }
-/* line 572, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 571, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block .title {
   color: #984089;
   font-size: 21px;
@@ -3530,11 +3500,11 @@ img {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 583, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 582, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block .termes-block {
   padding-top: 25px;
 }
-/* line 585, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 584, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block .termes-block .termes {
   display: inline-block;
   text-transform: uppercase;
@@ -3546,58 +3516,58 @@ img {
   letter-spacing: 0.2px;
 }
 @media screen and (max-width: 640px) {
-  /* line 585, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 584, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .details-block .title-block .termes-block .termes {
     font-size: 10px;
-    padding: 0 20px;
+    width: 160px;
   }
 }
 @media (max-width: 420px) {
-  /* line 585, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 584, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .details-block .title-block .termes-block .termes {
-    font-size: 10px;
+    width: 140px;
   }
 }
-/* line 603, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 602, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block .termes-block .termes:last-of-type {
   border-right: 2px solid #575757;
 }
-/* line 607, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 606, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .title-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
-/* line 640, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 639, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .list-block {
   padding: 40px 10px 0;
 }
-/* line 642, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 641, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .list-block:last-of-type {
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 642, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 641, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .details-block .list-block:last-of-type {
     padding-left: 10px;
   }
 }
-/* line 647, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 646, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .list-block:last-of-type p {
   width: 100%;
 }
-/* line 651, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 650, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .list-block p {
   padding-bottom: 30px;
   line-height: 1.44;
   font-size: 14px;
   width: 67%;
 }
-/* line 657, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 656, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .details-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 16px;
 }
 
-/* line 664, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 663, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .exterior-bg-block {
   background: transparent url("../img/exterior-bg-block.jpg") no-repeat scroll;
   background-size: cover;
@@ -3605,21 +3575,21 @@ img {
   min-height: 720px;
 }
 
-/* line 670, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 669, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block {
   background-color: #eeeeee;
   padding-bottom: 30px;
 }
-/* line 673, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 672, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .container-additional {
   max-width: 960px;
 }
-/* line 676, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 675, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .title-block {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-/* line 679, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 678, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .title-block .title {
   text-align: center;
   color: #984089;
@@ -3627,20 +3597,20 @@ img {
   font-weight: 600;
   letter-spacing: 1px;
 }
-/* line 687, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 686, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .content-block {
   padding: 7px 10px;
 }
-/* line 690, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 689, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .content-block:last-of-type {
   padding: 10px;
 }
-/* line 694, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 693, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block {
   padding: 24px 30px 20px;
   background-color: #ffffff;
 }
-/* line 697, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 696, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block .text-block {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
@@ -3653,7 +3623,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 701, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 700, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block .text-block .option-block {
   text-align: left;
   width: 49%;
@@ -3662,7 +3632,7 @@ img {
   vertical-align: middle;
   padding: 10px 0;
 }
-/* line 709, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 708, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block .text-block .option-block .title-option {
   color: #000000;
   font-size: 18px;
@@ -3670,7 +3640,7 @@ img {
   font-weight: 600;
   line-height: 1.44;
 }
-/* line 717, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 716, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block .text-block .price-block {
   vertical-align: middle;
   display: inline-block;
@@ -3678,26 +3648,26 @@ img {
   text-align: right;
   padding-right: 15px;
 }
-/* line 726, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 725, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block .text-block .price-block .additional-desc {
   font-size: 13px;
   line-height: 1.2;
 }
-/* line 731, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 730, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block .text-block .price-block .price {
   padding-top: 5px;
   color: #eb5449;
   font-size: 18px;
   font-weight: 600;
 }
-/* line 741, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 740, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .item-block .desc {
   padding-top: 15px;
   font-size: 13px;
   line-height: 1.44;
   text-align: center;
 }
-/* line 749, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 748, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block {
   background-color: #ffffff;
   padding: 0 30px 10px;
@@ -3710,20 +3680,20 @@ img {
   clear: both;
   height: 0;
 }
-/* line 753, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 752, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .title-treatments {
   padding-top: 30px;
   padding-bottom: 25px;
   width: 100%;
 }
-/* line 759, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 758, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .title-treatments .title {
   color: #000000;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
 }
-/* line 766, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 765, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block {
   width: 33.3333%;
   float: left;
@@ -3731,29 +3701,29 @@ img {
   vertical-align: top;
 }
 @media screen and (max-width: 768px) {
-  /* line 766, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 765, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .additional-options-block .treatments-block .treatment-block {
     width: 100%;
   }
 }
-/* line 775, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 774, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block.middle {
   border-right: 1px solid #dedede;
   border-left: 1px solid #dedede;
 }
 @media screen and (max-width: 768px) {
-  /* line 775, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 774, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .additional-options-block .treatments-block .treatment-block.middle {
     border: 0 none;
   }
 }
-/* line 782, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 781, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .title-block {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
   padding: 20px;
 }
-/* line 787, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 786, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .title-block .option-block {
   text-align: center;
   width: 100%;
@@ -3761,14 +3731,14 @@ img {
   vertical-align: middle;
   padding: 8px 0;
 }
-/* line 796, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 795, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .title-block .option-block .title-option {
   color: #984089;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.44;
 }
-/* line 805, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 804, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .desc {
   font-size: 14px;
   line-height: 1.2;
@@ -3776,93 +3746,93 @@ img {
   padding: 20px;
 }
 
-/* line 818, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 817, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .carousel-img-block .img-block {
   width: 16.666666%;
   display: inline-block;
   float: left;
 }
 @media (max-width: 1169px) {
-  /* line 818, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 817, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .carousel-img-block .img-block {
     width: 33.33333%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 818, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 817, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .carousel-img-block .img-block {
     width: 50%;
   }
 }
 @media (max-width: 420px) {
-  /* line 818, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 817, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .carousel-img-block .img-block {
     width: 100%;
   }
 }
-/* line 831, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 830, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .carousel-img-block .img-block img {
   width: 100%;
   height: auto;
 }
 
-/* line 837, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 836, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block {
   text-align: center;
   background-color: #984089;
   color: #ffffff;
   min-height: 360px;
 }
-/* line 842, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 841, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .container-quote {
   max-width: 940px;
 }
-/* line 845, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 844, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block {
   padding-top: 118px;
   padding-bottom: 10px;
 }
 @media screen and (max-width: 640px) {
-  /* line 845, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 844, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .quote-block .title-block {
     padding-top: 35px;
   }
 }
-/* line 849, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 848, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block .autor {
   padding-top: 28px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
 }
-/* line 856, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 855, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block .desc {
   line-height: 1.8;
 }
-/* line 858, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 857, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block .desc .icon-quote {
   font-size: 30px;
   line-height: 5px;
   vertical-align: middle;
 }
 
-/* line 1000, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 866, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block {
   min-height: 575px;
 }
-/* line 1002, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 868, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .title-block {
   text-align: center;
   padding-top: 38px;
   padding-bottom: 35px;
 }
-/* line 1008, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 874, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .title-block .title {
   color: #984089;
   font-size: 21px;
   font-weight: 600;
 }
-/* line 1014, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 880, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .title-block .desc {
   padding-top: 23px;
   color: #000000;
@@ -3870,7 +3840,7 @@ img {
   font-weight: 700;
   letter-spacing: -0.5px;
 }
-/* line 1024, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 890, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .content-block {
   padding-bottom: 40px;
 }
@@ -3882,7 +3852,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 1028, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 894, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block {
   max-width: 275px;
   display: inline-block;
@@ -3891,13 +3861,13 @@ img {
   float: left;
 }
 @media screen and (max-width: 768px) {
-  /* line 1028, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 894, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .map-block {
     max-width: 100%;
     width: 100%;
   }
 }
-/* line 1039, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 905, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .map-round {
   width: 274px;
   height: 274px;
@@ -3910,12 +3880,12 @@ img {
   background: #eeeeee;
 }
 @media screen and (max-width: 768px) {
-  /* line 1039, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 905, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .map-block .map-round {
     margin: 0 auto;
   }
 }
-/* line 1054, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 920, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .map {
   position: absolute;
   top: 12px;
@@ -3929,7 +3899,7 @@ img {
   overflow: hidden;
   z-index: 2;
 }
-/* line 1067, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 933, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .link-map {
   display: block;
   text-align: center;
@@ -3941,7 +3911,7 @@ img {
   padding-top: 35px;
   font-size: 14px;
 }
-/* line 1078, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 944, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .link-map:before {
   content: '';
   width: 17px;
@@ -3955,16 +3925,16 @@ img {
   left: 40%;
   top: 0;
 }
-/* line 1093, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 959, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .link-map:hover {
   text-decoration: none;
 }
-/* line 1106, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 972, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .map-block .link-map span {
   display: block;
   width: 100%;
 }
-/* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 979, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block {
   padding-top: 10px;
   max-width: 630px;
@@ -3975,30 +3945,30 @@ img {
   float: left;
 }
 @media (max-width: 1169px) {
-  /* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 979, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     padding-left: 20px;
     max-width: 450px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 979, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     max-width: 100%;
     width: 100%;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 1113, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 979, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     padding-left: 0;
   }
 }
-/* line 1134, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1000, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .desc {
   font-size: 15px;
 }
-/* line 1140, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1006, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .title-info {
   font-weight: 600;
   padding-bottom: 20px;
@@ -4006,29 +3976,29 @@ img {
   font-size: 15px;
   line-height: 1;
 }
-/* line 1147, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1013, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .title-info.pad-top {
   padding-top: 10px;
   padding-bottom: 8px;
 }
-/* line 1152, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1018, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block p {
   padding-bottom: 20px;
   padding-left: 10px;
   letter-spacing: -0.4px;
 }
-/* line 1157, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1023, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block p.with-link {
   padding-top: 35px;
 }
-/* line 1161, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1027, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block a {
   color: #984089;
   text-decoration: underline;
   font-size: 12px;
 }
 
-/* line 1168, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1034, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .interior-bg-block {
   background: transparent url("../img/interior-bg-block.jpg") no-repeat scroll;
   background-size: cover;
@@ -4036,21 +4006,21 @@ img {
   min-height: 720px;
 }
 
-/* line 1174, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1040, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 75px;
 }
-/* line 1182, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1048, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .title {
   color: #984089;
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 40px;
 }
-/* line 1189, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1055, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc {
   color: #000000;
   font-size: 14px;
@@ -4059,20 +4029,20 @@ img {
   margin: 0 auto;
   padding-bottom: 25px;
 }
-/* line 1203, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1069, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc a {
   text-decoration: underline;
   color: #984089;
 }
-/* line 1207, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1073, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .italy-style {
   font-style: italic;
 }
-/* line 1210, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1076, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .bold-style {
   font-weight: 600;
 }
-/* line 1217, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1083, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -4084,7 +4054,7 @@ img {
   left: 0;
   top: 10px;
 }
-/* line 1228, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1094, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -4096,13 +4066,13 @@ img {
   z-index: 50;
   position: relative;
 }
-/* line 1240, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1106, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block {
   position: relative;
   margin-top: 20px;
   padding-bottom: 30px;
 }
-/* line 1245, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1111, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price {
   color: #eb5449;
   text-transform: uppercase;
@@ -4110,33 +4080,33 @@ img {
   max-width: 450px;
   margin: 0 auto;
 }
-/* line 1251, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1117, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price span {
   display: inline-block;
 }
-/* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1120, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .big {
   font-size: 40px;
 }
 @media screen and (max-width: 768px) {
-  /* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1120, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 37px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1120, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 34px;
   }
 }
 @media (max-width: 420px) {
-  /* line 1254, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1120, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 31px;
   }
 }
-/* line 1261, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1127, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .down-payment {
   display: inline-block;
   max-width: 180px;
@@ -4145,18 +4115,18 @@ img {
   font-weight: 600;
 }
 @media screen and (max-width: 640px) {
-  /* line 1261, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1127, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .down-payment {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
   }
 }
-/* line 1274, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1140, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block {
   padding-top: 20px;
 }
-/* line 1276, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1142, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon {
   margin: 7px;
   width: 47px;
@@ -4167,7 +4137,7 @@ img {
   background-repeat: no-repeat;
   position: relative;
 }
-/* line 1285, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1151, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.na:after {
   content: '';
   position: absolute;
@@ -4178,60 +4148,60 @@ img {
   display: inline-block;
   background: rgba(238, 238, 238, 0.5);
 }
-/* line 1300, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1166, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-visa {
   background-image: url("../img/icon/icon-visa.png");
 }
-/* line 1303, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1169, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-mastercard {
   background-image: url("../img/icon/icon-mastercard.png");
 }
-/* line 1306, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1172, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-paypal {
   background-image: url("../img/icon/icon-paypal.png");
 }
-/* line 1313, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1179, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block {
   position: relative;
 }
-/* line 1315, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1181, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block {
   padding-top: 45px;
 }
-/* line 1318, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1184, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 1322, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1188, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 1327, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1193, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 1333, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1199, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
 @media screen and (max-width: 640px) {
-  /* line 1333, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1199, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .dates-block .termes-block .termes .desc-red {
     padding-bottom: 20px;
   }
 }
-/* line 1341, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1207, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block {
   padding-top: 30px;
 }
-/* line 1343, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1209, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -4241,7 +4211,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 1347, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1213, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -4249,4 +4219,241 @@ img {
   background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   opacity: 1;
+}
+
+/* line 1, ../assets/scss/partials/blocks/_settings_blocks.scss */
+.header-blog-all-block,
+.menu-blog-all-block,
+.ready-form-block,
+.blog-all-blocks,
+.header-soma-retreat-block,
+.menu-soma-block,
+.sentence-block,
+.recommended-those-block,
+.description-block,
+.ready-start-sacred-block,
+.ready-start-block,
+.details-block,
+.exterior-bg-block,
+.additional-options-block,
+.carousel-img-block,
+.quote-block,
+.how-maps-block,
+.interior-bg-block,
+.booking-policy-block,
+.header-yawa-retreat-block,
+.menu-yawa-block,
+.sentence-yawa-block,
+.recommended-yawa-block,
+.description-yawa-block,
+.ready-start-yawa-block,
+.details-yawa-block,
+.hero-bg-block,
+.quote-yawa-block,
+.how-maps-yawa-block,
+.round-bg-block,
+.booking-yawa-policy-block {
+  min-width: 320px;
+}
+@media (max-width: 420px) {
+  /* line 1, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  .header-blog-all-block,
+  .menu-blog-all-block,
+  .ready-form-block,
+  .blog-all-blocks,
+  .header-soma-retreat-block,
+  .menu-soma-block,
+  .sentence-block,
+  .recommended-those-block,
+  .description-block,
+  .ready-start-sacred-block,
+  .ready-start-block,
+  .details-block,
+  .exterior-bg-block,
+  .additional-options-block,
+  .carousel-img-block,
+  .quote-block,
+  .how-maps-block,
+  .interior-bg-block,
+  .booking-policy-block,
+  .header-yawa-retreat-block,
+  .menu-yawa-block,
+  .sentence-yawa-block,
+  .recommended-yawa-block,
+  .description-yawa-block,
+  .ready-start-yawa-block,
+  .details-yawa-block,
+  .hero-bg-block,
+  .quote-yawa-block,
+  .how-maps-yawa-block,
+  .round-bg-block,
+  .booking-yawa-policy-block {
+    overflow-x: hidden;
+  }
+}
+/* line 37, ../assets/scss/partials/blocks/_settings_blocks.scss */
+.header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
+.menu-blog-all-block *,
+.menu-blog-all-block *::after,
+.menu-blog-all-block *::before,
+.ready-form-block *,
+.ready-form-block *::after,
+.ready-form-block *::before,
+.blog-all-blocks *,
+.blog-all-blocks *::after,
+.blog-all-blocks *::before,
+.header-soma-retreat-block *,
+.header-soma-retreat-block *::after,
+.header-soma-retreat-block *::before,
+.menu-soma-block *,
+.menu-soma-block *::after,
+.menu-soma-block *::before,
+.sentence-block *,
+.sentence-block *::after,
+.sentence-block *::before,
+.recommended-those-block *,
+.recommended-those-block *::after,
+.recommended-those-block *::before,
+.description-block *,
+.description-block *::after,
+.description-block *::before,
+.ready-start-sacred-block *,
+.ready-start-sacred-block *::after,
+.ready-start-sacred-block *::before,
+.ready-start-block *,
+.ready-start-block *::after,
+.ready-start-block *::before,
+.details-block *,
+.details-block *::after,
+.details-block *::before,
+.exterior-bg-block *,
+.exterior-bg-block *::after,
+.exterior-bg-block *::before,
+.additional-options-block *,
+.additional-options-block *::after,
+.additional-options-block *::before,
+.carousel-img-block *,
+.carousel-img-block *::after,
+.carousel-img-block *::before,
+.quote-block *,
+.quote-block *::after,
+.quote-block *::before,
+.how-maps-block *,
+.how-maps-block *::after,
+.how-maps-block *::before,
+.interior-bg-block *,
+.interior-bg-block *::after,
+.interior-bg-block *::before,
+.booking-policy-block *,
+.booking-policy-block *::after,
+.booking-policy-block *::before,
+.header-yawa-retreat-block *,
+.header-yawa-retreat-block *::after,
+.header-yawa-retreat-block *::before,
+.menu-yawa-block *,
+.menu-yawa-block *::after,
+.menu-yawa-block *::before,
+.sentence-yawa-block *,
+.sentence-yawa-block *::after,
+.sentence-yawa-block *::before,
+.recommended-yawa-block *,
+.recommended-yawa-block *::after,
+.recommended-yawa-block *::before,
+.description-yawa-block *,
+.description-yawa-block *::after,
+.description-yawa-block *::before,
+.ready-start-yawa-block *,
+.ready-start-yawa-block *::after,
+.ready-start-yawa-block *::before,
+.details-yawa-block *,
+.details-yawa-block *::after,
+.details-yawa-block *::before,
+.hero-bg-block *,
+.hero-bg-block *::after,
+.hero-bg-block *::before,
+.quote-yawa-block *,
+.quote-yawa-block *::after,
+.quote-yawa-block *::before,
+.how-maps-yawa-block *,
+.how-maps-yawa-block *::after,
+.how-maps-yawa-block *::before,
+.round-bg-block *,
+.round-bg-block *::after,
+.round-bg-block *::before,
+.booking-yawa-policy-block *,
+.booking-yawa-policy-block *::after,
+.booking-yawa-policy-block *::before {
+  box-sizing: border-box;
+  transition: all 0.4s ease 0.3s;
+}
+/* line 41, ../assets/scss/partials/blocks/_settings_blocks.scss */
+.header-blog-all-block .container-retreat,
+.menu-blog-all-block .container-retreat,
+.ready-form-block .container-retreat,
+.blog-all-blocks .container-retreat,
+.header-soma-retreat-block .container-retreat,
+.menu-soma-block .container-retreat,
+.sentence-block .container-retreat,
+.recommended-those-block .container-retreat,
+.description-block .container-retreat,
+.ready-start-sacred-block .container-retreat,
+.ready-start-block .container-retreat,
+.details-block .container-retreat,
+.exterior-bg-block .container-retreat,
+.additional-options-block .container-retreat,
+.carousel-img-block .container-retreat,
+.quote-block .container-retreat,
+.how-maps-block .container-retreat,
+.interior-bg-block .container-retreat,
+.booking-policy-block .container-retreat,
+.header-yawa-retreat-block .container-retreat,
+.menu-yawa-block .container-retreat,
+.sentence-yawa-block .container-retreat,
+.recommended-yawa-block .container-retreat,
+.description-yawa-block .container-retreat,
+.ready-start-yawa-block .container-retreat,
+.details-yawa-block .container-retreat,
+.hero-bg-block .container-retreat,
+.quote-yawa-block .container-retreat,
+.how-maps-yawa-block .container-retreat,
+.round-bg-block .container-retreat,
+.booking-yawa-policy-block .container-retreat {
+  max-width: 930px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 640px) {
+  /* line 45, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  .header-blog-all-block .row,
+  .menu-blog-all-block .row,
+  .ready-form-block .row,
+  .blog-all-blocks .row,
+  .header-soma-retreat-block .row,
+  .menu-soma-block .row,
+  .sentence-block .row,
+  .recommended-those-block .row,
+  .description-block .row,
+  .ready-start-sacred-block .row,
+  .ready-start-block .row,
+  .details-block .row,
+  .exterior-bg-block .row,
+  .additional-options-block .row,
+  .carousel-img-block .row,
+  .quote-block .row,
+  .how-maps-block .row,
+  .interior-bg-block .row,
+  .booking-policy-block .row,
+  .header-yawa-retreat-block .row,
+  .menu-yawa-block .row,
+  .sentence-yawa-block .row,
+  .recommended-yawa-block .row,
+  .description-yawa-block .row,
+  .ready-start-yawa-block .row,
+  .details-yawa-block .row,
+  .hero-bg-block .row,
+  .quote-yawa-block .row,
+  .how-maps-yawa-block .row,
+  .round-bg-block .row,
+  .booking-yawa-policy-block .row {
+    margin: 0;
+  }
 }
