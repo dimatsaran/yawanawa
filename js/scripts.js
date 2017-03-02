@@ -45,7 +45,7 @@ $(document).ready(function() {
 			}
 			$(".header").css("width", "100%"); 
 			$(".header .container").css("display", "block"); 
-			$(".header ul").css("display", "block"); 
+			$(".header ul").css("display", "block");
 			$(".header ul li ul").css("display", "none");
 			$(".burger").css("display", "none");
 			$(".logo").css("display", "block");
@@ -55,7 +55,10 @@ $(document).ready(function() {
 			if (burgerMenuStatus === "shown") {
 				$(".burger_menu_top").css("width", w - scrollBarWidth);
 			} else {
-				$(".header").css("height", 0);
+				$(".header").css({
+					"width": 0,
+					"height": 0
+				});
 				$(".header .container").css("display", "none");
 				$(".header ul").css("display", "none");
 			}
@@ -135,6 +138,7 @@ $(document).ready(function() {
 					.animate({ "height": 0 },
 					300,
 					function() {
+						$(this).css("width", 0);
 						$(".logo").fadeIn(300);
 						$(".burger").fadeIn(
 						300,

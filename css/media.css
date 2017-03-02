@@ -9,6 +9,19 @@
 		top: 24px;
 		left: 24px;
 	}
+	.footer form {
+		height: 260px;
+		margin: 46px 0 0;
+	}
+	.footer input {
+		margin: 12px 0;
+	}
+	.footer input[type="submit"] {
+		width: 100%;
+	}
+	.footer .col-md-3.col-md-pull-3.col-sm-4 {
+		padding-bottom: 14px;
+	}
 }
 @media (min-width: 480px) and (max-width: 767px) {
 	.logo {
@@ -20,6 +33,42 @@
 	.burger:not(.close_btn) {
 		top: 32px;
 		left: 32px;
+	}
+	.footer .col-ms-6 {
+		z-index: 1;
+	}
+	.footer form {
+		height: 180px;
+		margin: 54px 0 0;
+	}
+	.footer input[type="text"] {
+		float: right;
+	}
+	.footer input[type="submit"] {
+		position: relative;
+		width: 200px;
+		left: 50%;
+		margin: 22px 0 0 -100px;
+	}
+	.footer .col-md-3.col-md-pull-3.col-sm-4 {
+		padding-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.footer h6 {
+		margin: 18px 0 14px;
+	}
+	.footer li {
+		padding: 12px 0;
+	}
+	.footer .col-md-3.col-md-pull-3.col-sm-4:not(:last-of-type):after {
+		content: "";
+		position: absolute;
+		left: 16px;
+		bottom: 0;
+		right: 16px;
+		height: 1px;
+		background-color: #4e5250;
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -33,6 +82,24 @@
 		top: 35px;
 		left: 44px;
 	}
+	.footer input[type="submit"] {
+		width: 100%;
+	}
+	.footer ul {
+		margin-bottom: 55px
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.footer form {
+		height: 130px;
+		margin: 54px 0 0;
+	}
+	.footer h6 {
+		margin: 40px 0 12px;
+	}
+	.footer li {
+		padding: 12px 0;
+	}
 }
 @media only screen and (max-width: 991px) {
 	body {
@@ -41,6 +108,7 @@
 	.content {
 		position: relative;
 		height: 100%;
+		overflow-x: hidden;
 		overflow-y: scroll;
 	}
 	.header {
@@ -67,6 +135,9 @@
 		color: #ffffff;
 		padding: 0 16px 0 42px;
 	}
+	.header ul span {
+		cursor: default;
+	}
 	.header ul li ul {
 		border-top: 1px solid #a98d73;
 		padding: 8px 0 0;
@@ -86,6 +157,15 @@
 	.header ul li ul span {
 		color: #695441;
 	}
+	.footer form:after {
+		content: "";
+		position: absolute;
+		left: 16px;
+		bottom: 0;
+		right: 16px;
+		height: 1px;
+		background-color: #4e5250;
+	}
 }
 @media only screen and (min-width: 992px) {
 	body {
@@ -95,11 +175,9 @@
 	.content {
 		overflow: hidden;
 	}
-	
 	.header {
 		width: 100%;
 	}
-	
 	.burger {
 		display: none;
 	}
@@ -144,17 +222,24 @@
 		font-size: 14px;
 	}
 	.header .container ul li ul {
-		background-color: #eeeeee;
-		position: absolute;
-		top: -16px;
-		left: -29px;
-		padding: 53px 0 16px;
+		top: 0;
+		left: -36px;
+		padding: 35px 0 0;
 		width: 216px;
-		z-index: 10000;
 		display: none;
 	}
+	.header ul li ul:before {
+		content: "";
+		border-width: 6px;
+		border-style: solid;
+		border-color: transparent transparent #af865b transparent;
+		position: absolute;
+		top: 23px;
+		left: 60px;
+	}
 	.header ul li ul li {
-		margin: 2px 0 0;
+		background-color: rgba(238,238,238,0.2);
+		margin: 0;
 		width: 100%;
 	}
 	.header ul li ul li span,
@@ -163,45 +248,55 @@
 		font-size: 14px;
 		text-transform: none;
 		letter-spacing: 0.36px;
-		padding: 0 0 0 30px;
-		white-space: nowrap;
+		padding: 3px 0 3px 30px;
 	}
-	.header ul li ul li span {
+	.header ul li ul li a {
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+	}
+	.header ul li ul li a:hover {
+		text-decoration: none;
 		background-color: #af865b;
 		color: #ffffff;
 	}
-	
-	
-	
-	/**/
-	
+	.header ul li ul li span {
+		color: #af865b;
+	}
+	.header ul li ul li:first-child {
+		border-top: 1px solid #af865b;
+	}
+	.header ul li ul li:last-child {
+		border-bottom: 1px solid #af865b;
+	}
 	.row.reorder-md {
 		-webkit-transform: rotate(180deg);
 		-moz-transform: rotate(180deg);
 		-ms-transform: rotate(180deg);
 		-o-transform: rotate(180deg);
 		transform: rotate(180deg);
-		
-		direction: rtl;/**/
-		
-/*		text-align: center;/**/
-		
+		direction: rtl;
 	}
-	
-/*	.row.reorder-md [class*="col-"] {/**/
 	.row.reorder-md .col-xs-12 {
 		-webkit-transform: rotate(-180deg);
 		-moz-transform: rotate(-180deg);
 		-ms-transform: rotate(-180deg);
 		-o-transform: rotate(-180deg);
 		transform: rotate(-180deg);
-		
-		direction: ltr;/**/
-		
-		
-		
+		direction: ltr;
 	}
-	
-	/**/
-	
+	.footer form {
+		margin: 50px 0;
+	}
+	.footer input {
+		margin: 11px 0;
+	}
+	.footer h6 {
+		margin: 55px 0 18px;
+	}
+	.footer li {
+		padding: 6px 0;
+	}
 }
