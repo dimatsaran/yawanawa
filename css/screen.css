@@ -5405,81 +5405,12 @@ img {
     text-align: center;
   }
 }
-/* line 154, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .dates-block {
-  position: relative;
-}
 /* line 156, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .dates-block .termes-block {
-  padding-top: 40px;
-}
-/* line 159, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .dates-block .termes-block .termes {
-  max-width: 320px;
-  padding: 0 50px;
-  display: inline-block;
-}
-/* line 163, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .dates-block .termes-block .termes .dates {
-  width: 100%;
-  display: inline-block;
-  font-size: 20px;
-}
-/* line 168, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .dates-block .termes-block .termes .desc {
-  width: 100%;
-  display: inline-block;
-  font-size: 15px;
-  padding-top: 10px;
-}
-/* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .dates-block .termes-block .termes .desc-red {
-  color: #eb5449;
-}
-@media screen and (max-width: 640px) {
-  /* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-  .sentence-terms-block .dates-block .termes-block .termes .desc-red {
-    padding-bottom: 20px;
-  }
-}
-/* line 288, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .yawanawa-form {
-  max-width: 430px;
-  margin: 0 auto;
-}
-/* line 291, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .yawanawa-form .desc-red {
-  padding: 40px 20px 44px;
-  color: #eb5449;
-  font-size: 18px;
-  line-height: 1.32;
-  font-weight: 600;
-}
-/* line 300, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .yawanawa-form .form-item-pair .form-item input {
-  text-transform: uppercase;
-}
-/* line 305, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .yawanawa-form .link-more {
-  color: #ffffff;
-  background: #e09f8b;
-  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
-  border: 0 none;
-}
-/* line 309, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .yawanawa-form .link-more:hover {
-  background: #b4634f;
-  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
-  opacity: 1;
+.sentence-terms-block .content-block .desc p {
+  padding-bottom: 20px;
 }
 
-/* line 317, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 162, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block {
   position: relative;
   background: transparent url("../img/ready-form-block.jpg") no-repeat scroll;
@@ -5488,7 +5419,7 @@ img {
   background-size: cover;
   text-align: center;
 }
-/* line 325, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 170, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .container-form {
   max-width: 600px;
 }
@@ -5500,7 +5431,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 329, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -5509,7 +5440,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 337, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 182, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -5517,30 +5448,30 @@ img {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 343, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 188, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 347, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 192, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 352, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 197, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 355, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 200, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item {
   width: 40%;
 }
-/* line 357, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 202, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 362, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 207, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn {
   color: #b4634f;
   padding: 10px 10px;
@@ -5550,7 +5481,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 366, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 211, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
