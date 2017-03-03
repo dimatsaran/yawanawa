@@ -5168,6 +5168,397 @@ img {
   vertical-align: middle;
 }
 
+/* line 1, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.header-terms-block {
+  position: relative;
+  background: transparent url("../img/yawa-retreat-header.jpg") no-repeat scroll;
+  background-position: bottom  center;
+  max-height: 860px;
+  height: 860px;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  /* line 1, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block {
+    height: 500px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 1, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block {
+    height: 450px;
+  }
+}
+/* line 17, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.header-terms-block .title-block {
+  text-align: center;
+  padding-top: 300px;
+}
+@media screen and (max-width: 768px) {
+  /* line 17, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block .title-block {
+    padding-top: 200px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 17, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block .title-block {
+    padding-top: 100px;
+  }
+}
+/* line 26, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.header-terms-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 78px;
+  line-height: 1.2;
+  font-weight: 700;
+  max-width: 700px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 768px) {
+  /* line 26, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 26, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 26, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+/* line 46, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.header-terms-block .title-block .title-description {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 35px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+  /* line 46, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block .title-block .title-description {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 46, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .header-terms-block .title-block .title-description {
+    font-size: 22px;
+  }
+}
+
+/* line 63, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  /* line 70, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  /* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 84, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .title-block .desc {
+  padding-top: 45px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 84, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 84, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 94, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+/* line 101, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .line-label:before {
+  background: #dedede;
+  background-position: center center;
+  height: 1px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 10px;
+}
+/* line 112, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .line-label .label {
+  background-color: #eeeeee;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0 50px;
+  display: inline-block;
+  z-index: 50;
+  position: relative;
+}
+/* line 124, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .price-block {
+  position: relative;
+  padding-bottom: 27px;
+  margin-top: 50px;
+}
+/* line 128, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .price-block .price {
+  color: #8e8a8a;
+  text-transform: uppercase;
+  padding-top: 27px;
+}
+/* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .price-block .price .big {
+  font-size: 40px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  /* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .price-block .price .big {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .price-block .price .big {
+    font-size: 34px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .price-block .price .big {
+    font-size: 31px;
+  }
+}
+/* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .price-block .price .down-payment {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: 600;
+}
+@media screen and (max-width: 640px) {
+  /* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .price-block .price .down-payment {
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+/* line 154, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .dates-block {
+  position: relative;
+}
+/* line 156, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .dates-block .termes-block {
+  padding-top: 40px;
+}
+/* line 159, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .dates-block .termes-block .termes {
+  max-width: 320px;
+  padding: 0 50px;
+  display: inline-block;
+}
+/* line 163, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .dates-block .termes-block .termes .dates {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+}
+/* line 168, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .dates-block .termes-block .termes .desc {
+  width: 100%;
+  display: inline-block;
+  font-size: 15px;
+  padding-top: 10px;
+}
+/* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .dates-block .termes-block .termes .desc-red {
+  color: #eb5449;
+}
+@media screen and (max-width: 640px) {
+  /* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  .sentence-terms-block .dates-block .termes-block .termes .desc-red {
+    padding-bottom: 20px;
+  }
+}
+/* line 288, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .yawanawa-form {
+  max-width: 430px;
+  margin: 0 auto;
+}
+/* line 291, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .yawanawa-form .desc-red {
+  padding: 40px 20px 44px;
+  color: #eb5449;
+  font-size: 18px;
+  line-height: 1.32;
+  font-weight: 600;
+}
+/* line 300, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .yawanawa-form .form-item-pair .form-item input {
+  text-transform: uppercase;
+}
+/* line 305, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .yawanawa-form .link-more {
+  color: #ffffff;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 309, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .yawanawa-form .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
+}
+
+/* line 317, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block {
+  position: relative;
+  background: transparent url("../img/ready-form-block.jpg") no-repeat scroll;
+  background-position: top center;
+  min-height: 432px;
+  background-size: cover;
+  text-align: center;
+}
+/* line 325, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .container-form {
+  max-width: 600px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.ready-terms-form-block .container-form:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 329, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .title-block {
+  padding-top: 90px;
+  color: #ffffff;
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+/* line 337, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .desc {
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+/* line 343, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .desc p {
+  padding-bottom: 10px;
+}
+/* line 347, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .yawanawa-form {
+  padding-top: 20px;
+  max-width: 475px;
+  margin: 0 auto;
+}
+/* line 352, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .form-item-pair {
+  margin: 0 auto;
+}
+/* line 355, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .form-item {
+  width: 40%;
+}
+/* line 357, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .form-item input {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/* line 362, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .btn {
+  color: #b4634f;
+  padding: 10px 10px;
+  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border-image-slice: 1;
+}
+/* line 366, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .btn:hover {
+  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  border-image-slice: 1;
+}
+
 /* line 1, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block,
 .menu-blog-all-block,
