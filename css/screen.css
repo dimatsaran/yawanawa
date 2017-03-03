@@ -4227,6 +4227,286 @@ img {
   opacity: 1;
 }
 
+/* line 1, ../assets/scss/partials/blocks/_connect2.scss */
+.header-connect-block {
+  position: relative;
+  background: transparent url("../img/connect-header.jpg") no-repeat scroll;
+  background-position: top  center;
+  max-height: 860px;
+  height: 580px;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  /* line 1, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block {
+    height: 500px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 1, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block {
+    height: 450px;
+  }
+}
+/* line 17, ../assets/scss/partials/blocks/_connect2.scss */
+.header-connect-block .title-block {
+  text-align: center;
+  padding-top: 280px;
+}
+@media screen and (max-width: 768px) {
+  /* line 17, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block .title-block {
+    padding-top: 200px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 17, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block .title-block {
+    padding-top: 100px;
+  }
+}
+/* line 26, ../assets/scss/partials/blocks/_connect2.scss */
+.header-connect-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 47px;
+  line-height: 1.2;
+  font-weight: 600;
+  max-width: 700px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 768px) {
+  /* line 26, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 26, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 26, ../assets/scss/partials/blocks/_connect2.scss */
+  .header-connect-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+
+/* line 48, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  /* line 55, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .title-block .title {
+  color: #984089;
+  font-size: 28px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  /* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 68, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .title-block .desc {
+  padding-top: 45px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 68, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 68, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 78, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+/* line 83, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .line-label {
+  position: relative;
+}
+/* line 85, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .line-label:before {
+  background: #dedede;
+  background-position: center center;
+  height: 1px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+}
+/* line 97, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .line-label .label {
+  background-color: #eeeeee;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0 50px;
+  display: inline-block;
+  z-index: 50;
+  position: relative;
+}
+/* line 109, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .form-block {
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+}
+/* line 114, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form {
+  padding-top: 100px;
+}
+/* line 118, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item-pair .form-item input {
+  text-transform: uppercase;
+}
+/* line 123, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .link-more {
+  color: #ffffff;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 127, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
+}
+
+/* line 135, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block {
+  position: relative;
+  background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
+  background-position: top center;
+  min-height: 432px;
+  background-size: cover;
+  text-align: center;
+}
+/* line 143, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .container-form {
+  max-width: 600px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.ready-form-connect-block .container-form:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 147, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .title-block {
+  padding-top: 90px;
+  color: #ffffff;
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+/* line 155, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .desc {
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+/* line 161, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .desc p {
+  padding-bottom: 10px;
+}
+/* line 165, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .yawanawa-form {
+  padding-top: 20px;
+  max-width: 475px;
+  margin: 0 auto;
+}
+/* line 170, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .form-item-pair {
+  margin: 0 auto;
+}
+/* line 173, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .form-item {
+  width: 40%;
+}
+/* line 175, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .form-item input {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/* line 180, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .btn {
+  color: #b4634f;
+  padding: 10px 10px;
+  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border-image-slice: 1;
+}
+/* line 184, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .btn:hover {
+  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  border-image-slice: 1;
+}
+
 /* line 1, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block,
 .menu-blog-all-block,
@@ -4258,7 +4538,9 @@ img {
 .quote-yawa-block,
 .how-maps-yawa-block,
 .round-bg-block,
-.booking-yawa-policy-block {
+.booking-yawa-policy-block,
+.header-connect-block,
+.ready-form-connect-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -4293,11 +4575,13 @@ img {
   .quote-yawa-block,
   .how-maps-yawa-block,
   .round-bg-block,
-  .booking-yawa-policy-block {
+  .booking-yawa-policy-block,
+  .header-connect-block,
+  .ready-form-connect-block {
     overflow-x: hidden;
   }
 }
-/* line 37, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 39, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -4388,14 +4672,20 @@ img {
 .round-bg-block *::before,
 .booking-yawa-policy-block *,
 .booking-yawa-policy-block *::after,
-.booking-yawa-policy-block *::before {
+.booking-yawa-policy-block *::before,
+.header-connect-block *,
+.header-connect-block *::after,
+.header-connect-block *::before,
+.ready-form-connect-block *,
+.ready-form-connect-block *::after,
+.ready-form-connect-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 43, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 45, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -4426,12 +4716,14 @@ img {
 .quote-yawa-block .container-retreat,
 .how-maps-yawa-block .container-retreat,
 .round-bg-block .container-retreat,
-.booking-yawa-policy-block .container-retreat {
+.booking-yawa-policy-block .container-retreat,
+.header-connect-block .container-retreat,
+.ready-form-connect-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 47, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 49, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -4462,7 +4754,9 @@ img {
   .quote-yawa-block .row,
   .how-maps-yawa-block .row,
   .round-bg-block .row,
-  .booking-yawa-policy-block .row {
+  .booking-yawa-policy-block .row,
+  .header-connect-block .row,
+  .ready-form-connect-block .row {
     margin: 0;
   }
 }
