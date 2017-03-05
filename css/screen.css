@@ -5331,16 +5331,16 @@ img {
 /* line 1, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .header-terms-block {
   position: relative;
-  background: transparent url("../img/yawa-retreat-header.jpg") no-repeat scroll;
+  background: transparent url("../img/terms-header.jpg") no-repeat scroll;
   background-position: bottom  center;
-  max-height: 860px;
-  height: 860px;
+  max-height: 576px;
+  height: 576px;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
   /* line 1, ../assets/scss/partials/blocks/_terms_of_use1.scss */
   .header-terms-block {
-    height: 600px;
+    height: 576px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -5358,7 +5358,7 @@ img {
 /* line 17, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .header-terms-block .title-block {
   text-align: center;
-  padding-top: 300px;
+  padding-top: 265px;
 }
 @media screen and (max-width: 768px) {
   /* line 17, ../assets/scss/partials/blocks/_terms_of_use1.scss */
@@ -5376,12 +5376,11 @@ img {
 .header-terms-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  font-size: 78px;
+  font-size: 48px;
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 600;
   max-width: 700px;
   margin: 0 auto;
-  text-transform: uppercase;
   letter-spacing: 3px;
 }
 @media screen and (max-width: 768px) {
@@ -5429,157 +5428,123 @@ img {
 .sentence-terms-block {
   text-align: center;
   background-color: #eeeeee;
-  padding-top: 50px;
-  padding-bottom: 75px;
+  padding-top: 46px;
+  padding-bottom: 28px;
   position: relative;
 }
+/* line 70, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .container-terms {
+  max-width: 940px;
+}
 @media screen and (max-width: 768px) {
-  /* line 70, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  /* line 73, ../assets/scss/partials/blocks/_terms_of_use1.scss */
   .sentence-terms-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 77, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .title-block .title {
   color: #984089;
-  text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
-  /* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  /* line 77, ../assets/scss/partials/blocks/_terms_of_use1.scss */
   .sentence-terms-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  /* line 77, ../assets/scss/partials/blocks/_terms_of_use1.scss */
   .sentence-terms-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 74, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  /* line 77, ../assets/scss/partials/blocks/_terms_of_use1.scss */
   .sentence-terms-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 84, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 87, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .title-block .desc {
-  padding-top: 45px;
-  color: #000000;
+  padding-top: 23px;
+  color: #313131;
   font-size: 17px;
   line-height: 1.8;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 84, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  /* line 87, ../assets/scss/partials/blocks/_terms_of_use1.scss */
   .sentence-terms-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 84, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+  /* line 87, ../assets/scss/partials/blocks/_terms_of_use1.scss */
   .sentence-terms-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 94, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 97, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .title-block .desc p {
   padding-bottom: 30px;
 }
 /* line 101, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .line-label:before {
-  background: #dedede;
-  background-position: center center;
-  height: 1px;
-  width: 100%;
-  content: '';
-  position: absolute;
-  display: inline-block;
-  left: 0;
-  top: 10px;
+.sentence-terms-block .title-block .desc-bold {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+/* line 105, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .title-block .desc-bold p {
+  padding-bottom: 30px;
+}
+/* line 110, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .content-block {
+  padding-top: 20px;
 }
 /* line 112, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .line-label .label {
-  background-color: #eeeeee;
-  color: #000000;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 12px;
-  padding: 0 50px;
-  display: inline-block;
-  z-index: 50;
-  position: relative;
-}
-/* line 124, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .price-block {
-  position: relative;
-  padding-bottom: 27px;
-  margin-top: 50px;
-}
-/* line 128, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .price-block .price {
-  color: #8e8a8a;
-  text-transform: uppercase;
-  padding-top: 27px;
-}
-/* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .price-block .price .big {
-  font-size: 40px;
-  padding-right: 10px;
-}
-@media screen and (max-width: 768px) {
-  /* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-  .sentence-terms-block .price-block .price .big {
-    font-size: 37px;
-  }
-}
-@media screen and (max-width: 640px) {
-  /* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-  .sentence-terms-block .price-block .price .big {
-    font-size: 34px;
-  }
-}
-@media (max-width: 420px) {
-  /* line 133, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-  .sentence-terms-block .price-block .price .big {
-    font-size: 31px;
-  }
-}
-/* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.sentence-terms-block .price-block .price .down-payment {
-  display: inline-block;
-  max-width: 180px;
+.sentence-terms-block .content-block .desc {
   text-align: left;
-  margin-left: 10px;
-  font-weight: 600;
 }
-@media screen and (max-width: 640px) {
-  /* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-  .sentence-terms-block .price-block .price .down-payment {
-    font-size: 14px;
-    padding-top: 10px;
-    text-align: center;
-  }
-}
-/* line 156, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 114, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .content-block .desc p {
   padding-bottom: 20px;
+  line-height: 1.8;
+  font-size: 14px;
+}
+/* line 118, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .content-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 122, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .content-block .desc p.before-ul {
+  padding-bottom: 0;
+}
+/* line 126, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.sentence-terms-block .content-block .desc ul {
+  line-height: 2.16;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  list-style-type: upper-roman;
+  list-style-position: inside;
 }
 
-/* line 162, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block {
   position: relative;
-  background: transparent url("../img/ready-form-block.jpg") no-repeat scroll;
+  background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
   background-position: top center;
   min-height: 432px;
   background-size: cover;
   text-align: center;
 }
-/* line 170, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 148, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .container-form {
   max-width: 600px;
 }
@@ -5591,7 +5556,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 152, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -5600,7 +5565,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 182, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 160, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -5608,30 +5573,30 @@ img {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 188, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 166, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 192, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 170, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 197, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 175, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 200, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 178, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item {
   width: 40%;
 }
-/* line 202, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 180, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 207, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 185, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn {
   color: #b4634f;
   padding: 10px 10px;
@@ -5641,7 +5606,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 211, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 189, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
