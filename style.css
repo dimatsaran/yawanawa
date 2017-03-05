@@ -52,7 +52,6 @@ body {
 .header {
 	position: absolute;
 	z-index: 10000;
-	display: none;
 }
 .header .container {
 	width: 100%;
@@ -98,11 +97,14 @@ a.logo {
 }
 .footer {
 	background-color: #080b0c;
+	background-image: url(img/bg-bottom.png);
+	background-repeat: no-repeat;
+	border-bottom: 4px solid #0f1516;
 	text-align: center;
 	cursor: default;
 }
 .footer .container-fluid {
-	padding-bottom: 43px;
+	padding-bottom: 40px;
 }
 .footer .container {
 	width: 100%;

@@ -115,6 +115,9 @@
 		background-color: #0d1516;
 	}
 	.header .container {
+		
+		width: 0;
+		
 		height: 100%;
 		padding: 82px 0 0;
 		overflow-x: hidden;
