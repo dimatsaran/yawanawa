@@ -3006,7 +3006,7 @@ img {
 /* line 187, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .scroll-up-block {
   position: absolute;
-  right: 10px;
+  right: 47px;
   top: 100px;
   z-index: 100;
   width: 54px;
@@ -4306,7 +4306,7 @@ img {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 46px;
-  padding-bottom: 60px;
+  padding-bottom: 55px;
   position: relative;
 }
 /* line 54, ../assets/scss/partials/blocks/_connect2.scss */
@@ -4350,7 +4350,7 @@ img {
   color: #000000;
   font-size: 17px;
   line-height: 1.8;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
   /* line 69, ../assets/scss/partials/blocks/_connect2.scss */
@@ -4650,21 +4650,21 @@ img {
 }
 /* line 240, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .btn {
-  color: #b4634f;
-  padding: 10px 10px;
-  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  color: #ffffff;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
-  border-image-slice: 1;
+  border: 0 none;
 }
 /* line 244, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .btn:hover {
-  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
-  border-image-slice: 1;
 }
 
 /* line 1, ../assets/scss/partials/blocks/_personal_consultations3.scss */
@@ -5359,7 +5359,7 @@ img {
 /* line 17, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .header-terms-block .title-block {
   text-align: center;
-  padding-top: 265px;
+  padding-top: 260px;
 }
 @media screen and (max-width: 768px) {
   /* line 17, ../assets/scss/partials/blocks/_terms_of_use1.scss */
@@ -5382,7 +5382,6 @@ img {
   font-weight: 600;
   max-width: 700px;
   margin: 0 auto;
-  letter-spacing: 3px;
 }
 @media screen and (max-width: 768px) {
   /* line 26, ../assets/scss/partials/blocks/_terms_of_use1.scss */
@@ -5430,7 +5429,7 @@ img {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 46px;
-  padding-bottom: 28px;
+  padding-bottom: 23px;
   position: relative;
 }
 /* line 70, ../assets/scss/partials/blocks/_terms_of_use1.scss */
@@ -5505,7 +5504,7 @@ img {
 }
 /* line 110, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .content-block {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 /* line 112, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .content-block .desc {
@@ -5513,8 +5512,8 @@ img {
 }
 /* line 114, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .content-block .desc p {
-  padding-bottom: 20px;
-  line-height: 1.8;
+  padding-bottom: 24px;
+  line-height: 1.74;
   font-size: 14px;
 }
 /* line 118, ../assets/scss/partials/blocks/_terms_of_use1.scss */
@@ -5528,7 +5527,8 @@ img {
 }
 /* line 126, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .sentence-terms-block .content-block .desc ul {
-  line-height: 2.16;
+  padding-top: 5px;
+  line-height: 2.04;
   font-size: 14px;
   padding-left: 10px;
   padding-bottom: 20px;
@@ -5536,7 +5536,7 @@ img {
   list-style-position: inside;
 }
 
-/* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 141, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block {
   position: relative;
   background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
@@ -5545,7 +5545,7 @@ img {
   background-size: cover;
   text-align: center;
 }
-/* line 148, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 149, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .container-form {
   max-width: 600px;
 }
@@ -5557,7 +5557,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 152, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 153, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -5566,7 +5566,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 160, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 161, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -5574,32 +5574,36 @@ img {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 166, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 167, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 170, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 171, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 175, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 176, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 178, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 179, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item {
   width: 40%;
 }
-/* line 180, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 181, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
 }
-/* line 185, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 186, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+.ready-terms-form-block .form-actions {
+  padding-top: 10px;
+}
+/* line 189, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn {
-  color: #b4634f;
+  color: #e09f8b;
   padding: 10px 10px;
   -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
@@ -5607,7 +5611,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 189, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 193, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -5649,7 +5653,17 @@ img {
 .round-bg-block,
 .booking-yawa-policy-block,
 .header-connect-block,
-.ready-form-connect-block {
+.sentence-connect-block,
+.header-personal-block,
+.ready-form-connect-block,
+.menu-personal-block,
+.intro-personal-block,
+.ready-personal-block,
+.packages-personal-block,
+.quote-personal-block,
+.header-terms-block,
+.sentence-terms-block,
+.ready-terms-form-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -5686,11 +5700,21 @@ img {
   .round-bg-block,
   .booking-yawa-policy-block,
   .header-connect-block,
-  .ready-form-connect-block {
+  .sentence-connect-block,
+  .header-personal-block,
+  .ready-form-connect-block,
+  .menu-personal-block,
+  .intro-personal-block,
+  .ready-personal-block,
+  .packages-personal-block,
+  .quote-personal-block,
+  .header-terms-block,
+  .sentence-terms-block,
+  .ready-terms-form-block {
     overflow-x: hidden;
   }
 }
-/* line 39, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 49, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -5785,16 +5809,46 @@ img {
 .header-connect-block *,
 .header-connect-block *::after,
 .header-connect-block *::before,
+.sentence-connect-block *,
+.sentence-connect-block *::after,
+.sentence-connect-block *::before,
+.header-personal-block *,
+.header-personal-block *::after,
+.header-personal-block *::before,
 .ready-form-connect-block *,
 .ready-form-connect-block *::after,
-.ready-form-connect-block *::before {
+.ready-form-connect-block *::before,
+.menu-personal-block *,
+.menu-personal-block *::after,
+.menu-personal-block *::before,
+.intro-personal-block *,
+.intro-personal-block *::after,
+.intro-personal-block *::before,
+.ready-personal-block *,
+.ready-personal-block *::after,
+.ready-personal-block *::before,
+.packages-personal-block *,
+.packages-personal-block *::after,
+.packages-personal-block *::before,
+.quote-personal-block *,
+.quote-personal-block *::after,
+.quote-personal-block *::before,
+.header-terms-block *,
+.header-terms-block *::after,
+.header-terms-block *::before,
+.sentence-terms-block *,
+.sentence-terms-block *::after,
+.sentence-terms-block *::before,
+.ready-terms-form-block *,
+.ready-terms-form-block *::after,
+.ready-terms-form-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 45, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 55, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -5827,12 +5881,22 @@ img {
 .round-bg-block .container-retreat,
 .booking-yawa-policy-block .container-retreat,
 .header-connect-block .container-retreat,
-.ready-form-connect-block .container-retreat {
+.sentence-connect-block .container-retreat,
+.header-personal-block .container-retreat,
+.ready-form-connect-block .container-retreat,
+.menu-personal-block .container-retreat,
+.intro-personal-block .container-retreat,
+.ready-personal-block .container-retreat,
+.packages-personal-block .container-retreat,
+.quote-personal-block .container-retreat,
+.header-terms-block .container-retreat,
+.sentence-terms-block .container-retreat,
+.ready-terms-form-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 49, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 59, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -5865,7 +5929,17 @@ img {
   .round-bg-block .row,
   .booking-yawa-policy-block .row,
   .header-connect-block .row,
-  .ready-form-connect-block .row {
+  .sentence-connect-block .row,
+  .header-personal-block .row,
+  .ready-form-connect-block .row,
+  .menu-personal-block .row,
+  .intro-personal-block .row,
+  .ready-personal-block .row,
+  .packages-personal-block .row,
+  .quote-personal-block .row,
+  .header-terms-block .row,
+  .sentence-terms-block .row,
+  .ready-terms-form-block .row {
     margin: 0;
   }
 }
