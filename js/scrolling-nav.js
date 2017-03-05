@@ -20,5 +20,14 @@ $(document).ready(function(){
         }
     });
 
+    var $menuConnect = $(".block-scroll-connect");
+    $(window).scroll(function(){
+        if ( $(this).scrollTop() > 500 && $menuConnect.hasClass("default") ){
+            $menuConnect.removeClass("default").addClass("fixed");
+        } else if($(this).scrollTop() <= 900 && $menuConnect.hasClass("fixed")) {
+            $menuConnect.removeClass("fixed").addClass("default");
+        }
+    });
+
 });
 

@@ -4275,7 +4275,7 @@ img {
 .header-connect-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  font-size: 47px;
+  font-size: 48px;
   line-height: 1.2;
   font-weight: 600;
   max-width: 700px;
@@ -4305,71 +4305,78 @@ img {
 .sentence-connect-block {
   text-align: center;
   background-color: #eeeeee;
-  padding-top: 50px;
-  padding-bottom: 75px;
+  padding-top: 46px;
+  padding-bottom: 60px;
   position: relative;
 }
+/* line 54, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .container-connect {
+  max-width: 935px;
+}
 @media screen and (max-width: 768px) {
-  /* line 55, ../assets/scss/partials/blocks/_connect2.scss */
+  /* line 57, ../assets/scss/partials/blocks/_connect2.scss */
   .sentence-connect-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 61, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .title-block .title {
   color: #984089;
-  font-size: 28px;
+  font-size: 29px;
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
-  /* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+  /* line 61, ../assets/scss/partials/blocks/_connect2.scss */
   .sentence-connect-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+  /* line 61, ../assets/scss/partials/blocks/_connect2.scss */
   .sentence-connect-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 59, ../assets/scss/partials/blocks/_connect2.scss */
+  /* line 61, ../assets/scss/partials/blocks/_connect2.scss */
   .sentence-connect-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 68, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 69, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .title-block .desc {
-  padding-top: 45px;
+  padding-top: 23px;
   color: #000000;
   font-size: 17px;
   line-height: 1.8;
-  font-weight: 600;
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 68, ../assets/scss/partials/blocks/_connect2.scss */
+  /* line 69, ../assets/scss/partials/blocks/_connect2.scss */
   .sentence-connect-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 68, ../assets/scss/partials/blocks/_connect2.scss */
+  /* line 69, ../assets/scss/partials/blocks/_connect2.scss */
   .sentence-connect-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 78, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 77, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .title-block .desc p {
-  padding-bottom: 30px;
+  padding-bottom: 18px;
 }
-/* line 83, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 80, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .title-block .desc a {
+  color: #984089;
+}
+/* line 85, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .line-label {
   position: relative;
 }
-/* line 85, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 87, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -4381,7 +4388,7 @@ img {
   left: 0;
   top: 0;
 }
-/* line 97, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 99, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -4393,21 +4400,137 @@ img {
   z-index: 50;
   position: relative;
 }
-/* line 109, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 111, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .form-block {
+  padding-top: 38px;
   position: relative;
   max-width: 940px;
   margin: 0 auto;
 }
-/* line 114, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 117, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .yawanawa-form {
-  padding-top: 100px;
+  padding-top: 55px;
+  margin: 0 -18px;
 }
-/* line 118, ../assets/scss/partials/blocks/_connect2.scss */
-.sentence-connect-block .yawanawa-form .form-item-pair .form-item input {
+@media screen and (max-width: 768px) {
+  /* line 117, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .yawanawa-form {
+    margin: 0;
+  }
+}
+/* line 126, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .col-form {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+/* line 133, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .col-form-left {
+  width: 38%;
+}
+@media screen and (max-width: 768px) {
+  /* line 133, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .yawanawa-form .col-form-left {
+    width: 100%;
+  }
+}
+/* line 139, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .col-form-right {
+  width: 62%;
+}
+@media screen and (max-width: 768px) {
+  /* line 139, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .yawanawa-form .col-form-right {
+    width: 100%;
+  }
+}
+/* line 145, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item {
+  padding: 0 0 25px;
+}
+/* line 147, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item input[type="text"],
+.sentence-connect-block .yawanawa-form .form-item input[type="tel"],
+.sentence-connect-block .yawanawa-form .form-item input[type="email"],
+.sentence-connect-block .yawanawa-form .form-item input[type="url"],
+.sentence-connect-block .yawanawa-form .form-item input[type="password"],
+.sentence-connect-block .yawanawa-form .form-item input[type="search"],
+.sentence-connect-block .yawanawa-form .form-item textarea {
   text-transform: uppercase;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  /* Firefox 19+ */
+  /* Firefox 18- */
 }
-/* line 123, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 158, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item input[type="text"]::-webkit-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="tel"]::-webkit-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="email"]::-webkit-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="url"]::-webkit-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="password"]::-webkit-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="search"]::-webkit-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item textarea::-webkit-input-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+/* line 159, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item input[type="text"]::-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="tel"]::-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="email"]::-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="url"]::-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="password"]::-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="search"]::-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item textarea::-moz-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+/* line 160, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item input[type="text"]:-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="tel"]:-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="email"]:-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="url"]:-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="password"]:-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="search"]:-moz-placeholder,
+.sentence-connect-block .yawanawa-form .form-item textarea:-moz-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+/* line 161, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item input[type="text"]:-ms-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="tel"]:-ms-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="email"]:-ms-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="url"]:-ms-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="password"]:-ms-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item input[type="search"]:-ms-input-placeholder,
+.sentence-connect-block .yawanawa-form .form-item textarea:-ms-input-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+/* line 163, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-item textarea {
+  min-height: 132px;
+}
+/* line 167, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .yawanawa-form .form-actions {
+  text-align: left;
+  padding-top: 15px;
+}
+/* line 171, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .yawanawa-form .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -4417,7 +4540,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 127, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 175, ../assets/scss/partials/blocks/_connect2.scss */
 .sentence-connect-block .yawanawa-form .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -4426,8 +4549,19 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   opacity: 1;
 }
+/* line 182, ../assets/scss/partials/blocks/_connect2.scss */
+.sentence-connect-block .scroll-up-block {
+  right: 47px;
+}
+@media screen and (max-width: 768px) {
+  /* line 182, ../assets/scss/partials/blocks/_connect2.scss */
+  .sentence-connect-block .scroll-up-block {
+    right: 10px;
+    top: 20px;
+  }
+}
 
-/* line 135, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 191, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block {
   position: relative;
   background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
@@ -4436,7 +4570,7 @@ img {
   background-size: cover;
   text-align: center;
 }
-/* line 143, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 199, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .container-form {
   max-width: 600px;
 }
@@ -4448,7 +4582,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 147, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 203, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -4457,7 +4591,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 155, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 211, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -4465,30 +4599,56 @@ img {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 161, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 217, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .desc p {
   padding-bottom: 10px;
 }
-/* line 165, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 221, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 170, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 226, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 173, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 229, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item {
   width: 40%;
 }
-/* line 175, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 231, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
+  /* Firefox 19+ */
+  /* Firefox 18- */
 }
-/* line 180, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 234, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .form-item input::-webkit-input-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 600;
+}
+/* line 235, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .form-item input::-moz-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 600;
+}
+/* line 236, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .form-item input:-moz-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 600;
+}
+/* line 237, ../assets/scss/partials/blocks/_connect2.scss */
+.ready-form-connect-block .form-item input:-ms-input-placeholder {
+  color: #7c7c7c;
+  opacity: 1;
+  font-weight: 600;
+}
+/* line 240, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .btn {
   color: #b4634f;
   padding: 10px 10px;
@@ -4498,7 +4658,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 184, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 244, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .btn:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
