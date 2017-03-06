@@ -4570,7 +4570,7 @@ img {
   background-size: cover;
   text-align: center;
 }
-/* line 199, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 198, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .container-form {
   max-width: 600px;
 }
@@ -4582,7 +4582,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 203, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 202, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -4591,7 +4591,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 211, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 210, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -4599,56 +4599,56 @@ img {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 217, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 216, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .desc p {
   padding-bottom: 10px;
 }
-/* line 221, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 220, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 226, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 225, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 229, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 228, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item {
   width: 40%;
 }
-/* line 231, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 230, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item input {
   text-transform: uppercase;
   font-size: 12px;
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 234, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 233, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item input::-webkit-input-placeholder {
   color: #7c7c7c;
   opacity: 1;
   font-weight: 600;
 }
-/* line 235, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 234, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item input::-moz-placeholder {
   color: #7c7c7c;
   opacity: 1;
   font-weight: 600;
 }
-/* line 236, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 235, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item input:-moz-placeholder {
   color: #7c7c7c;
   opacity: 1;
   font-weight: 600;
 }
-/* line 237, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 236, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .form-item input:-ms-input-placeholder {
   color: #7c7c7c;
   opacity: 1;
   font-weight: 600;
 }
-/* line 240, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 239, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .btn {
   color: #ffffff;
   background: #e09f8b;
@@ -4658,7 +4658,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 244, ../assets/scss/partials/blocks/_connect2.scss */
+/* line 243, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .btn:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
