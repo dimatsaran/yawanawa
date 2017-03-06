@@ -50,7 +50,7 @@ $(document).ready(function() {
 			$(".burger").css("display", "none");
 			$(".logo").css("display", "block");
 			burgerMenuStatus = "hidden";
-			$(".footer").css("background-position", w - 1368 + "px 0");
+			$(".footer").css("background-position", (w - 1368) / 2 + "px 0");
 		} else {
 			$(".burger").css("display", "block");
 			if (burgerMenuStatus === "shown") {
