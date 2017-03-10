@@ -32,13 +32,13 @@ $(document).ready(function() {
 			$("<img />").attr("src",this).appendTo("body").css('display', "none");
 		});
 	}
-	function isBreakpoint(alias) {
+	window.isBreakpoint = function(alias) {
 		return $(".device-" + alias).is(":visible");
-	}
+	};
 	function redraw() {
 		w = $(window).width();
 		h = $(window).height();
-		if (isBreakpoint("lg") || isBreakpoint("md")) {
+		if (window.isBreakpoint("lg") || window.isBreakpoint("md")) {
 			if (burgerMenuStatus === "shown") {
 				$(".burger_menu_top").remove();
 				$(".burger").removeClass("close_btn");
@@ -74,7 +74,7 @@ $(document).ready(function() {
 		]);
 		$(".header ul li").hover(
 			function() {
-				if (isBreakpoint("lg") || isBreakpoint("md")) {
+				if (window.isBreakpoint("lg") || window.isBreakpoint("md")) {
 					var span = $(this).find("span");
 					var ul = $(this).find("ul");
 					if (span.length && ul.length) {
@@ -83,7 +83,7 @@ $(document).ready(function() {
 					}
 				}
 			}, function() {
-				if (isBreakpoint("lg") || isBreakpoint("md")) {
+				if (window.isBreakpoint("lg") || window.isBreakpoint("md")) {
 					var span = $(this).find("span");
 					var ul = $(this).find("ul");
 					if (span.length && ul.length) {
@@ -146,6 +146,32 @@ $(document).ready(function() {
 						});
 					});
 				});
+			}
+		});
+		$('a.page-scroll[href^="#"]').click(function(){
+			var speed = 2000;
+			var el = $(this).attr("href");
+			var top = $(el).offset().top;
+			if (window.isBreakpoint("lg") || window.isBreakpoint("md")) {
+				$("html, body").animate({scrollTop: top}, speed);
+			} else {
+				$(".content").animate({scrollTop: top}, speed);
+			}
+			return false;
+		});
+		var $menuBlockScroll = $(".block-scroll");
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 900 && $menuBlockScroll.hasClass("default")) {
+				$menuBlockScroll.removeClass("default").addClass("fixed");
+			} else if($(this).scrollTop() <= 900 && $menuBlockScroll.hasClass("fixed")) {
+				$menuBlockScroll.removeClass("fixed").addClass("default");
+			}
+		});
+		$(".content").scroll(function() {
+			if ($(this).scrollTop() > 900 && $menuBlockScroll.hasClass("default")) {
+				$menuBlockScroll.removeClass("default").addClass("fixed");
+			} else if($(this).scrollTop() <= 900 && $menuBlockScroll.hasClass("fixed")) {
+				$menuBlockScroll.removeClass("fixed").addClass("default");
 			}
 		});
 		$(window).resize(function() {
