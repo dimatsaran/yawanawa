@@ -5276,49 +5276,54 @@ img {
 /* line 475, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .personal-bg-block {
   max-height: 720px;
+  width: 100%;
+}
+/* line 481, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+.personal-bg-block img {
+  width: 100%;
 }
 
-/* line 481, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 485, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block {
   text-align: center;
   background-color: #f6c1a2;
   color: #313131;
   min-height: 360px;
 }
-/* line 486, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 490, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .container-quote {
   max-width: 1030px;
 }
-/* line 489, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 493, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 @media screen and (max-width: 640px) {
-  /* line 489, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 493, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .quote-personal-block .title-block {
     padding-top: 35px;
   }
 }
-/* line 494, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 498, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .autor {
   padding-top: 25px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
 }
-/* line 500, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 504, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .desc {
   line-height: 1.92;
 }
-/* line 503, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 507, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .desc .icon-quote {
   font-size: 35px;
   line-height: 5px;
   vertical-align: middle;
   padding: 0 10px;
 }
-/* line 509, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 513, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .desc p {
   padding-bottom: 20px;
 }
