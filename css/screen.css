@@ -733,7 +733,12 @@ img {
 .quote-personal-block,
 .header-terms-block,
 .sentence-terms-block,
-.ready-terms-form-block {
+.ready-terms-form-block,
+.header-mission-block,
+.mission-block,
+.values-mission-block,
+.practices-mission-block,
+.ready-form-mission-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -780,11 +785,16 @@ img {
   .quote-personal-block,
   .header-terms-block,
   .sentence-terms-block,
-  .ready-terms-form-block {
+  .ready-terms-form-block,
+  .header-mission-block,
+  .mission-block,
+  .values-mission-block,
+  .practices-mission-block,
+  .ready-form-mission-block {
     overflow-x: hidden;
   }
 }
-/* line 49, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 54, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -911,14 +921,29 @@ img {
 .sentence-terms-block *::before,
 .ready-terms-form-block *,
 .ready-terms-form-block *::after,
-.ready-terms-form-block *::before {
+.ready-terms-form-block *::before,
+.header-mission-block *,
+.header-mission-block *::after,
+.header-mission-block *::before,
+.mission-block *,
+.mission-block *::after,
+.mission-block *::before,
+.values-mission-block *,
+.values-mission-block *::after,
+.values-mission-block *::before,
+.practices-mission-block *,
+.practices-mission-block *::after,
+.practices-mission-block *::before,
+.ready-form-mission-block *,
+.ready-form-mission-block *::after,
+.ready-form-mission-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 55, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 60, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -961,12 +986,17 @@ img {
 .quote-personal-block .container-retreat,
 .header-terms-block .container-retreat,
 .sentence-terms-block .container-retreat,
-.ready-terms-form-block .container-retreat {
+.ready-terms-form-block .container-retreat,
+.header-mission-block .container-retreat,
+.mission-block .container-retreat,
+.values-mission-block .container-retreat,
+.practices-mission-block .container-retreat,
+.ready-form-mission-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 59, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 64, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1009,12 +1039,17 @@ img {
   .quote-personal-block .row,
   .header-terms-block .row,
   .sentence-terms-block .row,
-  .ready-terms-form-block .row {
+  .ready-terms-form-block .row,
+  .header-mission-block .row,
+  .mission-block .row,
+  .values-mission-block .row,
+  .practices-mission-block .row,
+  .ready-form-mission-block .row {
     margin: 0;
   }
 }
 
-/* line 66, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 71, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1027,7 +1062,7 @@ img {
   width: 100%;
   display: table;
 }
-/* line 77, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 82, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1036,7 +1071,7 @@ img {
   padding-right: 10px;
 }
 
-/* line 84, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 89, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1053,24 +1088,24 @@ img {
   clear: both;
   height: 0;
 }
-/* line 92, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 97, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 96, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 101, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 96, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 101, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 104, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 109, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1086,12 +1121,12 @@ img {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 117, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 122, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 123, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 128, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1102,7 +1137,7 @@ img {
   min-height: 720px;
 }
 
-/* line 132, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 137, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
@@ -5833,21 +5868,21 @@ img {
   padding-bottom: 30px;
 }
 
-/* line 98, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 97, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .purple-bg-block {
   background-image: url("../img/mission-purple-bg-block.jpg");
 }
 
-/* line 101, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 100, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block {
   background-color: #eeeeee;
   padding-bottom: 60px;
 }
-/* line 104, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 103, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .container-mission {
   max-width: 780px;
 }
-/* line 107, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 106, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .title-block {
   padding-top: 50px;
   text-align: center;
@@ -5860,7 +5895,7 @@ img {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 119, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 118, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc {
   padding-top: 32px;
   color: #000000;
@@ -5870,53 +5905,53 @@ img {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  /* line 119, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 118, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .values-mission-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 119, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 118, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .values-mission-block .desc {
     font-size: 13px;
   }
 }
-/* line 128, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 127, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc p {
   padding-bottom: 20px;
 }
-/* line 130, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 129, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc p.sec-line {
   max-width: 660px;
   margin: 0 auto;
 }
-/* line 134, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 133, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc p.three-line {
   max-width: 580px;
   margin: 0 auto;
 }
 
-/* line 141, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 140, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .sky-bg-block {
   background-image: url("../img/mission-sky-bg-block.jpg");
 }
 
-/* line 144, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 143, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block {
   background-color: #eeeeee;
   padding-bottom: 75px;
 }
-/* line 147, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 146, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .container-mission {
   max-width: 970px;
 }
-/* line 150, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 149, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .title-block {
   padding-top: 50px;
   text-align: center;
   position: relative;
 }
-/* line 157, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 156, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .title-block .title {
   color: #984089;
   font-size: 23px;
@@ -5927,43 +5962,43 @@ img {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 169, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 168, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block {
   padding: 50px 20px 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 169, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 168, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .practices-mission-block .list-block {
     padding: 20px 10px 0;
   }
 }
-/* line 174, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 173, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block:last-of-type {
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 174, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 173, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .practices-mission-block .list-block:last-of-type {
     padding-left: 10px;
   }
 }
-/* line 182, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 181, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block:last-of-type p {
   width: 100%;
 }
-/* line 186, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 185, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block p {
   padding-bottom: 22px;
   line-height: 1.44;
   font-size: 17px;
 }
-/* line 192, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 191, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 17px;
 }
 
-/* line 199, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 198, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block {
   position: relative;
   background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
@@ -5972,7 +6007,7 @@ img {
   background-size: cover;
   text-align: center;
 }
-/* line 207, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 206, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .container-form {
   max-width: 600px;
 }
@@ -5984,7 +6019,7 @@ img {
   clear: both;
   height: 0;
 }
-/* line 211, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 210, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -5993,7 +6028,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 219, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 218, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -6001,21 +6036,21 @@ img {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 225, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 224, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .desc p {
   padding-bottom: 10px;
 }
-/* line 229, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 228, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 234, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 233, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 243, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 242, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select,
 .ready-form-mission-block .form-item input[type="text"],
 .ready-form-mission-block .form-item input[type="tel"],
@@ -6029,7 +6064,7 @@ img {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 253, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 252, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]::-webkit-input-placeholder,
@@ -6040,7 +6075,7 @@ img {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 254, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 253, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]::-moz-placeholder,
@@ -6051,7 +6086,7 @@ img {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 255, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 254, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:-moz-placeholder,
@@ -6062,7 +6097,7 @@ img {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 256, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 255, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:-ms-input-placeholder,
@@ -6073,7 +6108,7 @@ img {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 257, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 256, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus,
 .ready-form-mission-block .form-item input[type="text"]:focus,
 .ready-form-mission-block .form-item input[type="tel"]:focus,
@@ -6086,7 +6121,7 @@ img {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 260, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 259, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
@@ -6096,7 +6131,7 @@ img {
 .ready-form-mission-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
   color: transparent;
 }
-/* line 261, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 260, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus::-moz-placeholder,
@@ -6106,7 +6141,7 @@ img {
 .ready-form-mission-block .form-item input[type="search"]:focus::-moz-placeholder {
   color: transparent;
 }
-/* line 262, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 261, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus:-moz-placeholder,
@@ -6116,7 +6151,7 @@ img {
 .ready-form-mission-block .form-item input[type="search"]:focus:-moz-placeholder {
   color: transparent;
 }
-/* line 263, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 262, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
@@ -6126,14 +6161,15 @@ img {
 .ready-form-mission-block .form-item input[type="search"]:focus:-ms-input-placeholder {
   color: transparent;
 }
-/* line 268, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 267, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-actions {
   padding-top: 10px;
 }
-/* line 271, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 270, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .btn {
   color: #e09f8b;
   padding: 10px 10px;
+  background: none;
   -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
   border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
