@@ -6184,3 +6184,268 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   border-image-slice: 1;
 }
+
+/* line 1, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.header-online-policy-block {
+  background-image: url("../img/online-privat-policy-header.jpg");
+}
+/* line 4, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.header-online-policy-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600;
+  max-width: 700px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 4, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .header-online-policy-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .header-online-policy-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 4, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .header-online-policy-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+/* line 24, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.header-online-policy-block .title-block .title-description {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 55px;
+  letter-spacing: 1.2px;
+}
+@media screen and (max-width: 768px) {
+  /* line 24, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .header-online-policy-block .title-block .title-description {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 24, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .header-online-policy-block .title-block .title-description {
+    font-size: 22px;
+  }
+}
+
+/* line 44, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 46px;
+  padding-bottom: 23px;
+  position: relative;
+}
+/* line 51, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .container-terms {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 54, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  /* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 68, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .title-block .desc-bold {
+  max-width: 880px;
+  margin: 0 auto;
+  padding-top: 23px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+/* line 75, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .title-block .desc-bold p {
+  padding-bottom: 30px;
+}
+/* line 79, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .title-block .desc {
+  color: #313131;
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 640px;
+  margin: 0 auto;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 79, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 79, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 91, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+/* line 94, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .title-block .desc a {
+  color: #984089;
+}
+/* line 101, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .line-label {
+  position: relative;
+}
+/* line 104, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .line-label:before {
+  background: #dedede;
+  background-position: center center;
+  height: 1px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 15px;
+}
+/* line 115, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .line-label .label-title {
+  background-color: #eeeeee;
+  color: #7c7c7c;
+  font-weight: 400;
+  font-size: 23px;
+  padding: 0 27px;
+  display: inline-block;
+  z-index: 50;
+  position: relative;
+  margin: 0 auto;
+  min-width: 320px;
+}
+/* line 131, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .desc-bold {
+  max-width: 880px;
+  margin: 0 auto;
+  padding-top: 23px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+/* line 144, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block {
+  padding-top: 30px;
+}
+/* line 146, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .desc {
+  text-align: left;
+}
+/* line 148, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .desc p {
+  padding-bottom: 24px;
+  line-height: 1.74;
+  font-size: 14px;
+}
+/* line 152, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 156, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .desc p.before-ul {
+  padding-bottom: 0;
+}
+/* line 160, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .desc ul {
+  padding-top: 5px;
+  line-height: 2.04;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+/* line 173, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .list-block {
+  padding: 25px 20px 0;
+}
+@media screen and (max-width: 640px) {
+  /* line 173, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block .list-block {
+    padding: 20px 10px 0;
+  }
+}
+/* line 178, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .list-block:last-of-type {
+  padding-left: 30px;
+}
+@media screen and (max-width: 640px) {
+  /* line 178, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block .list-block:last-of-type {
+    padding-left: 10px;
+  }
+}
+/* line 186, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .list-block:last-of-type p {
+  width: 100%;
+}
+/* line 190, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .list-block p {
+  padding-bottom: 22px;
+  line-height: 1.44;
+  font-size: 15px;
+  text-align: left;
+}
+/* line 197, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .list-block p .label-bold {
+  font-weight: 600;
+  font-size: 17px;
+}
+/* line 204, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .list {
+  text-align: left;
+}
+/* line 206, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block .list ul {
+  list-style-type: decimal;
+}
+
+/* line 215, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-bg-block {
+  background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
+  min-height: 430px;
+}
