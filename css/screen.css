@@ -5694,3 +5694,457 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   border-image-slice: 1;
 }
+
+/* line 1, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.header-mission-block {
+  background-image: url("../img/mission-header.jpg");
+}
+/* line 4, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.header-mission-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600;
+  max-width: 700px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 4, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .header-mission-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .header-mission-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 4, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .header-mission-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+/* line 31, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.header-mission-block .title-block .title-description {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 55px;
+  letter-spacing: 1.2px;
+}
+@media screen and (max-width: 768px) {
+  /* line 31, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .header-mission-block .title-block .title-description {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 31, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .header-mission-block .title-block .title-description {
+    font-size: 22px;
+  }
+}
+
+/* line 51, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.mission-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 58px;
+  position: relative;
+}
+/* line 52, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.mission-block .container-sentence {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 60, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .mission-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.mission-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .mission-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .mission-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .mission-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 74, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.mission-block .title-block .desc-bold {
+  padding-top: 35px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.56;
+}
+/* line 79, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.mission-block .title-block .desc-bold p {
+  padding-bottom: 15px;
+}
+/* line 83, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.mission-block .title-block .desc {
+  padding-top: 18px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 83, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .mission-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 83, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .mission-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 91, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.mission-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+
+/* line 98, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.purple-bg-block {
+  background-image: url("../img/mission-purple-bg-block.jpg");
+}
+
+/* line 101, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.values-mission-block {
+  background-color: #eeeeee;
+  padding-bottom: 60px;
+}
+/* line 104, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.values-mission-block .container-mission {
+  max-width: 780px;
+}
+/* line 107, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.values-mission-block .title-block {
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+  color: #984089;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 119, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.values-mission-block .desc {
+  padding-top: 32px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  /* line 119, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .values-mission-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 119, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .values-mission-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 128, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.values-mission-block .desc p {
+  padding-bottom: 20px;
+}
+/* line 130, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.values-mission-block .desc p.sec-line {
+  max-width: 660px;
+  margin: 0 auto;
+}
+/* line 134, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.values-mission-block .desc p.three-line {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+/* line 141, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.sky-bg-block {
+  background-image: url("../img/mission-sky-bg-block.jpg");
+}
+
+/* line 144, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block {
+  background-color: #eeeeee;
+  padding-bottom: 75px;
+}
+/* line 147, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .container-mission {
+  max-width: 970px;
+}
+/* line 150, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .title-block {
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+}
+/* line 157, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .title-block .title {
+  color: #984089;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 169, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .list-block {
+  padding: 50px 20px 0;
+}
+@media screen and (max-width: 640px) {
+  /* line 169, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .practices-mission-block .list-block {
+    padding: 20px 10px 0;
+  }
+}
+/* line 174, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .list-block:last-of-type {
+  padding-left: 30px;
+}
+@media screen and (max-width: 640px) {
+  /* line 174, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .practices-mission-block .list-block:last-of-type {
+    padding-left: 10px;
+  }
+}
+/* line 182, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .list-block:last-of-type p {
+  width: 100%;
+}
+/* line 186, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .list-block p {
+  padding-bottom: 22px;
+  line-height: 1.44;
+  font-size: 17px;
+}
+/* line 192, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.practices-mission-block .list-block p .label-bold {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/* line 199, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block {
+  position: relative;
+  background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
+  background-position: top center;
+  min-height: 432px;
+  background-size: cover;
+  text-align: center;
+}
+/* line 207, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .container-form {
+  max-width: 600px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.ready-form-mission-block .container-form:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 211, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .title-block {
+  padding-top: 90px;
+  color: #ffffff;
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+/* line 219, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .desc {
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+/* line 225, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .desc p {
+  padding-bottom: 10px;
+}
+/* line 229, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .yawanawa-form {
+  padding-top: 20px;
+  max-width: 475px;
+  margin: 0 auto;
+}
+/* line 234, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item-pair {
+  margin: 0 auto;
+}
+/* line 243, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select,
+.ready-form-mission-block .form-item input[type="text"],
+.ready-form-mission-block .form-item input[type="tel"],
+.ready-form-mission-block .form-item input[type="email"],
+.ready-form-mission-block .form-item input[type="url"],
+.ready-form-mission-block .form-item input[type="password"],
+.ready-form-mission-block .form-item input[type="search"] {
+  text-transform: uppercase;
+  font-size: 12px;
+  border-color: rgba(238, 238, 238, 0.8);
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 253, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="text"]::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="email"]::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="url"]::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="password"]::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="search"]::-webkit-input-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 254, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="text"]::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="email"]::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="url"]::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="password"]::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="search"]::-moz-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 255, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="text"]:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="email"]:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="url"]:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="password"]:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="search"]:-moz-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 256, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="text"]:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="email"]:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="url"]:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="password"]:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="search"]:-ms-input-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 257, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select:focus,
+.ready-form-mission-block .form-item input[type="text"]:focus,
+.ready-form-mission-block .form-item input[type="tel"]:focus,
+.ready-form-mission-block .form-item input[type="email"]:focus,
+.ready-form-mission-block .form-item input[type="url"]:focus,
+.ready-form-mission-block .form-item input[type="password"]:focus,
+.ready-form-mission-block .form-item input[type="search"]:focus {
+  border-color: white;
+  outline: none;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 260, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select:focus::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="email"]:focus::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="url"]:focus::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="password"]:focus::-webkit-input-placeholder,
+.ready-form-mission-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 261, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select:focus::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="text"]:focus::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]:focus::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="email"]:focus::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="url"]:focus::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="password"]:focus::-moz-placeholder,
+.ready-form-mission-block .form-item input[type="search"]:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 262, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select:focus:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="text"]:focus:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]:focus:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="email"]:focus:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="url"]:focus:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="password"]:focus:-moz-placeholder,
+.ready-form-mission-block .form-item input[type="search"]:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 263, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-item select:focus:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="text"]:focus:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="email"]:focus:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="url"]:focus:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="password"]:focus:-ms-input-placeholder,
+.ready-form-mission-block .form-item input[type="search"]:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 268, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .form-actions {
+  padding-top: 10px;
+}
+/* line 271, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .btn {
+  color: #e09f8b;
+  padding: 10px 10px;
+  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border-image-slice: 1;
+}
+/* line 275, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+.ready-form-mission-block .btn:hover {
+  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  border-image-slice: 1;
+}
