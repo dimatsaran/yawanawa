@@ -738,7 +738,8 @@ img {
 .mission-block,
 .values-mission-block,
 .practices-mission-block,
-.ready-form-mission-block {
+.ready-form-mission-block,
+.online-policy-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -790,11 +791,12 @@ img {
   .mission-block,
   .values-mission-block,
   .practices-mission-block,
-  .ready-form-mission-block {
+  .ready-form-mission-block,
+  .online-policy-block {
     overflow-x: hidden;
   }
 }
-/* line 54, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 55, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -936,14 +938,17 @@ img {
 .practices-mission-block *::before,
 .ready-form-mission-block *,
 .ready-form-mission-block *::after,
-.ready-form-mission-block *::before {
+.ready-form-mission-block *::before,
+.online-policy-block *,
+.online-policy-block *::after,
+.online-policy-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 60, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 61, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -991,12 +996,13 @@ img {
 .mission-block .container-retreat,
 .values-mission-block .container-retreat,
 .practices-mission-block .container-retreat,
-.ready-form-mission-block .container-retreat {
+.ready-form-mission-block .container-retreat,
+.online-policy-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 64, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 65, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1044,12 +1050,13 @@ img {
   .mission-block .row,
   .values-mission-block .row,
   .practices-mission-block .row,
-  .ready-form-mission-block .row {
+  .ready-form-mission-block .row,
+  .online-policy-block .row {
     margin: 0;
   }
 }
 
-/* line 71, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 72, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1062,7 +1069,7 @@ img {
   width: 100%;
   display: table;
 }
-/* line 82, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 83, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1071,7 +1078,7 @@ img {
   padding-right: 10px;
 }
 
-/* line 89, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 90, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1088,24 +1095,24 @@ img {
   clear: both;
   height: 0;
 }
-/* line 97, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 98, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 101, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 102, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 101, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 102, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 109, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 110, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1121,12 +1128,12 @@ img {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 122, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 123, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 128, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 129, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1137,7 +1144,7 @@ img {
   min-height: 720px;
 }
 
-/* line 137, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 138, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
@@ -6247,7 +6254,7 @@ img {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 46px;
-  padding-bottom: 23px;
+  padding-bottom: 50px;
   position: relative;
 }
 /* line 51, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
@@ -6288,7 +6295,7 @@ img {
 }
 /* line 68, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .title-block .desc-bold {
-  max-width: 880px;
+  max-width: 890px;
   margin: 0 auto;
   padding-top: 23px;
   font-size: 17px;
@@ -6304,7 +6311,7 @@ img {
   color: #313131;
   font-size: 17px;
   line-height: 1.8;
-  max-width: 640px;
+  max-width: 780px;
   margin: 0 auto;
   letter-spacing: -0.5px;
 }
@@ -6359,37 +6366,100 @@ img {
 }
 /* line 131, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .desc-bold {
-  max-width: 880px;
   margin: 0 auto;
-  padding-top: 23px;
+  padding-top: 35px;
   font-size: 17px;
   font-weight: 600;
   line-height: 1.8;
 }
-/* line 144, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
-.online-policy-block .content-block {
-  padding-top: 30px;
+/* line 142, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .desc {
+  text-align: left;
 }
-/* line 146, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 144, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .desc p {
+  padding-bottom: 24px;
+  line-height: 1.74;
+  font-size: 14px;
+}
+/* line 148, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 152, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .label-block .desc p.before-ul {
+  padding-bottom: 0;
+}
+/* line 159, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block {
+  padding-top: 25px;
+}
+/* line 162, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block.content-block-list {
+  padding-top: 15px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dedede;
+}
+/* line 166, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block.content-block-list .desc {
+  padding-top: 20px;
+}
+/* line 168, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block.content-block-list .desc p {
+  padding-bottom: 20px;
+}
+/* line 172, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block.content-block-list .list-desc {
+  text-align: left;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+/* line 180, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block.content-block-list .list {
+  padding-top: 20px;
+  text-align: left;
+  max-width: 520px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 640px) {
+  /* line 180, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block.content-block-list .list {
+    padding-left: 20px;
+  }
+}
+/* line 188, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block.content-block-list .list ul {
+  list-style-type: decimal;
+}
+/* line 191, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block.content-block-list .list ul li {
+  line-height: 1.44;
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+/* line 200, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc {
   text-align: left;
 }
-/* line 148, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 202, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc p {
   padding-bottom: 24px;
   line-height: 1.74;
   font-size: 14px;
 }
-/* line 152, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 206, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc p a {
   color: #984089;
   text-decoration: underline;
 }
-/* line 156, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 210, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc p.before-ul {
   padding-bottom: 0;
 }
-/* line 160, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 214, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc ul {
   padding-top: 5px;
   line-height: 2.04;
@@ -6399,52 +6469,78 @@ img {
   list-style-type: upper-roman;
   list-style-position: inside;
 }
-/* line 173, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 227, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block {
-  padding: 25px 20px 0;
+  padding: 22px 20px 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 173, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 227, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block .list-block {
     padding: 20px 10px 0;
   }
 }
-/* line 178, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 232, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block:last-of-type {
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 178, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 232, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block .list-block:last-of-type {
     padding-left: 10px;
   }
 }
-/* line 186, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 240, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block:last-of-type p {
   width: 100%;
 }
-/* line 190, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 244, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block p {
   padding-bottom: 22px;
-  line-height: 1.44;
+  line-height: 1.68;
   font-size: 15px;
   text-align: left;
 }
-/* line 197, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 251, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 17px;
 }
-/* line 204, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
-.online-policy-block .content-block .list {
+/* line 259, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc {
   text-align: left;
+  padding-bottom: 10px;
 }
-/* line 206, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
-.online-policy-block .content-block .list ul {
-  list-style-type: decimal;
+/* line 262, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .title {
+  padding-top: 40px;
+  color: #000000;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+/* line 269, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .desc {
+  padding-top: 14px;
+  line-height: 1.68;
+  font-size: 14px;
+}
+/* line 273, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .desc a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 278, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block {
+  padding-top: 30px;
+}
+/* line 280, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table-title {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
 }
 
-/* line 215, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 289, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-bg-block {
   background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
   min-height: 430px;
