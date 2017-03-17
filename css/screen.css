@@ -6539,8 +6539,103 @@ img {
   font-size: 13px;
   letter-spacing: 0.5px;
 }
+/* line 285, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table {
+  padding-top: 30px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.online-policy-block .content-block-desc .table-block .table:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 288, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-col {
+  background-color: #e5e5e5;
+  display: inline-block;
+  float: left;
+}
+/* line 292, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-col.cookie-col {
+  width: 20%;
+}
+@media screen and (max-width: 640px) {
+  /* line 292, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block-desc .table-block .table .table-col.cookie-col {
+    width: 100%;
+  }
+}
+/* line 297, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-col.cookie-col .table-cell {
+  padding-left: 30px;
+}
+@media screen and (max-width: 640px) {
+  /* line 297, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block-desc .table-block .table .table-col.cookie-col .table-cell {
+    padding-left: 10px;
+  }
+}
+/* line 304, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-col.name-col {
+  width: 30%;
+}
+@media screen and (max-width: 640px) {
+  /* line 304, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block-desc .table-block .table .table-col.name-col {
+    width: 100%;
+  }
+}
+/* line 310, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-col.purpose-col {
+  width: 50%;
+}
+@media screen and (max-width: 640px) {
+  /* line 310, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block-desc .table-block .table .table-col.purpose-col {
+    width: 100%;
+  }
+}
+/* line 315, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-col.purpose-col .table-cell {
+  padding-right: 30px;
+}
+@media screen and (max-width: 640px) {
+  /* line 315, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  .online-policy-block .content-block-desc .table-block .table .table-col.purpose-col .table-cell {
+    padding-right: 10px;
+  }
+}
+/* line 323, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-row {
+  border-bottom: 1px solid #ffffff;
+  min-height: 50px;
+  display: table;
+  width: 100%;
+}
+/* line 329, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-row:last-of-type {
+  border-bottom: 0 none;
+}
+/* line 333, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-cell {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.2;
+}
+/* line 341, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+.online-policy-block .content-block-desc .table-block .table .table-cell.table-head {
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+}
 
-/* line 289, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 351, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-bg-block {
   background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
   min-height: 430px;
