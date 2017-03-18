@@ -739,7 +739,14 @@ img {
 .values-mission-block,
 .practices-mission-block,
 .ready-form-mission-block,
-.online-policy-block {
+.online-policy-block,
+.header-meds-block,
+.intro-meds-block,
+.dangerous-meds-block,
+.pharmaceutical-meds-block,
+.avoid-meds-block,
+.desc-meds-block,
+.ready-form-meds-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -792,11 +799,18 @@ img {
   .values-mission-block,
   .practices-mission-block,
   .ready-form-mission-block,
-  .online-policy-block {
+  .online-policy-block,
+  .header-meds-block,
+  .intro-meds-block,
+  .dangerous-meds-block,
+  .pharmaceutical-meds-block,
+  .avoid-meds-block,
+  .desc-meds-block,
+  .ready-form-meds-block {
     overflow-x: hidden;
   }
 }
-/* line 55, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 62, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -941,14 +955,35 @@ img {
 .ready-form-mission-block *::before,
 .online-policy-block *,
 .online-policy-block *::after,
-.online-policy-block *::before {
+.online-policy-block *::before,
+.header-meds-block *,
+.header-meds-block *::after,
+.header-meds-block *::before,
+.intro-meds-block *,
+.intro-meds-block *::after,
+.intro-meds-block *::before,
+.dangerous-meds-block *,
+.dangerous-meds-block *::after,
+.dangerous-meds-block *::before,
+.pharmaceutical-meds-block *,
+.pharmaceutical-meds-block *::after,
+.pharmaceutical-meds-block *::before,
+.avoid-meds-block *,
+.avoid-meds-block *::after,
+.avoid-meds-block *::before,
+.desc-meds-block *,
+.desc-meds-block *::after,
+.desc-meds-block *::before,
+.ready-form-meds-block *,
+.ready-form-meds-block *::after,
+.ready-form-meds-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 61, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 68, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -997,12 +1032,19 @@ img {
 .values-mission-block .container-retreat,
 .practices-mission-block .container-retreat,
 .ready-form-mission-block .container-retreat,
-.online-policy-block .container-retreat {
+.online-policy-block .container-retreat,
+.header-meds-block .container-retreat,
+.intro-meds-block .container-retreat,
+.dangerous-meds-block .container-retreat,
+.pharmaceutical-meds-block .container-retreat,
+.avoid-meds-block .container-retreat,
+.desc-meds-block .container-retreat,
+.ready-form-meds-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 65, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 72, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1051,12 +1093,19 @@ img {
   .values-mission-block .row,
   .practices-mission-block .row,
   .ready-form-mission-block .row,
-  .online-policy-block .row {
+  .online-policy-block .row,
+  .header-meds-block .row,
+  .intro-meds-block .row,
+  .dangerous-meds-block .row,
+  .pharmaceutical-meds-block .row,
+  .avoid-meds-block .row,
+  .desc-meds-block .row,
+  .ready-form-meds-block .row {
     margin: 0;
   }
 }
 
-/* line 72, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 79, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1069,7 +1118,7 @@ img {
   width: 100%;
   display: table;
 }
-/* line 83, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 90, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1078,7 +1127,7 @@ img {
   padding-right: 10px;
 }
 
-/* line 90, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 97, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1095,24 +1144,24 @@ img {
   clear: both;
   height: 0;
 }
-/* line 98, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 105, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 102, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 109, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 102, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 109, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 110, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 117, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1128,12 +1177,12 @@ img {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 123, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 130, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 129, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 136, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1144,7 +1193,7 @@ img {
   min-height: 720px;
 }
 
-/* line 138, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 145, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
@@ -6226,30 +6275,8 @@ img {
     font-size: 35px;
   }
 }
-/* line 24, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
-.header-online-policy-block .title-block .title-description {
-  font-family: "Open Sans", sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 700;
-  padding-top: 55px;
-  letter-spacing: 1.2px;
-}
-@media screen and (max-width: 768px) {
-  /* line 24, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
-  .header-online-policy-block .title-block .title-description {
-    font-size: 26px;
-  }
-}
-@media screen and (max-width: 640px) {
-  /* line 24, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
-  .header-online-policy-block .title-block .title-description {
-    font-size: 22px;
-  }
-}
 
-/* line 44, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 28, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block {
   text-align: center;
   background-color: #eeeeee;
@@ -6257,18 +6284,18 @@ img {
   padding-bottom: 50px;
   position: relative;
 }
-/* line 51, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 35, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .container-terms {
   max-width: 940px;
 }
 @media screen and (max-width: 768px) {
-  /* line 54, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 38, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 42, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .title-block .title {
   color: #984089;
   text-transform: uppercase;
@@ -6276,24 +6303,24 @@ img {
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
-  /* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 42, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 42, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 58, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 42, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 68, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 52, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .title-block .desc-bold {
   max-width: 890px;
   margin: 0 auto;
@@ -6302,11 +6329,11 @@ img {
   font-weight: 600;
   line-height: 1.8;
 }
-/* line 75, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 59, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .title-block .desc-bold p {
   padding-bottom: 30px;
 }
-/* line 79, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 63, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .title-block .desc {
   color: #313131;
   font-size: 17px;
@@ -6316,30 +6343,30 @@ img {
   letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 79, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 63, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 79, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 63, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 91, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 75, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .title-block .desc p {
   padding-bottom: 30px;
 }
-/* line 94, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 78, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .title-block .desc a {
   color: #984089;
 }
-/* line 101, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 85, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .line-label {
   position: relative;
 }
-/* line 104, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 88, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -6351,7 +6378,7 @@ img {
   left: 0;
   top: 15px;
 }
-/* line 115, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 99, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .line-label .label-title {
   background-color: #eeeeee;
   color: #7c7c7c;
@@ -6364,7 +6391,7 @@ img {
   margin: 0 auto;
   min-width: 320px;
 }
-/* line 131, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 115, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .desc-bold {
   margin: 0 auto;
   padding-top: 35px;
@@ -6372,44 +6399,44 @@ img {
   font-weight: 600;
   line-height: 1.8;
 }
-/* line 142, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 126, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .desc {
   text-align: left;
 }
-/* line 144, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 128, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .desc p {
   padding-bottom: 24px;
   line-height: 1.74;
   font-size: 14px;
 }
-/* line 148, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 132, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .desc p a {
   color: #984089;
   text-decoration: underline;
 }
-/* line 152, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 136, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .label-block .desc p.before-ul {
   padding-bottom: 0;
 }
-/* line 159, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 143, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block {
   padding-top: 25px;
 }
-/* line 162, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 146, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block.content-block-list {
   padding-top: 15px;
   padding-bottom: 40px;
   border-bottom: 1px solid #dedede;
 }
-/* line 166, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 150, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block.content-block-list .desc {
   padding-top: 20px;
 }
-/* line 168, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 152, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block.content-block-list .desc p {
   padding-bottom: 20px;
 }
-/* line 172, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 156, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block.content-block-list .list-desc {
   text-align: left;
   color: #000000;
@@ -6417,7 +6444,7 @@ img {
   font-weight: 600;
   letter-spacing: -0.2px;
 }
-/* line 180, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 164, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block.content-block-list .list {
   padding-top: 20px;
   text-align: left;
@@ -6425,41 +6452,41 @@ img {
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 180, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 164, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block.content-block-list .list {
     padding-left: 20px;
   }
 }
-/* line 188, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 172, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block.content-block-list .list ul {
   list-style-type: decimal;
 }
-/* line 191, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 175, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block.content-block-list .list ul li {
   line-height: 1.44;
   font-size: 14px;
   padding-bottom: 12px;
 }
-/* line 200, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 184, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc {
   text-align: left;
 }
-/* line 202, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 186, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc p {
   padding-bottom: 24px;
   line-height: 1.74;
   font-size: 14px;
 }
-/* line 206, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 190, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc p a {
   color: #984089;
   text-decoration: underline;
 }
-/* line 210, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 194, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc p.before-ul {
   padding-bottom: 0;
 }
-/* line 214, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 198, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .desc ul {
   padding-top: 5px;
   line-height: 2.04;
@@ -6469,48 +6496,48 @@ img {
   list-style-type: upper-roman;
   list-style-position: inside;
 }
-/* line 227, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 211, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block {
   padding: 22px 20px 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 227, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 211, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block .list-block {
     padding: 20px 10px 0;
   }
 }
-/* line 232, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 216, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block:last-of-type {
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 232, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 216, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block .list-block:last-of-type {
     padding-left: 10px;
   }
 }
-/* line 240, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 224, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block:last-of-type p {
   width: 100%;
 }
-/* line 244, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 228, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block p {
   padding-bottom: 22px;
   line-height: 1.68;
   font-size: 15px;
   text-align: left;
 }
-/* line 251, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 235, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 17px;
 }
-/* line 259, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 243, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc {
   text-align: left;
   padding-bottom: 10px;
 }
-/* line 262, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 246, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .title {
   padding-top: 40px;
   color: #000000;
@@ -6518,28 +6545,28 @@ img {
   font-weight: 600;
   letter-spacing: -0.2px;
 }
-/* line 269, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 253, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .desc {
   padding-top: 14px;
   line-height: 1.68;
   font-size: 14px;
 }
-/* line 273, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 257, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .desc a {
   color: #984089;
   text-decoration: underline;
 }
-/* line 278, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 262, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block {
   padding-top: 30px;
 }
-/* line 280, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 264, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table-title {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 0.5px;
 }
-/* line 285, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 269, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table {
   padding-top: 30px;
 }
@@ -6551,74 +6578,74 @@ img {
   clear: both;
   height: 0;
 }
-/* line 288, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 272, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-col {
   background-color: #e5e5e5;
   display: inline-block;
   float: left;
 }
-/* line 292, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 276, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-col.cookie-col {
   width: 20%;
 }
 @media screen and (max-width: 640px) {
-  /* line 292, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 276, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block-desc .table-block .table .table-col.cookie-col {
     width: 100%;
   }
 }
-/* line 297, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 281, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-col.cookie-col .table-cell {
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 297, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 281, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block-desc .table-block .table .table-col.cookie-col .table-cell {
     padding-left: 10px;
   }
 }
-/* line 304, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 288, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-col.name-col {
   width: 30%;
 }
 @media screen and (max-width: 640px) {
-  /* line 304, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 288, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block-desc .table-block .table .table-col.name-col {
     width: 100%;
   }
 }
-/* line 310, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 294, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-col.purpose-col {
   width: 50%;
 }
 @media screen and (max-width: 640px) {
-  /* line 310, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 294, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block-desc .table-block .table .table-col.purpose-col {
     width: 100%;
   }
 }
-/* line 315, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 299, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-col.purpose-col .table-cell {
   padding-right: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 315, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+  /* line 299, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
   .online-policy-block .content-block-desc .table-block .table .table-col.purpose-col .table-cell {
     padding-right: 10px;
   }
 }
-/* line 323, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 307, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-row {
   border-bottom: 1px solid #ffffff;
   min-height: 50px;
   display: table;
   width: 100%;
 }
-/* line 329, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 313, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-row:last-of-type {
   border-bottom: 0 none;
 }
-/* line 333, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 317, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-cell {
   display: table-cell;
   text-align: left;
@@ -6628,15 +6655,658 @@ img {
   padding-right: 10px;
   line-height: 1.2;
 }
-/* line 341, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 325, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-block .content-block-desc .table-block .table .table-cell.table-head {
   font-weight: 600;
   color: #000000;
   font-size: 14px;
 }
 
-/* line 351, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
+/* line 335, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .online-policy-bg-block {
   background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
   min-height: 430px;
+}
+
+/* line 1, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.header-meds-block {
+  background-image: url("../img/meds-to-avoid-header.jpg");
+}
+/* line 4, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.header-meds-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600;
+  max-width: 450px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 4, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .header-meds-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .header-meds-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 4, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .header-meds-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+
+/* line 26, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  position: relative;
+}
+/* line 27, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .container-meds {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 35, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 40, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .title-block .title {
+  max-width: 825px;
+  margin: 0 auto;
+  color: #eb5449;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.44;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 40, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 40, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 40, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 52, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .title-block .desc-bold {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.68;
+}
+/* line 59, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .title-block .desc-bold p {
+  padding-bottom: 15px;
+}
+/* line 61, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .title-block .desc-bold p.sec-line {
+  max-width: 590px;
+  margin: 0 auto;
+}
+/* line 68, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .img-block {
+  padding-top: 30px;
+}
+/* line 70, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .img-block img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 75, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .content-block {
+  padding-top: 35px;
+}
+/* line 77, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .content-block .title {
+  color: #eb5449;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.44;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 77, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .content-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 77, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .content-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 77, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .content-block .title {
+    font-size: 21px;
+  }
+}
+/* line 87, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .content-block .desc {
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: 20px;
+  color: #313131;
+  line-height: 1.44;
+}
+@media screen and (max-width: 768px) {
+  /* line 87, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .content-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 87, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .intro-meds-block .content-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 98, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .content-block .desc .bold-style {
+  font-size: 18px;
+  font-weight: 700;
+}
+/* line 102, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.intro-meds-block .content-block .desc p {
+  font-weight: 600;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+/* line 111, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.dangerous-meds-block {
+  background-color: #eb5449;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+/* line 116, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.dangerous-meds-block .container-mission {
+  max-width: 780px;
+}
+/* line 119, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.dangerous-meds-block .title-block {
+  text-align: center;
+  position: relative;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.32;
+  letter-spacing: 0.8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 129, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.dangerous-meds-block .desc {
+  padding-top: 32px;
+  font-size: 17px;
+  line-height: 1.44;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  /* line 129, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .dangerous-meds-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 129, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .dangerous-meds-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 138, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.dangerous-meds-block .desc .sec-line .bold-style {
+  display: inline-block;
+  width: 100%;
+}
+/* line 143, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.dangerous-meds-block .desc .bold-style {
+  font-size: 18px;
+}
+/* line 146, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.dangerous-meds-block .desc p {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+/* line 160, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #eeeeee;
+}
+/* line 164, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .container-meds {
+  max-width: 1340px;
+}
+/* line 167, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .title-block {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+/* line 172, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .title-block .title {
+  font-size: 24px;
+  line-height: 1.44;
+}
+/* line 177, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .content-block {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+@media screen and (max-width: 640px) {
+  /* line 177, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .pharmaceutical-meds-block .content-block {
+    width: 100%;
+  }
+}
+/* line 184, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .content-block .list-block {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+@media screen and (max-width: 640px) {
+  /* line 184, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .pharmaceutical-meds-block .content-block .list-block {
+    width: 100%;
+  }
+}
+/* line 192, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .content-block .list-block .title {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+/* line 197, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .content-block .list-block .list {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+/* line 200, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.pharmaceutical-meds-block .content-block .list-block .list li {
+  font-size: 13px;
+  line-height: 1.44;
+}
+
+/* line 208, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block {
+  background-color: #ffffff;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+/* line 212, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .container-avoid {
+  max-width: 900px;
+}
+/* line 215, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .title-block {
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #eb5449;
+  font-weight: 600;
+  line-height: 1.44;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 228, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .content-block {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 26%;
+}
+@media screen and (max-width: 640px) {
+  /* line 228, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .avoid-meds-block .content-block {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+}
+/* line 243, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .content-block:nth-of-type(2) {
+  width: 45%;
+}
+/* line 247, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .content-block:nth-of-type(2) .item-block {
+  max-width: 160px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 640px) {
+  /* line 247, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .avoid-meds-block .content-block:nth-of-type(2) .item-block {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 243, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+  .avoid-meds-block .content-block:nth-of-type(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+}
+/* line 259, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .content-block:last-of-type {
+  text-align: right;
+  float: right;
+}
+/* line 266, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .content-block .desc-red {
+  padding-bottom: 0;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  padding-top: 10px;
+  line-height: 1.32;
+}
+/* line 274, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.avoid-meds-block .content-block p {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+/* line 280, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 15px;
+  padding-bottom: 45px;
+  position: relative;
+}
+/* line 287, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .container-meds {
+  max-width: 800px;
+}
+/* line 290, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block {
+  line-height: 1.32;
+  font-size: 14px;
+  padding-top: 25px;
+  text-align: justify;
+}
+/* line 296, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block .bold-style {
+  font-weight: 800;
+}
+/* line 299, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block .desc-red {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.68;
+  padding-bottom: 50px;
+  text-align: left;
+  max-width: 750px;
+}
+/* line 308, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block p {
+  padding-bottom: 20px;
+}
+/* line 311, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 316, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block-desc {
+  text-align: justify;
+  padding-bottom: 10px;
+  border-top: 1px solid #dedede;
+  padding-top: 40px;
+}
+/* line 321, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block-desc .title {
+  text-align: left;
+  color: #984089;
+  font-size: 20px;
+  line-height: 1.44;
+  font-weight: 600;
+}
+/* line 330, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block-desc .desc {
+  padding-top: 20px;
+  line-height: 1.68;
+  font-size: 15px;
+}
+/* line 334, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block-desc .desc a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 338, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block-desc .desc p {
+  padding-bottom: 20px;
+}
+/* line 342, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.desc-meds-block .content-block-desc .desc-red {
+  line-height: 1.56;
+  font-size: 16px;
+}
+
+/* line 348, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block {
+  position: relative;
+  background-color: #984089;
+  background-position: top center;
+  min-height: 360px;
+  background-size: cover;
+  text-align: center;
+}
+/* line 356, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .container-form {
+  max-width: 600px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.ready-form-meds-block .container-form:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 360, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .title-block {
+  padding-top: 60px;
+  color: #ffffff;
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+/* line 368, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .desc {
+  padding-top: 25px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+/* line 374, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .desc p {
+  padding-bottom: 10px;
+}
+/* line 378, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .yawanawa-form {
+  padding-top: 25px;
+  max-width: 475px;
+  margin: 0 auto;
+}
+/* line 383, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item-pair {
+  margin: 0 auto;
+}
+/* line 392, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select,
+.ready-form-meds-block .form-item input[type="text"],
+.ready-form-meds-block .form-item input[type="tel"],
+.ready-form-meds-block .form-item input[type="email"],
+.ready-form-meds-block .form-item input[type="url"],
+.ready-form-meds-block .form-item input[type="password"],
+.ready-form-meds-block .form-item input[type="search"] {
+  text-transform: uppercase;
+  font-size: 12px;
+  border-color: rgba(238, 238, 238, 0.8);
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 402, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="text"]::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="email"]::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="url"]::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="password"]::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="search"]::-webkit-input-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 403, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="text"]::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="email"]::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="url"]::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="password"]::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="search"]::-moz-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 404, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="text"]:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="email"]:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="url"]:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="password"]:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="search"]:-moz-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 405, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="text"]:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="email"]:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="url"]:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="password"]:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="search"]:-ms-input-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 406, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select:focus,
+.ready-form-meds-block .form-item input[type="text"]:focus,
+.ready-form-meds-block .form-item input[type="tel"]:focus,
+.ready-form-meds-block .form-item input[type="email"]:focus,
+.ready-form-meds-block .form-item input[type="url"]:focus,
+.ready-form-meds-block .form-item input[type="password"]:focus,
+.ready-form-meds-block .form-item input[type="search"]:focus {
+  border-color: white;
+  outline: none;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 409, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select:focus::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="email"]:focus::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="url"]:focus::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="password"]:focus::-webkit-input-placeholder,
+.ready-form-meds-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 410, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select:focus::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="text"]:focus::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]:focus::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="email"]:focus::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="url"]:focus::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="password"]:focus::-moz-placeholder,
+.ready-form-meds-block .form-item input[type="search"]:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 411, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select:focus:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="text"]:focus:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]:focus:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="email"]:focus:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="url"]:focus:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="password"]:focus:-moz-placeholder,
+.ready-form-meds-block .form-item input[type="search"]:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 412, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-item select:focus:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="text"]:focus:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="email"]:focus:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="url"]:focus:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="password"]:focus:-ms-input-placeholder,
+.ready-form-meds-block .form-item input[type="search"]:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 417, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .form-actions {
+  padding-top: 10px;
+}
+/* line 420, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .btn {
+  color: #e09f8b;
+  padding: 10px 10px;
+  background: none;
+  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border-image-slice: 1;
+}
+/* line 425, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
+.ready-form-meds-block .btn:hover {
+  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  border-image-slice: 1;
 }
