@@ -1,0 +1,44 @@
+{% include "header_block" %}
+<div id="sentence-connect-block" class="block-scroll block-scroll-connect sentence-connect-block default">
+  <div class="container container-connect">
+    <div class="row">
+      <div class="title-block">
+        <h2 class="title">Connect</h2>
+        <div class="desc"><p>Feel free to write me a message here, or email me at  <a href="mailto:dennis@sacredjourney.earth">dennis@sacredjourney.earth</a></p>
+          <p>I look forward to hearing from you!</p>
+        </div>
+      </div>
+      <div class="form-block">
+        <div class="line-label"></div>
+        <form class="yawanawa-form form-grey" action="#">
+          <div class="col-form col-form-left">
+            <div class="form-item">
+              <input type="text" name="first-name" id="first-name" placeholder="First name">
+            </div>
+            <div class="form-item">
+              <input type="text" name="last-name" id="last-name" placeholder="Last name">
+            </div>
+            <div class="form-item">
+              <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="col-form col-form-right">
+            <div class="form-item">
+              <input type="text" name="subject" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-item">
+              <textarea type="textarea" name="message" id="message" placeholder="Message"></textarea>
+            </div>
+            <div class="form-actions">
+              <button  class="btn link-more">Submit</button>
+            </div>
+          </div>
+        </form>
+        <script src="https://sacredjourney.mykajabi.com/forms/16333/embed.js"></script>
+      </div>
+      {{ page.content }}
+    </div>
+  </div>
+  {% include "scroll_up_block" %}
+</div>
+{% include "ready_form_block" %}

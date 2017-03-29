@@ -1,0 +1,14 @@
+<div id="header-block" class="header-block header-terms-block"  style="background-image :url('{{ 'terms-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+  </div>
+</div>
+<div id="sentence-terms-block" class="block-scroll sentence-terms-block default" >
+  <div class="container container-terms">
+    <div class="row">
+      {{ page.content }}
+      </div>
+    </div>
+  {% include "scroll_up_block" %}
+  </div>
+{% include "ready_form_block" %}

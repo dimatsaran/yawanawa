@@ -1,0 +1,98 @@
+<div class="social-block">
+    <div class="container">
+        <div class="sharethis-inline-share-buttons"></div>
+    </div>
+</div>
+<footer class="footer" style="background-image :url('{{ 'bg-bottom.png' | asset_url | img_tag }}')">
+    <div class="container-fluid">
+        <div class="row reorder-md">
+            <div class="col-xs-12">
+                <a href="#">Connect</a>
+            </div>
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-md-3 col-md-push-9 col-sm-12">
+                            <div class="row">
+                                <form id="login" action="#" method="POST" autocomplete="off">
+                                    <div class="col-md-12 col-sm-4 col-ms-6">
+                                        <input type="text" name="login" placeholder="LOGIN" required />
+                                    </div>
+                                    <div class="col-md-12 col-sm-4 col-ms-6">
+                                        <input type="password" name="password" placeholder="PASSWORD" required />
+                                    </div>
+                                    <div class="col-md-12 col-sm-4 col-ms-12">
+                                        <input type="submit" value="Log In" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-md-pull-3 col-sm-4">
+                            <h6>SacredJourney.Earth</h6>
+                            <ul>
+                                <li>Mission, Values and Practices</li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Cancellation Policy</a></li>
+                                <li><a href="#">Terms of Privacy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-md-pull-3 col-sm-4">
+                            <h6>Offerings</h6>
+                            <ul>
+                                <li><a href="#">Online Yoga & Meditation</a></li>
+                                <li><a href="#">Soma Immersion Retreat</a></li>
+                                <li><a href="#">Journey to the Yawanawá</a></li>
+                                <li><a href="#">Calendar</a></li>
+                                <li><a href="#">E-Course</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-md-pull-3 col-sm-4">
+                            <h6>Just for you</h6>
+                            <ul>
+                                <li><a href="#">Personal Consultation</a></li>
+                                <li><a href="#">Private Ceremonies</a></li>
+                                <li><a href="#">Customized retreats</a></li>
+                                <li><a href="#">Connect</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--<footer class="footer">-->
+<!--    <div class="container">-->
+<!--        {% if settings.show_footer_logo %}-->
+<!--            <img kjb-settings-id="logo_header_png" class="logo" src="{{ 'logo_header.png' | asset_url }}">-->
+<!--        {% endif %}-->
+<!--        <p kjb-settings-id="copyright" class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i>-->
+<!--            {{ settings.copyright }}</p>-->
+<!--        {% if settings.show_footer_menu %}-->
+<!--            <div kjb-settings-id="footer_menu" class="footer-menu">-->
+<!--                {% for link in current_site.link_lists[settings.footer_menu].links %}-->
+<!--                    <a href="{{ link.url }}">{{ link.name }}</a>-->
+<!--                {% endfor %}-->
+<!--            </div>-->
+<!--        {% endif %}-->
+<!--    </div>-->
+<!--</footer>-->
+<!--<div class="footer-2">-->
+<!--    <div class="container">-->
+<!--        {% include "payment" %}-->
+<!--        <span class="powered-by">-->
+<!--      {% if current_site_user %}-->
+<!--          <a href="/library">My Library</a>-->
+<!--          <span kjb-settings-id="language_settings">{{ settings.language_settings | member_settings_link }}</span>-->
+<!--          <span kjb-settings-id="language_logout">{{ settings.language_logout | member_logout_link }}</span>-->
+<!--      {% else %}-->
+<!--          <span kjb-settings-id="language_login">{{ settings.language_login | member_login_link }}</span>-->
+<!--      {% endif %}-->
+<!--            {% if current_site.display_powered_by_link? %}-->
+<!--                {{ powered_by_link }}-->
+<!--            {% endif %}-->
+<!--    </div>-->
+<!--</div>-->
+</div>

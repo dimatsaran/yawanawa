@@ -1,0 +1,33 @@
+{% comment %}
+we use this page to bootstrap a custom page for pages.
+The else statement is used to hold the default content of this page.
+{% endcomment %}
+{% if page.id == 37162 %}
+{% include "page_private_ceremony" %}
+{% elsif page.id == 36129 %}
+{% include "page_personal_consultation" %}
+{% elsif page.id == 46908 %}
+{% include "page_soma_reatreat" %}
+{% elsif page.id == 46909 %}
+{% include "page_yawanawa_retreat" %}
+{% elsif page.id == 37156 %}
+{% include "page_calendar" %}
+{% elsif page.id == 28920 %}
+{% include "page_connect" %}
+{% elsif page.id == 28532 %}
+{% include "page_terms" %}
+{% elsif page.id == 28533 %}
+{% include "page_privacy" %}
+{% elsif page.id == 53265 %}
+  {% include "page_mission_values" %}
+{% elsif page.id == 53266 %}
+  {% include "page_meds_to_avoid" %}
+{% else %}
+<div class="container">
+  <div class="page">
+    <h1>{{ page.title }}</h1>
+    <div class="bar"></div>
+    {{ page.content }}
+  </div>
+</div>
+{% endif %}

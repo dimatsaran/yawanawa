@@ -1,0 +1,74 @@
+{% if page.id == 37162 %}
+<!--{% include "page_private_ceremony" %}-->
+<div id="header-block" class="header-block header-terms-block" style="background-image :url('{{ 'terms-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+  </div>
+</div>
+{% elsif page.id == 36129 %}
+  <div id="header-block"  class="header-block header-personal-block" style="background-image :url('{{ 'personal-consultations-bg-header.jpg' | asset_url | img_tag }}')">
+    <div class="title-block">
+      <h1 class="site-label">{{ page.title }}</h1>
+      {% include "scroll_bottom_block" %}
+    </div>
+  </div>
+{% elsif page.id == 46908 %}
+  <div id="header-block"  class="header-block header-soma-retreat-block" style="background-image :url('{{ 'soma-retreat-bg.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+    <p class="title-description">A Jorney in Tepoztlán, Mexico</p>
+    {% include "scroll_bottom_block" %}
+  </div>
+</div>
+{% elsif page.id == 46909 %}
+  <div id="header-block" class="header-block header-yawa-retreat-block" style="background-image :url('{{ 'yawa-retreat-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+    <p class="title-description">Amazon, Brazil</p>
+    {% include "scroll_bottom_block" %}
+  </div>
+</div>
+{% elsif page.id == 37156 %}
+<!--{% include "page_calendar" %}-->
+<div id="header-block" class="header-block header-terms-block" style="background-image :url('{{ 'terms-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+  </div>
+</div>
+{% elsif page.id == 28920 %}
+  <div id="header-block" class="header-block header-connect-block" style="background-image :url('{{ 'connect-header.jpg' | asset_url | img_tag }}')">
+    <div class="title-block">
+      <h1 class="site-label">{{ page.title }}</h1>
+    </div>
+  </div>
+{% elsif page.id == 28532 %}
+  <div id="header-block" class="header-block header-terms-block" style="background-image :url('{{ 'terms-header.jpg' | asset_url | img_tag }}')">
+    <div class="title-block">
+      <h1 class="site-label">{{ page.title }}</h1>
+    </div>
+  </div>
+{% elsif page.id == 28533 %}
+  <div id="header-online-policy-block" class="header-block header-online-policy-block" style="background-image :url('{{ 'online-privat-policy-header.jpg' | asset_url | img_tag }}')">
+    <div class="title-block">
+      <h1 class="site-label">{{ page.title }}</h1>
+    </div>
+  </div>
+{% elsif page.id == 53265 %}
+  <div id="header-block" class="header-block header-mission-block" style="background-image :url('{{ 'mission-header.jpg' | asset_url | img_tag }}')">
+    <div class="title-block">
+      <h1 class="site-label">{{ page.title }}</h1>
+    </div>
+  </div>
+{% elsif page.id == 53266 %}
+  <div id="header-meds-block" class="header-block header-meds-block"  style="background-image :url('{{ 'meds-to-avoid-header.jpg' | asset_url | img_tag }}')">
+    <div class="title-block">
+      <h1 class="site-label">{{ page.title }}</h1>
+    </div>
+  </div>
+{% else %}
+<div id="header-block" class="header-block header-terms-block" style="background-image :url('{{ 'terms-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+  </div>
+</div>
+{% endif %}
