@@ -142,9 +142,28 @@ a.logo {
 	letter-spacing: 0.01px;
 	padding: 16px 12px;
 }
+.footer input[type="text"]:focus::-webkit-input-placeholder { color:transparent; }
+.footer input[type="text"]:focus:-moz-placeholder { color:transparent; }
+.footer input[type="text"]:focus::-moz-placeholder { color:transparent; }
+.footer input[type="text"]:focus:-ms-input-placeholder { color:transparent; }
+.footer input[type="password"]:focus::-webkit-input-placeholder { color:transparent; }
+.footer input[type="password"]:focus:-moz-placeholder { color:transparent; }
+.footer input[type="password"]:focus::-moz-placeholder { color:transparent; }
+.footer input[type="password"]:focus:-ms-input-placeholder { color:transparent; }
 .footer input[type="submit"] {
 	background-color: transparent;
-	border: 1px solid #c47965;
+	border-left: 1px solid #e09f8b;
+	border-right: 1px solid #b4634f;
+	border-top: none;
+	border-bottom: none;
+	background-image: -webkit-gradient(linear, left, right, from(#e09f8b), to(#b4634f)), -webkit-gradient(linear, left, right, from(#e09f8b), to(#b4634f));
+	background-image: -webkit-linear-gradient(left, #e09f8b, #b4634f), -webkit-linear-gradient(left, #e09f8b, #b4634f);
+	background-image: -moz-linear-gradient(right, #e09f8b, #b4634f), -moz-linear-gradient(right, #e09f8b, #b4634f);
+	background-image: -o-linear-gradient(right, #e09f8b, #b4634f), -o-linear-gradient(right, #e09f8b, #b4634f);
+	background-image: linear-gradient(to right, #e09f8b, #b4634f), linear-gradient(to right, #e09f8b, #b4634f);
+	background-size: 100% 1px;
+	background-position: 0 0, 100% 100%;
+	background-repeat: no-repeat;
 	font-family: "OpenSansRegular", sans-serif;
 	font-size: 16px;
 	color: #e09f8b;
@@ -160,6 +179,9 @@ a.logo {
 .footer input[type="submit"]:hover {
 	background-color: #c47965;
 	color: #eeeeee;
+}
+.footer input:focus {
+	outline: none;
 }
 .footer .row.reorder-md .col-xs-12:first-child {
 	padding: 0;
