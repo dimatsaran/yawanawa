@@ -652,7 +652,7 @@ img {
 
 /* form-custom-block */
 /* line 150, ../assets/scss/partials/elements/_forms.scss */
-.supernova {
+.supernova, .thankyou {
   background-color: transparent;
 }
 
@@ -738,6 +738,7 @@ img {
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
+  margin-bottom: 20px;
   /* border: 0 none;
    background: none;
    -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
@@ -747,7 +748,7 @@ img {
    border-image-slice: 1;*/
 }
 
-/* line 234, ../assets/scss/partials/elements/_forms.scss */
+/* line 235, ../assets/scss/partials/elements/_forms.scss */
 .form-submit-button:hover, .form-submit-button.focus, .form-submit-button:focus {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -772,14 +773,14 @@ img {
   border-image-slice: 1;
 }*/
 /* form input*/
-/* line 259, ../assets/scss/partials/elements/_forms.scss */
+/* line 260, ../assets/scss/partials/elements/_forms.scss */
 ul.form-section.page-section {
   position: relative;
   max-width: 475px;
   margin: 0 auto;
 }
 
-/* line 264, ../assets/scss/partials/elements/_forms.scss */
+/* line 265, ../assets/scss/partials/elements/_forms.scss */
 ul.form-section.page-section:after {
   visibility: hidden;
   display: block;
@@ -788,14 +789,14 @@ ul.form-section.page-section:after {
   height: 0;
 }
 
-/* line 271, ../assets/scss/partials/elements/_forms.scss */
+/* line 272, ../assets/scss/partials/elements/_forms.scss */
 .form-all #id_4, .form-all #id_5 {
   margin: 0 0 5px;
   padding: 0 0 11px;
   position: relative;
 }
 
-/* line 276, ../assets/scss/partials/elements/_forms.scss */
+/* line 277, ../assets/scss/partials/elements/_forms.scss */
 .form-all #id_4, .form-all #id_5 {
   width: 49.5%;
   /*  float: left; */
@@ -818,12 +819,12 @@ ul.form-section.page-section:after {
   position: relative;
 }
 */
-/* line 297, ../assets/scss/partials/elements/_forms.scss */
+/* line 298, ../assets/scss/partials/elements/_forms.scss */
 .form-input-wide.jf-required {
   /*display: block;*/
 }
 
-/* line 301, ../assets/scss/partials/elements/_forms.scss */
+/* line 302, ../assets/scss/partials/elements/_forms.scss */
 .form-textbox {
   width: 100%;
   resize: none;
@@ -843,7 +844,7 @@ ul.form-section.page-section:after {
   border-radius: 0;
 }
 
-/* line 319, ../assets/scss/partials/elements/_forms.scss */
+/* line 320, ../assets/scss/partials/elements/_forms.scss */
 .form-textbox {
   text-transform: uppercase;
   font-size: 12px;
@@ -855,61 +856,61 @@ ul.form-section.page-section:after {
   transition: all ease-out 0.3s;
 }
 
-/* line 330, ../assets/scss/partials/elements/_forms.scss */
+/* line 331, ../assets/scss/partials/elements/_forms.scss */
 input::-webkit-input-placeholder {
   color: #ffffff;
   opacity: 0.5;
 }
 
-/* line 331, ../assets/scss/partials/elements/_forms.scss */
+/* line 332, ../assets/scss/partials/elements/_forms.scss */
 input::-moz-placeholder {
   color: #ffffff;
   opacity: 0.5;
 }
 
 /* Firefox 19+ */
-/* line 332, ../assets/scss/partials/elements/_forms.scss */
+/* line 333, ../assets/scss/partials/elements/_forms.scss */
 input:-moz-placeholder {
   color: #ffffff;
   opacity: 0.5;
 }
 
 /* Firefox 18- */
-/* line 333, ../assets/scss/partials/elements/_forms.scss */
+/* line 334, ../assets/scss/partials/elements/_forms.scss */
 input:-ms-input-placeholder {
   color: #ffffff;
   opacity: 0.5;
 }
 
-/* line 334, ../assets/scss/partials/elements/_forms.scss */
+/* line 335, ../assets/scss/partials/elements/_forms.scss */
 input:focus {
   border-color: rgba(255, 255, 255, 0.8);
   outline: none;
 }
 
-/* line 337, ../assets/scss/partials/elements/_forms.scss */
+/* line 338, ../assets/scss/partials/elements/_forms.scss */
 input:focus::-webkit-input-placeholder {
   color: transparent;
 }
 
-/* line 338, ../assets/scss/partials/elements/_forms.scss */
+/* line 339, ../assets/scss/partials/elements/_forms.scss */
 input:focus::-moz-placeholder {
   color: transparent;
 }
 
 /* Firefox 19+ */
-/* line 339, ../assets/scss/partials/elements/_forms.scss */
+/* line 340, ../assets/scss/partials/elements/_forms.scss */
 input:focus:-moz-placeholder {
   color: transparent;
 }
 
 /* Firefox 18- */
-/* line 340, ../assets/scss/partials/elements/_forms.scss */
+/* line 341, ../assets/scss/partials/elements/_forms.scss */
 input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
-/* line 342, ../assets/scss/partials/elements/_forms.scss */
+/* line 343, ../assets/scss/partials/elements/_forms.scss */
 .form-line-active input:focus,
 .form-line-active textarea:focus {
   border-color: #eeeeee;
@@ -918,13 +919,13 @@ input:focus:-ms-input-placeholder {
   box-shadow: none;
 }
 
-/* line 349, ../assets/scss/partials/elements/_forms.scss */
+/* line 350, ../assets/scss/partials/elements/_forms.scss */
 .form-line.form-line-active {
   background: transparent;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 353, ../assets/scss/partials/elements/_forms.scss */
+  /* line 354, ../assets/scss/partials/elements/_forms.scss */
   .form-all #id_4, .form-all #id_5 {
     width: 100%;
     border-radius: 0;
@@ -1394,11 +1395,12 @@ input:focus:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  min-height: 480px;
   height: 100vh;
   width: 100%;
   display: table;
 }
-/* line 90, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 91, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1407,7 +1409,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 97, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 98, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1424,24 +1426,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 105, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 106, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 109, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 110, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 109, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 110, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 117, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 118, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1457,12 +1459,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 130, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 131, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 136, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 137, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1473,10 +1475,21 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 145, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 146, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
+}
+
+/* line 150, ../assets/scss/partials/blocks/_settings_blocks.scss */
+.ready-form {
+  position: relative;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 432px;
+  background-size: cover;
+  text-align: center;
 }
 
 /* line 1, ../assets/scss/partials/blocks/_blog_all.scss */
@@ -2238,10 +2251,6 @@ input:focus:-ms-input-placeholder {
   font-size: 15px;
 }
 
-/* line 1, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
-.header-yawa-retreat-block {
-  background-image: url("../img/yawa-retreat-header.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_yawanawa_retreat.scss */
 .header-yawa-retreat-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -3257,10 +3266,6 @@ input:focus:-ms-input-placeholder {
   opacity: 1;
 }
 
-/* line 1, ../assets/scss/partials/blocks/_soma_retreat.scss */
-.header-soma-retreat-block {
-  background-image: url("../img/soma-retreat-bg.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .header-soma-retreat-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -4567,10 +4572,6 @@ input:focus:-ms-input-placeholder {
   opacity: 1;
 }
 
-/* line 1, ../assets/scss/partials/blocks/_connect2.scss */
-.header-connect-block {
-  background-image: url("../img/connect-header.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_connect2.scss */
 .header-connect-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -4870,15 +4871,6 @@ input:focus:-ms-input-placeholder {
   }
 }
 
-/* line 173, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block {
-  position: relative;
-  background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
-  background-position: top center;
-  min-height: 432px;
-  background-size: cover;
-  text-align: center;
-}
 /* line 180, ../assets/scss/partials/blocks/_connect2.scss */
 .ready-form-connect-block .container-form {
   max-width: 600px;
@@ -5052,10 +5044,6 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
 }
 
-/* line 1, ../assets/scss/partials/blocks/_personal_consultations3.scss */
-.header-personal-block {
-  background-image: url("../img/personal-consultations-bg-header.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .header-personal-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -5588,10 +5576,6 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 20px;
 }
 
-/* line 1, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.header-terms-block {
-  background-image: url("../img/terms-header.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .header-terms-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -5760,13 +5744,14 @@ input:focus:-ms-input-placeholder {
 /* line 118, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block {
   position: relative;
-  background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
   background-position: top center;
   min-height: 432px;
   background-size: cover;
   text-align: center;
 }
-/* line 126, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 128, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .container-form {
   max-width: 600px;
 }
@@ -5778,7 +5763,7 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 130, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 132, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -5787,7 +5772,7 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 138, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -5795,21 +5780,21 @@ input:focus:-ms-input-placeholder {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 144, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 146, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 148, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 150, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 153, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 155, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 162, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 164, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select,
 .ready-terms-form-block .form-item input[type="text"],
 .ready-terms-form-block .form-item input[type="tel"],
@@ -5823,7 +5808,7 @@ input:focus:-ms-input-placeholder {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 172, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select::-webkit-input-placeholder,
 .ready-terms-form-block .form-item input[type="text"]::-webkit-input-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]::-webkit-input-placeholder,
@@ -5834,7 +5819,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 173, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 175, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select::-moz-placeholder,
 .ready-terms-form-block .form-item input[type="text"]::-moz-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]::-moz-placeholder,
@@ -5845,7 +5830,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 176, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select:-moz-placeholder,
 .ready-terms-form-block .form-item input[type="text"]:-moz-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]:-moz-placeholder,
@@ -5856,7 +5841,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 175, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 177, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select:-ms-input-placeholder,
 .ready-terms-form-block .form-item input[type="text"]:-ms-input-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]:-ms-input-placeholder,
@@ -5867,7 +5852,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 176, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 178, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select:focus,
 .ready-terms-form-block .form-item input[type="text"]:focus,
 .ready-terms-form-block .form-item input[type="tel"]:focus,
@@ -5880,7 +5865,7 @@ input:focus:-ms-input-placeholder {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 179, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 181, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select:focus::-webkit-input-placeholder,
 .ready-terms-form-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
@@ -5890,7 +5875,7 @@ input:focus:-ms-input-placeholder {
 .ready-terms-form-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
   color: transparent;
 }
-/* line 180, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 182, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select:focus::-moz-placeholder,
 .ready-terms-form-block .form-item input[type="text"]:focus::-moz-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]:focus::-moz-placeholder,
@@ -5900,7 +5885,7 @@ input:focus:-ms-input-placeholder {
 .ready-terms-form-block .form-item input[type="search"]:focus::-moz-placeholder {
   color: transparent;
 }
-/* line 181, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 183, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select:focus:-moz-placeholder,
 .ready-terms-form-block .form-item input[type="text"]:focus:-moz-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]:focus:-moz-placeholder,
@@ -5910,7 +5895,7 @@ input:focus:-ms-input-placeholder {
 .ready-terms-form-block .form-item input[type="search"]:focus:-moz-placeholder {
   color: transparent;
 }
-/* line 182, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 184, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-item select:focus:-ms-input-placeholder,
 .ready-terms-form-block .form-item input[type="text"]:focus:-ms-input-placeholder,
 .ready-terms-form-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
@@ -5920,11 +5905,11 @@ input:focus:-ms-input-placeholder {
 .ready-terms-form-block .form-item input[type="search"]:focus:-ms-input-placeholder {
   color: transparent;
 }
-/* line 187, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 189, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .form-actions {
   padding-top: 10px;
 }
-/* line 190, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 192, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn {
   color: #e09f8b;
   padding: 10px 10px;
@@ -5934,7 +5919,7 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 194, ../assets/scss/partials/blocks/_terms_of_use1.scss */
+/* line 196, ../assets/scss/partials/blocks/_terms_of_use1.scss */
 .ready-terms-form-block .btn:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -5943,10 +5928,6 @@ input:focus:-ms-input-placeholder {
   border-image-slice: 1;
 }
 
-/* line 1, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.header-mission-block {
-  background-image: url("../img/mission-header.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .header-mission-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -6211,16 +6192,7 @@ input:focus:-ms-input-placeholder {
   font-size: 17px;
 }
 
-/* line 198, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block {
-  position: relative;
-  background: transparent url("../img/ready-form-connect-block.jpg") no-repeat scroll;
-  background-position: top center;
-  min-height: 432px;
-  background-size: cover;
-  text-align: center;
-}
-/* line 206, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 208, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .container-form {
   max-width: 600px;
 }
@@ -6232,7 +6204,7 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 210, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 212, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .title-block {
   padding-top: 90px;
   color: #ffffff;
@@ -6241,7 +6213,7 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 218, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 220, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -6249,21 +6221,21 @@ input:focus:-ms-input-placeholder {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 224, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 226, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .desc p {
   padding-bottom: 10px;
 }
-/* line 228, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 230, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 233, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 235, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 242, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 244, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select,
 .ready-form-mission-block .form-item input[type="text"],
 .ready-form-mission-block .form-item input[type="tel"],
@@ -6277,7 +6249,7 @@ input:focus:-ms-input-placeholder {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 252, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 254, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]::-webkit-input-placeholder,
@@ -6288,7 +6260,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 253, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 255, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]::-moz-placeholder,
@@ -6299,7 +6271,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 254, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 256, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:-moz-placeholder,
@@ -6310,7 +6282,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 255, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 257, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:-ms-input-placeholder,
@@ -6321,7 +6293,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 256, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 258, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus,
 .ready-form-mission-block .form-item input[type="text"]:focus,
 .ready-form-mission-block .form-item input[type="tel"]:focus,
@@ -6334,7 +6306,7 @@ input:focus:-ms-input-placeholder {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 259, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 261, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
@@ -6344,7 +6316,7 @@ input:focus:-ms-input-placeholder {
 .ready-form-mission-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
   color: transparent;
 }
-/* line 260, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 262, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus::-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus::-moz-placeholder,
@@ -6354,7 +6326,7 @@ input:focus:-ms-input-placeholder {
 .ready-form-mission-block .form-item input[type="search"]:focus::-moz-placeholder {
   color: transparent;
 }
-/* line 261, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 263, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus:-moz-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus:-moz-placeholder,
@@ -6364,7 +6336,7 @@ input:focus:-ms-input-placeholder {
 .ready-form-mission-block .form-item input[type="search"]:focus:-moz-placeholder {
   color: transparent;
 }
-/* line 262, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 264, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-item select:focus:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="text"]:focus:-ms-input-placeholder,
 .ready-form-mission-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
@@ -6374,11 +6346,11 @@ input:focus:-ms-input-placeholder {
 .ready-form-mission-block .form-item input[type="search"]:focus:-ms-input-placeholder {
   color: transparent;
 }
-/* line 267, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 269, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .form-actions {
   padding-top: 10px;
 }
-/* line 270, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 272, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .btn {
   color: #e09f8b;
   padding: 10px 10px;
@@ -6389,7 +6361,7 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 275, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 277, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .ready-form-mission-block .btn:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -6398,10 +6370,6 @@ input:focus:-ms-input-placeholder {
   border-image-slice: 1;
 }
 
-/* line 1, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
-.header-online-policy-block {
-  background-image: url("../img/online-privat-policy-header.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
 .header-online-policy-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -6825,10 +6793,6 @@ input:focus:-ms-input-placeholder {
   min-height: 430px;
 }
 
-/* line 1, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.header-meds-block {
-  background-image: url("../img/meds-to-avoid-header.jpg");
-}
 /* line 4, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
 .header-meds-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;

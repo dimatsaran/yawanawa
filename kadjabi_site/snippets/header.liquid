@@ -7,33 +7,38 @@
 >
 <header class="header">
     <div class="container">
+        {% if settings.show_header_menu %}
         <ul>
-            <li>
-                <a href="#">Offerings</a>
-            </li>
-            <li>
-                <span>Retreats</span>
-                <ul>
-                    <li><span>Soma Immersion</span></li>
-                    <li><a href="#">Journey to the Yaminawá</a></li>
-                    <li><a href="#">Customized Retreats</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Calendar</a>
-            </li>
+            {% for link in current_site.link_lists[settings.header_menu].links %}
+                {% if link.name == 'Offerings' %}
+                <li>
+                    <span>{{ link.name }}</span>
+                    <ul class='offerings'>
+                        {% for link in current_site.link_lists['7hwGBTFi'].links %}
+                        <li><a href="{{ link.url }}">{{link.name}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% elsif link.name == 'Retreats' %}
+                <li>
+                    <span>{{ link.name }}</span>
+                    <ul class='retreats'>
+                        {% for link in current_site.link_lists['amG2rL2m'].links %}
+                        <li><a href="{{ link.url }}" >{{link.name}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% else %}
+                <li><a href="#">{{ link.name }}</a> </li>
+                {% endif %}
+            {% endfor %}
         </ul>
+        {% endif %}
         <ul>
-            <li>
-                <a href="#">Connect</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Login</a>
-            </li>
+            {% for link in current_site.link_lists['5d4pn9jc'].links %}
+            <li><a href="{{ link.url }}" >{{link.name}}</a></li>
+            {% endfor %}
         </ul>
     </div>
-    <div class="burger"></div>
+    <div class="burger" style="background-image :url('{{ 'burger.png' | asset_url | img_tag }}')"></div>
 </header>

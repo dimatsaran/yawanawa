@@ -7,7 +7,7 @@
     <div class="container-fluid">
         <div class="row reorder-md">
             <div class="col-xs-12">
-                <a href="#">Connect</a>
+                <a href="/pages/contact-us">Connect</a>
             </div>
             <div class="col-xs-12">
                 <div class="row">
@@ -30,30 +30,38 @@
                         <div class="col-md-3 col-md-pull-3 col-sm-4">
                             <h6>SacredJourney.Earth</h6>
                             <ul>
-                                <li>Mission, Values and Practices</li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Cancellation Policy</a></li>
-                                <li><a href="#">Terms of Privacy</a></li>
-                                <li><a href="#">Terms of Use</a></li>
+                                 {% for link in current_site.link_lists[settings.footer_menu].links %}
+                                <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                                {% endfor %}
                             </ul>
                         </div>
                         <div class="col-md-3 col-md-pull-3 col-sm-4">
                             <h6>Offerings</h6>
                             <ul>
-                                <li><a href="#">Online Yoga & Meditation</a></li>
-                                <li><a href="#">Soma Immersion Retreat</a></li>
-                                <li><a href="#">Journey to the Yawanawá</a></li>
-                                <li><a href="#">Calendar</a></li>
-                                <li><a href="#">E-Course</a></li>
+                                {% for link in current_site.link_lists['7hwGBTFi'].links %}
+                                <li><a href="{{ link.url }}">{{link.name}}</a></li>
+                                {% endfor %}
+                                <!--<li><a href="#">Online Yoga & Meditation</a></li>-->
+                                <!--<li><a href="#">Soma Immersion Retreat</a></li>-->
+                                <!--<li><a href="#">Journey to the Yawanawá</a></li>-->
+                                <!--<li><a href="#">Calendar</a></li>-->
+                                <!--<li><a href="#">E-Course</a></li>-->
                             </ul>
                         </div>
                         <div class="col-md-3 col-md-pull-3 col-sm-4">
                             <h6>Just for you</h6>
                             <ul>
-                                <li><a href="#">Personal Consultation</a></li>
-                                <li><a href="#">Private Ceremonies</a></li>
-                                <li><a href="#">Customized retreats</a></li>
-                                <li><a href="#">Connect</a></li>
+                                {% for link in current_site.link_lists['amG2rL2m'].links %}
+                                    {% if page.id == link.url  %}
+                                        {% assign var_active = "active" %}
+                                    {% endif %}
+                                <li><a  class="{{ var_active }}" href="{{ link.url }} ">{{link.name}}</a></li>
+                                {% endfor %}
+
+                                <!--<li><a href="#">Personal Consultation</a></li>-->
+                                <!--<li><a href="#">Private Ceremonies</a></li>-->
+                                <!--<li><a href="#">Customized retreats</a></li>-->
+                                <!--<li><a href="#">Connect</a></li>-->
                             </ul>
                         </div>
                     </div>

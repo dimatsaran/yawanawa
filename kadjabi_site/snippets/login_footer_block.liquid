@@ -1,0 +1,29 @@
+<div class="auth-box">
+  {% form 'new_member_session', current_site_user %}
+  {% if form.notice %}
+  <div class="notice">{{ form.notice }}</div>
+  {% endif %}
+  {% if form.errors.messages['form'] %}
+  <div class="notice">{{ form.errors.messages['form'] }}</div>
+  {% endif %}
+  <div class="col-md-12 col-sm-4 col-ms-6">
+    <input spellcheck="false" autocorrect="off" autofocus="autofocus" type="text" name="member[email]" id="member_email" value="{{form.email}}" placeholder="{{ settings.language_email }}"/>
+  </div>
+  <div class="col-md-12 col-sm-4 col-ms-6">
+    <input type="password" name="member[password]" id="member_password" placeholder="{{ settings.language_password }}"/>
+  </div>
+  {% comment %}
+  <input class="boolean optional" type="checkbox" name="member[remember_me]" id="member_remember_me" />
+  <label kjb-settings-id="language_remember_me">
+    <span class="ui"></span>
+    {{ settings.language_remember_me }}
+  </label>
+  {% endcomment %}
+  <div class="col-md-12 col-sm-4 col-ms-12">
+    <input kjb-settings-id="language_sign_in" class="btn btn-block" type="submit" name="commit" value="{{ settings.language_sign_in }}">
+  </div>
+  {% endform %}
+  {% comment %}
+  <a kjb-settings-id="language_forgot_your_password" class="link" href="/password/new">{{ settings.language_forgot_your_password }}</a>
+  {% endcomment %}
+</div>

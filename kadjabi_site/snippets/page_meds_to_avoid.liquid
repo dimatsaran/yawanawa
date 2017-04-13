@@ -3,6 +3,20 @@
   <div class="container container-meds">
     <div class="row">
       {{ page.content }}
+      <div class="img-block"><img src="{{ 'pills-meds-img.jpg' | asset_url | img_tag }}" alt="" /></div>
+      <div class="content-block">
+        <p class="title desc-red">These drugs and meds can be dangerous with Ayahuasca:</p>
+        <div class="desc">
+          <p>Other <span class="bold-style">MAOI</span>s</p>
+          <p><span class="bold-style">SSRI&rsquo;</span>s (any selective serotonin reuptake inhibitor)</p>
+          <p><span class="bold-style">Antihypertensives</span> (high blood pressure medicine)</p>
+          <p><span class="bold-style">Appetite suppressants</span> (diet pills)</p>
+          <p><span class="bold-style">Medicine for asthma, bronchitis,</span> or <span class="bold-style">other breathing problems; antihistamines, medicines for colds, sinus problems, hay fever,</span> or <span class="bold-style">allergies</span> (Actifed DM, Benadryl, Benylin, Chlor-Trimeton, Compoz, Bromarest-DM or -DX, Dimetane-DX cough syrup, Dristan Cold &amp; Flu, Phenergan with Dextromethorphan, Robitussin-DM, Vicks Formula 44-D, several Tylenol cold, cough, and flu preparations, and many others &mdash; any drug containing dextromethorphan/ DXM or with DM, DX or Tuss in its name.)</p>
+          <p><span class="bold-style">CNS</span> (central nervous system) <span class="bold-style">depressants</span> (xanax, ativan, etc)</p>
+          <p class="bold-style">Vasodilators</p>
+          <p class="bold-style">Antipsychotics</p>
+        </div>
+      </div>
     </div>
   </div>
   {% include "scroll_up_block" %}
