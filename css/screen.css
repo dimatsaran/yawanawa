@@ -1027,7 +1027,21 @@ input:focus:-ms-input-placeholder {
 .pharmaceutical-meds-block,
 .avoid-meds-block,
 .desc-meds-block,
-.ready-form-meds-block {
+.ready-form-meds-block,
+.header-private-ceramonies-block,
+.private-ceramonies-options-block,
+.components-private-ceramonies-block,
+.private-ceramonies-bg-block,
+.desc-private-ceramonies-block,
+.header-custom-retreat-block,
+.intro-custom-retreat-block,
+.custom-retreat-options-block,
+.components-custom-retreat-block,
+.custom-retreat-bg-block,
+.components-custom-connect-block,
+.desc-custom-retreat-block,
+.header-calendar-block,
+.calendar-form {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -1087,11 +1101,25 @@ input:focus:-ms-input-placeholder {
   .pharmaceutical-meds-block,
   .avoid-meds-block,
   .desc-meds-block,
-  .ready-form-meds-block {
+  .ready-form-meds-block,
+  .header-private-ceramonies-block,
+  .private-ceramonies-options-block,
+  .components-private-ceramonies-block,
+  .private-ceramonies-bg-block,
+  .desc-private-ceramonies-block,
+  .header-custom-retreat-block,
+  .intro-custom-retreat-block,
+  .custom-retreat-options-block,
+  .components-custom-retreat-block,
+  .custom-retreat-bg-block,
+  .components-custom-connect-block,
+  .desc-custom-retreat-block,
+  .header-calendar-block,
+  .calendar-form {
     overflow-x: hidden;
   }
 }
-/* line 62, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 76, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -1257,14 +1285,56 @@ input:focus:-ms-input-placeholder {
 .desc-meds-block *::before,
 .ready-form-meds-block *,
 .ready-form-meds-block *::after,
-.ready-form-meds-block *::before {
+.ready-form-meds-block *::before,
+.header-private-ceramonies-block *,
+.header-private-ceramonies-block *::after,
+.header-private-ceramonies-block *::before,
+.private-ceramonies-options-block *,
+.private-ceramonies-options-block *::after,
+.private-ceramonies-options-block *::before,
+.components-private-ceramonies-block *,
+.components-private-ceramonies-block *::after,
+.components-private-ceramonies-block *::before,
+.private-ceramonies-bg-block *,
+.private-ceramonies-bg-block *::after,
+.private-ceramonies-bg-block *::before,
+.desc-private-ceramonies-block *,
+.desc-private-ceramonies-block *::after,
+.desc-private-ceramonies-block *::before,
+.header-custom-retreat-block *,
+.header-custom-retreat-block *::after,
+.header-custom-retreat-block *::before,
+.intro-custom-retreat-block *,
+.intro-custom-retreat-block *::after,
+.intro-custom-retreat-block *::before,
+.custom-retreat-options-block *,
+.custom-retreat-options-block *::after,
+.custom-retreat-options-block *::before,
+.components-custom-retreat-block *,
+.components-custom-retreat-block *::after,
+.components-custom-retreat-block *::before,
+.custom-retreat-bg-block *,
+.custom-retreat-bg-block *::after,
+.custom-retreat-bg-block *::before,
+.components-custom-connect-block *,
+.components-custom-connect-block *::after,
+.components-custom-connect-block *::before,
+.desc-custom-retreat-block *,
+.desc-custom-retreat-block *::after,
+.desc-custom-retreat-block *::before,
+.header-calendar-block *,
+.header-calendar-block *::after,
+.header-calendar-block *::before,
+.calendar-form *,
+.calendar-form *::after,
+.calendar-form *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 68, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 82, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -1320,12 +1390,26 @@ input:focus:-ms-input-placeholder {
 .pharmaceutical-meds-block .container-retreat,
 .avoid-meds-block .container-retreat,
 .desc-meds-block .container-retreat,
-.ready-form-meds-block .container-retreat {
+.ready-form-meds-block .container-retreat,
+.header-private-ceramonies-block .container-retreat,
+.private-ceramonies-options-block .container-retreat,
+.components-private-ceramonies-block .container-retreat,
+.private-ceramonies-bg-block .container-retreat,
+.desc-private-ceramonies-block .container-retreat,
+.header-custom-retreat-block .container-retreat,
+.intro-custom-retreat-block .container-retreat,
+.custom-retreat-options-block .container-retreat,
+.components-custom-retreat-block .container-retreat,
+.custom-retreat-bg-block .container-retreat,
+.components-custom-connect-block .container-retreat,
+.desc-custom-retreat-block .container-retreat,
+.header-calendar-block .container-retreat,
+.calendar-form .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 72, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 86, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1381,12 +1465,26 @@ input:focus:-ms-input-placeholder {
   .pharmaceutical-meds-block .row,
   .avoid-meds-block .row,
   .desc-meds-block .row,
-  .ready-form-meds-block .row {
+  .ready-form-meds-block .row,
+  .header-private-ceramonies-block .row,
+  .private-ceramonies-options-block .row,
+  .components-private-ceramonies-block .row,
+  .private-ceramonies-bg-block .row,
+  .desc-private-ceramonies-block .row,
+  .header-custom-retreat-block .row,
+  .intro-custom-retreat-block .row,
+  .custom-retreat-options-block .row,
+  .components-custom-retreat-block .row,
+  .custom-retreat-bg-block .row,
+  .components-custom-connect-block .row,
+  .desc-custom-retreat-block .row,
+  .header-calendar-block .row,
+  .calendar-form .row {
     margin: 0;
   }
 }
 
-/* line 79, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 93, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1400,7 +1498,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 91, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 105, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1409,7 +1507,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 98, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 112, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1427,24 +1525,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 107, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 121, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 111, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 125, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 111, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 125, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 119, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 133, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1460,12 +1558,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 132, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 146, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 138, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 152, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1476,13 +1574,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 147, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 161, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 151, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 165, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
@@ -8838,8 +8936,12 @@ input:focus:-ms-input-placeholder {
   text-decoration: underline;
 }
 
+/* line 1, ../assets/scss/partials/blocks/_calendar1.scss */
+.header-calendar-block {
+  background-image: url("/img/calendar1-header.jpg");
+}
 /* line 4, ../assets/scss/partials/blocks/_calendar1.scss */
-.header-calendar1-block .title-block .site-label {
+.header-calendar-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   font-size: 85px;
@@ -8852,43 +8954,181 @@ input:focus:-ms-input-placeholder {
 }
 @media screen and (max-width: 768px) {
   /* line 4, ../assets/scss/partials/blocks/_calendar1.scss */
-  .header-calendar1-block .title-block .site-label {
+  .header-calendar-block .title-block .site-label {
     font-size: 65px;
   }
 }
 @media screen and (max-width: 640px) {
   /* line 4, ../assets/scss/partials/blocks/_calendar1.scss */
-  .header-calendar1-block .title-block .site-label {
+  .header-calendar-block .title-block .site-label {
     font-size: 45px;
   }
 }
 @media (max-width: 420px) {
   /* line 4, ../assets/scss/partials/blocks/_calendar1.scss */
-  .header-calendar1-block .title-block .site-label {
+  .header-calendar-block .title-block .site-label {
     font-size: 35px;
   }
 }
-/* line 24, ../assets/scss/partials/blocks/_calendar1.scss */
-.header-calendar1-block .title-block .title-description {
-  font-family: "Open Sans", sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 700;
-  padding-top: 55px;
-  letter-spacing: 1.2px;
+
+/* line 28, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block {
+  background-color: #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 32, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .container-block {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 @media screen and (max-width: 768px) {
-  /* line 24, ../assets/scss/partials/blocks/_calendar1.scss */
-  .header-calendar1-block .title-block .title-description {
-    font-size: 26px;
+  /* line 32, ../assets/scss/partials/blocks/_calendar1.scss */
+  .calendar-period-block .container-block {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
-@media screen and (max-width: 640px) {
-  /* line 24, ../assets/scss/partials/blocks/_calendar1.scss */
-  .header-calendar1-block .title-block .title-description {
-    font-size: 22px;
+@media (max-width: 420px) {
+  /* line 32, ../assets/scss/partials/blocks/_calendar1.scss */
+  .calendar-period-block .container-block {
+    padding-left: 10px;
+    padding-right: 10px;
   }
+}
+/* line 35, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .content-block {
+  padding: 10px;
+}
+@media (max-width: 420px) {
+  /* line 35, ../assets/scss/partials/blocks/_calendar1.scss */
+  .calendar-period-block .content-block {
+    padding: 10px 0;
+  }
+}
+/* line 42, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .title-block {
+  max-width: 920px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* line 49, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .title-block .title {
+  color: #984089;
+  font-size: 25px;
+  font-weight: 600;
+}
+/* line 54, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .title-block .desc {
+  padding-top: 20px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.68;
+  font-weight: 600;
+}
+/* line 62, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .item-block {
+  background-color: #ffffff;
+}
+/* line 66, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .img-block a {
+  opacity: 1;
+  -moz-transition: opacity 0.3;
+  -o-transition: opacity 0.3;
+  -webkit-transition: opacity 0.3;
+  transition: opacity 0.3;
+}
+/* line 69, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .img-block a:hover {
+  opacity: 0.7;
+}
+/* line 73, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .img-block img {
+  width: 100%;
+}
+/* line 77, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  min-height: 210px;
+  text-align: center;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+}
+/* line 84, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block a {
+  text-decoration: none;
+}
+/* line 87, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .date {
+  padding-top: 20px;
+}
+/* line 90, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .date span {
+  color: #8e8a8a;
+  font-size: 20px;
+}
+/* line 95, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .status {
+  padding-top: 20px;
+  font-size: 13px;
+}
+/* line 98, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .status .status-yelllow {
+  color: #dc8115;
+}
+/* line 101, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .status .status-red {
+  color: #eb5449;
+}
+/* line 104, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .status .status-green {
+  color: #34b787;
+}
+/* line 108, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .title {
+  padding-top: 20px;
+}
+/* line 110, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .title a {
+  color: #984089;
+  font-size: 21px;
+  font-weight: 600;
+  -moz-transition: color 0.5;
+  -o-transition: color 0.5;
+  -webkit-transition: color 0.5;
+  transition: color 0.5;
+}
+/* line 120, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .desc {
+  padding-top: 20px;
+  color: #984089;
+}
+/* line 124, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .text-block .desc p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+/* line 131, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .link-more-block {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border: 1px solid #dedede;
+}
+/* line 137, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-period-block .link-more-block .link-more {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* line 149, ../assets/scss/partials/blocks/_calendar1.scss */
+.calendar-form {
+  background-image: url("/img/ready-calendar1-block.jpg");
 }
 
 /* line 4, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
