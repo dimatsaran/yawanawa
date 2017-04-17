@@ -8389,22 +8389,22 @@ input:focus:-ms-input-placeholder {
 .components-private-ceramonies-block .third-block .desc p {
   padding-bottom: 25px;
 }
-/* line 382, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 375, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .third-block .desc p.n-padding {
   padding-bottom: 0;
 }
-/* line 385, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 378, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .third-block .desc p a {
   color: #984089;
   text-decoration: underline;
 }
 
-/* line 393, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 386, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-bg-block {
   background-image: url("../img/private-ceremonies-bg-block.jpg");
 }
 
-/* line 396, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 389, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block {
   text-align: center;
   background-color: #eeeeee;
@@ -8412,29 +8412,29 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 45px;
   position: relative;
 }
-/* line 403, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 396, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .container-custom-retreat {
   max-width: 900px;
 }
-/* line 406, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 399, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .title-block {
   color: #984089;
   font-size: 24px;
   line-height: 1.8;
   font-weight: 600;
 }
-/* line 412, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 405, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block {
   line-height: 1.32;
   font-size: 17px;
   padding-top: 25px;
   text-align: center;
 }
-/* line 418, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 411, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block .bold-style {
   font-weight: 700;
 }
-/* line 421, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 414, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block .desc-red {
   font-size: 16px;
   font-weight: 600;
@@ -8443,15 +8443,15 @@ input:focus:-ms-input-placeholder {
   text-align: left;
   max-width: 750px;
 }
-/* line 430, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 423, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block p {
   padding-bottom: 25px;
 }
-/* line 432, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 425, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block p.n-padding {
   padding-bottom: 0;
 }
-/* line 436, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 429, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block a {
   color: #984089;
   text-decoration: underline;
