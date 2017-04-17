@@ -1237,6 +1237,11 @@ input:focus:-ms-input-placeholder {
 .custom-retreat-bg-block,
 .components-custom-connect-block,
 .desc-custom-retreat-block,
+.header-private-ceramonies-block,
+.intro-private-ceramonies-block,
+.components-private-ceramonies-block,
+.private-ceramonies-bg-block,
+.desc-private-ceramonies-block,
 .header-calendar-block,
 .calendar-period-block,
 .calendar-form,
@@ -1314,6 +1319,11 @@ input:focus:-ms-input-placeholder {
   .custom-retreat-bg-block,
   .components-custom-connect-block,
   .desc-custom-retreat-block,
+  .header-private-ceramonies-block,
+  .intro-private-ceramonies-block,
+  .components-private-ceramonies-block,
+  .private-ceramonies-bg-block,
+  .desc-private-ceramonies-block,
   .header-calendar-block,
   .calendar-period-block,
   .calendar-form,
@@ -1322,7 +1332,7 @@ input:focus:-ms-input-placeholder {
     overflow-x: hidden;
   }
 }
-/* line 79, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 84, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -1525,6 +1535,21 @@ input:focus:-ms-input-placeholder {
 .desc-custom-retreat-block *,
 .desc-custom-retreat-block *::after,
 .desc-custom-retreat-block *::before,
+.header-private-ceramonies-block *,
+.header-private-ceramonies-block *::after,
+.header-private-ceramonies-block *::before,
+.intro-private-ceramonies-block *,
+.intro-private-ceramonies-block *::after,
+.intro-private-ceramonies-block *::before,
+.components-private-ceramonies-block *,
+.components-private-ceramonies-block *::after,
+.components-private-ceramonies-block *::before,
+.private-ceramonies-bg-block *,
+.private-ceramonies-bg-block *::after,
+.private-ceramonies-bg-block *::before,
+.desc-private-ceramonies-block *,
+.desc-private-ceramonies-block *::after,
+.desc-private-ceramonies-block *::before,
 .header-calendar-block *,
 .header-calendar-block *::after,
 .header-calendar-block *::before,
@@ -1546,7 +1571,7 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 85, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 90, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -1615,6 +1640,11 @@ input:focus:-ms-input-placeholder {
 .custom-retreat-bg-block .container-retreat,
 .components-custom-connect-block .container-retreat,
 .desc-custom-retreat-block .container-retreat,
+.header-private-ceramonies-block .container-retreat,
+.intro-private-ceramonies-block .container-retreat,
+.components-private-ceramonies-block .container-retreat,
+.private-ceramonies-bg-block .container-retreat,
+.desc-private-ceramonies-block .container-retreat,
 .header-calendar-block .container-retreat,
 .calendar-period-block .container-retreat,
 .calendar-form .container-retreat,
@@ -1624,7 +1654,7 @@ input:focus:-ms-input-placeholder {
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 89, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 94, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1693,6 +1723,11 @@ input:focus:-ms-input-placeholder {
   .custom-retreat-bg-block .row,
   .components-custom-connect-block .row,
   .desc-custom-retreat-block .row,
+  .header-private-ceramonies-block .row,
+  .intro-private-ceramonies-block .row,
+  .components-private-ceramonies-block .row,
+  .private-ceramonies-bg-block .row,
+  .desc-private-ceramonies-block .row,
   .header-calendar-block .row,
   .calendar-period-block .row,
   .calendar-form .row,
@@ -1702,7 +1737,7 @@ input:focus:-ms-input-placeholder {
   }
 }
 
-/* line 96, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 101, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1716,7 +1751,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 108, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 113, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1725,7 +1760,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 115, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 120, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1743,24 +1778,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 124, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 129, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 128, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 133, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 128, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 133, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 136, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 141, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1776,12 +1811,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 149, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 154, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 155, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 160, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1792,13 +1827,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 164, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 169, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 168, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 173, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
@@ -7903,6 +7938,87 @@ input:focus:-ms-input-placeholder {
 }
 
 /* line 42, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.intro-private-ceramonies-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 55px;
+  padding-bottom: 65px;
+  position: relative;
+}
+/* line 43, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.intro-private-ceramonies-block .container-sentence {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 51, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  .intro-private-ceramonies-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 55, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.intro-private-ceramonies-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 55, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  .intro-private-ceramonies-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 55, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  .intro-private-ceramonies-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 55, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  .intro-private-ceramonies-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 73, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.intro-private-ceramonies-block .title-block .desc-bold {
+  padding-top: 45px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.56;
+}
+/* line 78, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.intro-private-ceramonies-block .title-block .desc-bold p {
+  padding-bottom: 20px;
+}
+/* line 82, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.intro-private-ceramonies-block .title-block .desc {
+  padding-top: 12px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 82, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  .intro-private-ceramonies-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 82, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  .intro-private-ceramonies-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 90, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.intro-private-ceramonies-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+
+/* line 96, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block {
   padding: 72px 50px;
   background: transparent url("../img/private-ceramonies-options.jpg") no-repeat scroll;
@@ -7911,23 +8027,23 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 @media screen and (max-width: 640px) {
-  /* line 42, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 96, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .private-ceramonies-options-block {
     padding: 20px 20px;
     min-height: 400px;
   }
 }
 @media (max-width: 420px) {
-  /* line 42, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 96, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .private-ceramonies-options-block {
     padding: 10px 0;
   }
 }
-/* line 52, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 106, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .container-bg {
   background-color: rgba(249, 243, 244, 0.75);
 }
-/* line 55, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 109, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .content-block {
   text-align: center;
   padding: 120px 50px 135px;
@@ -7935,7 +8051,7 @@ input:focus:-ms-input-placeholder {
   height: 100%;
 }
 @media screen and (max-width: 640px) {
-  /* line 55, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 109, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .private-ceramonies-options-block .content-block {
     padding: 20px 20px;
   }
@@ -7948,31 +8064,31 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 64, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 118, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .content-block .title {
   color: #984089;
   font-size: 30px;
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  /* line 64, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 118, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .private-ceramonies-options-block .content-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 64, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 118, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .private-ceramonies-options-block .content-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 64, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 118, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .private-ceramonies-options-block .content-block .title {
     font-size: 21px;
   }
 }
-/* line 73, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 127, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .content-block .row {
   padding-top: 120px;
   margin: 0 auto;
@@ -7986,18 +8102,18 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 79, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 133, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .content-block .option {
   display: inline-block;
   width: 33%;
 }
-/* line 83, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 137, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .content-block .option p {
-  padding-top: 45px;
+  padding-top: 35px;
   text-transform: uppercase;
   font-size: 17px;
 }
-/* line 89, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 143, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .content-block .desc {
   padding-top: 50px;
   color: #000000;
@@ -8007,27 +8123,27 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 1px;
 }
 @media screen and (max-width: 640px) {
-  /* line 89, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 143, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .private-ceramonies-options-block .content-block .desc {
     font-size: 14px;
     line-height: 1.68;
   }
 }
-/* line 100, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 154, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-options-block .content-block .desc p {
   padding-bottom: 18px;
 }
 
-/* line 107, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 161, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block {
   background-color: #eeeeee;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
-/* line 110, ../assets/scss/partials/blocks/_private-ceremonies.scss */
-.components-private-ceramonies-block .container-custom-retreat {
-  max-width: 970px;
+/* line 164, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.components-private-ceramonies-block .container-private-ceramonies {
+  max-width: 900px;
 }
-/* line 113, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 167, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .title-block {
   padding-top: 50px;
   text-align: center;
@@ -8040,7 +8156,7 @@ input:focus:-ms-input-placeholder {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 125, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 179, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block {
   padding-top: 30px;
   padding-left: 10px;
@@ -8050,73 +8166,73 @@ input:focus:-ms-input-placeholder {
   vertical-align: top;
 }
 @media screen and (max-width: 640px) {
-  /* line 125, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 179, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .list-block {
     width: 100%;
   }
 }
-/* line 136, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 190, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block:last-of-type {
   float: right;
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 136, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 190, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .list-block:last-of-type {
     float: none;
     padding-left: 10px;
   }
 }
-/* line 144, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 198, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block:last-of-type .list-text .bold-style {
   padding-bottom: 20px;
 }
-/* line 149, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 203, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list-text {
   padding-bottom: 20px;
   font-size: 15px;
   margin-left: -12px;
 }
-/* line 153, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 207, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list-text p {
   font-size: 15px;
   line-height: 1.56;
 }
-/* line 157, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 211, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list-text .list {
   list-style-type: disc;
   padding-left: 12px;
 }
-/* line 160, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 214, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list-text .list p {
   line-height: 1.44;
   font-size: 15px;
 }
-/* line 164, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 218, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list-text .list li {
   font-size: 8px;
 }
-/* line 167, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 221, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list-text .list li p {
   line-height: 1.44;
   font-size: 15px;
 }
-/* line 177, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 231, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list p {
   line-height: 1.44;
   font-size: 15px;
 }
-/* line 181, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 235, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list li {
   font-size: 8px;
 }
-/* line 183, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 237, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .list-block .list li p {
   padding-bottom: 14px;
   line-height: 1.56;
   font-size: 15px;
 }
-/* line 192, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 246, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .sub-title {
   padding-top: 40px;
   padding-bottom: 5px;
@@ -8126,88 +8242,92 @@ input:focus:-ms-input-placeholder {
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 202, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 255, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+.components-private-ceramonies-block .first-block {
+  padding-bottom: 20px;
+}
+/* line 257, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .title-block {
   max-width: 700px;
   margin: 0 auto;
 }
-/* line 206, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 261, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .content-block {
   padding-bottom: 20px;
 }
-/* line 209, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 264, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .desc {
-  padding-top: 50px;
+  padding-top: 45px;
   color: #000000;
   font-size: 16px;
-  line-height: 1.68;
+  line-height: 1.56;
   letter-spacing: 0.5px;
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  /* line 209, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 264, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .first-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 209, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 264, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .first-block .desc {
     font-size: 13px;
   }
 }
-/* line 218, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 273, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .desc p {
   padding-bottom: 20px;
 }
-/* line 220, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 275, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .desc p.sec-line {
   max-width: 660px;
   margin: 0 auto;
 }
-/* line 224, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 279, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .desc p.three-line {
   max-width: 580px;
   margin: 0 auto;
 }
-/* line 230, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 285, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .desc-block {
   margin: 0 auto;
   max-width: 610px;
   padding-bottom: 25px;
 }
-/* line 235, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 290, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .day-choose {
   padding-bottom: 10px;
 }
-/* line 238, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 293, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block p.day-color {
   font-weight: 600;
   color: #984089;
   font-size: 19px;
   padding-bottom: 10px;
 }
-/* line 245, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 300, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .first-block .desc-bottom p {
   padding-bottom: 40px;
 }
-/* line 250, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 305, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block {
   border-top: 1px solid #dedede;
   padding-top: 25px;
   padding-bottom: 45px;
 }
-/* line 254, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 309, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block .content-block {
   max-width: 650px;
   margin: 0 auto;
 }
-/* line 259, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 314, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block .content-block .list-block .list p {
   position: relative;
   letter-spacing: -0.4px;
 }
-/* line 262, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 317, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block .content-block .list-block .list p:before {
   content: '.';
   position: absolute;
@@ -8218,7 +8338,7 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
   line-height: 1;
 }
-/* line 276, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 331, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block .desc {
   padding-top: 50px;
   color: #000000;
@@ -8228,37 +8348,37 @@ input:focus:-ms-input-placeholder {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  /* line 276, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 331, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .second-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 276, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 331, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .second-block .desc {
     font-size: 13px;
   }
 }
-/* line 285, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 340, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block .desc p {
   padding-bottom: 20px;
 }
-/* line 287, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 342, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block .desc p.sec-line {
   max-width: 660px;
   margin: 0 auto;
 }
-/* line 291, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 346, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .second-block .desc p.three-line {
   max-width: 580px;
   margin: 0 auto;
 }
-/* line 298, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 353, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .third-block {
   border-top: 1px solid #dedede;
   padding-top: 25px;
 }
-/* line 301, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 356, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .third-block .desc {
   padding-top: 20px;
   color: #000000;
@@ -8268,37 +8388,37 @@ input:focus:-ms-input-placeholder {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  /* line 301, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 356, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .third-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 301, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+  /* line 356, ../assets/scss/partials/blocks/_private-ceremonies.scss */
   .components-private-ceramonies-block .third-block .desc {
     font-size: 13px;
   }
 }
-/* line 312, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 367, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .third-block .desc p {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
-/* line 322, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 377, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .third-block .desc p.n-padding {
   padding-bottom: 0;
 }
-/* line 325, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 380, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .components-private-ceramonies-block .third-block .desc p a {
   color: #984089;
   text-decoration: underline;
 }
 
-/* line 333, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 388, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .private-ceramonies-bg-block {
   background-image: url("../img/private-ceremonies-bg-block.jpg");
 }
 
-/* line 336, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 391, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block {
   text-align: center;
   background-color: #eeeeee;
@@ -8306,29 +8426,29 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 45px;
   position: relative;
 }
-/* line 343, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 398, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .container-custom-retreat {
   max-width: 900px;
 }
-/* line 346, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 401, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .title-block {
   color: #984089;
   font-size: 24px;
   line-height: 1.8;
   font-weight: 600;
 }
-/* line 352, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 407, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block {
   line-height: 1.32;
   font-size: 17px;
   padding-top: 25px;
   text-align: center;
 }
-/* line 358, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 413, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block .bold-style {
   font-weight: 700;
 }
-/* line 361, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 416, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block .desc-red {
   font-size: 16px;
   font-weight: 600;
@@ -8337,15 +8457,15 @@ input:focus:-ms-input-placeholder {
   text-align: left;
   max-width: 750px;
 }
-/* line 370, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 425, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block p {
   padding-bottom: 25px;
 }
-/* line 372, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 427, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block p.n-padding {
   padding-bottom: 0;
 }
-/* line 376, ../assets/scss/partials/blocks/_private-ceremonies.scss */
+/* line 431, ../assets/scss/partials/blocks/_private-ceremonies.scss */
 .desc-private-ceramonies-block .content-block a {
   color: #984089;
   text-decoration: underline;
