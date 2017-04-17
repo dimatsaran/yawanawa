@@ -1041,6 +1041,7 @@ input:focus:-ms-input-placeholder {
 .components-custom-connect-block,
 .desc-custom-retreat-block,
 .header-calendar-block,
+.calendar-period-block,
 .calendar-form {
   min-width: 320px;
 }
@@ -1115,11 +1116,12 @@ input:focus:-ms-input-placeholder {
   .components-custom-connect-block,
   .desc-custom-retreat-block,
   .header-calendar-block,
+  .calendar-period-block,
   .calendar-form {
     overflow-x: hidden;
   }
 }
-/* line 76, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 77, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -1325,6 +1327,9 @@ input:focus:-ms-input-placeholder {
 .header-calendar-block *,
 .header-calendar-block *::after,
 .header-calendar-block *::before,
+.calendar-period-block *,
+.calendar-period-block *::after,
+.calendar-period-block *::before,
 .calendar-form *,
 .calendar-form *::after,
 .calendar-form *::before {
@@ -1334,7 +1339,7 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 82, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 83, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -1404,12 +1409,13 @@ input:focus:-ms-input-placeholder {
 .components-custom-connect-block .container-retreat,
 .desc-custom-retreat-block .container-retreat,
 .header-calendar-block .container-retreat,
+.calendar-period-block .container-retreat,
 .calendar-form .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 86, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 87, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1479,12 +1485,13 @@ input:focus:-ms-input-placeholder {
   .components-custom-connect-block .row,
   .desc-custom-retreat-block .row,
   .header-calendar-block .row,
+  .calendar-period-block .row,
   .calendar-form .row {
     margin: 0;
   }
 }
 
-/* line 93, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 94, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1498,7 +1505,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 105, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 106, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1507,7 +1514,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 112, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 113, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1525,24 +1532,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 121, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 122, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 125, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 126, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 125, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 126, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 133, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 134, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1558,12 +1565,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 146, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 147, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 152, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 153, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1574,13 +1581,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 161, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 162, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 165, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 166, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
