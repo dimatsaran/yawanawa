@@ -931,6 +931,203 @@ input:focus:-ms-input-placeholder {
     border-radius: 0;
   }
 }
+/* form-block with background image*/
+/* line 361, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block {
+  background-image: url("../img/ready-form-connect-block.jpg");
+  /* form-block with background other image*/
+  /* form-block with background color*/
+  position: relative;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 432px;
+  background-size: cover;
+  text-align: center;
+}
+/* line 366, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block.ready-form-block-color {
+  background-image: none;
+  background-color: #984089;
+}
+/* line 378, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .container-form {
+  max-width: 600px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.ready-form-block .container-form:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 382, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .title-block {
+  padding-top: 90px;
+  color: #ffffff;
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+/* line 390, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .desc {
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+/* line 396, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .desc p {
+  padding-bottom: 10px;
+}
+/* line 400, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .yawanawa-form {
+  padding-top: 20px;
+  max-width: 475px;
+  margin: 0 auto;
+}
+/* line 405, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item-pair {
+  margin: 0 auto;
+}
+/* line 414, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select,
+.ready-form-block .form-item input[type="text"],
+.ready-form-block .form-item input[type="tel"],
+.ready-form-block .form-item input[type="email"],
+.ready-form-block .form-item input[type="url"],
+.ready-form-block .form-item input[type="password"],
+.ready-form-block .form-item input[type="search"] {
+  text-transform: uppercase;
+  font-size: 12px;
+  border-color: rgba(238, 238, 238, 0.8);
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 424, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="text"]::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="tel"]::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="email"]::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="url"]::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="password"]::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="search"]::-webkit-input-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 425, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select::-moz-placeholder,
+.ready-form-block .form-item input[type="text"]::-moz-placeholder,
+.ready-form-block .form-item input[type="tel"]::-moz-placeholder,
+.ready-form-block .form-item input[type="email"]::-moz-placeholder,
+.ready-form-block .form-item input[type="url"]::-moz-placeholder,
+.ready-form-block .form-item input[type="password"]::-moz-placeholder,
+.ready-form-block .form-item input[type="search"]::-moz-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 426, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select:-moz-placeholder,
+.ready-form-block .form-item input[type="text"]:-moz-placeholder,
+.ready-form-block .form-item input[type="tel"]:-moz-placeholder,
+.ready-form-block .form-item input[type="email"]:-moz-placeholder,
+.ready-form-block .form-item input[type="url"]:-moz-placeholder,
+.ready-form-block .form-item input[type="password"]:-moz-placeholder,
+.ready-form-block .form-item input[type="search"]:-moz-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 427, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select:-ms-input-placeholder,
+.ready-form-block .form-item input[type="text"]:-ms-input-placeholder,
+.ready-form-block .form-item input[type="tel"]:-ms-input-placeholder,
+.ready-form-block .form-item input[type="email"]:-ms-input-placeholder,
+.ready-form-block .form-item input[type="url"]:-ms-input-placeholder,
+.ready-form-block .form-item input[type="password"]:-ms-input-placeholder,
+.ready-form-block .form-item input[type="search"]:-ms-input-placeholder {
+  color: #eeeeee;
+  opacity: 1;
+}
+/* line 428, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select:focus,
+.ready-form-block .form-item input[type="text"]:focus,
+.ready-form-block .form-item input[type="tel"]:focus,
+.ready-form-block .form-item input[type="email"]:focus,
+.ready-form-block .form-item input[type="url"]:focus,
+.ready-form-block .form-item input[type="password"]:focus,
+.ready-form-block .form-item input[type="search"]:focus {
+  border-color: white;
+  outline: none;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 431, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select:focus::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="email"]:focus::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="url"]:focus::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="password"]:focus::-webkit-input-placeholder,
+.ready-form-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 432, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select:focus::-moz-placeholder,
+.ready-form-block .form-item input[type="text"]:focus::-moz-placeholder,
+.ready-form-block .form-item input[type="tel"]:focus::-moz-placeholder,
+.ready-form-block .form-item input[type="email"]:focus::-moz-placeholder,
+.ready-form-block .form-item input[type="url"]:focus::-moz-placeholder,
+.ready-form-block .form-item input[type="password"]:focus::-moz-placeholder,
+.ready-form-block .form-item input[type="search"]:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 433, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select:focus:-moz-placeholder,
+.ready-form-block .form-item input[type="text"]:focus:-moz-placeholder,
+.ready-form-block .form-item input[type="tel"]:focus:-moz-placeholder,
+.ready-form-block .form-item input[type="email"]:focus:-moz-placeholder,
+.ready-form-block .form-item input[type="url"]:focus:-moz-placeholder,
+.ready-form-block .form-item input[type="password"]:focus:-moz-placeholder,
+.ready-form-block .form-item input[type="search"]:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 434, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-item select:focus:-ms-input-placeholder,
+.ready-form-block .form-item input[type="text"]:focus:-ms-input-placeholder,
+.ready-form-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
+.ready-form-block .form-item input[type="email"]:focus:-ms-input-placeholder,
+.ready-form-block .form-item input[type="url"]:focus:-ms-input-placeholder,
+.ready-form-block .form-item input[type="password"]:focus:-ms-input-placeholder,
+.ready-form-block .form-item input[type="search"]:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 439, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .form-actions {
+  padding-top: 10px;
+}
+/* line 442, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .btn {
+  color: #e09f8b;
+  border: 1px solid #e09f8b;
+  padding: 10px 10px;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  -moz-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+}
+/* line 456, ../assets/scss/partials/elements/_forms.scss */
+.ready-form-block .btn:hover {
+  opacity: 0.7;
+  color: #b4634f;
+  border: 1px solid #b4634f;
+}
+
 /* line 1, ../assets/scss/partials/elements/_sprites.scss */
 .icon {
   display: inline-block;
@@ -1681,140 +1878,69 @@ input:focus:-ms-input-placeholder {
 }
 
 /* line 110, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block {
-  position: relative;
-  background: transparent url("../img/ready-form-block.jpg") no-repeat scroll;
-  background-position: top center;
-  min-height: 432px;
-  background-size: cover;
-  text-align: center;
-}
-/* line 118, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .container-form {
-  max-width: 600px;
-}
-/* line 11, ../assets/scss/partials/elements/_base.scss */
-.ready-form-block .container-form:after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-/* line 122, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .title-block {
-  padding-top: 90px;
-  color: #ffffff;
-  font-size: 31px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-}
-/* line 130, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .desc {
-  padding-top: 40px;
-  color: #ffffff;
-  font-size: 13px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.5px;
-}
-/* line 136, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .desc p {
-  padding-bottom: 10px;
-}
-/* line 140, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .yawanawa-form {
-  padding-top: 20px;
-  max-width: 475px;
-  margin: 0 auto;
-}
-/* line 145, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .form-item-pair {
-  margin: 0 auto;
-}
-/* line 149, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .form-item input {
-  text-transform: uppercase;
-  font-size: 12px;
-}
-/* line 154, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .btn {
-  color: #b4634f;
-  padding: 10px 10px;
-  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
-  border-image-slice: 1;
-}
-/* line 158, ../assets/scss/partials/blocks/_blog_all.scss */
-.ready-form-block .btn:hover {
-  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
-  border-image-slice: 1;
+.ready-blog-all-form-block {
+  background-image: url("../img/ready-form-block.jpg");
 }
 
-/* line 163, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 166, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks {
   background-color: #eeeeee;
   padding-top: 31px;
   padding-bottom: 20px;
 }
-/* line 168, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 171, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .container-block {
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  /* line 168, ../assets/scss/partials/blocks/_blog_all.scss */
+  /* line 171, ../assets/scss/partials/blocks/_blog_all.scss */
   .blog-all-blocks .container-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 420px) {
-  /* line 168, ../assets/scss/partials/blocks/_blog_all.scss */
+  /* line 171, ../assets/scss/partials/blocks/_blog_all.scss */
   .blog-all-blocks .container-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 172, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 175, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .content-block {
   padding: 10px 12px;
 }
 @media (max-width: 420px) {
-  /* line 172, ../assets/scss/partials/blocks/_blog_all.scss */
+  /* line 175, ../assets/scss/partials/blocks/_blog_all.scss */
   .blog-all-blocks .content-block {
     padding: 10px 0;
   }
 }
-/* line 178, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 181, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .item-block {
   background-color: #ffffff;
 }
-/* line 181, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 184, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block {
   position: relative;
   width: 100%;
 }
-/* line 184, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 187, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a {
   opacity: 1;
 }
-/* line 187, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 190, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a:hover {
   opacity: 0.7;
 }
-/* line 191, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 194, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block img {
   width: 100%;
   position: relative;
 }
-/* line 196, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 199, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 24px 26px 21px;
@@ -1823,11 +1949,11 @@ input:focus:-ms-input-placeholder {
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 205, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 208, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block a {
   text-decoration: none;
 }
-/* line 209, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 212, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a {
   color: #984089;
   font-size: 14px;
@@ -1837,15 +1963,15 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 215, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 218, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a:hover {
   color: #eb5449;
 }
-/* line 220, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 223, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title {
   padding-top: 5px;
 }
-/* line 222, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 225, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a {
   color: #313131;
   font-size: 18px;
@@ -1856,38 +1982,38 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 229, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 232, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 234, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 237, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc {
   padding-top: 10px;
 }
-/* line 236, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 239, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc p {
   font-size: 15px;
   line-height: 1.68;
   letter-spacing: -0.3px;
 }
-/* line 242, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 245, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date {
   text-align: right;
   padding-top: 20px;
 }
-/* line 245, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 248, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date span {
   color: #8e8a8a;
   font-size: 15px;
   letter-spacing: -0.5px;
 }
-/* line 252, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 255, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 28px;
 }
-/* line 256, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 259, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more {
   color: #b4634f;
   padding: 10px 10px;
@@ -1897,7 +2023,7 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 262, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 265, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -4978,179 +5104,6 @@ input:focus:-ms-input-placeholder {
   }
 }
 
-/* line 180, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .container-form {
-  max-width: 600px;
-}
-/* line 11, ../assets/scss/partials/elements/_base.scss */
-.ready-form-connect-block .container-form:after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-/* line 184, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .title-block {
-  padding-top: 90px;
-  color: #ffffff;
-  font-size: 31px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-}
-/* line 192, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .desc {
-  padding-top: 40px;
-  color: #ffffff;
-  font-size: 13px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.5px;
-}
-/* line 198, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .desc p {
-  padding-bottom: 10px;
-}
-/* line 202, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .yawanawa-form {
-  padding-top: 25px;
-  max-width: 475px;
-  margin: 0 auto;
-}
-/* line 208, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair {
-  margin: 0 auto;
-}
-/* line 212, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"],
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"],
-.ready-form-connect-block .form-item-pair .form-item input[type="email"],
-.ready-form-connect-block .form-item-pair .form-item input[type="url"],
-.ready-form-connect-block .form-item-pair .form-item input[type="password"],
-.ready-form-connect-block .form-item-pair .form-item input[type="search"] {
-  text-transform: uppercase;
-  font-size: 12px;
-  border-color: rgba(238, 238, 238, 0.8);
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 222, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]::-webkit-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 223, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]::-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 224, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]:-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 225, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]:-ms-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 226, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select:focus,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]:focus,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]:focus,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]:focus,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]:focus,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]:focus,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]:focus {
-  border-color: white;
-  outline: none;
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 229, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select:focus::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]:focus::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]:focus::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]:focus::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]:focus::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]:focus::-webkit-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-/* line 230, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select:focus::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]:focus::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]:focus::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]:focus::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]:focus::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]:focus::-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]:focus::-moz-placeholder {
-  color: transparent;
-}
-/* line 231, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select:focus:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]:focus:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]:focus:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]:focus:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]:focus:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]:focus:-moz-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]:focus:-moz-placeholder {
-  color: transparent;
-}
-/* line 232, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .form-item-pair .form-item select:focus:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="text"]:focus:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="tel"]:focus:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="email"]:focus:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="url"]:focus:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="password"]:focus:-ms-input-placeholder,
-.ready-form-connect-block .form-item-pair .form-item input[type="search"]:focus:-ms-input-placeholder {
-  color: transparent;
-}
-/* line 238, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .btn {
-  color: #ffffff;
-  border: 0 none;
-  background: #e09f8b;
-  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
-}
-/* line 242, ../assets/scss/partials/blocks/_connect2.scss */
-.ready-form-connect-block .btn:hover {
-  background: #b4634f;
-  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
-}
-
 /* line 4, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .header-personal-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -5848,193 +5801,6 @@ input:focus:-ms-input-placeholder {
   list-style-position: inside;
 }
 
-/* line 118, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block {
-  position: relative;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-position: top center;
-  min-height: 432px;
-  background-size: cover;
-  text-align: center;
-}
-/* line 128, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .container-form {
-  max-width: 600px;
-}
-/* line 11, ../assets/scss/partials/elements/_base.scss */
-.ready-terms-form-block .container-form:after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-/* line 132, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .title-block {
-  padding-top: 90px;
-  color: #ffffff;
-  font-size: 31px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-}
-/* line 140, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .desc {
-  padding-top: 40px;
-  color: #ffffff;
-  font-size: 13px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.5px;
-}
-/* line 146, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .desc p {
-  padding-bottom: 10px;
-}
-/* line 150, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .yawanawa-form {
-  padding-top: 20px;
-  max-width: 475px;
-  margin: 0 auto;
-}
-/* line 155, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item-pair {
-  margin: 0 auto;
-}
-/* line 164, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select,
-.ready-terms-form-block .form-item input[type="text"],
-.ready-terms-form-block .form-item input[type="tel"],
-.ready-terms-form-block .form-item input[type="email"],
-.ready-terms-form-block .form-item input[type="url"],
-.ready-terms-form-block .form-item input[type="password"],
-.ready-terms-form-block .form-item input[type="search"] {
-  text-transform: uppercase;
-  font-size: 12px;
-  border-color: rgba(238, 238, 238, 0.8);
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 174, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="text"]::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="email"]::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="url"]::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="password"]::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="search"]::-webkit-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 175, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="text"]::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="email"]::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="url"]::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="password"]::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="search"]::-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 176, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="text"]:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="email"]:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="url"]:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="password"]:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="search"]:-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 177, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="text"]:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="email"]:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="url"]:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="password"]:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="search"]:-ms-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 178, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select:focus,
-.ready-terms-form-block .form-item input[type="text"]:focus,
-.ready-terms-form-block .form-item input[type="tel"]:focus,
-.ready-terms-form-block .form-item input[type="email"]:focus,
-.ready-terms-form-block .form-item input[type="url"]:focus,
-.ready-terms-form-block .form-item input[type="password"]:focus,
-.ready-terms-form-block .form-item input[type="search"]:focus {
-  border-color: white;
-  outline: none;
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 181, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select:focus::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="email"]:focus::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="url"]:focus::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="password"]:focus::-webkit-input-placeholder,
-.ready-terms-form-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-/* line 182, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select:focus::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="text"]:focus::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]:focus::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="email"]:focus::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="url"]:focus::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="password"]:focus::-moz-placeholder,
-.ready-terms-form-block .form-item input[type="search"]:focus::-moz-placeholder {
-  color: transparent;
-}
-/* line 183, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select:focus:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="text"]:focus:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]:focus:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="email"]:focus:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="url"]:focus:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="password"]:focus:-moz-placeholder,
-.ready-terms-form-block .form-item input[type="search"]:focus:-moz-placeholder {
-  color: transparent;
-}
-/* line 184, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-item select:focus:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="text"]:focus:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="email"]:focus:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="url"]:focus:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="password"]:focus:-ms-input-placeholder,
-.ready-terms-form-block .form-item input[type="search"]:focus:-ms-input-placeholder {
-  color: transparent;
-}
-/* line 189, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .form-actions {
-  padding-top: 10px;
-}
-/* line 192, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .btn {
-  color: #e09f8b;
-  padding: 10px 10px;
-  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
-  border-image-slice: 1;
-}
-/* line 196, ../assets/scss/partials/blocks/_terms_of_use1.scss */
-.ready-terms-form-block .btn:hover {
-  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
-  border-image-slice: 1;
-}
-
 /* line 4, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .header-mission-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
@@ -6297,191 +6063,6 @@ input:focus:-ms-input-placeholder {
 .practices-mission-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 17px;
-}
-
-/* line 198, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block {
-  background-image: url("../img/ready-form-connect-block.jpg");
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-/* line 208, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .container-form {
-  max-width: 600px;
-}
-/* line 11, ../assets/scss/partials/elements/_base.scss */
-.ready-form-mission-block .container-form:after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-/* line 212, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .title-block {
-  padding-top: 90px;
-  color: #ffffff;
-  font-size: 31px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-}
-/* line 220, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .desc {
-  padding-top: 40px;
-  color: #ffffff;
-  font-size: 13px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.5px;
-}
-/* line 226, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .desc p {
-  padding-bottom: 10px;
-}
-/* line 230, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .yawanawa-form {
-  padding-top: 20px;
-  max-width: 475px;
-  margin: 0 auto;
-}
-/* line 235, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item-pair {
-  margin: 0 auto;
-}
-/* line 244, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select,
-.ready-form-mission-block .form-item input[type="text"],
-.ready-form-mission-block .form-item input[type="tel"],
-.ready-form-mission-block .form-item input[type="email"],
-.ready-form-mission-block .form-item input[type="url"],
-.ready-form-mission-block .form-item input[type="password"],
-.ready-form-mission-block .form-item input[type="search"] {
-  text-transform: uppercase;
-  font-size: 12px;
-  border-color: rgba(238, 238, 238, 0.8);
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 254, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="text"]::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="email"]::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="url"]::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="password"]::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="search"]::-webkit-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 255, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="text"]::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="email"]::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="url"]::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="password"]::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="search"]::-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 256, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="text"]:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="email"]:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="url"]:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="password"]:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="search"]:-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 257, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="text"]:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="email"]:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="url"]:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="password"]:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="search"]:-ms-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 258, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select:focus,
-.ready-form-mission-block .form-item input[type="text"]:focus,
-.ready-form-mission-block .form-item input[type="tel"]:focus,
-.ready-form-mission-block .form-item input[type="email"]:focus,
-.ready-form-mission-block .form-item input[type="url"]:focus,
-.ready-form-mission-block .form-item input[type="password"]:focus,
-.ready-form-mission-block .form-item input[type="search"]:focus {
-  border-color: white;
-  outline: none;
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 261, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select:focus::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="email"]:focus::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="url"]:focus::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="password"]:focus::-webkit-input-placeholder,
-.ready-form-mission-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-/* line 262, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select:focus::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="text"]:focus::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]:focus::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="email"]:focus::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="url"]:focus::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="password"]:focus::-moz-placeholder,
-.ready-form-mission-block .form-item input[type="search"]:focus::-moz-placeholder {
-  color: transparent;
-}
-/* line 263, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select:focus:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="text"]:focus:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]:focus:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="email"]:focus:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="url"]:focus:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="password"]:focus:-moz-placeholder,
-.ready-form-mission-block .form-item input[type="search"]:focus:-moz-placeholder {
-  color: transparent;
-}
-/* line 264, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-item select:focus:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="text"]:focus:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="email"]:focus:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="url"]:focus:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="password"]:focus:-ms-input-placeholder,
-.ready-form-mission-block .form-item input[type="search"]:focus:-ms-input-placeholder {
-  color: transparent;
-}
-/* line 269, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .form-actions {
-  padding-top: 10px;
-}
-/* line 272, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .btn {
-  color: #e09f8b;
-  padding: 10px 10px;
-  background: none;
-  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
-  border-image-slice: 1;
-}
-/* line 277, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.ready-form-mission-block .btn:hover {
-  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
-  border-image-slice: 1;
 }
 
 /* line 4, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */
@@ -7357,193 +6938,6 @@ input:focus:-ms-input-placeholder {
 .desc-meds-block .content-block-desc .desc-red {
   line-height: 1.56;
   font-size: 16px;
-}
-
-/* line 348, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block {
-  position: relative;
-  background-color: #984089;
-  background-position: top center;
-  min-height: 360px;
-  background-size: cover;
-  text-align: center;
-}
-/* line 356, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .container-form {
-  max-width: 600px;
-}
-/* line 11, ../assets/scss/partials/elements/_base.scss */
-.ready-form-meds-block .container-form:after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-/* line 360, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .title-block {
-  padding-top: 60px;
-  color: #ffffff;
-  font-size: 31px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-}
-/* line 368, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .desc {
-  padding-top: 25px;
-  color: #ffffff;
-  font-size: 13px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.5px;
-}
-/* line 374, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .desc p {
-  padding-bottom: 10px;
-}
-/* line 378, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .yawanawa-form {
-  padding-top: 25px;
-  max-width: 475px;
-  margin: 0 auto;
-}
-/* line 383, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item-pair {
-  margin: 0 auto;
-}
-/* line 392, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select,
-.ready-form-meds-block .form-item input[type="text"],
-.ready-form-meds-block .form-item input[type="tel"],
-.ready-form-meds-block .form-item input[type="email"],
-.ready-form-meds-block .form-item input[type="url"],
-.ready-form-meds-block .form-item input[type="password"],
-.ready-form-meds-block .form-item input[type="search"] {
-  text-transform: uppercase;
-  font-size: 12px;
-  border-color: rgba(238, 238, 238, 0.8);
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 402, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="text"]::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="email"]::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="url"]::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="password"]::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="search"]::-webkit-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 403, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="text"]::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="email"]::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="url"]::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="password"]::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="search"]::-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 404, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="text"]:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="email"]:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="url"]:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="password"]:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="search"]:-moz-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 405, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="text"]:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="email"]:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="url"]:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="password"]:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="search"]:-ms-input-placeholder {
-  color: #eeeeee;
-  opacity: 1;
-}
-/* line 406, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select:focus,
-.ready-form-meds-block .form-item input[type="text"]:focus,
-.ready-form-meds-block .form-item input[type="tel"]:focus,
-.ready-form-meds-block .form-item input[type="email"]:focus,
-.ready-form-meds-block .form-item input[type="url"]:focus,
-.ready-form-meds-block .form-item input[type="password"]:focus,
-.ready-form-meds-block .form-item input[type="search"]:focus {
-  border-color: white;
-  outline: none;
-  /* Firefox 19+ */
-  /* Firefox 18- */
-}
-/* line 409, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select:focus::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="email"]:focus::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="url"]:focus::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="password"]:focus::-webkit-input-placeholder,
-.ready-form-meds-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-/* line 410, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select:focus::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="text"]:focus::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]:focus::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="email"]:focus::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="url"]:focus::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="password"]:focus::-moz-placeholder,
-.ready-form-meds-block .form-item input[type="search"]:focus::-moz-placeholder {
-  color: transparent;
-}
-/* line 411, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select:focus:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="text"]:focus:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]:focus:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="email"]:focus:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="url"]:focus:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="password"]:focus:-moz-placeholder,
-.ready-form-meds-block .form-item input[type="search"]:focus:-moz-placeholder {
-  color: transparent;
-}
-/* line 412, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-item select:focus:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="text"]:focus:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="email"]:focus:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="url"]:focus:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="password"]:focus:-ms-input-placeholder,
-.ready-form-meds-block .form-item input[type="search"]:focus:-ms-input-placeholder {
-  color: transparent;
-}
-/* line 417, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .form-actions {
-  padding-top: 10px;
-}
-/* line 420, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .btn {
-  color: #e09f8b;
-  padding: 10px 10px;
-  background: none;
-  -moz-border-image: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
-  border-image: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
-  border-image-slice: 1;
-}
-/* line 425, ../assets/scss/partials/blocks/_meds_to_avoid_with_ayahuasca2.scss */
-.ready-form-meds-block .btn:hover {
-  -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
-  border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
-  border-image-slice: 1;
 }
 
 /* line 1, ../assets/scss/partials/blocks/_custom_retreat2.scss */
