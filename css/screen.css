@@ -1239,7 +1239,9 @@ input:focus:-ms-input-placeholder {
 .desc-custom-retreat-block,
 .header-calendar-block,
 .calendar-period-block,
-.calendar-form {
+.calendar-form,
+.header-cancellation-policy-block,
+.cancellation-policy-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -1314,11 +1316,13 @@ input:focus:-ms-input-placeholder {
   .desc-custom-retreat-block,
   .header-calendar-block,
   .calendar-period-block,
-  .calendar-form {
+  .calendar-form,
+  .header-cancellation-policy-block,
+  .cancellation-policy-block {
     overflow-x: hidden;
   }
 }
-/* line 77, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 79, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -1529,14 +1533,20 @@ input:focus:-ms-input-placeholder {
 .calendar-period-block *::before,
 .calendar-form *,
 .calendar-form *::after,
-.calendar-form *::before {
+.calendar-form *::before,
+.header-cancellation-policy-block *,
+.header-cancellation-policy-block *::after,
+.header-cancellation-policy-block *::before,
+.cancellation-policy-block *,
+.cancellation-policy-block *::after,
+.cancellation-policy-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 83, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 85, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -1607,12 +1617,14 @@ input:focus:-ms-input-placeholder {
 .desc-custom-retreat-block .container-retreat,
 .header-calendar-block .container-retreat,
 .calendar-period-block .container-retreat,
-.calendar-form .container-retreat {
+.calendar-form .container-retreat,
+.header-cancellation-policy-block .container-retreat,
+.cancellation-policy-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 87, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 89, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1683,12 +1695,14 @@ input:focus:-ms-input-placeholder {
   .desc-custom-retreat-block .row,
   .header-calendar-block .row,
   .calendar-period-block .row,
-  .calendar-form .row {
+  .calendar-form .row,
+  .header-cancellation-policy-block .row,
+  .cancellation-policy-block .row {
     margin: 0;
   }
 }
 
-/* line 94, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 96, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1702,7 +1716,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 106, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 108, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1711,7 +1725,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 113, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 115, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1729,24 +1743,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 122, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 124, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 126, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 128, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 126, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 128, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 134, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 136, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1762,12 +1776,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 147, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 149, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 153, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 155, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1778,13 +1792,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 162, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 164, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 166, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 168, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
@@ -5156,7 +5170,7 @@ input:focus:-ms-input-placeholder {
   }
 }
 
-/* line 115, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 44, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block {
   text-align: center;
   background-color: #eeeeee;
@@ -5164,18 +5178,18 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 58px;
   position: relative;
 }
-/* line 116, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 45, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .container-sentence {
   max-width: 940px;
 }
 @media screen and (max-width: 768px) {
-  /* line 124, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 53, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 128, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 57, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .title-block .title {
   color: #984089;
   text-transform: uppercase;
@@ -5184,40 +5198,40 @@ input:focus:-ms-input-placeholder {
   letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 128, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 57, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 128, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 57, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 128, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 57, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 139, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 68, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .title-block .desc-bold {
   padding-top: 50px;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.56;
 }
-/* line 144, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 73, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .title-block .desc-bold p {
   padding-bottom: 15px;
 }
-/* line 146, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 75, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .title-block .desc-bold p.sec-line {
   max-width: 590px;
   margin: 0 auto;
 }
-/* line 152, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 81, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .title-block .desc {
   padding-top: 32px;
   color: #000000;
@@ -5226,22 +5240,22 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 152, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 81, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 152, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 81, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 162, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 91, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .title-block .desc p {
   padding-bottom: 30px;
 }
-/* line 169, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 98, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -5253,7 +5267,7 @@ input:focus:-ms-input-placeholder {
   left: 0;
   top: 10px;
 }
-/* line 180, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 109, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -5265,7 +5279,7 @@ input:focus:-ms-input-placeholder {
   z-index: 50;
   position: relative;
 }
-/* line 192, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 121, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .price-block {
   position: relative;
   padding-bottom: 27px;
@@ -5273,7 +5287,7 @@ input:focus:-ms-input-placeholder {
   max-width: 800px;
   margin-top: 20px;
 }
-/* line 199, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 128, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .price-block .price {
   color: #eb5449;
   text-transform: uppercase;
@@ -5281,34 +5295,34 @@ input:focus:-ms-input-placeholder {
   max-width: 450px;
   margin: 0 auto;
 }
-/* line 205, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 134, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .price-block .price span {
   display: inline-block;
 }
-/* line 208, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 137, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .price-block .price .big {
   padding-right: 10px;
   font-size: 40px;
 }
 @media screen and (max-width: 768px) {
-  /* line 208, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 137, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .price-block .price .big {
     font-size: 37px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 208, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 137, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .price-block .price .big {
     font-size: 34px;
   }
 }
 @media (max-width: 420px) {
-  /* line 208, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 137, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .price-block .price .big {
     font-size: 31px;
   }
 }
-/* line 215, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 144, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .price-block .price .down-payment {
   display: inline-block;
   max-width: 180px;
@@ -5317,55 +5331,55 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
 }
 @media screen and (max-width: 640px) {
-  /* line 215, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 144, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .price-block .price .down-payment {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
   }
 }
-/* line 229, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 158, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .dates-block {
   position: relative;
 }
-/* line 231, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 160, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .dates-block .termes-block {
   padding-top: 40px;
 }
-/* line 234, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 163, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 238, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 167, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 243, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 172, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 249, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 178, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
 @media screen and (max-width: 640px) {
-  /* line 249, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 178, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .intro-personal-block .dates-block .termes-block .termes .desc-red {
     padding-bottom: 20px;
   }
 }
-/* line 258, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 187, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .link-more-block {
   padding-top: 30px;
 }
-/* line 261, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 190, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .link-more-block .link-more {
   color: #eeeeee;
   background: #e09f8b;
@@ -5375,7 +5389,7 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 265, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 194, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .intro-personal-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -5385,7 +5399,7 @@ input:focus:-ms-input-placeholder {
   opacity: 1;
 }
 
-/* line 273, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 202, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block {
   background: transparent url("../img/ready-personal-block.jpg") no-repeat scroll;
   background-size: cover;
@@ -5393,7 +5407,7 @@ input:focus:-ms-input-placeholder {
   min-height: 432px;
   text-align: center;
 }
-/* line 279, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 208, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .title {
   padding-top: 93px;
   font-size: 30px;
@@ -5404,7 +5418,7 @@ input:focus:-ms-input-placeholder {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 296, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 225, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .desc {
   padding-top: 30px;
   color: #ffffff;
@@ -5413,15 +5427,15 @@ input:focus:-ms-input-placeholder {
   text-align: center;
   letter-spacing: 0.7px;
 }
-/* line 306, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 235, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .desc p {
   padding-bottom: 10px;
 }
-/* line 310, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 239, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .link-more-block {
   padding-top: 20px;
 }
-/* line 312, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 241, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .link-more-block .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -5432,7 +5446,7 @@ input:focus:-ms-input-placeholder {
   border: 0 none;
   letter-spacing: 1px;
 }
-/* line 317, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 246, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -5441,28 +5455,28 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   opacity: 1;
 }
-/* line 324, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 253, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .text-link {
   padding-top: 68px;
   color: #ffffff;
   font-size: 14px;
 }
-/* line 328, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 257, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .ready-personal-block .text-link a {
   color: #ffffff;
   text-decoration: underline;
 }
 
-/* line 335, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 264, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block {
   background-color: #eeeeee;
   padding-bottom: 75px;
 }
-/* line 338, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 267, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .container-form {
   max-width: 940px;
 }
-/* line 341, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 270, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .title-block {
   padding-top: 65px;
   padding-bottom: 45px;
@@ -5470,7 +5484,7 @@ input:focus:-ms-input-placeholder {
   position: relative;
   border-bottom: 1px solid #dedede;
 }
-/* line 347, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 276, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .title-block .title {
   color: #984089;
   font-size: 21px;
@@ -5481,18 +5495,18 @@ input:focus:-ms-input-placeholder {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 359, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 288, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .content-block {
   margin-left: -50px;
   margin-right: -50px;
 }
 @media screen and (max-width: 768px) {
-  /* line 359, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 288, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .packages-personal-block .content-block {
     margin: 0;
   }
 }
-/* line 366, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 295, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block {
   padding: 50px 0 0 40px;
   display: inline-block;
@@ -5500,38 +5514,38 @@ input:focus:-ms-input-placeholder {
   width: 49%;
 }
 @media screen and (max-width: 768px) {
-  /* line 366, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 295, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .packages-personal-block .list-block {
     width: 100%;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 366, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 295, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .packages-personal-block .list-block {
     padding-left: 0;
   }
 }
-/* line 378, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 307, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block:last-of-type .list {
   width: 98%;
 }
-/* line 382, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 311, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block p {
   padding-bottom: 27px;
   line-height: 1.56;
   font-size: 14px;
 }
-/* line 388, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 317, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 16px;
 }
-/* line 393, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 322, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .termes {
   display: inline-block;
   vertical-align: top;
 }
-/* line 398, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 327, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .termes .desc-red {
   color: #eb5449;
   text-transform: uppercase;
@@ -5540,7 +5554,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   font-weight: 600;
 }
-/* line 406, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 335, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .termes .desc {
   padding-top: 30px;
   display: inline-block;
@@ -5548,7 +5562,7 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
   font-size: 16px;
 }
-/* line 414, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 343, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .list {
   padding-top: 30px;
   font-weight: 600;
@@ -5557,22 +5571,22 @@ input:focus:-ms-input-placeholder {
   padding-left: 10px;
   width: 97%;
 }
-/* line 423, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 352, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .list li p {
   font-size: 15px;
 }
-/* line 428, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 357, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .price-block {
   padding-top: 25px;
 }
-/* line 430, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 359, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .price-block .desc {
   width: 100%;
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 436, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 365, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .packages-personal-block .list-block .price-block .price {
   padding-top: 10px;
   width: 100%;
@@ -5581,57 +5595,57 @@ input:focus:-ms-input-placeholder {
   font-size: 40px;
 }
 
-/* line 446, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 375, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .personal-bg-block {
   max-height: 720px;
   width: 100%;
 }
-/* line 452, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 381, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .personal-bg-block img {
   width: 100%;
 }
 
-/* line 456, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 385, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block {
   text-align: center;
   background-color: #f6c1a2;
   color: #313131;
   min-height: 360px;
 }
-/* line 461, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 390, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .container-quote {
   max-width: 1030px;
 }
-/* line 464, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 393, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 @media screen and (max-width: 640px) {
-  /* line 464, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+  /* line 393, ../assets/scss/partials/blocks/_personal_consultations3.scss */
   .quote-personal-block .title-block {
     padding-top: 35px;
   }
 }
-/* line 469, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 398, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .autor {
   padding-top: 25px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
 }
-/* line 475, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 404, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .desc {
   line-height: 1.92;
 }
-/* line 478, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 407, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .desc .icon-quote {
   font-size: 35px;
   line-height: 5px;
   vertical-align: middle;
   padding: 0 10px;
 }
-/* line 484, ../assets/scss/partials/blocks/_personal_consultations3.scss */
+/* line 413, ../assets/scss/partials/blocks/_personal_consultations3.scss */
 .quote-personal-block .title-block .desc p {
   padding-bottom: 20px;
 }
@@ -8532,8 +8546,12 @@ input:focus:-ms-input-placeholder {
   background-image: url("/img/ready-calendar1-block.jpg");
 }
 
+/* line 1, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.header-cancellation-policy-block {
+  background-image: url("/img/cancellation-policy3-header.jpg");
+}
 /* line 4, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-.header-private-ceramonies-block .title-block .site-label {
+.header-cancellation-policy-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   font-size: 85px;
@@ -8546,24 +8564,24 @@ input:focus:-ms-input-placeholder {
 }
 @media screen and (max-width: 768px) {
   /* line 4, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-  .header-private-ceramonies-block .title-block .site-label {
+  .header-cancellation-policy-block .title-block .site-label {
     font-size: 65px;
   }
 }
 @media screen and (max-width: 640px) {
   /* line 4, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-  .header-private-ceramonies-block .title-block .site-label {
+  .header-cancellation-policy-block .title-block .site-label {
     font-size: 45px;
   }
 }
 @media (max-width: 420px) {
   /* line 4, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-  .header-private-ceramonies-block .title-block .site-label {
+  .header-cancellation-policy-block .title-block .site-label {
     font-size: 35px;
   }
 }
 /* line 24, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-.header-private-ceramonies-block .title-block .title-description {
+.header-cancellation-policy-block .title-block .title-description {
   font-family: "Open Sans", sans-serif;
   color: #000000;
   text-transform: uppercase;
@@ -8574,13 +8592,250 @@ input:focus:-ms-input-placeholder {
 }
 @media screen and (max-width: 768px) {
   /* line 24, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-  .header-private-ceramonies-block .title-block .title-description {
+  .header-cancellation-policy-block .title-block .title-description {
     font-size: 26px;
   }
 }
 @media screen and (max-width: 640px) {
   /* line 24, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-  .header-private-ceramonies-block .title-block .title-description {
+  .header-cancellation-policy-block .title-block .title-description {
     font-size: 22px;
   }
+}
+
+/* line 44, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 46px;
+  padding-bottom: 50px;
+  position: relative;
+}
+/* line 50, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .container-terms {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 53, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 57, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  /* line 57, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 57, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 57, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 67, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .title-block .desc-bold {
+  max-width: 890px;
+  margin: 0 auto;
+  padding-top: 23px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+/* line 74, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .title-block .desc-bold p {
+  padding-bottom: 30px;
+}
+/* line 78, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .title-block .desc {
+  color: #313131;
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 780px;
+  margin: 0 auto;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 78, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 78, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 90, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+/* line 93, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .title-block .desc a {
+  color: #984089;
+}
+/* line 100, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .line-label {
+  position: relative;
+}
+/* line 103, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .line-label:before {
+  background: #dedede;
+  background-position: center center;
+  height: 1px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 15px;
+}
+/* line 114, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .line-label .label-title {
+  background-color: #eeeeee;
+  color: #7c7c7c;
+  font-weight: 400;
+  font-size: 23px;
+  padding: 0 27px;
+  display: inline-block;
+  z-index: 50;
+  position: relative;
+  margin: 0 auto;
+  max-width: 420px;
+}
+/* line 131, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .desc-bold {
+  margin: 0 auto;
+  padding-top: 35px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+/* line 142, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .desc {
+  text-align: left;
+}
+/* line 144, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .desc p {
+  padding-bottom: 24px;
+  line-height: 1.74;
+  font-size: 14px;
+}
+/* line 148, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 152, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .label-block .desc p.before-ul {
+  padding-bottom: 0;
+}
+/* line 158, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block {
+  padding-top: 25px;
+}
+/* line 198, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .desc {
+  text-align: left;
+  padding-top: 35px;
+}
+/* line 201, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .desc p {
+  padding-bottom: 24px;
+  line-height: 1.74;
+  font-size: 14px;
+}
+/* line 205, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 209, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .desc p.before-ul {
+  padding-bottom: 0;
+}
+/* line 212, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .desc p.n-padding {
+  padding-bottom: 0;
+}
+/* line 216, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .desc ul {
+  padding-top: 5px;
+  line-height: 2.04;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+/* line 229, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .list-block {
+  padding: 22px 20px 0;
+}
+@media screen and (max-width: 640px) {
+  /* line 229, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .content-block .list-block {
+    padding: 20px 10px 0;
+  }
+}
+/* line 234, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .list-block:last-of-type {
+  padding-left: 30px;
+}
+@media screen and (max-width: 640px) {
+  /* line 234, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  .cancellation-policy-block .content-block .list-block:last-of-type {
+    padding-left: 10px;
+  }
+}
+/* line 243, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .list-block:last-of-type p {
+  width: 100%;
+}
+/* line 247, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .list-block p {
+  padding-bottom: 22px;
+  line-height: 1.68;
+  font-size: 15px;
+  text-align: left;
+}
+/* line 254, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .list-block p.n-padding {
+  padding-bottom: 0;
+}
+/* line 257, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block .list-block p .label-bold {
+  font-weight: 600;
+  font-size: 17px;
+}
+/* line 264, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block-bottom {
+  border-top: 1px solid #dedede;
+  padding-top: 35px;
+}
+/* line 267, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block-bottom .desc {
+  margin: 0 auto;
+  max-width: 760px;
+}
+/* line 271, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .content-block-bottom p {
+  padding-bottom: 24px;
+  line-height: 1.74;
+  font-size: 14px;
 }
