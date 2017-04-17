@@ -8762,11 +8762,12 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
   line-height: 1.8;
 }
-/* line 74, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
-.cancellation-policy-block .title-block .desc-bold p {
-  padding-bottom: 30px;
-}
 /* line 78, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+.cancellation-policy-block .title-block .desc-red {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+/* line 82, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .title-block .desc {
   color: #313131;
   font-size: 17px;
@@ -8776,30 +8777,30 @@ input:focus:-ms-input-placeholder {
   letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 78, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  /* line 82, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
   .cancellation-policy-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 78, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  /* line 82, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
   .cancellation-policy-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 90, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 94, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .title-block .desc p {
   padding-bottom: 30px;
 }
-/* line 93, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 97, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .title-block .desc a {
   color: #984089;
 }
-/* line 100, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 104, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .line-label {
   position: relative;
 }
-/* line 103, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 107, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -8811,75 +8812,75 @@ input:focus:-ms-input-placeholder {
   left: 0;
   top: 15px;
 }
-/* line 114, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 118, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .line-label .label-title {
   background-color: #eeeeee;
   color: #7c7c7c;
-  font-weight: 400;
   font-size: 23px;
   padding: 0 27px;
+  font-weight: 600;
   display: inline-block;
   z-index: 50;
   position: relative;
   margin: 0 auto;
-  max-width: 420px;
+  max-width: 380px;
 }
-/* line 131, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 135, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .desc-bold {
   margin: 0 auto;
-  padding-top: 35px;
+  padding-top: 30px;
   font-size: 17px;
   font-weight: 600;
   line-height: 1.8;
 }
-/* line 142, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 146, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .desc {
   text-align: left;
 }
-/* line 144, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 148, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .desc p {
   padding-bottom: 24px;
   line-height: 1.74;
   font-size: 14px;
 }
-/* line 148, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 152, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .desc p a {
   color: #984089;
   text-decoration: underline;
 }
-/* line 152, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 156, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .label-block .desc p.before-ul {
   padding-bottom: 0;
 }
-/* line 158, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 162, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block {
   padding-top: 25px;
 }
-/* line 198, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 164, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .desc {
   text-align: left;
   padding-top: 35px;
 }
-/* line 201, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 167, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .desc p {
   padding-bottom: 24px;
   line-height: 1.74;
   font-size: 14px;
 }
-/* line 205, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 171, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .desc p a {
   color: #984089;
   text-decoration: underline;
 }
-/* line 209, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 175, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .desc p.before-ul {
   padding-bottom: 0;
 }
-/* line 212, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 178, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .desc p.n-padding {
   padding-bottom: 0;
 }
-/* line 216, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 182, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .desc ul {
   padding-top: 5px;
   line-height: 2.04;
@@ -8889,57 +8890,57 @@ input:focus:-ms-input-placeholder {
   list-style-type: upper-roman;
   list-style-position: inside;
 }
-/* line 229, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 195, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .list-block {
   padding: 22px 20px 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 229, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  /* line 195, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
   .cancellation-policy-block .content-block .list-block {
     padding: 20px 10px 0;
   }
 }
-/* line 234, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 200, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .list-block:last-of-type {
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 234, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+  /* line 200, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
   .cancellation-policy-block .content-block .list-block:last-of-type {
     padding-left: 10px;
   }
 }
-/* line 243, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 209, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .list-block:last-of-type p {
   width: 100%;
 }
-/* line 247, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 213, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .list-block p {
   padding-bottom: 22px;
   line-height: 1.68;
   font-size: 15px;
   text-align: left;
 }
-/* line 254, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 220, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .list-block p.n-padding {
   padding-bottom: 0;
 }
-/* line 257, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 223, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 17px;
 }
-/* line 264, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 230, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block-bottom {
   border-top: 1px solid #dedede;
   padding-top: 35px;
 }
-/* line 267, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 233, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block-bottom .desc {
   margin: 0 auto;
   max-width: 760px;
 }
-/* line 271, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
+/* line 237, ../assets/scss/partials/blocks/_cancellation_policy3.scss */
 .cancellation-policy-block .content-block-bottom p {
   padding-bottom: 24px;
   line-height: 1.74;
