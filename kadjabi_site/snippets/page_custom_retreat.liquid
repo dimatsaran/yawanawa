@@ -1,0 +1,112 @@
+{% include "header_block" %}
+{% include "anchors_menu_block" %}
+<div id="intro-block" class="block-scroll intro-custom-retreat-block default">
+  <div class="container container-sentence">
+    <div class="row">
+      {{ page.content }}
+    </div>
+  </div>
+  {% include "scroll_up_block" %}
+</div>
+<div id="option-block" class="custom-retreat-options-block" style="background-image :url('{{ 'custom-retreat-options.jpg' | asset_url | img_tag }}')">
+  <div class="container-fluid container-bg">
+    <div class="row">
+      <div class="content-block  container-retreat">
+        <h2 class="title">Custom Retreat Options</h2>
+        <div class="row">
+          <div class="option">
+            <div class="img-block">
+              <img src="{{'icon-custom-ret-corporate.png' | asset_url | img_tag }}" alt="Corporate Retreat">
+            </div>
+            <p>Corporate Retreat</p>
+          </div>
+          <div class="option">
+            <div class="img-block">
+              <img src="{{'icon-custom-ret-family.png' | asset_url | img_tag }}" alt="Family Retreat">
+            </div>
+            <p>Family Retreat</p>
+          </div>
+          <div class="option">
+            <div class="img-block">
+              <img src="{{'icon-custom-ret-friends.png' | asset_url | img_tag }}" alt="Friends Retreat">
+            </div>
+            <p>Friends Retreat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="components-rates-block" class="components-custom-retreat-block">
+  <div class="container container-custom-retreat">
+    <div class="row first-block">
+      <div class="content-block">
+        <div class="desc">
+          <p class="desc-block">The retreats can be customized to your wishes or can be along the lines of our
+            existing retreats. Here some possibilities:</p>
+          <div class="day-choose">
+            <p class="day-color">6 day private Soma Immersion retreat</p>
+            <p class="bold-style">Recommendation for location: Mexico</p>
+          </div>
+          <div class="day-choose">
+            <p class="day-color">3 day intensive weekend retreat</p>
+            <p class="bold-style">Recommendation for location: California</p>
+          </div>
+          <p class="desc-bottom">We have good relationships with several retreat centers around the world. We are open to hold a retreat in a new venue that is welcoming of our type of work.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row second-block">
+      <div class="content-block">
+        <p class="sub-title">Some components of our customized retreats</p>
+        <div class="list-block">
+          <ul class="list">
+            <li><p>Sacred Ceremonies</p></li>
+            <li><p>Yoga & Meditation Classes</p></li>
+            <li><p>Rounds of Sharing & Integration</p></li>
+            <li><p>Sound healing</p></li>
+            <li><p>Energy healing</p></li>
+          </ul>
+        </div>
+        <div class="list-block">
+          <ul class="list">
+            <li><p>Teachings on various spiritual subjects</p></li>
+            <li><p>Personal consultation sessions</p></li>
+            <li><p>Create a theme retreat such as an all Woman
+              or  all Men’s retreat, a silent retreat, a couples
+              retreat or a group with people facing a
+              common specific issue.</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row third-block">
+      <p class="sub-title">Rates</p>
+      <div class="desc">
+        <p>The costs for each customized retreat vary based on the length of time, number of ceremonies, number of participants, and location. As an example: the cost for a private Soma Immersion retreat with 10-15 people in Mexico will be $ 2,200 / person. This includes accommodation, food, the ceremonies, yoga and meditation classes, sharing and integration circles, sound healing, energy healing, and much more.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% include "img_bg_block" with  { enabled: true, id : 1  }  %}
+{% include "ready_form_block" %}
+<div id="reservation-and-cancellation" class="desc-custom-retreat-block">
+  <div class="container container-custom-retreat">
+    <div class="row">
+      <div class="title-block">
+        <h2 class="title">Reservation and Cancellation:</h2>
+      </div>
+      <div class="content-block">
+        <p>We hold customized retreats for a minimum of 10 and a maximum of 15 participants. Smaller groups are possible for the price of a retreat of 10 people.</p>
+        <p class="italy-style"><span class="bold-style">Don’t have 10 people?</span> Then integrate your smaller group with the participants of our scheduled retreats. See our <a href="#">Retreat Calendar</a> to learn more about our dates.</p>
+        <p>To reserve a private retreat, we ask you to make a deposit of 50% of the full retreat price at least 10 weeks in advance. The other 50% is to be paid 2 weeks before the first day of the private retreat.</p>
+        <p>If you cancel or change any part of your reservation at least 60 days before the first day of your retreats, a $ 75,—per-person processing fee will be charged and the remaining balance will be refunded.</p>
+        <p>There are no refunds for cancellations made within 60 days before the first day of a retreat.</p>
+        <p>SacredJourney.Earth reserves the right to cancel any retreat at any time. If your retreat is canceled, we will notify you and offer you the following options:</p>
+        <p>•  You may receive a full refund</p>
+        <p>•  Subject to availability, you may transfer your private retreat to another period</p>
+      </div>
+    </div>
+  </div>
+</div>
+
