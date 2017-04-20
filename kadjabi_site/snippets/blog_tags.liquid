@@ -1,0 +1,12 @@
+{% if tags.size > 0 %}
+<div class="tags">
+  <a href="/blog" class="tag" kjb-settings-id="blog_tag_all">{{ settings.blog_tag_all }}</a>
+  {% for tag in tags %}
+  {% if tags.current == tag %}
+  <a href="{{ current_site.url }}/blog?tag={{ tag }}" class="tag active">{{ tag }}</a>
+  {% else %}
+  <a href="{{ current_site.url }}/blog?tag={{ tag }}" class="tag">{{ tag }}</a>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

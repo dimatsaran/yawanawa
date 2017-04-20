@@ -1,0 +1,37 @@
+<div class="blog">
+  <div class="container">
+    {% include "blog_tags" %}
+    <div class="grid">
+      {% paginate blog_posts by 6 %}
+      {% for blog_post in paginate.collection %}
+      <div class="blog-item col-md-1-2">
+        <div class="blog-img">
+          <div class="blog-date">
+            <div class="day">
+              {{ blog_post.created_at | date: "%d" }}
+            </div>
+            <div class="month">
+              {{ blog_post.created_at | date: "%B" }}
+            </div>
+            <div class="year">
+              {{ blog_post.created_at | date: "20%y" }}
+            </div>
+          </div>
+          {% if blog_post.image_url %}
+          <img class="img-responsive" src="{{ blog_post.image_url }}">
+          {% else %}
+          <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
+          {% endif %}
+        </div>
+        <h2>{{ blog_post.title | truncate: 70 }}</h2>
+        <p>{{ blog_post.content | strip_html | truncate: 250 }}</p>
+        <a kjb-settings-id="language_read_more" class="btn btn-blog-listing" href="{{ blog_post.url }}">{{ settings.language_read_more }}</a>
+      </div>
+      {% endfor %}
+      {% if paginate.pages > 1 %}
+      {% include "pagination" %}
+      {% endif %}
+      {% endpaginate %}
+    </div>
+  </div>
+</div>

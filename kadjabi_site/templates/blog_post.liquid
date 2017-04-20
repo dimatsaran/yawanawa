@@ -1,0 +1,10 @@
+<div class="blog-post">
+  <div class="container">
+    <div class="blog-content">
+      <h1>{{ blog_post.title }}</h1>
+      <h5>{{ blog_post.created_at | date: "%b %d, 20%y" }}</h5>
+      <img class="img-responsive" src="{{ blog_post.image_url }}"/>
+      {{ blog_post.content }}
+    </div>
+  </div>
+</div>

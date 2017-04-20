@@ -1,0 +1,12 @@
+<a href="{{ blog_post.url }}" class="popup">
+  <div class="overlay"></div>
+  {% if blog_post.image_url %}
+  <img class="img-responsive" src="{{ blog_post.image_url }}">
+  {% else %}
+  <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
+  {% endif %}
+  <div class="popup-info text-center">
+    <h5 class="text-light">{{ blog_post.created_at | date: "%b %d, 20%y" }}</h5>
+    <h3>{{ blog_post.title | truncate: 70 }}</h3>
+  </div>
+</a>
