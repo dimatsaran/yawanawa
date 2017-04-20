@@ -1,10 +1,84 @@
-<div class="blog-post">
+<div id="header-block"  class="header-block  header-blog-yawanawa-block" style="background-image :url('{{ 'blog-yawanawa-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">Dennis’ Journey to the Yawanawa Indians</h1>
+    <p class="title-description">blog</p>
+  </div>
+</div>
+<div class="menu-block">
   <div class="container">
-    <div class="blog-content">
-      <h1>{{ blog_post.title }}</h1>
-      <h5>{{ blog_post.created_at | date: "%b %d, 20%y" }}</h5>
-      <img class="img-responsive" src="{{ blog_post.image_url }}"/>
+    <div class="row">
+      <ul class="menu">
+        <li class="item-menu"><a href="#">Articles and Teachings</a></li>
+        <li class="item-menu"><a href="#">Newsletters</a></li>
+        <li class="item-menu"><a href="#">Sacred Stories</a></li>
+        <li class="item-menu"><a href="#">Yawanawá</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="blog-single-block">
+  <div class="container container-single">
+    <div class="row">
+      <p class="title">{{ blog_post.title }}</p>
+      <div class="date"><span>{{ blog_post.created_at | date: "%b %d, 20%y" }}</span></div>
+      {% comment %}
+      <div class="navigation-block">
+        <a class="slide-btn slide-previous" href="#">
+              <span class="icon-svg">
+                <svg class="icon icon-previous">
+                  <use xlink:href="img/icon/sprite.svg#previous"></use>
+                </svg>
+              </span>
+        </a>
+        <a class="slide-btn slide-next" href="#">
+              <span class="icon-svg">
+                <svg class="icon icon-next">
+                  <use xlink:href="img/icon/sprite.svg#next"></use>
+                </svg>
+              </span>
+        </a>
+      </div>
+      {% endcomment %}
       {{ blog_post.content }}
     </div>
+  </div>
+</div>
+{% include "ready_form_block" %}
+<div class="blogs-block">
+  <div class="container-fluid container-block">
+    {% paginate blog_posts by 6 %}
+    {% for blog_post in paginate.collection %}
+    <div class="content-block col-lg-4 col-xs-12">
+      <div class="item-block">
+        <div class="img-block">
+          <a href="{{ blog_post.url }}">
+            {% if blog_post.image_url %}
+            <img class="img-responsive" src="{{ blog_post.image_url }}">
+            {% else %}
+            <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
+            {% endif %}
+          </a>
+        </div>
+        <div class="text-block">
+          <div class="title-category">
+            <a href="#">Yawanawa</a>
+          </div>
+          <div class="title">
+            <a href="{{ blog_post.url }}">{{ blog_post.title | truncate: 70 }}</a>
+          </div>
+          <div class="desc">
+            <p>{{ blog_post.content | strip_html | truncate: 250 }}</p>
+          </div>
+          <div class="date">
+            <span>{{ blog_post.created_at | date: "%d" }} {{ blog_post.created_at | date: "%B" }}, {{ blog_post.created_at | date: "20%y" }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    {% if paginate.pages > 1 %}
+    {% include "pagination" %}
+    {% endif %}
+    {% endpaginate %}
   </div>
 </div>

@@ -1850,12 +1850,12 @@ input:focus:-ms-input-placeholder {
 }
 /* line 4, ../assets/scss/partials/blocks/_blog_all.scss */
 .header-blog-all-block .title-block .site-label {
-  font-family: QwigleyRegular;
+  font-family: 'Qwigley', cursive;
   color: #614f43;
   font-size: 80px;
   letter-spacing: 1.5px;
 }
-/* line 10, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 11, ../assets/scss/partials/blocks/_blog_all.scss */
 .header-blog-all-block .title-block .title-description {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
@@ -1865,83 +1865,83 @@ input:focus:-ms-input-placeholder {
   padding-top: 28px;
 }
 
-/* line 110, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 111, ../assets/scss/partials/blocks/_blog_all.scss */
 .ready-blog-all-form-block {
   background-image: url("../img/ready-form-block.jpg");
 }
 
-/* line 166, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 167, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks {
   background-color: #eeeeee;
   padding-top: 31px;
   padding-bottom: 20px;
 }
-/* line 171, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 172, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .container-block {
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  /* line 171, ../assets/scss/partials/blocks/_blog_all.scss */
+  /* line 172, ../assets/scss/partials/blocks/_blog_all.scss */
   .blog-all-blocks .container-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 420px) {
-  /* line 171, ../assets/scss/partials/blocks/_blog_all.scss */
+  /* line 172, ../assets/scss/partials/blocks/_blog_all.scss */
   .blog-all-blocks .container-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 175, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 176, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .content-block {
   padding: 10px 12px;
 }
 @media (max-width: 420px) {
-  /* line 175, ../assets/scss/partials/blocks/_blog_all.scss */
+  /* line 176, ../assets/scss/partials/blocks/_blog_all.scss */
   .blog-all-blocks .content-block {
     padding: 10px 0;
   }
 }
-/* line 181, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 182, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .item-block {
   background-color: #ffffff;
 }
-/* line 184, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 185, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block {
   position: relative;
   width: 100%;
 }
-/* line 187, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 188, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a {
   opacity: 1;
 }
-/* line 190, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 191, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block a:hover {
   opacity: 0.7;
 }
-/* line 194, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 195, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .img-block img {
   width: 100%;
   position: relative;
 }
-/* line 199, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 200, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 24px 26px 21px;
-  min-height: 220px;
+  min-height: 295px;
   border-width: 0 1px 1px 1px;
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 208, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 209, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block a {
   text-decoration: none;
 }
-/* line 212, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 213, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a {
   color: #984089;
   font-size: 14px;
@@ -1951,15 +1951,15 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 218, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 219, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title-category a:hover {
   color: #eb5449;
 }
-/* line 223, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 224, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title {
   padding-top: 5px;
 }
-/* line 225, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 226, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a {
   color: #313131;
   font-size: 18px;
@@ -1970,38 +1970,38 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 232, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 233, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 237, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 238, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc {
   padding-top: 10px;
 }
-/* line 239, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 240, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .desc p {
   font-size: 15px;
   line-height: 1.68;
   letter-spacing: -0.3px;
 }
-/* line 245, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 246, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date {
   text-align: right;
   padding-top: 20px;
 }
-/* line 248, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 249, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .text-block .date span {
   color: #8e8a8a;
   font-size: 15px;
   letter-spacing: -0.5px;
 }
-/* line 255, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 256, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 28px;
 }
-/* line 259, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 260, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more {
   color: #b4634f;
   padding: 10px 10px;
@@ -2011,13 +2011,25 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border-image-slice: 1;
 }
-/* line 265, ../assets/scss/partials/blocks/_blog_all.scss */
+/* line 266, ../assets/scss/partials/blocks/_blog_all.scss */
 .blog-all-blocks .link-more-block .link-more:hover {
   -moz-border-image: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
   border-image: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   border-image-slice: 1;
+}
+/* line 271, ../assets/scss/partials/blocks/_blog_all.scss */
+.blog-all-blocks .pagination {
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 640px) {
+  /* line 274, ../assets/scss/partials/blocks/_blog_all.scss */
+  .blog-all-blocks .pagination .btn {
+    width: 50%;
+    float: left;
+  }
 }
 
 /* line 1, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
@@ -2385,6 +2397,8 @@ input:focus:-ms-input-placeholder {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: "Open Sans", sans-serif;
+  /* for_kajabi*/
+  /*end_for_kajabi*/
 }
 /* line 6, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .container-single {
@@ -2402,21 +2416,22 @@ input:focus:-ms-input-placeholder {
   padding-top: 20px;
   text-align: center;
   font-size: 14px;
+  padding-bottom: 20px;
 }
-/* line 21, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 22, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .navigation-block {
   text-align: center;
   padding-top: 10px;
 }
-/* line 24, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 25, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .navigation-block .slide-btn {
   display: inline-block;
 }
-/* line 27, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 28, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .navigation-block .icon-svg {
   display: inline-block;
 }
-/* line 30, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 31, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .navigation-block .icon {
   margin: 20px;
   width: 50px;
@@ -2429,12 +2444,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-/* line 38, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 39, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .navigation-block .icon:hover {
   opacity: 0.5;
   outline: none;
 }
-/* line 64, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 65, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .content-block {
   color: #000000;
   font-size: 16px;
@@ -2442,26 +2457,46 @@ input:focus:-ms-input-placeholder {
   font-weight: 400;
 }
 @media screen and (max-width: 768px) {
-  /* line 64, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+  /* line 65, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
   .blog-single-block .content-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 72, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 73, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .content-block p {
   padding-bottom: 30px;
 }
-/* line 76, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 78, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+.blog-single-block img {
+  width: 100%;
+  margin: 20px 0;
+}
+/* line 82, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+.blog-single-block p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.44;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  /* line 82, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+  .blog-single-block p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 93, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .img-block {
   padding-top: 20px;
   padding-bottom: 30px;
 }
-/* line 79, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 96, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .img-block img {
   width: 100%;
 }
-/* line 82, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
+/* line 99, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block .img-block .desc {
   padding-top: 50px;
   font-family: "Open Sans", sans-serif;
@@ -8470,37 +8505,38 @@ input:focus:-ms-input-placeholder {
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 20px;
+  position: relative;
 }
-/* line 32, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 33, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .container-block {
   padding-left: 50px;
   padding-right: 50px;
 }
 @media screen and (max-width: 768px) {
-  /* line 32, ../assets/scss/partials/blocks/_calendar1.scss */
+  /* line 33, ../assets/scss/partials/blocks/_calendar1.scss */
   .calendar-period-block .container-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 420px) {
-  /* line 32, ../assets/scss/partials/blocks/_calendar1.scss */
+  /* line 33, ../assets/scss/partials/blocks/_calendar1.scss */
   .calendar-period-block .container-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 35, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 36, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .content-block {
   padding: 10px;
 }
 @media (max-width: 420px) {
-  /* line 35, ../assets/scss/partials/blocks/_calendar1.scss */
+  /* line 36, ../assets/scss/partials/blocks/_calendar1.scss */
   .calendar-period-block .content-block {
     padding: 10px 0;
   }
 }
-/* line 42, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 43, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .title-block {
   max-width: 920px;
   margin: 0 auto;
@@ -8509,13 +8545,13 @@ input:focus:-ms-input-placeholder {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 49, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 50, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .title-block .title {
   color: #984089;
   font-size: 25px;
   font-weight: 600;
 }
-/* line 54, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 55, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .title-block .desc {
   padding-top: 20px;
   color: #000000;
@@ -8523,11 +8559,11 @@ input:focus:-ms-input-placeholder {
   line-height: 1.68;
   font-weight: 600;
 }
-/* line 62, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 63, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .item-block {
   background-color: #ffffff;
 }
-/* line 66, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 67, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .img-block a {
   opacity: 1;
   -moz-transition: opacity 0.3;
@@ -8535,15 +8571,15 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: opacity 0.3;
   transition: opacity 0.3;
 }
-/* line 69, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 70, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .img-block a:hover {
   opacity: 0.7;
 }
-/* line 73, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 74, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .img-block img {
   width: 100%;
 }
-/* line 77, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 78, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 20px;
@@ -8552,37 +8588,37 @@ input:focus:-ms-input-placeholder {
   border-left: 1px solid #dedede;
   border-right: 1px solid #dedede;
 }
-/* line 84, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 85, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block a {
   text-decoration: none;
 }
-/* line 90, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 91, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .date span {
   color: #8e8a8a;
   font-size: 20px;
 }
-/* line 95, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 96, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status {
   padding-top: 10px;
   font-size: 14px;
 }
-/* line 98, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 99, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status .status-yelllow {
   color: #dc8115;
 }
-/* line 101, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 102, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status .status-red {
   color: #eb5449;
 }
-/* line 104, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 105, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status .status-green {
   color: #34b787;
 }
-/* line 108, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 109, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .title {
   padding-top: 20px;
 }
-/* line 110, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 111, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .title a {
   color: #984089;
   font-size: 17px;
@@ -8592,35 +8628,35 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 120, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 121, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .desc {
   padding-top: 10px;
   color: #984089;
 }
-/* line 123, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 124, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .desc p {
   font-size: 15px;
   line-height: 1.2;
 }
-/* line 130, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 131, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px solid #dedede;
 }
-/* line 136, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 137, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .link-more-block .link-more {
   color: #984089;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-/* line 148, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 149, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-connect-block {
   padding-bottom: 80px;
 }
-/* line 150, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 151, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-connect-block .calendar-form {
   background-image: url("/img/ready-calendar1-block.jpg");
 }
