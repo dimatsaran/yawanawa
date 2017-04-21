@@ -962,8 +962,8 @@ $(document).ready(function() {
 		
 		
 		
-/*
-*/
+/**/
+
 		
 		$(".image-cache").css("display", "none");
 		if ($(".preloader img").css("display") === "none") {
