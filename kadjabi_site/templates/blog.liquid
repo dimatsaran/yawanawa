@@ -8,19 +8,21 @@
   <div class="container">
     <div class="row">
       <ul class="menu">
-        <li class="item-menu"><a href="#">Articles and Teachings</a></li>
-        <li class="item-menu"><a href="#">Newsletters</a></li>
-        <li class="item-menu"><a href="#">Sacred Stories</a></li>
-        <li class="item-menu"><a href="#">Yawanawá</a></li>
+        {% if tags.size > 0 %}
+        <div class="tags">
+          <li class="item-menu"><a href="/blog" class="tag" kjb-settings-id="blog_tag_all">{{ settings.blog_tag_all }}</a></li>
+          {% for tag in tags %}
+          {% if tags.current == tag %}
+          <li class="item-menu"> <a href="{{ current_site.url }}/blog?tag={{ tag }}" class="tag active">{{ tag }}</a></li>
+          {% else %}
+          <li class="item-menu"> <a href="{{ current_site.url }}/blog?tag={{ tag }}" class="tag">{{ tag }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
       </ul>
     </div>
   </div>
 </div>
-<div class="">
-  {% if tags.current == 'yawanawa_disabled' %}
-  {% include "marquee_blog_yawanawa" %}
-  {% else %}
-  {% include "marquee_blog" %}
-  {% endif %}
-  {% include "blog_listings" %}
-</div>
+{% include "blog_listings" %}
+{% include "ready_form_block" %}
