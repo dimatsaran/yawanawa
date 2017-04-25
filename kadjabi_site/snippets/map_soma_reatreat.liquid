@@ -1,0 +1,24 @@
+<script>
+  function initMap() {
+    var mapOptions = {
+      center: {lat: 19.016060, lng: -99.178194},
+      zoom: 8,
+      disableDefaultUI: true
+    }
+    var map = new google.maps.Map(document.getElementById('map'),mapOptions );
+    <!--var anchor = '../img/icon/icon-anchor.png';-->
+    var anchor = '{{'icon-anchor.png' | asset_url | img_tag }}';
+    /* position marker*/
+    var companyPos = new google.maps.LatLng(19.016060, -99.178194);
+    companyMarker = new google.maps.Marker({
+      map: map,
+      icon: anchor,
+      animation: google.maps.Animation.DROP,
+      position: companyPos,
+      title: "Yawanawa"
+    });
+  }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgiYMR4AiWBd_uqsmNa_sh6aqvXv00DiQ&callback=initMap">
+</script>
