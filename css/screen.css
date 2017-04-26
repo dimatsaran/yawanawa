@@ -4320,7 +4320,7 @@ input:focus:-ms-input-placeholder {
 .additional-options-block .treatments-block .treatment-block {
   width: 33.3333%;
   float: left;
-  display: inline-block;
+  display: block;
   vertical-align: top;
 }
 @media screen and (max-width: 768px) {
@@ -4329,24 +4329,24 @@ input:focus:-ms-input-placeholder {
     width: 100%;
   }
 }
-/* line 667, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 668, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block.middle {
   border-right: 1px solid #dedede;
   border-left: 1px solid #dedede;
 }
 @media screen and (max-width: 768px) {
-  /* line 667, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 668, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .additional-options-block .treatments-block .treatment-block.middle {
     border: 0 none;
   }
 }
-/* line 674, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 675, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .title-block {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
   padding: 20px;
 }
-/* line 679, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 680, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .title-block .option-block {
   text-align: center;
   width: 100%;
@@ -4354,14 +4354,14 @@ input:focus:-ms-input-placeholder {
   vertical-align: middle;
   padding: 8px 0;
 }
-/* line 688, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 689, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .title-block .option-block .title-option {
   color: #984089;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.44;
 }
-/* line 697, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 698, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .additional-options-block .treatments-block .treatment-block .desc {
   font-size: 14px;
   line-height: 1.2;
@@ -4369,77 +4369,77 @@ input:focus:-ms-input-placeholder {
   padding: 20px;
 }
 
-/* line 710, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 711, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .carousel-img-block .img-block {
   width: 16.666666%;
   display: inline-block;
   float: left;
 }
 @media (max-width: 1169px) {
-  /* line 710, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 711, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .carousel-img-block .img-block {
     width: 33.33333%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 710, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 711, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .carousel-img-block .img-block {
     width: 50%;
   }
 }
 @media (max-width: 420px) {
-  /* line 710, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 711, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .carousel-img-block .img-block {
     width: 100%;
   }
 }
-/* line 723, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 724, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .carousel-img-block .img-block img {
   width: 100%;
   height: auto;
 }
 
-/* line 729, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 730, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block {
   text-align: center;
   background-color: #984089;
   color: #ffffff;
   min-height: 360px;
 }
-/* line 734, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 735, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .container-quote {
   max-width: 940px;
 }
-/* line 737, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 738, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block {
   padding-top: 118px;
   padding-bottom: 10px;
 }
 @media screen and (max-width: 640px) {
-  /* line 737, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 738, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .quote-block .title-block {
     padding-top: 35px;
   }
 }
-/* line 741, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 742, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block .autor {
   padding-top: 28px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
 }
-/* line 748, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 749, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block .desc {
   line-height: 1.8;
 }
-/* line 750, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 751, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .quote-block .title-block .desc .icon-quote {
   font-size: 30px;
   line-height: 5px;
   vertical-align: middle;
 }
 
-/* line 759, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 760, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .map-block {
   max-width: 275px;
   display: inline-block;
@@ -4448,13 +4448,13 @@ input:focus:-ms-input-placeholder {
   float: left;
 }
 @media screen and (max-width: 768px) {
-  /* line 759, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 760, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .map-block {
     max-width: 100%;
     width: 100%;
   }
 }
-/* line 770, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 771, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .map-block .map-round {
   width: 274px;
   height: 274px;
@@ -4467,12 +4467,12 @@ input:focus:-ms-input-placeholder {
   background: #eeeeee;
 }
 @media screen and (max-width: 768px) {
-  /* line 770, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 771, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .map-block .map-round {
     margin: 0 auto;
   }
 }
-/* line 785, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 786, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .map-block .map {
   position: absolute;
   top: 12px;
@@ -4486,7 +4486,7 @@ input:focus:-ms-input-placeholder {
   overflow: hidden;
   z-index: 2;
 }
-/* line 798, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 799, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .map-block .link-map {
   display: block;
   text-align: center;
@@ -4504,33 +4504,33 @@ input:focus:-ms-input-placeholder {
   background-position: top center;
   background-attachment: scroll;
 }
-/* line 829, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 830, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .map-block .link-map:hover {
   text-decoration: none;
 }
-/* line 842, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 843, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .map-block .link-map span {
   display: block;
   width: 100%;
 }
 
-/* line 849, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 850, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block {
   min-height: 575px;
 }
-/* line 851, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 852, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .title-block {
   text-align: center;
   padding-top: 38px;
   padding-bottom: 35px;
 }
-/* line 857, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 858, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .title-block .title {
   color: #984089;
   font-size: 21px;
   font-weight: 600;
 }
-/* line 863, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 864, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .title-block .desc {
   padding-top: 23px;
   color: #000000;
@@ -4538,7 +4538,7 @@ input:focus:-ms-input-placeholder {
   font-weight: 700;
   letter-spacing: -0.5px;
 }
-/* line 873, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 874, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .content-block {
   padding-bottom: 40px;
 }
@@ -4550,7 +4550,7 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 962, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 963, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block {
   padding-top: 10px;
   max-width: 630px;
@@ -4561,30 +4561,30 @@ input:focus:-ms-input-placeholder {
   float: left;
 }
 @media (max-width: 1169px) {
-  /* line 962, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 963, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     padding-left: 20px;
     max-width: 450px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 962, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 963, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     max-width: 100%;
     width: 100%;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 962, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 963, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .how-maps-block .text-block {
     padding-left: 0;
   }
 }
-/* line 983, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 984, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .desc {
   font-size: 15px;
 }
-/* line 989, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 990, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .title-info {
   font-weight: 600;
   padding-bottom: 20px;
@@ -4592,48 +4592,48 @@ input:focus:-ms-input-placeholder {
   font-size: 15px;
   line-height: 1;
 }
-/* line 996, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 997, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block .title-info.pad-top {
   padding-top: 10px;
   padding-bottom: 8px;
 }
-/* line 1001, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1002, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block p {
   padding-bottom: 20px;
   padding-left: 10px;
   letter-spacing: -0.4px;
 }
-/* line 1006, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1007, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block p.with-link {
   padding-top: 35px;
 }
-/* line 1010, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1011, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .how-maps-block .text-block a {
   color: #984089;
   text-decoration: underline;
   font-size: 12px;
 }
 
-/* line 1017, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1018, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .interior-bg-block {
   background-image: url("../img/interior-bg-block.jpg");
 }
 
-/* line 1020, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1021, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 75px;
 }
-/* line 1028, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1029, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .title {
   color: #984089;
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 40px;
 }
-/* line 1035, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1036, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc {
   color: #000000;
   font-size: 14px;
@@ -4642,20 +4642,20 @@ input:focus:-ms-input-placeholder {
   margin: 0 auto;
   padding-bottom: 25px;
 }
-/* line 1049, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1050, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc a {
   text-decoration: underline;
   color: #984089;
 }
-/* line 1053, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1054, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .italy-style {
   font-style: italic;
 }
-/* line 1056, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1057, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .bold-style {
   font-weight: 600;
 }
-/* line 1063, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1064, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -4667,7 +4667,7 @@ input:focus:-ms-input-placeholder {
   left: 0;
   top: 10px;
 }
-/* line 1074, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1075, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -4679,13 +4679,13 @@ input:focus:-ms-input-placeholder {
   z-index: 50;
   position: relative;
 }
-/* line 1086, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1087, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block {
   position: relative;
   margin-top: 20px;
   padding-bottom: 30px;
 }
-/* line 1091, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1092, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price {
   color: #eb5449;
   text-transform: uppercase;
@@ -4693,33 +4693,33 @@ input:focus:-ms-input-placeholder {
   max-width: 450px;
   margin: 0 auto;
 }
-/* line 1097, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1098, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price span {
   display: inline-block;
 }
-/* line 1100, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .big {
   font-size: 40px;
 }
 @media screen and (max-width: 768px) {
-  /* line 1100, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 37px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 1100, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 34px;
   }
 }
 @media (max-width: 420px) {
-  /* line 1100, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 31px;
   }
 }
-/* line 1107, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1108, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .down-payment {
   display: inline-block;
   max-width: 180px;
@@ -4728,18 +4728,18 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
 }
 @media screen and (max-width: 640px) {
-  /* line 1107, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1108, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .down-payment {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
   }
 }
-/* line 1120, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1121, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block {
   padding-top: 20px;
 }
-/* line 1122, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1123, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon {
   margin: 7px;
   width: 47px;
@@ -4750,7 +4750,7 @@ input:focus:-ms-input-placeholder {
   background-repeat: no-repeat;
   position: relative;
 }
-/* line 1131, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1132, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.na:after {
   content: '';
   position: absolute;
@@ -4761,60 +4761,60 @@ input:focus:-ms-input-placeholder {
   display: inline-block;
   background: rgba(238, 238, 238, 0.5);
 }
-/* line 1146, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1147, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-visa {
   background-image: url("../img/icon/icon-visa.png");
 }
-/* line 1149, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1150, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-mastercard {
   background-image: url("../img/icon/icon-mastercard.png");
 }
-/* line 1152, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1153, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-paypal {
   background-image: url("../img/icon/icon-paypal.png");
 }
-/* line 1159, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1160, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block {
   position: relative;
 }
-/* line 1161, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1162, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block {
   padding-top: 45px;
 }
-/* line 1164, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1165, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 1168, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1169, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 1173, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1174, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 1179, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1180, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
 @media screen and (max-width: 640px) {
-  /* line 1179, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1180, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .dates-block .termes-block .termes .desc-red {
     padding-bottom: 20px;
   }
 }
-/* line 1187, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1188, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block {
   padding-top: 30px;
 }
-/* line 1189, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1190, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -4824,7 +4824,7 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 1193, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1194, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -8960,4 +8960,599 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 24px;
   line-height: 1.74;
   font-size: 14px;
+}
+
+/* line 1, ../assets/scss/partials/blocks/_testimonials1.scss */
+.header-testimonials-block {
+  background-image: url("/img/testimonials1-header.jpg");
+}
+/* line 4, ../assets/scss/partials/blocks/_testimonials1.scss */
+.header-testimonials-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 85px;
+  line-height: 0.96;
+  font-weight: 700;
+  max-width: 850px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 4, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .header-testimonials-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .header-testimonials-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 4, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .header-testimonials-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+
+/* line 26, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-bg-block {
+  background-image: url("../img/testimonials-block-bg.jpg");
+}
+
+/* line 29, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 55px;
+  padding-bottom: 65px;
+  position: relative;
+}
+/* line 30, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .container-sentence {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 38, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 60, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block .desc-bold {
+  padding-top: 45px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.56;
+}
+/* line 65, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block .desc-bold p {
+  padding-bottom: 20px;
+}
+/* line 69, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block .desc {
+  padding-top: 12px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 69, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 69, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 77, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+
+/* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block {
+  padding: 72px 50px;
+  background: transparent url("../img/testimonials-quote.jpg") no-repeat scroll;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 720px;
+}
+@media screen and (max-width: 640px) {
+  /* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block {
+    padding: 20px 20px;
+    min-height: 400px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block {
+    padding: 10px 0;
+  }
+}
+/* line 93, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .container-bg {
+  background-color: rgba(249, 243, 244, 0.75);
+}
+/* line 96, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block {
+  text-align: center;
+  padding: 120px 50px 135px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 640px) {
+  /* line 96, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block {
+    padding: 20px 20px;
+  }
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.testimonials-options-block .content-block:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .title {
+  color: #984089;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  /* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .title {
+    font-size: 21px;
+  }
+}
+/* line 114, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .row {
+  padding-top: 120px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.testimonials-options-block .content-block .row:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 120, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .option {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  /* line 120, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .option {
+    width: 100%;
+  }
+}
+/* line 128, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .option .img-block {
+  width: 121px;
+  height: 121px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 135, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .option img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 139, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .option p {
+  padding-top: 35px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+/* line 145, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .desc {
+  padding-top: 50px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.68;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 640px) {
+  /* line 145, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .desc {
+    font-size: 14px;
+    line-height: 1.68;
+  }
+}
+/* line 156, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .desc p {
+  padding-bottom: 18px;
+}
+
+/* line 164, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block {
+  background-color: #eeeeee;
+  padding-bottom: 40px;
+}
+/* line 167, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .container-private-ceramonies {
+  max-width: 900px;
+}
+/* line 170, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .title-block {
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+  color: #984089;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 182, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+@media screen and (max-width: 640px) {
+  /* line 182, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .list-block {
+    width: 100%;
+  }
+}
+/* line 193, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block:last-of-type {
+  float: right;
+  padding-left: 30px;
+}
+@media screen and (max-width: 640px) {
+  /* line 193, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .list-block:last-of-type {
+    float: none;
+    padding-left: 10px;
+  }
+}
+/* line 201, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block:last-of-type .list-text .bold-style {
+  padding-bottom: 20px;
+}
+/* line 206, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list-text {
+  padding-bottom: 20px;
+  font-size: 15px;
+  margin-left: -12px;
+}
+/* line 210, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list-text p {
+  font-size: 15px;
+  line-height: 1.56;
+}
+/* line 214, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list-text .list {
+  list-style-type: disc;
+  padding-left: 12px;
+}
+/* line 217, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list-text .list p {
+  line-height: 1.44;
+  font-size: 15px;
+}
+/* line 221, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list-text .list li {
+  font-size: 8px;
+}
+/* line 224, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list-text .list li p {
+  line-height: 1.44;
+  font-size: 15px;
+}
+/* line 234, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list p {
+  line-height: 1.44;
+  font-size: 15px;
+}
+/* line 238, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list li {
+  font-size: 8px;
+}
+/* line 240, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .list-block .list li p {
+  padding-bottom: 14px;
+  line-height: 1.56;
+  font-size: 15px;
+}
+/* line 249, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .sub-title {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 258, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block {
+  padding-bottom: 20px;
+}
+/* line 260, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .title-block {
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* line 264, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .content-block {
+  padding-bottom: 20px;
+}
+/* line 267, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .desc {
+  padding-top: 45px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.56;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  /* line 267, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .first-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 267, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .first-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 276, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .desc p {
+  padding-bottom: 20px;
+}
+/* line 278, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .desc p.sec-line {
+  max-width: 660px;
+  margin: 0 auto;
+}
+/* line 282, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .desc p.three-line {
+  max-width: 580px;
+  margin: 0 auto;
+}
+/* line 288, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .desc-block {
+  margin: 0 auto;
+  max-width: 610px;
+  padding-bottom: 25px;
+}
+/* line 293, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .day-choose {
+  padding-bottom: 10px;
+}
+/* line 296, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block p.day-color {
+  font-weight: 600;
+  color: #984089;
+  font-size: 19px;
+  padding-bottom: 10px;
+}
+/* line 303, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .first-block .desc-bottom p {
+  padding-bottom: 40px;
+}
+/* line 308, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block {
+  border-top: 1px solid #dedede;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+/* line 312, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block .content-block {
+  max-width: 650px;
+  margin: 0 auto;
+}
+/* line 317, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block .content-block .list-block .list p {
+  position: relative;
+  letter-spacing: -0.4px;
+}
+/* line 320, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block .content-block .list-block .list p:before {
+  content: '.';
+  position: absolute;
+  left: -8px;
+  top: -5px;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1;
+}
+/* line 334, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block .desc {
+  padding-top: 50px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.68;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  /* line 334, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .second-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 334, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .second-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 343, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block .desc p {
+  padding-bottom: 20px;
+}
+/* line 345, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block .desc p.sec-line {
+  max-width: 660px;
+  margin: 0 auto;
+}
+/* line 349, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .second-block .desc p.three-line {
+  max-width: 580px;
+  margin: 0 auto;
+}
+/* line 356, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .third-block {
+  border-top: 1px solid #dedede;
+  padding-top: 25px;
+}
+/* line 359, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .third-block .desc {
+  padding-top: 20px;
+  color: #000000;
+  line-height: 1.56;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  /* line 359, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .third-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 359, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .components-private-ceramonies-block .third-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 370, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .third-block .desc p {
+  padding-bottom: 25px;
+}
+/* line 373, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .third-block .desc p.n-padding {
+  padding-bottom: 0;
+}
+/* line 376, ../assets/scss/partials/blocks/_testimonials1.scss */
+.components-private-ceramonies-block .third-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+
+/* line 384, ../assets/scss/partials/blocks/_testimonials1.scss */
+.private-ceramonies-bg-block {
+  background-image: url("../img/private-ceremonies-bg-block.jpg");
+}
+
+/* line 387, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  position: relative;
+}
+/* line 394, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .container-custom-retreat {
+  max-width: 900px;
+}
+/* line 397, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .title-block {
+  color: #984089;
+  font-size: 24px;
+  line-height: 1.8;
+  font-weight: 600;
+}
+/* line 403, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .content-block {
+  line-height: 1.32;
+  font-size: 17px;
+  padding-top: 25px;
+  text-align: center;
+}
+/* line 409, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .content-block .bold-style {
+  font-weight: 700;
+}
+/* line 412, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .content-block .desc-red {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.68;
+  padding-bottom: 50px;
+  text-align: left;
+  max-width: 750px;
+}
+/* line 421, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .content-block p {
+  padding-bottom: 25px;
+}
+/* line 423, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .content-block p.n-padding {
+  padding-bottom: 0;
+}
+/* line 427, ../assets/scss/partials/blocks/_testimonials1.scss */
+.desc-private-ceramonies-block .content-block a {
+  color: #984089;
+  text-decoration: underline;
 }
