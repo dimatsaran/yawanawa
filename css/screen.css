@@ -9002,26 +9002,67 @@ input:focus:-ms-input-placeholder {
   background-image: url("../img/testimonials-block-bg.jpg");
 }
 
-/* line 29, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 30, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block {
   text-align: center;
   background-color: #eeeeee;
-  padding-top: 55px;
-  padding-bottom: 65px;
+  padding-top: 20px;
+  padding-bottom: 35px;
   position: relative;
 }
-/* line 30, ../assets/scss/partials/blocks/_testimonials1.scss */
-.intro-testimonials-block .container-sentence {
-  max-width: 940px;
+/* line 36, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .container-quote {
+  max-width: 950px;
+}
+/* line 39, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block {
+  padding-top: 45px;
+  padding-bottom: 5px;
+}
+/* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block.first-block {
+  border-bottom: 1px solid #dedede;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+/* line 46, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block.first-block .autor {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+/* line 52, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block.first-block .desc {
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.44;
+  letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 38, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 52, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block.first-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 52, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .intro-testimonials-block .title-block.first-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 59, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block.first-block .desc p {
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  /* line 39, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .title {
   color: #984089;
   text-transform: uppercase;
@@ -9030,93 +9071,98 @@ input:focus:-ms-input-placeholder {
   letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 60, ../assets/scss/partials/blocks/_testimonials1.scss */
-.intro-testimonials-block .title-block .desc-bold {
-  padding-top: 45px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.56;
+/* line 77, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block .icon-quote {
+  font-size: 30px;
+  line-height: 5px;
+  vertical-align: middle;
+  padding: 0 5px;
 }
-/* line 65, ../assets/scss/partials/blocks/_testimonials1.scss */
-.intro-testimonials-block .title-block .desc-bold p {
-  padding-bottom: 20px;
+/* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+.intro-testimonials-block .title-block .autor {
+  text-transform: uppercase;
+  font-size: 15px;
 }
-/* line 69, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 87, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .desc {
-  padding-top: 12px;
   color: #000000;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 69, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 87, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 69, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 87, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 77, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 94, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .desc p {
   padding-bottom: 30px;
 }
 
-/* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 100, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block {
   padding: 72px 50px;
   background: transparent url("../img/testimonials-quote.jpg") no-repeat scroll;
   background-size: cover;
   background-position: bottom center;
-  min-height: 720px;
+  height: 100%;
+  width: 100%;
+  display: table;
 }
 @media screen and (max-width: 640px) {
-  /* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 100, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block {
     padding: 20px 20px;
     min-height: 400px;
   }
 }
 @media (max-width: 420px) {
-  /* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 100, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block {
     padding: 10px 0;
   }
 }
-/* line 93, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .container-bg {
+/* line 114, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .container-quote {
+  max-width: 1220px;
   background-color: rgba(249, 243, 244, 0.75);
 }
-/* line 96, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 118, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block {
   text-align: center;
-  padding: 120px 50px 135px;
+  padding: 50px 140px;
   width: 100%;
   height: 100%;
+  display: table-cell;
+  vertical-align: middle;
 }
 @media screen and (max-width: 640px) {
-  /* line 96, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 118, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block .content-block {
     padding: 20px 20px;
   }
@@ -9129,31 +9175,7 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .content-block .title {
-  color: #984089;
-  font-size: 30px;
-  font-weight: 700;
-}
-@media screen and (max-width: 768px) {
-  /* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .testimonials-options-block .content-block .title {
-    font-size: 27px;
-  }
-}
-@media screen and (max-width: 640px) {
-  /* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .testimonials-options-block .content-block .title {
-    font-size: 24px;
-  }
-}
-@media (max-width: 420px) {
-  /* line 105, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .testimonials-options-block .content-block .title {
-    font-size: 21px;
-  }
-}
-/* line 114, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 129, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block .row {
   padding-top: 120px;
   margin: 0 auto;
@@ -9167,394 +9189,52 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 120, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .content-block .option {
-  display: inline-block;
-  width: 33%;
-  vertical-align: top;
-  padding-bottom: 10px;
-}
-@media screen and (max-width: 768px) {
-  /* line 120, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .testimonials-options-block .content-block .option {
-    width: 100%;
-  }
-}
-/* line 128, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .content-block .option .img-block {
-  width: 121px;
-  height: 121px;
-  vertical-align: middle;
-  text-align: center;
-  margin: 0 auto;
-}
 /* line 135, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .content-block .option img {
-  max-width: 100%;
-  height: auto;
-}
-/* line 139, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .content-block .option p {
-  padding-top: 35px;
-  text-transform: uppercase;
-  font-size: 17px;
-}
-/* line 145, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .content-block .desc {
-  padding-top: 50px;
-  color: #000000;
-  font-size: 18px;
-  line-height: 1.68;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-@media screen and (max-width: 640px) {
-  /* line 145, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .testimonials-options-block .content-block .desc {
-    font-size: 14px;
-    line-height: 1.68;
-  }
-}
-/* line 156, ../assets/scss/partials/blocks/_testimonials1.scss */
-.testimonials-options-block .content-block .desc p {
-  padding-bottom: 18px;
-}
-
-/* line 164, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block {
-  background-color: #eeeeee;
-  padding-bottom: 40px;
-}
-/* line 167, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .container-private-ceramonies {
-  max-width: 900px;
-}
-/* line 170, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .title-block {
-  padding-top: 50px;
-  text-align: center;
-  position: relative;
-  color: #984089;
-  font-size: 23px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  line-height: 1.2;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-/* line 182, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block {
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 49%;
-  display: inline-block;
-  vertical-align: top;
-}
-@media screen and (max-width: 640px) {
-  /* line 182, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .list-block {
-    width: 100%;
-  }
-}
-/* line 193, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block:last-of-type {
-  float: right;
-  padding-left: 30px;
-}
-@media screen and (max-width: 640px) {
-  /* line 193, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .list-block:last-of-type {
-    float: none;
-    padding-left: 10px;
-  }
-}
-/* line 201, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block:last-of-type .list-text .bold-style {
-  padding-bottom: 20px;
-}
-/* line 206, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list-text {
-  padding-bottom: 20px;
-  font-size: 15px;
-  margin-left: -12px;
-}
-/* line 210, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list-text p {
-  font-size: 15px;
-  line-height: 1.56;
-}
-/* line 214, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list-text .list {
-  list-style-type: disc;
-  padding-left: 12px;
-}
-/* line 217, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list-text .list p {
-  line-height: 1.44;
-  font-size: 15px;
-}
-/* line 221, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list-text .list li {
-  font-size: 8px;
-}
-/* line 224, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list-text .list li p {
-  line-height: 1.44;
-  font-size: 15px;
-}
-/* line 234, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list p {
-  line-height: 1.44;
-  font-size: 15px;
-}
-/* line 238, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list li {
-  font-size: 8px;
-}
-/* line 240, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .list-block .list li p {
-  padding-bottom: 14px;
-  line-height: 1.56;
-  font-size: 15px;
-}
-/* line 249, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .sub-title {
-  padding-top: 40px;
+.testimonials-options-block .content-block .title-block {
+  padding-top: 45px;
   padding-bottom: 5px;
-  text-align: center;
-  position: relative;
-  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  /* line 135, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 141, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .title-block .icon-quote {
+  font-size: 30px;
+  line-height: 5px;
+  vertical-align: middle;
+  padding: 0 5px;
+}
+/* line 147, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .title-block .autor {
   text-transform: uppercase;
-  font-weight: 600;
+  font-size: 15px;
 }
-/* line 258, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block {
-  padding-bottom: 20px;
-}
-/* line 260, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .title-block {
-  max-width: 700px;
-  margin: 0 auto;
-}
-/* line 264, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .content-block {
-  padding-bottom: 20px;
-}
-/* line 267, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .desc {
-  padding-top: 45px;
+/* line 151, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .title-block .desc {
   color: #000000;
-  font-size: 16px;
-  line-height: 1.56;
-  letter-spacing: 0.5px;
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  /* line 267, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .first-block .desc {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 640px) {
-  /* line 267, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .first-block .desc {
-    font-size: 13px;
-  }
-}
-/* line 276, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .desc p {
-  padding-bottom: 20px;
-}
-/* line 278, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .desc p.sec-line {
-  max-width: 660px;
-  margin: 0 auto;
-}
-/* line 282, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .desc p.three-line {
-  max-width: 580px;
-  margin: 0 auto;
-}
-/* line 288, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .desc-block {
-  margin: 0 auto;
-  max-width: 610px;
-  padding-bottom: 25px;
-}
-/* line 293, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .day-choose {
-  padding-bottom: 10px;
-}
-/* line 296, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block p.day-color {
-  font-weight: 600;
-  color: #984089;
-  font-size: 19px;
-  padding-bottom: 10px;
-}
-/* line 303, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .first-block .desc-bottom p {
-  padding-bottom: 40px;
-}
-/* line 308, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block {
-  border-top: 1px solid #dedede;
-  padding-top: 25px;
-  padding-bottom: 45px;
-}
-/* line 312, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block .content-block {
-  max-width: 650px;
-  margin: 0 auto;
-}
-/* line 317, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block .content-block .list-block .list p {
-  position: relative;
-  letter-spacing: -0.4px;
-}
-/* line 320, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block .content-block .list-block .list p:before {
-  content: '.';
-  position: absolute;
-  left: -8px;
-  top: -5px;
-  display: inline-block;
-  font-size: 21px;
-  font-weight: 600;
-  line-height: 1;
-}
-/* line 334, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block .desc {
-  padding-top: 50px;
-  color: #000000;
-  font-size: 16px;
-  line-height: 1.68;
-  letter-spacing: 0.5px;
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  /* line 334, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .second-block .desc {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 640px) {
-  /* line 334, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .second-block .desc {
-    font-size: 13px;
-  }
-}
-/* line 343, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block .desc p {
-  padding-bottom: 20px;
-}
-/* line 345, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block .desc p.sec-line {
-  max-width: 660px;
-  margin: 0 auto;
-}
-/* line 349, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .second-block .desc p.three-line {
-  max-width: 580px;
-  margin: 0 auto;
-}
-/* line 356, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .third-block {
-  border-top: 1px solid #dedede;
-  padding-top: 25px;
-}
-/* line 359, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .third-block .desc {
-  padding-top: 20px;
-  color: #000000;
-  line-height: 1.56;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  /* line 359, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .third-block .desc {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 640px) {
-  /* line 359, ../assets/scss/partials/blocks/_testimonials1.scss */
-  .components-private-ceramonies-block .third-block .desc {
-    font-size: 13px;
-  }
-}
-/* line 370, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .third-block .desc p {
-  padding-bottom: 25px;
-}
-/* line 373, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .third-block .desc p.n-padding {
-  padding-bottom: 0;
-}
-/* line 376, ../assets/scss/partials/blocks/_testimonials1.scss */
-.components-private-ceramonies-block .third-block .desc p a {
-  color: #984089;
-  text-decoration: underline;
-}
-
-/* line 384, ../assets/scss/partials/blocks/_testimonials1.scss */
-.private-ceramonies-bg-block {
-  background-image: url("../img/private-ceremonies-bg-block.jpg");
-}
-
-/* line 387, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block {
-  text-align: center;
-  background-color: #eeeeee;
-  padding-top: 45px;
-  padding-bottom: 45px;
-  position: relative;
-}
-/* line 394, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .container-custom-retreat {
-  max-width: 900px;
-}
-/* line 397, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .title-block {
-  color: #984089;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.8;
-  font-weight: 600;
+  letter-spacing: 0.5px;
 }
-/* line 403, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .content-block {
-  line-height: 1.32;
-  font-size: 17px;
-  padding-top: 25px;
-  text-align: center;
+@media screen and (max-width: 768px) {
+  /* line 151, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .title-block .desc {
+    font-size: 14px;
+  }
 }
-/* line 409, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .content-block .bold-style {
-  font-weight: 700;
+@media screen and (max-width: 640px) {
+  /* line 151, ../assets/scss/partials/blocks/_testimonials1.scss */
+  .testimonials-options-block .content-block .title-block .desc {
+    font-size: 13px;
+  }
 }
-/* line 412, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .content-block .desc-red {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.68;
-  padding-bottom: 50px;
-  text-align: left;
-  max-width: 750px;
-}
-/* line 421, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .content-block p {
-  padding-bottom: 25px;
-}
-/* line 423, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .content-block p.n-padding {
-  padding-bottom: 0;
-}
-/* line 427, ../assets/scss/partials/blocks/_testimonials1.scss */
-.desc-private-ceramonies-block .content-block a {
-  color: #984089;
-  text-decoration: underline;
+/* line 158, ../assets/scss/partials/blocks/_testimonials1.scss */
+.testimonials-options-block .content-block .title-block .desc p {
+  padding-bottom: 30px;
 }
 
 /* line 1, ../assets/scss/partials/blocks/_main_page.scss */
