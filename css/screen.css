@@ -9237,6 +9237,342 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 30px;
 }
 
+/* line 1, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.header-online-medit-block {
+  background-image: url("/img/online-yoga-meditation-header.jpg");
+}
+/* line 4, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.header-online-medit-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 85px;
+  line-height: 0.96;
+  font-weight: 700;
+  max-width: 850px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 4, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .header-online-medit-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .header-online-medit-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 4, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .header-online-medit-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+/* line 24, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.header-online-medit-block .title-block .title-description {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 55px;
+  letter-spacing: 1.2px;
+}
+@media screen and (max-width: 768px) {
+  /* line 24, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .header-online-medit-block .title-block .title-description {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 24, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .header-online-medit-block .title-block .title-description {
+    font-size: 22px;
+  }
+}
+
+/* line 42, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 55px;
+  padding-bottom: 65px;
+  position: relative;
+}
+/* line 43, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block .container-sentence {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 51, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .intro-online-medit-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 55, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 55, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .intro-online-medit-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 55, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .intro-online-medit-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 55, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .intro-online-medit-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 65, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block .title-block .desc-upper {
+  text-transform: uppercase;
+  font-size: 17px;
+  padding-top: 45px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+/* line 72, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block .title-block .desc-bold {
+  padding-top: 45px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.56;
+}
+/* line 77, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block .title-block .desc-bold p {
+  padding-bottom: 20px;
+}
+/* line 81, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block .title-block .desc {
+  padding-top: 12px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 81, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .intro-online-medit-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 81, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .intro-online-medit-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 89, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.intro-online-medit-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+
+/* line 95, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block {
+  padding: 72px 50px;
+  background: transparent url("/img/online-yoga-meditation-follow.jpg") no-repeat scroll;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 720px;
+}
+@media screen and (max-width: 640px) {
+  /* line 95, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block {
+    padding: 20px 20px;
+    min-height: 400px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 95, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block {
+    padding: 10px 0;
+  }
+}
+/* line 105, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .container-bg {
+  background-color: rgba(249, 243, 244, 0.75);
+}
+/* line 108, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block {
+  text-align: center;
+  padding: 120px 50px 135px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 640px) {
+  /* line 108, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block .content-block {
+    padding: 20px 20px;
+  }
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.online-medit-options-block .content-block:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .title {
+  color: #984089;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  /* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block .content-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block .content-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block .content-block .title {
+    font-size: 21px;
+  }
+}
+/* line 126, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .row {
+  padding-top: 120px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.online-medit-options-block .content-block .row:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 132, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .option {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  /* line 132, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block .content-block .option {
+    width: 100%;
+  }
+}
+/* line 140, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .option .img-block {
+  width: 121px;
+  height: 121px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 147, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .option img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 151, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .option p {
+  padding-top: 35px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+/* line 157, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .desc {
+  padding-top: 50px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.68;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 640px) {
+  /* line 157, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-options-block .content-block .desc {
+    font-size: 14px;
+    line-height: 1.68;
+  }
+}
+/* line 168, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-options-block .content-block .desc p {
+  padding-bottom: 18px;
+}
+
+/* line 175, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  position: relative;
+}
+/* line 182, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .container-custom-retreat {
+  max-width: 900px;
+}
+/* line 185, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .title-block {
+  color: #984089;
+  font-size: 24px;
+  line-height: 1.8;
+  font-weight: 600;
+}
+/* line 191, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .content-block {
+  line-height: 1.32;
+  font-size: 17px;
+  padding-top: 25px;
+  text-align: center;
+}
+/* line 197, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .content-block .bold-style {
+  font-weight: 700;
+}
+/* line 200, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .content-block .desc-red {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.68;
+  padding-bottom: 50px;
+  text-align: left;
+  max-width: 750px;
+}
+/* line 209, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .content-block p {
+  padding-bottom: 25px;
+}
+/* line 211, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .content-block p.n-padding {
+  padding-bottom: 0;
+}
+/* line 215, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.desc-online-medit-block .content-block a {
+  color: #984089;
+  text-decoration: underline;
+}
+
 /* line 1, ../assets/scss/partials/blocks/_main_page.scss */
 #carousel + .col-xs-12.ready-form-home-page {
   padding: 0;
