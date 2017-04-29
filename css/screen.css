@@ -9556,3 +9556,12 @@ input:focus:-ms-input-placeholder {
   color: #984089;
   text-decoration: underline;
 }
+
+/* line 1, ../assets/scss/partials/blocks/_main_page.scss */
+#carousel + .col-xs-12.ready-form-home-page {
+  padding: 0;
+}
+/* line 3, ../assets/scss/partials/blocks/_main_page.scss */
+#carousel + .col-xs-12.ready-form-home-page .container {
+  margin-top: 0;
+}

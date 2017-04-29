@@ -1,178 +1,241 @@
-  <div class="hero">
-    <div id="hero_animation_container">
-      <canvas id="hero_canvas" width="1920" height="1300"></canvas>
+{% layout 'home' %}
+
+{% comment %}
+<!-- This is to show you how to access a blog article --!>
+{% for blog_post in current_site.blog.posts_published limit :3 %}
+  {{ blog_post.title }}
+{% endfor%}
+<!-- end comment for alex -->
+{% endcomment %}
+
+{{ 'index.css' | asset_url | stylesheet_tag }}
+<div class="hero">
+  <div id="hero_animation_container">
+    <canvas id="hero_canvas" width="1920" height="1300"></canvas>
+  </div>
+  <div id="sje_animation_container">
+    <canvas id="sje_canvas" width="910" height="90"></canvas>
+  </div>
+  <h1>a Journey Home</h1>
+  <p>Sign up to receive a free meditation video and take the first step…</p>
+  <div class="button" data-txt="Sign Up"></div>
+  <div id="arrow">
+    <canvas id="arrow_canvas" width="65" height="65"></canvas>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12" data-image-src="{{ 'tmp_stars-bg-01.jpg' | asset_url}}" data-image-align="bottom">
+      <h1>Remember Who You Are</h1>
+      <h1>Remember Where You Came From</h1>
     </div>
-    <div id="sje_animation_container">
-      <canvas id="sje_canvas" width="910" height="90"></canvas>
+    <div class="col-sm-4 hidden-xs" data-image-src="{{ 'tmp_02.png' | asset_url }}" data-image-align="middle">
+      <h3>Indigenous Ceremonies</h3>
     </div>
-    <h1>a Journey Home</h1>
-    <p>Sign up to receive a free meditation video and take the first step…</p>
-    <div class="button" data-txt="Sign Up"></div>
-    <div id="arrow">
-      <canvas id="arrow_canvas" width="65" height="65"></canvas>
+    <div class="col-sm-4 col-xs-12" data-image-src="{{ 'tmp_03.png' | asset_url }}" data-image-align="middle">
+      <h3>Indigenous Ceremonies</h3>
+      <h3>Daily Spiritual Practice</h3>
+      <h3>Sacred Stories</h3>
+    </div>
+    <div class="col-sm-4 hidden-xs" data-image-src="{{ 'tmp_04.png' | asset_url }}" data-image-align="middle">
+      <h3>Sacred Stories</h3>
+    </div>
+    <div class="col-xs-12" data-image-src="{{ 'tmp_stars-bg-02.jpg' | asset_url}}" data-image-align="botom">
+      <h1>A New Earth is Rising</h1>
+      <p>Welcome to SacredJourney.Earth, a platform for your personal transformation. If you feel the calling to make a deep change inside of yourself, in your community or on the planet, you have come to the right place. SacredJourney.Earth will assist you to raise your vibration and to uplift your consciousness, leading you on a Journey towards health, happiness and unlimited potential.</p>
+      <p>Connecting you with the heart, connecting us with each other, re-connecting us to our beautiful planet.</p>
+      <h3>Welcome!</h3>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="cover" data-image-src="{{ 'tmp_06.png' | asset_url }}"></div>
+      <h2>Transformational Retreats</h2>
+      <p>Are you ready to embark on a Journey, and connect with yourself and nature in a way that might not have seen possible before?</p>
+      <p>Then join us for one of our life changing retreats!</p>
+    </div>
+    <div class="col-sm-6 hidden-xs">
+      <div class="cover" data-image-src="{{ 'tmp_07.png' | asset_url }}"></div>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="cover">
+        <h4>Soma Immersion Luxury Retreat</h4>
+        <h5>A Journey in Mexico</h5>
+        <p>Are you ready to travel to the Sacred Valley of Tepoztlán, Mexico, and connect with yourself and nature in a way that might not have seen possible before? Then the Soma Immersion is for you!</p>
+        <a class="button" href="#" data-txt="Learn more"></a>
+      </div>
+    </div>
+    <div class="col-xs-12" data-image-src="{{ 'tmp_08.jpg' | asset_url }}">
+      <div class="container">
+        <h4>Testimonials</h4>
+        <p><q>This ceremony with Dennis was in the top 3 ceremonies I've experienced in my life.</q></p>
+        <p><cite>Dennis McKenna, PhD</cite></p>
+        <p><q>The vibration you disperse, the purity and discipline brought to your retreats, the energies and dynamics triggered, the esthetics, both acoustically and visually, make for an incomparable experience! I am so proud of you, and hope you are too of yourselves. The authenticity and roots approach into it, the mastery and vibration, the intensity and peace you bring… wow.</q></p>
+        <p><cite>Menno</cite></p>
+        <p><q>There are no words to express my deep deep deep gratitude for allowing me to go through such a process... The sacred space you created was a womb where one felt safe to be reborn... All I can do now is live up to what was given to me. Thank you for taking the time to talk and listen before and after the Journey - it was very much appreciated! You are truly a beacon of Light and it was pure joy to meet you and experience the love you share for each other and for the rest of humankind.</q></p>
+        <p><cite>Heather</cite></p>
+        <a class="button" href="#" data-txt="More testimonials"></a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="container">
+        <div class="icon" data-image-src="{{ 'tmp_icon-01.png' | asset_url }}"></div>
+        <h4>E-Course for Integration and Embodiment</h4>
+        <p>Are you looking for some integration and embodiment after your Sacred Journey? This e-course will offer you the tools, teachings and insights to make the Journey into your daily life more easy and fulfilling than ever before.</p>
+        <a class="button" href="#" data-txt="Learn more"></a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="container">
+        <div class="icon" data-image-src="{{ 'tmp_icon-02.png' | asset_url }}"></div>
+        <h4>Online Yoga / Meditation Classes</h4>
+        <p>The real magic start to happen through the application of yoga in your daily life; strengthening the body and nervous system, making yourself ready for the Sacred Journey.<br>The Journey we call life. </p>
+        <a class="button" href="#" data-txt="Learn more"></a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="container">
+        <div class="icon" data-image-src="{{ 'tmp_icon-03.png' | asset_url }}"></div>
+        <h4>Personal Guidance</h4>
+        <p>Are you looking for some guidance, advice or inspiration? We would be honoured to assist you in our personal sessions.</p>
+        <a class="button" href="#" data-txt="Learn more"></a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="container">
+        <div class="icon" data-image-src="{{ 'tmp_icon-04.png' | asset_url }}"></div>
+        <h4>Private Retreats / Ceremonies</h4>
+        <p>Are you looking for a private retreat or for private ceremonies? You know what you want, and would like us to make that happen? You came to the right place. We can set up for you a private retreat in full confidentiality according to your wishes.</p>
+        <a class="button" href="#" data-txt="Learn more"></a>
+      </div>
+    </div>
+    <div class="col-sm-6 hidden-xs">
+      <h2><b>Dennis Notten,</b><br>M. A.</h2>
+      <p><b>Dennis Notten is the spiritual guide and founder of SacredJourney.Earth. He is a certified KRI Kundalini Yoga and Meditation teacher, a Theta Healer, a Reiki Master, and had several years of experience of running his own healing centre in the Sacred Valley of the Incas in Peru.</b></p>
+      <p>Before committing to the path of healing, Dennis was a professional bassoonist in some of the world’s leading orchestras; he uses his musical gifts in the ceremonial setting, working with sounds as an energy healing modality.</p>
+      <p>For the past four years he has been learning from and working with the Yawanawá tribe in the Brazilian Amazon. Padrinho Alfredo, the spiritual leader of the Santo Daime, granted Dennis the blessing to work with the medicine of the Santo Daime in his personal work. He is uniquely suited to bridge the gap between Indigenous people and the West, as he is a Westerner who has spent extensive time in the Amazon learning from Indigenous leaders, and his work transcends such boundaries.</p>
+    </div>
+    <div class="col-sm-6 hidden-xs" data-image-src="{{ 'tmp_09.png' | asset_url }}"></div>
+    <div id="carousel" class="col-xs-12 visible-xs carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" data-image-src="{{ 'tmp_09.png' | asset_url }}">
+          <h2><b>Dennis Notten,</b> M. A.</h2>
+        </div>
+        <div class="item">
+          <p><b>Dennis Notten is the spiritual guide and founder of SacredJourney.Earth. He is a certified KRI Kundalini Yoga and Meditation teacher, a Theta Healer, a Reiki Master, and had several years of experience of running his own healing centre in the Sacred Valley of the Incas in Peru.</b></p>
+          <p>Before committing to the path of healing, Dennis was a professional bassoonist in some of the world’s leading orchestras; he uses his musical gifts in the ceremonial setting, working with sounds as an energy healing modality.</p>
+        </div>
+        <div class="item">
+          <p>For the past four years he has been learning from and working with the Yawanawá tribe in the Brazilian Amazon. Padrinho Alfredo, the spiritual leader of the Santo Daime, granted Dennis the blessing to work with the medicine of the Santo Daime in his personal work. He is uniquely suited to bridge the gap between Indigenous people and the West, as he is a Westerner who has spent extensive time in the Amazon learning from Indigenous leaders, and his work transcends such boundaries.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 ready-form-home-page">
+      {% include "ready_form_block" %}
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12" data-image-src="{{ 'stars-bg-01.jpg' | asset_url | img_tag }}" data-image-align="bottom">
-        <h1>Remember Who You Are</h1>
-        <h1>Remember Where You Came From</h1>
-      </div>
-      <div class="col-sm-4 hidden-xs" data-image-src="{{ '02.png' | asset_url | img_tag }}" data-image-align="middle">
-        <h3>Indigenous Ceremonies</h3>
-      </div>
-      <div class="col-sm-4 col-xs-12" data-image-src="{{ '03.png' | asset_url | img_tag }}" data-image-align="middle">
-        <h3>Indigenous Ceremonies</h3>
-        <h3>Daily Spiritual Practice</h3>
-        <h3>Sacred Stories</h3>
-      </div>
-      <div class="col-sm-4 hidden-xs" data-image-src="{{ '04.png' | asset_url | img_tag }}" data-image-align="middle">
-        <h3>Sacred Stories</h3>
-      </div>
-      <div class="col-xs-12" data-image-src="{{ 'stars-bg-02.jpg' | asset_url | img_tag }}" data-image-align="botom">
-        <h1>A New Earth is Rising</h1>
-        <p>Welcome to SacredJourney.Earth, a platform for your personal transformation. If you feel the calling to make a deep change inside of yourself, in your community or on the planet, you have come to the right place. SacredJourney.Earth will assist you to raise your vibration and to uplift your consciousness, leading you on a Journey towards health, happiness and unlimited potential.</p>
-        <p>Connecting you with the heart, connecting us with each other, re-connecting us to our beautiful planet.</p>
-        <h3>Welcome!</h3>
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <div class="cover" data-image-src="{{ '06.png' | asset_url | img_tag }}"></div>
-        <h2>Transformational Retreats</h2>
-        <p>Are you ready to embark on a Journey, and connect with yourself and nature in a way that might not have seen possible before?</p>
-        <p>Then join us for one of our life changing retreats!</p>
-      </div>
-      <div class="col-sm-6 hidden-xs">
-        <div class="cover" data-image-src="{{ '07.png' | asset_url | img_tag }}"></div>
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <div class="cover">
-          <h4>Soma Immersion Luxury Retreat</h4>
-          <h5>A Jorney in Mexico</h5>
-          <p>Are you ready to travel to the Sacred Valley of Tepoztlán, Mexico, and connect with yourself and nature in a way that might not have seen possible before? Then the Soma Immersion is for you!</p>
-          <a class="button" href="#" data-txt="Learn more"></a>
-        </div>
-      </div>
-      <div class="col-xs-12" data-image-src="{{ '08.jpg' | asset_url | img_tag }}">
-        <div class="container">
-          <h4>Testimonials</h4>
-          <p><q>This ceremony with Dennis was in the top 3 ceremonies I've experienced in my life.</q></p>
-          <p><cite>Dennis McKenna, PhD</cite></p>
-          <p><q>The vibration you disperse, the purity and discipline brought to your retreats, the energies and dynamics triggered, the esthetics, both acoustically and visually, make for an incomparable experience! I am so proud of you, and hope you are too of yourselves. The authenticity and roots approach into it, the mastery and vibration, the intensity and peace you bring… wow.</q></p>
-          <p><cite>Menno</cite></p>
-          <p><q>There are no words to express my deep deep deep gratitude for allowing me to go through such a process... The sacred space you created was a womb where one felt safe to be reborn... All I can do now is live up to what was given to me. Thank you for taking the time to talk and listen before and after the Journey - it was very much appreciated! You are truly a beacon of Light and it was pure joy to meet you and experience the love you share for each other and for the rest of humankind.</q></p>
-          <p><cite>Heather</cite></p>
-          <a class="button" href="#" data-txt="More testimonials"></a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <div class="container">
-          <div class="icon" data-image-src="{{ 'icon-01.png' | asset_url | img_tag }}"></div>
-          <h4>E-Course for Integration and Embodiment</h4>
-          <p>Are you looking for some integration and embodiment after your Sacred Journey? This e-course will offer you the tools, teachings and insights to make the Journey into your daily life more easy and fulfilling than ever before.</p>
-          <a class="button" href="#" data-txt="Learn more"></a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <div class="container">
-          <div class="icon" data-image-src="{{ 'icon-02.png' | asset_url | img_tag }}"></div>
-          <h4>Online Yoga / Meditation Classes</h4>
-          <p>The real magic start to happen through the application of yoga in your daily life; strengthening the body and nervous system, making yourself ready for the Sacred Journey.<br>The Journey we call life. </p>
-          <a class="button" href="#" data-txt="Learn more"></a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <div class="container">
-          <div class="icon" data-image-src="{{ 'icon-03.png' | asset_url | img_tag }}"></div>
-          <h4>Personal Guidance</h4>
-          <p>Are you looking for some guidance, advice or inspiration? We would be honoured to assist you in our personal sessions.</p>
-          <a class="button" href="#" data-txt="Learn more"></a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <div class="container">
-          <div class="icon" data-image-src="{{ 'icon-04.png' | asset_url | img_tag }}"></div>
-          <h4>Private Retreats / Ceremonies</h4>
-          <p>Are you looking for a private retreat or for private ceremonies? You know what you want, and would like us to make that happen? You came to the right place. We can set up for you a private retreat in full confidentiality according to your wishes.</p>
-          <a class="button" href="#" data-txt="Learn more"></a>
-        </div>
-      </div>
-      <div class="col-sm-6 hidden-xs">
-        <h2><b>Dennis Notten,</b><br>M. A.</h2>
-        <p><b>Dennis Notten is the spiritual guide and founder of SacredJourney.Earth. He is a certified KRI Kundalini Yoga and Meditation teacher, a Theta Healer, a Reiki Master, and had several years of experience of running his own healing centre in the Sacred Valley of the Incas in Peru.</b></p>
-        <p>Before committing to the path of healing, Dennis was a professional bassoonist in some of the world’s leading orchestras; he uses his musical gifts in the ceremonial setting, working with sounds as an energy healing modality.</p>
-        <p>For the past four years he has been learning from and working with the Yawanawá tribe in the Brazilian Amazon. Padrinho Alfredo, the spiritual leader of the Santo Daime, granted Dennis the blessing to work with the medicine of the Santo Daime in his personal work. He is uniquely suited to bridge the gap between Indigenous people and the West, as he is a Westerner who has spent extensive time in the Amazon learning from Indigenous leaders, and his work transcends such boundaries.</p>
-      </div>
-      <div class="col-sm-6 hidden-xs" data-image-src="img/tmp/09.png"></div>
-      <div id="carousel" class="col-xs-12 visible-xs carousel slide" data-interval="false">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="item active" data-image-src="img/tmp/09.png">
-            <h2><b>Dennis Notten,</b> M. A.</h2>
-          </div>
-          <div class="item">
-            <p><b>Dennis Notten is the spiritual guide and founder of SacredJourney.Earth. He is a certified KRI Kundalini Yoga and Meditation teacher, a Theta Healer, a Reiki Master, and had several years of experience of running his own healing centre in the Sacred Valley of the Incas in Peru.</b></p>
-            <p>Before committing to the path of healing, Dennis was a professional bassoonist in some of the world’s leading orchestras; he uses his musical gifts in the ceremonial setting, working with sounds as an energy healing modality.</p>
-          </div>
-          <div class="item">
-            <p>For the past four years he has been learning from and working with the Yawanawá tribe in the Brazilian Amazon. Padrinho Alfredo, the spiritual leader of the Santo Daime, granted Dennis the blessing to work with the medicine of the Santo Daime in his personal work. He is uniquely suited to bridge the gap between Indigenous people and the West, as he is a Westerner who has spent extensive time in the Amazon learning from Indigenous leaders, and his work transcends such boundaries.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12" data-image-src="img/tmp/10.png">
-        <h3>Ready to start your Sacred Journey?</h3>
-        <h5>Sign up to receive a free meditation video and take the first step…</h5>
-        <h5>We keep your email private.</h5>
-        <div class="container">
-          <form id="sign-up" action="#" method="POST" autocomplete="off">
-            <div class="col-sm-6 col-ms-6">
-              <input type="text" name="name" placeholder="YOUR NAME" required />
-            </div>
-            <div class="col-sm-6 col-ms-6">
-              <input type="email" name="email" placeholder="YOUR EMAIL" required />
-            </div>
-            <div class="col-xs-12">
-              <input type="submit" value="Sign Up" />
-            </div>
-          </form>
-        </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h4>Blog / Stories</h4>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="blogpost">
+        <div class="image" data-image-src="/kajabi-storefronts-production/blogs/2321/images/WsQ3M5b6TcCycnb5dpif_IMG_0672-1-1024x765.jpg"></div>
+        <h5><a href="{{ current_site.url }}/blog?tag=yawanawa">Yawanawa</a></h5>
+        <h4><a href="/blog/yawanawa-a-meeting">Yawanawa – a Meeting</a></h4>
+        <h5>13 November, 2014</h5>
+        <p>So here I am in an Internet cafe in Tauraucá, a small city in the middle of the Amazon rainforest in Brazil. The last days have been really special…</p>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h4>Blog / Stories</h4>
+    <div class="col-sm-4 col-xs-12">
+      <div class="blogpost">
+        <div class="image" data-image-src="/kajabi-storefronts-production/blogs/2321/images/Dqv1NDaQdqDdKF2SwV0w_image.jpg"></div>
+        <h5><a href="{{ current_site.url }}/blog?tag=newsletter">Newsletter</a></h5>
+        <h4><a href="/blog/the-story-of-the-3-seeds">The Story of the 3 Seeds</a></h4>
+        <h5>05 January, 2017</h5>
+        <p>Hi All ~ How are you? Hope this email finds you in high spirits. It's been a while since I've shared with you. At the end of October, I set off to spend 7 weeks with the Yawanawa Indians.…</p>
       </div>
-      <div class="col-sm-4 col-xs-12">
-        <div class="blogpost">
-          <div class="image" data-image-src="img/tmp/11.png"></div>
-          <h5><a href="#">Yawanawa</a></h5>
-          <h4><a href="#">Yawanawa – a Meeting</a></h4>
-          <h5>November 13, 2014</h5>
-          <p>So here I am in an Internet cafe in Tauraucá, a small city in the middle of the Amazon rainforest in Brazil. The last days have been really special…</p>
-        </div>
-      </div>
-      <div class="col-sm-4 col-xs-12">
-        <div class="blogpost">
-          <div class="image" data-image-src="img/tmp/12.png"></div>
-          <h5><a href="#">Articles & Teachings</a></h5>
-          <h4><a href="#">Aloe Arborescens Protocol</a></h4>
-          <h5>November 13, 2014</h5>
-          <p>Aloe Arborescens offers supreme immune support, gentle cleansing for the whole body, promotes healthy blood, cardiovascular, colon and immune…</p>
-        </div>
-      </div>
-      <div class="col-sm-4 col-xs-12">
-        <div class="blogpost">
-          <div class="image" data-image-src="img/tmp/13.png"></div>
-          <h5><a href="#">Articles & Teachings</a></h5>
-          <h4><a href="#">10 Lifestyle Changes That Happen After You Start Meditating</a></h4>
-          <h5>November 13, 2014</h5>
-          <p>Once you begin meditating daily, life as you knew it will begin to take on some interesting twists and...</p>
-        </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="blogpost">
+        <div class="image" data-image-src="{{ 'tmp_11.png' | asset_url }}"></div>
+        <h5><a href="{{ current_site.url }}/blog?tag=yawanawa">Yawanawa</a></h5>
+        <h4><a href="/blog/yawanawa-the-story-of-a-cobra-nalini">Yawanawa – The story of a Cobra ~ Nalini</a></h4>
+        <h5>10 July, 2015</h5>
+        <p>Once you begin meditating daily, life as you knew it will begin to take on some interesting twists and...</p>
       </div>
     </div>
   </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h4>Blog / Stories</h4>
+    </div>
+    {% if current_site.blog.posts_published.size > 0 %}
+      {% for blog_post in current_site.blog.posts_published limit: 3 %}
+        <!--<div class="col-sm-4 col-xs-12">-->
+          <!--<div class="blogpost">-->
+              <!--<div class="img-block">-->
+                <!--<a href="{{ blog_post.url }}">-->
+                  <!--{% if blog_post.image_url %}-->
+                  <!--<img class="img-responsive" src="{{ blog_post.image_url }}">-->
+                  <!--{% else %}-->
+                  <!--<img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">-->
+                  <!--{% endif %}-->
+                <!--</a>-->
+              <!--</div>-->
+              <!--<div class="text-block">-->
+                <!--<div class="title-category">-->
+                  <!--<a href="{{ current_site.url }}/blog?tag={{ blog_post.tags | join: ', ' }}">{{ blog_post.tags | join: ', ' }}</a>-->
+                <!--</div>-->
+                <!--<div class="title">-->
+                  <!--<a href="{{ blog_post.url }}">{{ blog_post.title | truncate: 70 }}</a>-->
+                <!--</div>-->
+                <!--<div class="desc">-->
+                  <!--<p>{{ blog_post.content | strip_html | truncate: 250 }}</p>-->
+                <!--</div>-->
+                <!--<div class="date">-->
+                  <!--<span>{{ blog_post.created_at | date: "%d" }} {{ blog_post.created_at | date: "%B" }}, {{ blog_post.created_at | date: "20%y" }}</span>-->
+                <!--</div>-->
+              <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      {% if  blog_post.id == 18436 %}
+        <div class="col-sm-4 col-xs-12">
+          <div class="blogpost">
+            <div class="img-block">
+              <a href="{{ blog_post.url }}">
+                {% if blog_post.image_url %}
+                <img class="img-responsive" src="{{ blog_post.image_url }}">
+                {% else %}
+                <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
+                {% endif %}
+              </a>
+            </div>
+            <div class="text-block">
+              <div class="title-category">
+                <a href="{{ current_site.url }}/blog?tag={{ blog_post.tags | join: ', ' }}">{{ blog_post.tags | join: ', ' }}</a>
+              </div>
+              <div class="title">
+                <a href="{{ blog_post.url }}">{{ blog_post.title | truncate: 70 }}</a>
+              </div>
+              <div class="desc">
+                <p>{{ blog_post.content | strip_html | truncate: 250 }}</p>
+              </div>
+              <div class="date">
+                <span>{{ blog_post.created_at | date: "%d" }} {{ blog_post.created_at | date: "%B" }}, {{ blog_post.created_at | date: "20%y" }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

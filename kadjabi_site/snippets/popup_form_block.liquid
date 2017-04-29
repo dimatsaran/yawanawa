@@ -1,0 +1,20 @@
+<a href="{{ blog_post.url }}" class="popup">
+  <div class="overlay"></div>
+  {% if blog_post.image_url %}
+  <img class="img-responsive" src="{{ blog_post.image_url }}">
+  {% else %}
+  <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
+  {% endif %}
+  <div class="popup-info text-center">
+    <form action="/offers" method="GET">
+      <div class="card-info">
+        <input type="hidden" name="offer_token" value="NwdQLkno">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        <h6>Yoga &amp; Meditation Videos Subscription</h6>
+        <h2>$15.00 USD every month</h2>
+        <p></p><p>Test Content</p><p></p>
+        <button kjb-settings-id="language_offer_purchase" class="btn" type="submit">Purchase</button>
+      </div>
+    </form>
+  </div>
+</a>

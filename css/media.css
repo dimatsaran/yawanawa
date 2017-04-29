@@ -3,12 +3,12 @@
 		width: 170px;
 		height: 89px;
 		top: 14px;
-		
+
 		margin-left: -85px;/**/
-		
+
 /*		margin-left: -78px;/**/
 	}
-	
+
 /*
 	a.logo {
 		margin-left: -85px;
@@ -17,8 +17,8 @@
 		margin-left: -85px;
 	}
 */
-	
-	
+
+
 	.burger:not(.close_btn) {
 		top: 24px;
 		left: 24px;
@@ -42,11 +42,11 @@
 		width: 184px;
 		height: 96px;
 		top: 10px;
-		
+
 		margin-left: -92px;/**/
-		
+
 /*		margin-left: -85px;/**/
-		
+
 	}
 	.burger:not(.close_btn) {
 		top: 32px;
@@ -94,14 +94,14 @@
 		width: 210px;
 		height: 110px;
 		top: 20px;
-		
-		
+
+
 		margin-left: -105px;/**/
-		
-		
+
+
 	}
-	
-	
+
+
 	.burger:not(.close_btn) {
 		top: 35px;
 		left: 44px;
@@ -114,13 +114,13 @@
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-	
-/*	
+
+/*
 	.logo {
 		margin-left: -98px;
 	}
-/**/	
-	
+/**/
+
 	.footer form {
 		height: 130px;
 		margin: 54px 0 0;
@@ -146,9 +146,9 @@
 		background-color: #0d1516;
 	}
 	.header .container {
-		
+
 		width: 0;
-		
+
 		height: 100%;
 		padding: 82px 0 0;
 		overflow-x: hidden;
@@ -206,15 +206,15 @@
 		overflow-x: hidden;
 		overflow-y: scroll;
 	}
-	
-	
+
+
 /*
 	.logo {
 		margin-left: -107px;
 	}
 /**/
-	
-	
+
+
 	.content {
 		overflow: hidden;
 	}
@@ -231,23 +231,23 @@
 	.header ul {
 		position: absolute;
 		cursor: default;
-		
+
 		font-family: "OpenSansSemiBold", sans-serif;
 		letter-spacing: 0.4px;
-		
+
 		top: 43px;
-		
+
 	}
 	.header ul li {
 		position: relative;
 		display: inline-block;
 		line-height: 33px;
 		margin: 0 15px;
-		
-		
+
+
 		text-transform: uppercase;
 		font-size: 12px;
-		
+
 	}
 	.header li span,
 	.header li a {
@@ -257,34 +257,34 @@
 		color: #000000;
 	}
 	.header ul:first-of-type {
-		
+
 /*		top: 43px;/**/
-		
+
 		left: 4.3%;
-		
+
 /*
 		font-family: "OpenSansSemiBold", sans-serif;
 		letter-spacing: 0.4px;
 /**/
-		
+
 	}
 	.header ul:last-of-type {
-		
-		
+
+
 		right: 4.3%;
-		
-		
+
+
 /*
 		top: 41px;
 		right: 5.7%;
-		
+
 
 		font-family: "OpenSansRegular", sans-serif;
 		letter-spacing: 0.35px;
 /**/
-		
+
 	}
-	
+
 /*
 	.header ul:first-of-type li {
 		text-transform: uppercase;
@@ -294,15 +294,15 @@
 		font-size: 14px;
 	}
 /**/
-	
+
 	.header .container ul li ul {
 		top: 0;
 		left: -36px;
 		padding: 35px 0 0;
-		
+
 /*		width: 216px;/**/
 		width: 232px;
-		
+
 		display: none;
 	}
 	.header ul li ul:before {
@@ -322,15 +322,15 @@
 	}
 	.header ul li ul li span,
 	.header ul li ul li a {
-		
+
 /*		font-family: "OpenSansLight", sans-serif;
 		font-size: 14px;/**/
-		
+
 /*		text-transform: none;/**/
-		
+
 /*		letter-spacing: 0.36px;/**/
-		
-		
+
+
 		padding: 3px 0 3px 30px;
 	}
 	.header ul li ul li a {
