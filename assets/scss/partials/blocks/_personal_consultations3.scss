@@ -1,0 +1,419 @@
+.header-personal-block{
+  //background-image: url('../img/personal-consultations-bg-header.jpg');
+  .title-block{
+    .site-label{
+      font-family: $font-open-sans;
+      color:  $color-white;
+      font-size: 8.4*$font-size;
+      line-height: 0.8*$line-height;
+      font-weight: 700;
+      max-width: 750px;
+      margin: 0 auto;
+      text-transform: uppercase;
+      //letter-spacing: -0.8px;
+      @include tablet{
+        font-size: 6.5*$font-size;
+      }
+      @include phone{
+        font-size: 4.5*$font-size;
+      }
+      @include small-phone{
+        font-size: 3.5*$font-size;
+      }
+    }
+    .title-description{
+      font-family: $font-open-sans;
+      color: $color-black;
+      text-transform: uppercase;
+      font-size: 3*$font-size;
+      font-weight: 700;
+      //padding-top: 44px;
+      padding-top: 55px;
+      letter-spacing: 1.2px;
+      @include tablet{
+        font-size: 2.6*$font-size;
+      }
+      @include phone{
+        font-size: 2.2*$font-size;
+      }
+    }
+  }
+
+
+}
+.intro-personal-block{
+  .container-sentence{
+    max-width: 940px;
+  }
+  text-align: center;
+  background-color: $color-grey;
+  padding-top: 60px;
+  padding-bottom: 58px;
+  position: relative;
+  .title-block{
+    @include tablet{
+      @include padding-screen;
+    }
+    .title{
+      color: $color-purple;
+      text-transform: uppercase;
+      font-size: 2.5*$font-size;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      @include tablet{font-size: 2.7*$font-size;}
+      @include phone{font-size: 2.4*$font-size;}
+      @include small-phone{font-size: 2.1*$font-size;}
+
+    }
+    .desc-bold{
+      padding-top: 50px;
+      font-weight: 600;
+      font-size: 2*$font-size;
+      line-height: 1.3*$line-height;
+      p{
+        padding-bottom: 15px;
+        &.sec-line{
+          max-width: 590px;
+          margin: 0 auto;
+        }
+      }
+    }
+    .desc{
+      //padding-top: 20px;
+      padding-top: 32px;
+      color: $color-black;
+      font-size: 1.7*$font-size;
+      line-height: 1.5*$line-height;
+      //font-weight: 600;
+      letter-spacing: 0.5px;
+      @include tablet{font-size: 1.4*$font-size;}
+      @include phone{font-size: 1.3*$font-size;}
+      p{
+        padding-bottom: 30px;
+      }
+    }
+  }
+  .line-label{
+    //margin-bottom: 20px;
+    &:before{
+      background: $color-grey-line;
+      background-position: center center;
+      height: 1px;
+      width: 100%;
+      content: '';
+      position: absolute;
+      display: inline-block;
+      left: 0;
+      top: 10px
+    }
+    .label{
+      background-color: $color-grey;
+      color: $color-black;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.2*$font-size;
+      padding: 0 50px;
+      display: inline-block;
+      z-index: 50;
+      position: relative;
+    }
+  }
+  .price-block{
+    position: relative;
+    //padding-bottom: 20px;
+    padding-bottom: 27px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 20px;
+    .price{
+      color: $color-red;
+      text-transform: uppercase;
+      padding-top: 30px;
+      max-width: 450px;
+      margin: 0 auto;
+      span{
+        display: inline-block;
+      }
+      .big{
+        padding-right: 10px;
+        font-size: 4*$font-size;
+        @include tablet{font-size: 3.7*$font-size;}
+        @include phone{font-size: 3.4*$font-size;}
+        @include small-phone{font-size: 3.1*$font-size;}
+      }
+      .down-payment{
+        display: inline-block;
+        max-width: 180px;
+        text-align: left;
+        margin-left: 10px;
+        font-weight: 600;
+        @include phone{
+          font-size: 1.4*$font-size;
+          padding-top: 10px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .dates-block{
+    position: relative;
+    .termes-block{
+      //padding-top: 30px;
+      padding-top: 40px;
+      .termes{
+        max-width: 320px;
+        padding: 0 50px;
+        display: inline-block;
+        .dates{
+          width: 100%;
+          display: inline-block;
+          font-size: 2*$font-size;
+        }
+        .desc{
+          width: 100%;
+          display: inline-block;
+          font-size: 1.5*$font-size;
+          padding-top: 10px;
+        }
+        .desc-red{
+          color: $color-red;
+          @include phone{
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  .link-more-block{
+    //padding-top: 37px;
+    padding-top: 30px;
+    .link-more{
+      color: $color-grey;
+      @include linear-gradient;
+      border: 0 none;
+      &:hover{
+        @include linear-gradient-back;
+        opacity: 1;
+        //@include transition(background 0.2s)
+      }
+    }
+  }
+}
+.ready-personal-block{
+  background: transparent url('../img/ready-personal-block.jpg') no-repeat scroll;
+  background-size: cover;
+  background-position: top center;
+  min-height: 432px;
+  text-align: center;
+  .title{
+    //padding-top: 90px;
+    padding-top: 93px;
+    font-size: 3*$font-size;
+    font-family: $font-open-sans;
+    font-weight: 600;
+    line-height: $line-height;
+    color: $color-purple;
+    //letter-spacing: 0.6px;
+    //padding-top: 90px;
+    //color: $color-white;
+    //font-size: 3.1*$font-size;
+    //font-family: $font-open-sans;
+    //font-weight: 600;
+
+    @include  padding-screen;
+  }
+  .desc{
+    //padding-top: 30px;
+    padding-top: 30px;
+    color: $color-white;
+    font-size: 3.5*$font-size;
+    line-height: 1*$line-height;
+    //display: inline-block;
+    //max-width: 410px;
+    text-align: center;
+    letter-spacing: 0.7px;
+    p{
+      padding-bottom: 10px;
+    }
+  }
+  .link-more-block{
+    padding-top: 20px;
+    .link-more{
+      color: $color-white;
+      @include linear-gradient;
+      border: 0 none;
+      letter-spacing: 1px;
+      &:hover{
+        @include linear-gradient-back;
+        opacity: 1;
+        //@include transition(background 0.2s)
+      }
+    }
+  }
+  .text-link{
+    padding-top: 68px;
+    color: $color-white;
+    font-size: 1.4*$font-size;
+    a{
+      color: $color-white;
+      text-decoration: underline;
+
+    }
+  }
+}
+.packages-personal-block{
+  background-color: $color-grey;
+  padding-bottom: 75px;
+  .container-form{
+    max-width: 940px;
+  }
+  .title-block{
+    padding-top: 65px;
+    padding-bottom: 45px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid $color-grey-line;
+    .title{
+      //padding-top: 90px;
+      color: $color-purple;
+      //font-size: 2.4*$font-size;
+      font-size: 2.1*$font-size;
+      font-family: $font-open-sans;
+      font-weight: 600;
+      line-height: $line-height;
+      letter-spacing: -0.6px;
+      @include  padding-screen;
+    }
+  }
+  .content-block{
+    margin-left: -50px;
+    margin-right: -50px;
+    @include tablet{
+      margin: 0;
+    }
+  }
+  .list-block{
+    padding: 50px 0 0 40px;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    @include tablet{
+      width: 100%;
+    }
+    @include phone{
+      padding-left: 0;
+    }
+    &:last-of-type {
+      .list{
+        width: 98%;
+      }
+    }
+    p{
+      padding-bottom: 27px;
+      line-height: 1.3*$line-height;
+      font-size: 1.4*$font-size;
+      //width: 65%;
+      //width: 90%;
+      .label-bold{
+        font-weight: 600;
+        font-size: 1.6*$font-size;
+      }
+    }
+    .termes{
+      display: inline-block;
+      vertical-align: top;
+      &:last-of-type{
+      }
+      .desc-red{
+        color: $color-red;
+        text-transform: uppercase;
+        font-size: 1.6*$font-size;
+        display: inline-block;
+        width: 100%;
+        font-weight: 600;
+      }
+      .desc{
+        padding-top: 30px;
+        display: inline-block;
+        width: 100%;
+        font-weight: 600;
+        font-size: 1.6*$font-size;
+      }
+    }
+    .list{
+      padding-top: 30px;
+      font-weight: 600;
+      font-size: 0.8*$font-size;
+      list-style-type: disc;
+      //list-style-position: inside;
+      padding-left: 10px;
+      width: 97%;
+      li{
+        p{
+          font-size: 1.5*$font-size;
+        }
+      }
+    }
+    .price-block{
+      padding-top: 25px;
+      .desc{
+        width: 100%;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 1.3*$font-size;
+      }
+      .price{
+        padding-top: 10px;
+        width: 100%;
+        display: inline-block;
+        color: $color-red;
+        font-size: 4*$font-size;
+      }
+    }
+  }
+}
+.personal-bg-block{
+  //background: transparent url('../img/personal-bg-block.jpg') no-repeat scroll;
+  //background-size: cover;
+  //background-position: top center;
+  max-height: 720px;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+.quote-personal-block{
+  text-align: center;
+  background-color: $color-peach-light;
+  color: $color-grey-dark;
+  min-height: 360px;
+  .container-quote{
+    max-width: 1030px;
+  }
+  .title-block{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    //padding-bottom: 10px;
+    @include phone{    padding-top: 35px;}
+    .autor{
+      padding-top: 25px;
+      text-transform: uppercase;
+      font-size: 1.6*$font-size;
+      font-weight: 600;
+    }
+    .desc{
+      line-height: 1.6*$line-height;
+      //letter-spacing: 0.6px;
+      .icon-quote{
+        font-size: 3.5*$font-size;
+        line-height: 5px;
+        vertical-align: middle;
+        padding: 0 10px;
+      }
+      p{
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+

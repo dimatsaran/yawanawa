@@ -1,0 +1,191 @@
+.header-blog-all-block,
+.menu-blog-all-block,
+.ready-form-block,
+.blog-all-blocks,
+.header-soma-retreat-block,
+.menu-soma-block,
+.sentence-block,
+.recommended-those-block,
+.description-block,
+.ready-start-sacred-block,
+.ready-start-block,
+.details-block,
+.exterior-bg-block,
+.additional-options-block,
+.carousel-img-block,
+.quote-block,
+.how-maps-block,
+.interior-bg-block,
+.booking-policy-block,
+.header-yawa-retreat-block,
+.menu-yawa-block,
+.sentence-yawa-block,
+.recommended-yawa-block,
+.description-yawa-block,
+.ready-start-yawa-block,
+.details-yawa-block,
+.hero-bg-block,
+.quote-yawa-block,
+.how-maps-yawa-block,
+.round-bg-block,
+.booking-yawa-policy-block,
+.header-connect-block,
+.sentence-connect-block,
+.header-personal-block,
+.ready-form-connect-block,
+.menu-personal-block,
+.intro-personal-block,
+.ready-personal-block,
+.packages-personal-block,
+.quote-personal-block,
+.header-terms-block,
+.sentence-terms-block,
+.ready-terms-form-block,
+.header-mission-block,
+.mission-block,
+.values-mission-block,
+.practices-mission-block,
+.ready-form-mission-block,
+.online-policy-block,
+.header-meds-block,
+.intro-meds-block,
+.dangerous-meds-block,
+.pharmaceutical-meds-block,
+.avoid-meds-block,
+.desc-meds-block,
+.ready-form-meds-block,
+.header-private-ceramonies-block,
+.private-ceramonies-options-block,
+.components-private-ceramonies-block,
+.private-ceramonies-bg-block,
+.desc-private-ceramonies-block,
+.header-custom-retreat-block,
+.intro-custom-retreat-block,
+.custom-retreat-options-block,
+.components-custom-retreat-block,
+.custom-retreat-bg-block,
+.components-custom-connect-block,
+.desc-custom-retreat-block,
+.header-private-ceramonies-block,
+.intro-private-ceramonies-block,
+.components-private-ceramonies-block,
+.private-ceramonies-bg-block,
+.desc-private-ceramonies-block,
+.header-calendar-block,
+.calendar-period-block,
+.calendar-form,
+.header-cancellation-policy-block,
+.cancellation-policy-block,
+.header-testimonials-block,
+.testimonials-bg-block,
+.intro-testimonials-block,
+.testimonials-options-block,
+.header-online-medit-block,
+.intro-online-medit-block,
+.online-medit-options-block,
+.online-medit-options-reise-block,
+.desc-online-medit-block,
+.online-medit-options-start-block
+{
+  min-width: 320px;
+  @include extra-phone{
+    overflow-x: hidden;
+  }
+  *, *::after, *::before {
+    box-sizing: border-box;
+    //transition: all  ease-out 0.3s;
+    @include transition (all  ease-out 0.3s);
+
+  }
+  .container-retreat{
+    max-width: 930px;
+    margin: 0 auto;
+  }
+  .row{
+    @include phone{
+      margin: 0;
+    }
+  }
+}
+
+.header-block{
+  position: relative;
+  background-image: url('../img/blog-all-header.jpg');
+  background-color: transparent;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 480px;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  .title-block {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    @include padding-screen;
+  }
+}
+.menu-block{
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 2px 2px rgba($color-grey-dark, 0.2);
+  -moz-box-shadow:    0px 1px 2px 2px rgba($color-grey-dark, 0.2);
+  box-shadow:         0px 1px 2px 2px rgba($color-grey-dark, 0.2);
+  margin-bottom: 2px;
+  background-color: $color-white;
+  @include clearfix;
+  .menu{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .item-menu{
+    //text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @include tablet{
+      width: 100%;
+    }
+    a{
+      display: inline-block;
+      text-transform: uppercase;
+      color: $color-black;
+      font-family: $font-open-sans;
+      text-decoration: none;
+      //padding-left: 20px;
+      //padding-right: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 1.2*$font-size;
+      letter-spacing: 0.5px;
+      @include transition(color 0.3);
+      &:hover{
+        color: $color-red;
+      }
+    }
+  }
+}
+.img-bg-block{
+  background-image: url('../img/hero-bg-block.jpg');
+  background-color: transparent;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 720px;
+}
+.social-block{
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.ready-form{
+  position: relative;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 432px;
+  background-size: cover;
+  text-align: center;
+}

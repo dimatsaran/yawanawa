@@ -1,0 +1,99 @@
+  // Typography:
+$font-size: 10px;
+$line-height: 1.2;
+$font-open-sans: 'Open Sans', sans-serif;
+$font-open-light: 'OpenSansLight', sans-serif;
+$font-open-light-it: 'OpenSansLightItalic', sans-serif;
+$font-open-regular: 'OpenSansRegular', sans-serif;
+$font-open-semibold: 'OpenSansSemibold', sans-serif;
+
+@mixin clearfix{
+  &:after{
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+  }
+}
+*:focus {
+  outline: 0;
+}
+html{
+
+}
+body{
+  font-family: $font-open-sans;
+}
+
+.clearfix{
+  @include clearfix
+}
+
+img{
+  vertical-align: middle;
+}
+.bold-style{
+  font-weight: 600;
+}
+.italy-style{
+  font-style: italic;
+}
+.under-style{
+  //text-decoration: underline;
+  border-bottom: 1px solid $color-grey-light;
+}
+
+.desc-red{
+  color: $color-red;
+}
+
+.container-block{
+  max-width: 940px;
+}
+.container-custom{
+  max-width: 900px;
+}
+
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+
+@mixin transition-property($property...) {
+  -moz-transition-property:    $property;
+  -o-transition-property:      $property;
+  -webkit-transition-property: $property;
+  transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+  -moz-transition-property:    $duration;
+  -o-transition-property:      $duration;
+  -webkit-transition-property: $duration;
+  transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+  -moz-transition-timing-function:    $timing;
+  -o-transition-timing-function:      $timing;
+  -webkit-transition-timing-function: $timing;
+  transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+  -moz-transition-delay:    $delay;
+  -o-transition-delay:      $delay;
+  -webkit-transition-delay: $delay;
+  transition-delay:         $delay;
+}
+
+@mixin user-select{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@mixin outline{
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}

@@ -1,0 +1,110 @@
+.blog-single-block{
+  background-color: $color-grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: $font-open-sans;
+  position: relative;
+  .container-single{
+    max-width: 934px;
+  }
+  .title{
+    color: $color-purple;
+    font-size: 3.5*$font-size;
+    font-weight: 600;
+    text-align: center;
+  }
+  .date{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4*$font-size;
+    //font-weight: 300;
+    padding-bottom: 20px;
+  }
+  .navigation-block {
+    text-align: center;
+    padding-top: 10px;
+    .slide-btn{
+      display: inline-block;
+    }
+    .icon-svg{
+      display: inline-block;
+    }
+    .icon{
+      margin: 20px;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      opacity: 1;
+      @include transition(opacity 0.2s);
+      &:hover{
+        opacity: 0.5;
+        outline: none;
+      }
+    }
+    //.icon{
+    //  margin: 20px;
+    //  width: 53px;
+    //  height: 53px;
+    //  display: inline-block;
+    //  vertical-align: middle;
+    //  background-image: url("../img/icon/icon-previous.png");
+    //  background-repeat: no-repeat;
+    //  opacity: 1;
+    //  @include transition(opacity 0.2s);
+    //  &:hover{
+    //    opacity: 0.8;
+    //  }
+    //  &.icon-prev{
+    //
+    //  }
+    //  &.icon-next{
+    //    background-image: url("../img/icon/icon-next.png");
+    //  }
+    //}
+  }
+  .content-block{
+    color: $color-black;
+    font-size: 1.6*$font-size;
+    line-height: 1.2*$line-height;
+    font-weight: 400;
+    @include tablet{
+      @include padding-screen;
+    }
+    p{
+      padding-bottom: 30px;
+    }
+  }
+  /* for_kajabi*/
+  img{
+    width: 100%;
+    margin: 20px 0;
+  }
+  p{
+    color: $color-black;
+    font-size: 1.6*$font-size;
+    line-height: 1.2*$line-height;
+    font-weight: 400;
+    padding-bottom: 30px;
+    @include tablet{
+      @include padding-screen;
+    }
+  }
+  /*end_for_kajabi*/
+  .img-block{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    img{
+      width: 100%;
+    }
+    .desc{
+      padding-top: 50px;
+      font-family: $font-open-sans;
+      font-style: italic;
+      text-align: center;
+      font-weight: normal;
+      color: $color-black;
+      font-size: 1.5*$font-size;
+    }
+  }
+}

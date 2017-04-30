@@ -1,0 +1,132 @@
+.btn {
+  background-color: transparent;
+  display: inline-block;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 1;
+  color: $color-peach;
+  font-family: $font-open-sans;
+  font-size: 1.6*$font-size;
+  padding: 10px 25px;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 0;
+  //@include  linear-gradient-border;
+  @include transition(opacity .2s);
+  @include outline;
+  &:hover,&.focus,&:focus{
+    //@include  linear-gradient-border-back;
+    @include user-select;
+    @include outline;
+    text-decoration: none;
+    color: $color-peach-dark;
+    opacity: 0.7;
+  }
+}
+//.btn-play{
+//  width: 75px;
+//  height: 75px;
+//  background: rgba(0, 0, 0, 0) url("../images/icon-play.png") no-repeat scroll;
+//  display: block;
+//  margin: 0 auto;
+//  border: 0 none;
+//  font-size: 0;
+//  cursor: pointer;
+//  padding: 0;
+//  margin-top: 10px;
+//  opacity: 1;
+//  @include transition(opacity  .3s);
+//  @include user-select;
+//  &:hover{
+//    opacity: .85;
+//  }
+//}
+//.slick-slider{
+//  .slick-arrow{
+//    @include phone {
+//      height: 47px;
+//      top: 60%;
+//      width: 14px;
+//      z-index: 200;
+//    }
+//    @include small-phone {
+//      height: 47px;
+//      top: 40%;
+//      width: 14px;
+//      z-index: 200;
+//    }
+//  }
+//  .slick-prev{
+//    @include user-select;
+//    @include phone{
+//      left: 11px;
+//        &:before{
+//        top: 0;
+//        display: block;
+//        height: 47px;
+//        position: absolute;
+//        width: 14px;
+//        font-size: 0;
+//        content: "";
+//        //@include sprite($icon-carusel-gr-light-left);
+//      }
+//    }
+//  }
+//  .slick-next{
+//    @include user-select;
+//    @include phone{
+//      right: 11px;
+//      &:before{
+//        top: 0;
+//        display: block;
+//        height: 47px;
+//        position: absolute;
+//        width: 14px;
+//        font-size: 0;
+//        content: "";
+//        //@include sprite($icon-carusel-gr-light-right);
+//      }
+//    }
+//  }
+//  .slick-dotted.slick-slider{
+//    margin-bottom: 0;
+//  }
+//  .slick-dots{
+//    position: absolute;
+//    bottom: 34px;
+//    @include small-phone{
+//      bottom: 0;
+//    }
+//    li{
+//      margin: 0 14px;
+//      width: 11px;
+//      height: 11px;
+//      button{
+//        width: 11px;
+//        height: 11px;
+//        @include user-select;
+//        &:before{
+//          border-radius: 100%;
+//          background-color: $color-white-two;
+//          opacity: 1;
+//          content: '';
+//          width: 11px;
+//          height: 11px;
+//        }
+//
+//      }
+//      &.slick-active,&:hover{
+//        button{
+//          &:before{
+//            background-color: $color-rouge-v1;
+//          }
+//        }
+//      }
+//    }
+//  }
+//}

@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "OpenSansLight";
+	src: url("font_opensans_light.eot?v=1.1.0");
+	src: url("font_opensans_light.eot?#iefix&v=1.1.0")format("embedded-opentype"),
+	url("font_opensans_light.woff?v=1.1.0") format("woff"),
+	url("font_opensans_light.ttf?v=1.1.0") format("truetype"),
+	url("font_opensans_light.svg?v=1.1.0?v=1.1.0#Light") format("svg");
+	font-style: normal;
+}
+@font-face {
+	font-family: "OpenSansLightItalic";
+	src: url("font_opensans_lightitalic.eot?v=1.1.0");
+	src: url("font_opensans_lightitalic.eot?#iefix&v=1.1.0")format("embedded-opentype"),
+	url("font_opensans_lightitalic.woff?v=1.1.0") format("woff"),
+	url("font_opensans_lightitalic.ttf?v=1.1.0") format("truetype"),
+	url("font_opensans_lightitalic.svg?v=1.1.0?v=1.1.0#LightItalic") format("svg");
+	font-style: normal;
+}
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("font_opensans_regular.eot?v=1.1.0");
+	src: url("font_opensans_regular.eot?#iefix&v=1.1.0")format("embedded-opentype"),
+	url("font_opensans_regular.woff?v=1.1.0") format("woff"),
+	url("font_opensans_regular.ttf?v=1.1.0") format("truetype"),
+	url("font_opensans_regular.svg?v=1.1.0?v=1.1.0#Regular") format("svg");
+	font-style: normal;
+}
+@font-face {
+	font-family: "OpenSansSemibold";
+	src: url("font_opensans_semibold.eot?v=1.1.0");
+	src: url("font_opensans_semibold.eot?#iefix&v=1.1.0")format("embedded-opentype"),
+	url("font_opensans_semibold.woff?v=1.1.0") format("woff"),
+	url("font_opensans_semibold.ttf?v=1.1.0") format("truetype"),
+	url("font_opensans_semibold.svg?v=1.1.0?v=1.1.0#Semibold") format("svg");
+	font-style: normal;
+}
