@@ -1246,7 +1246,17 @@ input:focus:-ms-input-placeholder {
 .calendar-period-block,
 .calendar-form,
 .header-cancellation-policy-block,
-.cancellation-policy-block {
+.cancellation-policy-block,
+.header-testimonials-block,
+.testimonials-bg-block,
+.intro-testimonials-block,
+.testimonials-options-block,
+.header-online-medit-block,
+.intro-online-medit-block,
+.online-medit-options-block,
+.online-medit-options-reise-block,
+.desc-online-medit-block,
+.online-medit-options-start-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -1328,11 +1338,21 @@ input:focus:-ms-input-placeholder {
   .calendar-period-block,
   .calendar-form,
   .header-cancellation-policy-block,
-  .cancellation-policy-block {
+  .cancellation-policy-block,
+  .header-testimonials-block,
+  .testimonials-bg-block,
+  .intro-testimonials-block,
+  .testimonials-options-block,
+  .header-online-medit-block,
+  .intro-online-medit-block,
+  .online-medit-options-block,
+  .online-medit-options-reise-block,
+  .desc-online-medit-block,
+  .online-medit-options-start-block {
     overflow-x: hidden;
   }
 }
-/* line 84, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 94, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -1564,14 +1584,44 @@ input:focus:-ms-input-placeholder {
 .header-cancellation-policy-block *::before,
 .cancellation-policy-block *,
 .cancellation-policy-block *::after,
-.cancellation-policy-block *::before {
+.cancellation-policy-block *::before,
+.header-testimonials-block *,
+.header-testimonials-block *::after,
+.header-testimonials-block *::before,
+.testimonials-bg-block *,
+.testimonials-bg-block *::after,
+.testimonials-bg-block *::before,
+.intro-testimonials-block *,
+.intro-testimonials-block *::after,
+.intro-testimonials-block *::before,
+.testimonials-options-block *,
+.testimonials-options-block *::after,
+.testimonials-options-block *::before,
+.header-online-medit-block *,
+.header-online-medit-block *::after,
+.header-online-medit-block *::before,
+.intro-online-medit-block *,
+.intro-online-medit-block *::after,
+.intro-online-medit-block *::before,
+.online-medit-options-block *,
+.online-medit-options-block *::after,
+.online-medit-options-block *::before,
+.online-medit-options-reise-block *,
+.online-medit-options-reise-block *::after,
+.online-medit-options-reise-block *::before,
+.desc-online-medit-block *,
+.desc-online-medit-block *::after,
+.desc-online-medit-block *::before,
+.online-medit-options-start-block *,
+.online-medit-options-start-block *::after,
+.online-medit-options-start-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 90, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 100, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -1649,12 +1699,22 @@ input:focus:-ms-input-placeholder {
 .calendar-period-block .container-retreat,
 .calendar-form .container-retreat,
 .header-cancellation-policy-block .container-retreat,
-.cancellation-policy-block .container-retreat {
+.cancellation-policy-block .container-retreat,
+.header-testimonials-block .container-retreat,
+.testimonials-bg-block .container-retreat,
+.intro-testimonials-block .container-retreat,
+.testimonials-options-block .container-retreat,
+.header-online-medit-block .container-retreat,
+.intro-online-medit-block .container-retreat,
+.online-medit-options-block .container-retreat,
+.online-medit-options-reise-block .container-retreat,
+.desc-online-medit-block .container-retreat,
+.online-medit-options-start-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 94, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 104, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1732,12 +1792,22 @@ input:focus:-ms-input-placeholder {
   .calendar-period-block .row,
   .calendar-form .row,
   .header-cancellation-policy-block .row,
-  .cancellation-policy-block .row {
+  .cancellation-policy-block .row,
+  .header-testimonials-block .row,
+  .testimonials-bg-block .row,
+  .intro-testimonials-block .row,
+  .testimonials-options-block .row,
+  .header-online-medit-block .row,
+  .intro-online-medit-block .row,
+  .online-medit-options-block .row,
+  .online-medit-options-reise-block .row,
+  .desc-online-medit-block .row,
+  .online-medit-options-start-block .row {
     margin: 0;
   }
 }
 
-/* line 101, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 111, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1751,7 +1821,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 113, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 123, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1760,7 +1830,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 120, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 130, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1778,24 +1848,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 129, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 139, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 133, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 143, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 133, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 143, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 141, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 151, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1811,12 +1881,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 154, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 164, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 160, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 170, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1827,13 +1897,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 169, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 179, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 173, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 183, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
@@ -9002,7 +9072,7 @@ input:focus:-ms-input-placeholder {
   background-image: url("../img/testimonials-block-bg.jpg");
 }
 
-/* line 30, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 29, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block {
   text-align: center;
   background-color: #eeeeee;
@@ -9010,29 +9080,29 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 35px;
   position: relative;
 }
-/* line 36, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 35, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .container-quote {
   max-width: 950px;
 }
-/* line 39, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 38, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block {
   padding-top: 45px;
   padding-bottom: 5px;
 }
-/* line 42, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 41, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block.first-block {
   border-bottom: 1px solid #dedede;
   padding-top: 30px;
   padding-bottom: 35px;
 }
-/* line 46, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 45, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block.first-block .autor {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
   color: #000000;
 }
-/* line 52, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 51, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block.first-block .desc {
   color: #000000;
   font-size: 17px;
@@ -9040,29 +9110,29 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 52, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 51, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block.first-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 52, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 51, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block.first-block .desc {
     font-size: 13px;
   }
 }
-/* line 59, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 58, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block.first-block .desc p {
   padding-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
-  /* line 39, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 38, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 66, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .title {
   color: #984089;
   text-transform: uppercase;
@@ -9071,36 +9141,36 @@ input:focus:-ms-input-placeholder {
   letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 66, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 66, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 67, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 66, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 77, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 76, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .icon-quote {
   font-size: 30px;
   line-height: 5px;
   vertical-align: middle;
   padding: 0 5px;
 }
-/* line 83, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 82, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .autor {
   text-transform: uppercase;
   font-size: 15px;
 }
-/* line 87, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 86, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .desc {
   color: #000000;
   font-size: 14px;
@@ -9108,23 +9178,23 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 87, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 86, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 87, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 86, ../assets/scss/partials/blocks/_testimonials1.scss */
   .intro-testimonials-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 94, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 93, ../assets/scss/partials/blocks/_testimonials1.scss */
 .intro-testimonials-block .title-block .desc p {
   padding-bottom: 30px;
 }
 
-/* line 100, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 99, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block {
   padding: 72px 50px;
   background: transparent url("../img/testimonials-quote.jpg") no-repeat scroll;
@@ -9135,24 +9205,24 @@ input:focus:-ms-input-placeholder {
   display: table;
 }
 @media screen and (max-width: 640px) {
-  /* line 100, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 99, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block {
     padding: 20px 20px;
     min-height: 400px;
   }
 }
 @media (max-width: 420px) {
-  /* line 100, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 99, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block {
     padding: 10px 0;
   }
 }
-/* line 114, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 113, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .container-quote {
   max-width: 1220px;
   background-color: rgba(249, 243, 244, 0.75);
 }
-/* line 118, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 117, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block {
   text-align: center;
   padding: 50px 140px;
@@ -9162,7 +9232,7 @@ input:focus:-ms-input-placeholder {
   vertical-align: middle;
 }
 @media screen and (max-width: 640px) {
-  /* line 118, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 117, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block .content-block {
     padding: 20px 20px;
   }
@@ -9175,7 +9245,7 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 129, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 128, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block .row {
   padding-top: 120px;
   margin: 0 auto;
@@ -9189,31 +9259,31 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 135, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 134, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block .title-block {
   padding-top: 45px;
   padding-bottom: 5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 135, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 134, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block .content-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 141, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 140, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block .title-block .icon-quote {
   font-size: 30px;
   line-height: 5px;
   vertical-align: middle;
   padding: 0 5px;
 }
-/* line 147, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 146, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block .title-block .autor {
   text-transform: uppercase;
   font-size: 15px;
 }
-/* line 151, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 150, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block .title-block .desc {
   color: #000000;
   font-size: 14px;
@@ -9221,18 +9291,18 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 151, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 150, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block .content-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 151, ../assets/scss/partials/blocks/_testimonials1.scss */
+  /* line 150, ../assets/scss/partials/blocks/_testimonials1.scss */
   .testimonials-options-block .content-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 158, ../assets/scss/partials/blocks/_testimonials1.scss */
+/* line 157, ../assets/scss/partials/blocks/_testimonials1.scss */
 .testimonials-options-block .content-block .title-block .desc p {
   padding-bottom: 30px;
 }
@@ -9384,8 +9454,7 @@ input:focus:-ms-input-placeholder {
 }
 
 /* line 95, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block {
-  padding: 72px 50px;
+.online-medit-block {
   background: transparent url("/img/online-yoga-meditation-follow.jpg") no-repeat scroll;
   background-size: cover;
   background-position: bottom center;
@@ -9393,114 +9462,64 @@ input:focus:-ms-input-placeholder {
 }
 @media screen and (max-width: 640px) {
   /* line 95, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block {
+  .online-medit-block {
     padding: 20px 20px;
     min-height: 400px;
   }
 }
 @media (max-width: 420px) {
   /* line 95, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block {
+  .online-medit-block {
     padding: 10px 0;
   }
 }
 /* line 105, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .container-bg {
-  background-color: rgba(249, 243, 244, 0.75);
-}
-/* line 108, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block {
+.online-medit-block .content-block {
   text-align: center;
   padding: 120px 50px 135px;
   width: 100%;
   height: 100%;
 }
 @media screen and (max-width: 640px) {
-  /* line 108, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block .content-block {
+  /* line 105, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-block .content-block {
     padding: 20px 20px;
   }
 }
 /* line 11, ../assets/scss/partials/elements/_base.scss */
-.online-medit-options-block .content-block:after {
+.online-medit-block .content-block:after {
   visibility: hidden;
   display: block;
   content: "";
   clear: both;
   height: 0;
 }
-/* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .title {
+/* line 114, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-block .content-block .title {
   color: #984089;
   font-size: 30px;
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-  /* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block .content-block .title {
+  /* line 114, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-block .content-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block .content-block .title {
+  /* line 114, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-block .content-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 117, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block .content-block .title {
+  /* line 114, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-block .content-block .title {
     font-size: 21px;
   }
 }
-/* line 126, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .row {
-  padding-top: 120px;
-  margin: 0 auto;
-  max-width: 900px;
-}
-/* line 11, ../assets/scss/partials/elements/_base.scss */
-.online-medit-options-block .content-block .row:after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-/* line 132, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .option {
-  display: inline-block;
-  width: 33%;
-  vertical-align: top;
-  padding-bottom: 10px;
-}
-@media screen and (max-width: 768px) {
-  /* line 132, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block .content-block .option {
-    width: 100%;
-  }
-}
-/* line 140, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .option .img-block {
-  width: 121px;
-  height: 121px;
-  vertical-align: middle;
-  text-align: center;
-  margin: 0 auto;
-}
-/* line 147, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .option img {
-  max-width: 100%;
-  height: auto;
-}
-/* line 151, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .option p {
-  padding-top: 35px;
-  text-transform: uppercase;
-  font-size: 17px;
-}
-/* line 157, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .desc {
+/* line 123, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-block .content-block .desc {
   padding-top: 50px;
   color: #000000;
   font-size: 18px;
@@ -9509,18 +9528,157 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 1px;
 }
 @media screen and (max-width: 640px) {
-  /* line 157, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-  .online-medit-options-block .content-block .desc {
+  /* line 123, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-block .content-block .desc {
     font-size: 14px;
     line-height: 1.68;
   }
 }
-/* line 168, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
-.online-medit-options-block .content-block .desc p {
+/* line 134, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-block .content-block .desc p {
   padding-bottom: 18px;
 }
+/* line 138, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-block .content-block .link-more-block {
+  padding-top: 30px;
+}
+/* line 141, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-block .content-block .link-more-block .link-more {
+  width: auto;
+  color: #eeeeee;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 146, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-block .content-block .link-more-block .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
+}
 
-/* line 175, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 156, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block {
+  padding: 72px 50px;
+  background: transparent url("/img/online-yoga-meditation-reise.jpg") no-repeat scroll;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 720px;
+}
+@media screen and (max-width: 640px) {
+  /* line 156, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-reise-block {
+    padding: 20px 20px;
+    min-height: 400px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 156, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-reise-block {
+    padding: 10px 0;
+  }
+}
+/* line 166, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .container-bg {
+  background-color: rgba(249, 243, 244, 0.75);
+}
+/* line 169, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .content-block {
+  text-align: center;
+  padding: 120px 50px 135px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 640px) {
+  /* line 169, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-reise-block .content-block {
+    padding: 20px 20px;
+  }
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.online-medit-reise-block .content-block:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 178, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .content-block .title {
+  color: #984089;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  /* line 178, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-reise-block .content-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 178, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-reise-block .content-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 178, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-reise-block .content-block .title {
+    font-size: 21px;
+  }
+}
+/* line 187, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .content-block .desc {
+  padding-top: 50px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.68;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 640px) {
+  /* line 187, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-reise-block .content-block .desc {
+    font-size: 14px;
+    line-height: 1.68;
+  }
+}
+/* line 198, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .content-block .desc p {
+  padding-bottom: 18px;
+}
+/* line 202, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .content-block .link-more-block {
+  padding-top: 30px;
+}
+/* line 205, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .content-block .link-more-block .link-more {
+  width: auto;
+  color: #eeeeee;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 210, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-reise-block .content-block .link-more-block .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
+}
+
+/* line 220, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block {
   text-align: center;
   background-color: #eeeeee;
@@ -9528,29 +9686,29 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 45px;
   position: relative;
 }
-/* line 182, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 227, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .container-custom-retreat {
   max-width: 900px;
 }
-/* line 185, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 230, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .title-block {
   color: #984089;
   font-size: 24px;
   line-height: 1.8;
   font-weight: 600;
 }
-/* line 191, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 236, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .content-block {
   line-height: 1.32;
   font-size: 17px;
   padding-top: 25px;
   text-align: center;
 }
-/* line 197, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 242, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .content-block .bold-style {
   font-weight: 700;
 }
-/* line 200, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 245, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .content-block .desc-red {
   font-size: 16px;
   font-weight: 600;
@@ -9559,18 +9717,133 @@ input:focus:-ms-input-placeholder {
   text-align: left;
   max-width: 750px;
 }
-/* line 209, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 254, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .content-block p {
   padding-bottom: 25px;
 }
-/* line 211, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 256, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .content-block p.n-padding {
   padding-bottom: 0;
 }
-/* line 215, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+/* line 260, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
 .desc-online-medit-block .content-block a {
   color: #984089;
   text-decoration: underline;
+}
+
+/* line 267, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block {
+  padding: 72px 50px;
+  background: transparent url("/img/online-yoga-meditation-start.jpg") no-repeat scroll;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 720px;
+}
+@media screen and (max-width: 640px) {
+  /* line 267, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-start-block {
+    padding: 20px 20px;
+    min-height: 400px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 267, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-start-block {
+    padding: 10px 0;
+  }
+}
+/* line 277, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .container-bg {
+  background-color: rgba(249, 243, 244, 0.75);
+}
+/* line 280, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .content-block {
+  text-align: center;
+  padding: 120px 50px 135px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 640px) {
+  /* line 280, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-start-block .content-block {
+    padding: 20px 20px;
+  }
+}
+/* line 11, ../assets/scss/partials/elements/_base.scss */
+.online-medit-start-block .content-block:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+/* line 289, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .content-block .title {
+  color: #984089;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  /* line 289, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-start-block .content-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 289, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-start-block .content-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 289, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-start-block .content-block .title {
+    font-size: 21px;
+  }
+}
+/* line 298, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .content-block .desc {
+  padding-top: 50px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.68;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 640px) {
+  /* line 298, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+  .online-medit-start-block .content-block .desc {
+    font-size: 14px;
+    line-height: 1.68;
+  }
+}
+/* line 309, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .content-block .desc p {
+  padding-bottom: 18px;
+}
+/* line 313, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .content-block .link-more-block {
+  padding-top: 30px;
+}
+/* line 316, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .content-block .link-more-block .link-more {
+  width: auto;
+  color: #eeeeee;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 321, ../assets/scss/partials/blocks/_online-yoga-meditation.scss */
+.online-medit-start-block .content-block .link-more-block .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
 }
 
 /* line 1, ../assets/scss/partials/blocks/_main_page.scss */
