@@ -231,7 +231,6 @@
       }
     }
     .link-more-block{
-      //padding-top: 37px;
       padding-top: 20px;
       .link-more{
         width: auto;
@@ -241,10 +240,10 @@
         padding-left: 10px;
         padding-right: 10px;
         font-size: 1.8*$font-size;
+        border: 0 none;
         &:hover{
           @include linear-gradient-back;
           opacity: 1;
-          //@include transition(background 0.2s)
         }
       }
     }
@@ -364,7 +363,6 @@
       }
     }
     .link-more-block{
-      //padding-top: 37px;
       padding-top: 30px;
       .link-more{
         width: auto;
@@ -378,7 +376,6 @@
         &:hover{
           @include linear-gradient-back;
           opacity: 1;
-          //@include transition(background 0.2s)
         }
       }
     }
