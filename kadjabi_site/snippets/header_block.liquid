@@ -125,8 +125,33 @@
     <h1 class="site-label">{{ page.title }}</h1>
   </div>
 </div>
+{% elsif page.title == 'blog' %}
+<div id="header-block" class="header-block header-calendar-block" style="background-image :url('{{ 'calendar1-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+    {% include "scroll_bottom_block" %}
+  </div>
+</div>
+{% elsif page.id == 56609 %}
+<div id="header-block" class="header-block header-testimonials-block" style="background-image :url('{{ 'testimonials1-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+  </div>
+</div>
+{% elsif page.id == 56868 %}
+<div id="header-block" class="header-block header-online-medit-block" style="background-image :url('{{ 'online-yoga-meditation-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+  </div>
+</div>
+{% elsif page.id == 56878 %}
+<div id="header-block" class="header-block header-integration-block" style="background-image :url('{{ 'integration-and-embodiment-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+  </div>
+</div>
 {% else %}
-<div id="header-block" class="header-block header-terms-block" style="background-image :url('{{ 'terms-header.jpg' | asset_url | img_tag }}')">
+<div id="header-block" class="header-block header-terms-block" style="background-image :url('{{ 'blog-all-header.jpg' | asset_url | img_tag }}')">
   <div class="title-block">
     <h1 class="site-label">{{ page.title }}</h1>
   </div>
