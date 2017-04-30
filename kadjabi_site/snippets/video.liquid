@@ -1,0 +1,22 @@
+{% if video.ready? %}
+<div class="video responsive-video">
+  <div id="wistia_{{ video.wistia_id }}" data-track-progress="{{ video.progress_token }}" class="embed-responsive-item">&nbsp;</div>
+  <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js"></script>
+  <script>
+    wistiaEmbed = Wistia.embed("{{ video.wistia_id }}", {
+      playerPreference: "html5",
+    {% if color %}
+    playerColor: "{{ color }}",
+    {% endif %}
+    {% if thumbnail %}
+    stillUrl: "{{ thumbnail }}",
+    {% endif %}
+    playerPreference: "html5",
+        controlsVisibleOnLoad: false,
+        trackEmail: "{{ current_site_user.video_tracking_id }}"
+    });
+  </script>
+</div>
+{% else %}
+<img src="{{ thumbnail }}" class="img-responsive"/>
+{% endif %}

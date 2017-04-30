@@ -1,13 +1,4 @@
 {% layout 'home' %}
-
-{% comment %}
-<!-- This is to show you how to access a blog article --!>
-{% for blog_post in current_site.blog.posts_published limit :3 %}
-  {{ blog_post.title }}
-{% endfor%}
-<!-- end comment for alex -->
-{% endcomment %}
-
 {{ 'index.css' | asset_url | stylesheet_tag }}
 <div class="hero">
   <div id="hero_animation_container">
@@ -88,7 +79,7 @@
         <div class="icon" data-image-src="{{ 'tmp_icon-02.png' | asset_url }}"></div>
         <h4>Online Yoga / Meditation Classes</h4>
         <p>The real magic start to happen through the application of yoga in your daily life; strengthening the body and nervous system, making yourself ready for the Sacred Journey.<br>The Journey we call life. </p>
-        <a class="button" href="{{ current_site.url }}/#" data-txt="Learn more"></a>
+        <a class="button" href="{{ current_site.url }}/pages/online-yoga-meditation" data-txt="Learn more"></a>
       </div>
     </div>
     <div class="col-sm-6 col-xs-12">
@@ -96,7 +87,7 @@
         <div class="icon" data-image-src="{{ 'tmp_icon-03.png' | asset_url }}"></div>
         <h4>Personal Guidance</h4>
         <p>Are you looking for some guidance, advice or inspiration? We would be honoured to assist you in our personal sessions.</p>
-        <a class="button" href="{{ current_site.url }}/pages/integration-and-embodiment" data-txt="Learn more"></a>
+        <a class="button" href="{{ current_site.url }}/pages/personal-consultation" data-txt="Learn more"></a>
       </div>
     </div>
     <div class="col-sm-6 col-xs-12">
@@ -104,7 +95,7 @@
         <div class="icon" data-image-src="{{ 'tmp_icon-04.png' | asset_url }}"></div>
         <h4>Private Retreats / Ceremonies</h4>
         <p>Are you looking for a private retreat or for private ceremonies? You know what you want, and would like us to make that happen? You came to the right place. We can set up for you a private retreat in full confidentiality according to your wishes.</p>
-        <a class="button" href="{{ current_site.url }}/pages/personal-consultation" data-txt="Learn more"></a>
+        <a class="button" href="{{ current_site.url }}/pages/private-ceremonies" data-txt="Learn more"></a>
       </div>
     </div>
     <div class="col-sm-6 hidden-xs">
@@ -145,7 +136,7 @@
     </div>
     <div class="col-sm-4 col-xs-12">
       <div class="blogpost">
-        <div class="image" data-image-src="/kajabi-storefronts-production/blogs/2321/images/WsQ3M5b6TcCycnb5dpif_IMG_0672-1-1024x765.jpg"></div>
+        <div class="image" data-image-src="{{ 'blog_all_yawanawa03.jpg' | asset_url }}"></div>
         <h5><a href="{{ current_site.url }}/blog?tag=yawanawa">Yawanawa</a></h5>
         <h4><a href="/blog/yawanawa-a-meeting">Yawanawa – a Meeting</a></h4>
         <h5>13 November, 2014</h5>
@@ -154,7 +145,7 @@
     </div>
     <div class="col-sm-4 col-xs-12">
       <div class="blogpost">
-        <div class="image" data-image-src="/kajabi-storefronts-production/blogs/2321/images/Dqv1NDaQdqDdKF2SwV0w_image.jpg"></div>
+        <div class="image" data-image-src="{{ 'blog_all_yawanawa11.jpg' | asset_url }}"></div>
         <h5><a href="{{ current_site.url }}/blog?tag=newsletter">Newsletter</a></h5>
         <h4><a href="/blog/the-story-of-the-3-seeds">The Story of the 3 Seeds</a></h4>
         <h5>05 January, 2017</h5>
@@ -170,72 +161,12 @@
         <p>Once you begin meditating daily, life as you knew it will begin to take on some interesting twists and...</p>
       </div>
     </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      <h4>Blog / Stories</h4>
-    </div>
-    {% if current_site.blog.posts_published.size > 0 %}
-      {% for blog_post in current_site.blog.posts_published limit: 3 %}
-        <!--<div class="col-sm-4 col-xs-12">-->
-          <!--<div class="blogpost">-->
-              <!--<div class="img-block">-->
-                <!--<a href="{{ blog_post.url }}">-->
-                  <!--{% if blog_post.image_url %}-->
-                  <!--<img class="img-responsive" src="{{ blog_post.image_url }}">-->
-                  <!--{% else %}-->
-                  <!--<img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">-->
-                  <!--{% endif %}-->
-                <!--</a>-->
-              <!--</div>-->
-              <!--<div class="text-block">-->
-                <!--<div class="title-category">-->
-                  <!--<a href="{{ current_site.url }}/blog?tag={{ blog_post.tags | join: ', ' }}">{{ blog_post.tags | join: ', ' }}</a>-->
-                <!--</div>-->
-                <!--<div class="title">-->
-                  <!--<a href="{{ blog_post.url }}">{{ blog_post.title | truncate: 70 }}</a>-->
-                <!--</div>-->
-                <!--<div class="desc">-->
-                  <!--<p>{{ blog_post.content | strip_html | truncate: 250 }}</p>-->
-                <!--</div>-->
-                <!--<div class="date">-->
-                  <!--<span>{{ blog_post.created_at | date: "%d" }} {{ blog_post.created_at | date: "%B" }}, {{ blog_post.created_at | date: "20%y" }}</span>-->
-                <!--</div>-->
-              <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      {% if  blog_post.id == 18436 %}
-        <div class="col-sm-4 col-xs-12">
-          <div class="blogpost">
-            <div class="img-block">
-              <a href="{{ blog_post.url }}">
-                {% if blog_post.image_url %}
-                <img class="img-responsive" src="{{ blog_post.image_url }}">
-                {% else %}
-                <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
-                {% endif %}
-              </a>
-            </div>
-            <div class="text-block">
-              <div class="title-category">
-                <a href="{{ current_site.url }}/blog?tag={{ blog_post.tags | join: ', ' }}">{{ blog_post.tags | join: ', ' }}</a>
-              </div>
-              <div class="title">
-                <a href="{{ blog_post.url }}">{{ blog_post.title | truncate: 70 }}</a>
-              </div>
-              <div class="desc">
-                <p>{{ blog_post.content | strip_html | truncate: 250 }}</p>
-              </div>
-              <div class="date">
-                <span>{{ blog_post.created_at | date: "%d" }} {{ blog_post.created_at | date: "%B" }}, {{ blog_post.created_at | date: "20%y" }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      {% endif %}
-      {% endfor %}
-    {% endif %}
+    {% comment %}
+    <!-- This is to show you how to access a blog article --!>
+    {% for blog_post in current_site.blog.posts_published limit :3 %}
+      {{ blog_post.title }}
+    {% endfor%}
+    <!-- end comment for alex -->
+    {% endcomment %}
   </div>
 </div>
