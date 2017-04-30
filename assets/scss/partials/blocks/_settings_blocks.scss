@@ -85,7 +85,13 @@
 .online-medit-options-block,
 .online-medit-options-reise-block,
 .desc-online-medit-block,
-.online-medit-options-start-block
+.online-medit-options-start-block,
+.header-integration-block,
+.intro-integration-block,
+.online-integration-block,
+.desc-integration-block,
+.integration-bg-block,
+.components-integration-connect-block
 {
   min-width: 320px;
   @include extra-phone{
