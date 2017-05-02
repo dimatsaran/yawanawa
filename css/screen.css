@@ -8628,43 +8628,43 @@ input:focus:-ms-input-placeholder {
   }
 }
 
-/* line 28, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 26, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block {
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 20px;
   position: relative;
 }
-/* line 33, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 31, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .container-block {
   padding-left: 50px;
   padding-right: 50px;
 }
 @media screen and (max-width: 768px) {
-  /* line 33, ../assets/scss/partials/blocks/_calendar1.scss */
+  /* line 31, ../assets/scss/partials/blocks/_calendar1.scss */
   .calendar-period-block .container-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 420px) {
-  /* line 33, ../assets/scss/partials/blocks/_calendar1.scss */
+  /* line 31, ../assets/scss/partials/blocks/_calendar1.scss */
   .calendar-period-block .container-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 36, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 34, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .content-block {
   padding: 10px;
 }
 @media (max-width: 420px) {
-  /* line 36, ../assets/scss/partials/blocks/_calendar1.scss */
+  /* line 34, ../assets/scss/partials/blocks/_calendar1.scss */
   .calendar-period-block .content-block {
     padding: 10px 0;
   }
 }
-/* line 43, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 41, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .title-block {
   max-width: 920px;
   margin: 0 auto;
@@ -8673,13 +8673,13 @@ input:focus:-ms-input-placeholder {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* line 50, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 48, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .title-block .title {
   color: #984089;
   font-size: 25px;
   font-weight: 600;
 }
-/* line 55, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 54, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .title-block .desc {
   padding-top: 20px;
   color: #000000;
@@ -8687,11 +8687,11 @@ input:focus:-ms-input-placeholder {
   line-height: 1.68;
   font-weight: 600;
 }
-/* line 63, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 62, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .item-block {
   background-color: #ffffff;
 }
-/* line 67, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 66, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .img-block a {
   opacity: 1;
   -moz-transition: opacity 0.3;
@@ -8699,15 +8699,15 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: opacity 0.3;
   transition: opacity 0.3;
 }
-/* line 70, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 69, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .img-block a:hover {
   opacity: 0.7;
 }
-/* line 74, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 73, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .img-block img {
   width: 100%;
 }
-/* line 78, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 77, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 20px;
@@ -8716,33 +8716,33 @@ input:focus:-ms-input-placeholder {
   border-left: 1px solid #dedede;
   border-right: 1px solid #dedede;
 }
-/* line 85, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 84, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block a {
   text-decoration: none;
 }
-/* line 91, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 90, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .date span {
   color: #8e8a8a;
   font-size: 20px;
 }
-/* line 96, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 95, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status {
   padding-top: 10px;
   font-size: 14px;
 }
-/* line 99, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 98, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status .status-yelllow {
   color: #dc8115;
 }
-/* line 102, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 101, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status .status-red {
   color: #eb5449;
 }
-/* line 105, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 104, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .status .status-green {
   color: #34b787;
 }
-/* line 109, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 108, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .title {
   padding-top: 20px;
 }
@@ -8751,40 +8751,41 @@ input:focus:-ms-input-placeholder {
   color: #984089;
   font-size: 17px;
   font-weight: 600;
+  text-transform: capitalize;
   -moz-transition: color 0.5;
   -o-transition: color 0.5;
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 121, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 122, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .desc {
   padding-top: 10px;
   color: #984089;
 }
-/* line 124, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 125, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .text-block .desc p {
   font-size: 15px;
   line-height: 1.2;
 }
-/* line 131, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 132, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .link-more-block {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px solid #dedede;
 }
-/* line 137, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 138, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-period-block .link-more-block .link-more {
   color: #984089;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-/* line 149, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 150, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-connect-block {
   padding-bottom: 80px;
 }
-/* line 151, ../assets/scss/partials/blocks/_calendar1.scss */
+/* line 152, ../assets/scss/partials/blocks/_calendar1.scss */
 .calendar-connect-block .calendar-form {
   background-image: url("/img/ready-calendar1-block.jpg");
 }
