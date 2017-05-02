@@ -107,16 +107,12 @@
     }
     .title{
       padding-top: 20px;
-
-      a{
+      span{
         color: $color-purple;
         font-size: 1.7*$font-size;
         font-weight: 600;
         text-transform: capitalize;
         @include transition(color 0.5);
-        &:hover{
-          //color: $color-red;
-        }
       }
     }
     .desc{
