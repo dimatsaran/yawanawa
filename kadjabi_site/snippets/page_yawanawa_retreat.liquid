@@ -52,9 +52,9 @@
         the Yawanawa experience?</h2>
       <div class="desc"><p>Read the blog “Dennis’ Journey to the Yawanawa Indians”</p></div>
       <div class="link-more-block">
-        <a href="#" class="btn link-more">Read the blog</a>
+        <a href="{{ current_site.url }}/blog?tag=yawanawa" class="btn link-more">Read the blog</a>
       </div>
-      <p class="text-link"><a href="#">Click HERE</a> if you have any questions</p>
+      <p class="text-link"><a href="/pages/connect">Click HERE</a> if you have any questions</p>
     </div>
   </div>
 </div>
@@ -116,7 +116,7 @@
         </div>
         <div class="list-text">
           <p class="bold-style">MOSQUITOES</p>
-          <p>The mosquito situation in the place where you are going is quite OK.  <span class="under-style">Taking a Vitamin B complex several (2 – 4 weeks) before and during your trip</span> will help you. Apparently Vitamin B makes your skin excrete a certain smell that mosquitoes don’t like so much.  It is recommended that you bring <span class="under-style"> good mosquito repellent.</span></p>
+          <p>The mosquito situation in the place where you are going is quite OK.  <span>Taking a Vitamin B complex several (2 – 4 weeks) before and during your trip</span> will help you. Apparently Vitamin B makes your skin excrete a certain smell that mosquitoes don’t like so much.  It is recommended that you bring <span> good mosquito repellent.</span></p>
         </div>
       </div>
       <div class="list-block">
@@ -139,7 +139,6 @@
     </div>
   </div>
 </div>
-<!--<div class="img-bg-block hero-bg-block" style="background-image :url('{{ 'hero-bg-block.jpg' | asset_url | img_tag }}')"></div>-->
 {% include "img_bg_block" with  { enabled: true, id : 1  }  %}
 {% include "color_block" %}
 <div id="how-maps-block" class="how-maps-yawa-block" >
@@ -171,7 +170,6 @@
     </div>
   </div>
 </div>
-<!--<div class="img-bg-block round-bg-block" style="background-image :url('{{ 'round-bg-block.jpg' | asset_url | img_tag }}')"></div>-->
 {% include "img_bg_block" with  { enabled: true, id : 2  }  %}
 <div id="booking-yawa-policy-block" class="booking-yawa-policy-block">
   <div class="container container-retreat">

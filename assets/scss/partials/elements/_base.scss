@@ -54,6 +54,10 @@ img{
 .container-custom{
   max-width: 900px;
 }
+.desc a{
+  color: $color-purple;
+  text-decoration: underline;
+}
 
 @mixin transition($transition...) {
   -moz-transition:    $transition;

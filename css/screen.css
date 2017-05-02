@@ -118,6 +118,12 @@ img {
   max-width: 900px;
 }
 
+/* line 57, ../assets/scss/partials/elements/_base.scss */
+.desc a {
+  color: #984089;
+  text-decoration: underline;
+}
+
 /* line 1, ../assets/scss/partials/elements/_buttons.scss */
 .btn {
   background-color: transparent;
@@ -4734,29 +4740,28 @@ input:focus:-ms-input-placeholder {
 .how-maps-block .text-block a {
   color: #984089;
   text-decoration: underline;
-  font-size: 12px;
 }
 
-/* line 1019, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1018, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .interior-bg-block {
   background-image: url("../img/interior-bg-block.jpg");
 }
 
-/* line 1022, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1021, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block {
   text-align: center;
   background-color: #eeeeee;
   padding-top: 50px;
   padding-bottom: 75px;
 }
-/* line 1030, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1029, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .title {
   color: #984089;
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 40px;
 }
-/* line 1037, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1036, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc {
   color: #000000;
   font-size: 14px;
@@ -4765,20 +4770,20 @@ input:focus:-ms-input-placeholder {
   margin: 0 auto;
   padding-bottom: 25px;
 }
-/* line 1051, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1050, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc a {
   text-decoration: underline;
   color: #984089;
 }
-/* line 1055, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1054, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .italy-style {
   font-style: italic;
 }
-/* line 1058, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1057, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .title-block .desc .bold-style {
   font-weight: 600;
 }
-/* line 1065, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1064, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label:before {
   background: #dedede;
   background-position: center center;
@@ -4790,7 +4795,7 @@ input:focus:-ms-input-placeholder {
   left: 0;
   top: 10px;
 }
-/* line 1076, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1075, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .line-label .label {
   background-color: #eeeeee;
   color: #000000;
@@ -4802,13 +4807,13 @@ input:focus:-ms-input-placeholder {
   z-index: 50;
   position: relative;
 }
-/* line 1088, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1087, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block {
   position: relative;
   margin-top: 20px;
   padding-bottom: 30px;
 }
-/* line 1093, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1092, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price {
   color: #eb5449;
   text-transform: uppercase;
@@ -4816,33 +4821,33 @@ input:focus:-ms-input-placeholder {
   max-width: 450px;
   margin: 0 auto;
 }
-/* line 1099, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1098, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price span {
   display: inline-block;
 }
-/* line 1102, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .big {
   font-size: 40px;
 }
 @media screen and (max-width: 768px) {
-  /* line 1102, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 37px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 1102, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 34px;
   }
 }
 @media (max-width: 420px) {
-  /* line 1102, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1101, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .big {
     font-size: 31px;
   }
 }
-/* line 1109, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1108, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .price .down-payment {
   display: inline-block;
   max-width: 180px;
@@ -4851,18 +4856,18 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
 }
 @media screen and (max-width: 640px) {
-  /* line 1109, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1108, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .price-block .price .down-payment {
     font-size: 14px;
     padding-top: 10px;
     text-align: center;
   }
 }
-/* line 1122, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1121, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block {
   padding-top: 20px;
 }
-/* line 1124, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1123, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon {
   margin: 7px;
   width: 47px;
@@ -4873,7 +4878,7 @@ input:focus:-ms-input-placeholder {
   background-repeat: no-repeat;
   position: relative;
 }
-/* line 1133, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1132, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.na:after {
   content: '';
   position: absolute;
@@ -4884,60 +4889,60 @@ input:focus:-ms-input-placeholder {
   display: inline-block;
   background: rgba(238, 238, 238, 0.5);
 }
-/* line 1148, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1147, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-visa {
   background-image: url("../img/icon/icon-visa.png");
 }
-/* line 1151, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1150, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-mastercard {
   background-image: url("../img/icon/icon-mastercard.png");
 }
-/* line 1154, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1153, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .price-block .card-block .icon.icon-paypal {
   background-image: url("../img/icon/icon-paypal.png");
 }
-/* line 1161, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1160, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block {
   position: relative;
 }
-/* line 1163, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1162, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block {
   padding-top: 45px;
 }
-/* line 1166, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1165, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes {
   max-width: 320px;
   padding: 0 50px;
   display: inline-block;
 }
-/* line 1170, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1169, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .dates {
   width: 100%;
   display: inline-block;
   font-size: 20px;
 }
-/* line 1175, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1174, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc {
   width: 100%;
   display: inline-block;
   font-size: 15px;
   padding-top: 10px;
 }
-/* line 1181, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1180, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .dates-block .termes-block .termes .desc-red {
   color: #eb5449;
 }
 @media screen and (max-width: 640px) {
-  /* line 1181, ../assets/scss/partials/blocks/_soma_retreat.scss */
+  /* line 1180, ../assets/scss/partials/blocks/_soma_retreat.scss */
   .booking-policy-block .dates-block .termes-block .termes .desc-red {
     padding-bottom: 20px;
   }
 }
-/* line 1189, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1188, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block {
   padding-top: 30px;
 }
-/* line 1191, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1190, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more {
   color: #ffffff;
   background: #e09f8b;
@@ -4947,7 +4952,7 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
   border: 0 none;
 }
-/* line 1195, ../assets/scss/partials/blocks/_soma_retreat.scss */
+/* line 1194, ../assets/scss/partials/blocks/_soma_retreat.scss */
 .booking-policy-block .link-more-block .link-more:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
@@ -5995,7 +6000,7 @@ input:focus:-ms-input-placeholder {
   }
 }
 
-/* line 51, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 49, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .mission-block {
   text-align: center;
   background-color: #eeeeee;
@@ -6003,18 +6008,18 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 58px;
   position: relative;
 }
-/* line 52, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 50, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .mission-block .container-sentence {
   max-width: 940px;
 }
 @media screen and (max-width: 768px) {
-  /* line 60, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 58, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .mission-block .title-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 62, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .mission-block .title-block .title {
   color: #984089;
   text-transform: uppercase;
@@ -6023,35 +6028,35 @@ input:focus:-ms-input-placeholder {
   letter-spacing: -0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 62, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .mission-block .title-block .title {
     font-size: 27px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 62, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .mission-block .title-block .title {
     font-size: 24px;
   }
 }
 @media (max-width: 420px) {
-  /* line 64, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 62, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .mission-block .title-block .title {
     font-size: 21px;
   }
 }
-/* line 74, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 72, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .mission-block .title-block .desc-bold {
   padding-top: 35px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.56;
 }
-/* line 79, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 77, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .mission-block .title-block .desc-bold p {
   padding-bottom: 15px;
 }
-/* line 83, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 81, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .mission-block .title-block .desc {
   padding-top: 18px;
   color: #000000;
@@ -6060,37 +6065,32 @@ input:focus:-ms-input-placeholder {
   letter-spacing: 0.5px;
 }
 @media screen and (max-width: 768px) {
-  /* line 83, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 81, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .mission-block .title-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 83, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 81, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .mission-block .title-block .desc {
     font-size: 13px;
   }
 }
-/* line 91, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 89, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .mission-block .title-block .desc p {
   padding-bottom: 30px;
 }
 
-/* line 97, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
-.purple-bg-block {
-  background-image: url("../img/mission-purple-bg-block.jpg");
-}
-
-/* line 100, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 98, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block {
   background-color: #eeeeee;
   padding-bottom: 60px;
 }
-/* line 103, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 101, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .container-mission {
   max-width: 780px;
 }
-/* line 106, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 104, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .title-block {
   padding-top: 50px;
   text-align: center;
@@ -6103,7 +6103,7 @@ input:focus:-ms-input-placeholder {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 118, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 116, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc {
   padding-top: 32px;
   color: #000000;
@@ -6113,53 +6113,53 @@ input:focus:-ms-input-placeholder {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  /* line 118, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 116, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .values-mission-block .desc {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 118, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 116, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .values-mission-block .desc {
     font-size: 13px;
   }
 }
-/* line 127, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 125, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc p {
   padding-bottom: 20px;
 }
-/* line 129, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 127, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc p.sec-line {
   max-width: 660px;
   margin: 0 auto;
 }
-/* line 133, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 131, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .values-mission-block .desc p.three-line {
   max-width: 580px;
   margin: 0 auto;
 }
 
-/* line 140, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 138, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .sky-bg-block {
   background-image: url("../img/mission-sky-bg-block.jpg");
 }
 
-/* line 143, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 141, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block {
   background-color: #eeeeee;
   padding-bottom: 75px;
 }
-/* line 146, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 144, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .container-mission {
   max-width: 970px;
 }
-/* line 149, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 147, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .title-block {
   padding-top: 50px;
   text-align: center;
   position: relative;
 }
-/* line 156, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 154, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .title-block .title {
   color: #984089;
   font-size: 23px;
@@ -6170,40 +6170,64 @@ input:focus:-ms-input-placeholder {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 168, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 166, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block {
   padding: 50px 20px 0;
 }
 @media screen and (max-width: 640px) {
-  /* line 168, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 166, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .practices-mission-block .list-block {
     padding: 20px 10px 0;
   }
 }
-/* line 173, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 171, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block:last-of-type {
   padding-left: 30px;
 }
 @media screen and (max-width: 640px) {
-  /* line 173, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  /* line 171, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
   .practices-mission-block .list-block:last-of-type {
     padding-left: 10px;
   }
 }
-/* line 181, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 176, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block:last-of-type p {
   width: 100%;
 }
-/* line 185, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+/* line 180, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block p {
   padding-bottom: 22px;
   line-height: 1.44;
   font-size: 17px;
 }
-/* line 191, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+@media screen and (max-width: 768px) {
+  /* line 180, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .practices-mission-block .list-block p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 180, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .practices-mission-block .list-block p {
+    font-size: 13px;
+  }
+}
+/* line 186, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
 .practices-mission-block .list-block p .label-bold {
   font-weight: 600;
   font-size: 17px;
+}
+@media screen and (max-width: 768px) {
+  /* line 186, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .practices-mission-block .list-block p .label-bold {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 186, ../assets/scss/partials/blocks/_mission_values-and-practices3.scss */
+  .practices-mission-block .list-block p .label-bold {
+    font-size: 13px;
+  }
 }
 
 /* line 4, ../assets/scss/partials/blocks/_online_privacy_policy3.scss */

@@ -4,9 +4,9 @@
     {% csrf_meta_tags %}
     <title>
         {% if page_title %}
-            {{ page_title }}
+        {{ page_title }}
         {% else %}
-            {{ current_site.title }}
+        {{ current_site.title }}
         {% endif %}
     </title>
     <meta charset="utf-8">
@@ -18,56 +18,62 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     {{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
     {{ 'bootstrap-480-767-grid.css' | asset_url | stylesheet_tag }}
+    {% comment %}
     {% if settings.font_family ==  settings.heading_font_family%}
-        <link href="//fonts.googleapis.com/css?family={{ settings.font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family={{ settings.font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
     {% else %}
-        <link href="//fonts.googleapis.com/css?family={{ settings.font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic|{{ settings.heading_font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family={{ settings.font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic|{{ settings.heading_font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
     {% endif %}
+    {% endcomment %}
     <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet">
+
     {{ 'fonts.css' | asset_url | stylesheet_tag }}
     {{ 'media.css' | asset_url | stylesheet_tag }}
     {{ 'style.css' | asset_url | stylesheet_tag }}
     {{ 'screen.css' | asset_url | stylesheet_tag }}
-    {% comment %}
-    {{ 'index.css' | asset_url | stylesheet_tag }}
-    {% endcomment %}
+
+    {{ 'jquery.min.js' | asset_url | script_tag }}
+
     {% content_for_header %}
 </head>
 <body>
 {% include "header" %}
+
 <div class="content">
-    <a href="#" class="logo" style="background-image :url('{{ 'logo.svg' | asset_url | img_tag }}')"></a>
+    <a href="/" class="logo" style="background-image :url('{{ 'logo.svg' | asset_url | img_tag }}')"></a>
     {% include "alert_messages" %}
     {{ content_for_layout }}
     {% include "footer" %}
 </div>
+
 <!--[if lt IE 9]>
 {{ 'es5-shim.min.js' | asset_url | script_tag }}
 {{ 'html5shiv.min.js' | asset_url | script_tag }}
 {{ 'html5shiv-printshiv.min.js' | asset_url | script_tag }}
 <![endif]-->
 {{ 'core.js' | kajabi_asset_url | script_tag }}
-{{ 'jquery.min.js' | asset_url | script_tag }}
 {{ 'bootstrap.min.js' | asset_url | script_tag }}
 {{ 'svg4everybody.min.js' | asset_url | script_tag }}
 {{ 'responsify.min.js' | asset_url | script_tag }}
 {{ 'scripts.js' | asset_url | script_tag }}
 {{ 'main.js' | asset_url | script_tag }}
-{% comment %}
+
+
 {{ 'jquery.mobile.custom.min.js' | asset_url | script_tag }}
 {{ 'createjs-2015.11.26.min.js' | asset_url | script_tag }}
+
 {{ 'logo.js' | asset_url | script_tag }}
 {{ 'hero.js' | asset_url | script_tag }}
 {{ 'sje.js' | asset_url | script_tag }}
 {{ 'arrow.js' | asset_url | script_tag }}
 {{ 'index.js' | asset_url | script_tag }}
-{% endcomment %}
 
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58a23b816e5792001278c642&product=inline-share-buttons"></script>
 </div>
 {% if page.id == 46908 %}
 {% include "map_soma_reatreat" %}
-<script src="https://form.jotform.ca/static/feedback2.js" type="text/javascript"> var JFL_70166155958262 = new JotformFeedback({ formId: '70166155958262', base: 'https://form.jotform.ca/', windowTitle: 'Reserve My Spot', background: '#b4634f', fontColor: '#FFFFFF', type: 'false', height: 500, width: 700, openOnLoad: false }); </script>
 {% elsif page.id == 46909 %}
 {% include "map_yawanawa_retreat" %}
 {% else %}
