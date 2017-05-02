@@ -1,0 +1,22 @@
+{% layout 'auth' %}
+<div class="auth-box" style="background:rgba(255,255,255,0.5)">
+  <!-- <img kjb-settings-id="login_image_jpg" src="{{ 'login_image.jpg' | asset_url }}"> -->
+  <h1 kjb-settings-id="language_sign_in_to_your_account">{{ settings.language_sign_in_to_your_account }}</h1>
+  {% form 'new_member_session', current_site_user %}
+  {% if form.notice %}
+  <div class="notice">{{ form.notice }}</div>
+  {% endif %}
+  {% if form.errors.messages['form'] %}
+  <div class="notice">{{ form.errors.messages['form'] }}</div>
+  {% endif %}
+  <input spellcheck="false" autocorrect="off" autofocus="autofocus" type="text" name="member[email]" id="member_email" value="{{form.email}}" placeholder="{{ settings.language_email }}"/>
+  <input type="password" name="member[password]" id="member_password" placeholder="{{ settings.language_password }}"/>
+  <input class="boolean optional" type="checkbox" name="member[remember_me]" id="member_remember_me" />
+  <label kjb-settings-id="language_remember_me">
+    <span class="ui"></span>
+    {{ settings.language_remember_me }}
+  </label>
+  <input kjb-settings-id="language_sign_in" class="btn btn-block" type="submit" name="commit" value="{{ settings.language_sign_in }}">
+  {% endform %}
+  <a style="color:white;font-weight:600" kjb-settings-id="language_forgot_your_password" class="link" href="/password/new">{{ settings.language_forgot_your_password }}</a>
+</div>

@@ -1,0 +1,15 @@
+<a href="{{ product.url }}" class="card" id="product-{{ product.id }}">
+  <div class="card-img">
+    {% if product.thumbnail_url %}
+    <img class="img-responsive" src="{{ product.thumbnail_url }}">
+    {% else %}
+    <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
+    {% endif %}
+    <div class="overlay"></div>
+  </div>
+  <div class="card-info">
+    <h3>{{ product.title }}</h3>
+    <div class="bar"></div>
+    <p>{{ product.description | strip_html | truncate: 250 }}</p>
+  </div>
+</a>

@@ -1,0 +1,30 @@
+{% comment %}
+we use the sales page to bootstrap a custom sales page for different sales types.
+The else statement is used to hold the default content of this page.
+
+Retreats are ID: 22859
+ECourses are ID: 22861
+{% endcomment %}
+{% if sales_page.id == 22861 %}
+{% include "ecourses" %}
+{% elsif sales_page.id == 22859 %}
+{% include "retreats" %}
+{% else %}
+<div class="sales">
+  <div class="container">
+    <div class="sales-content">
+      <div class="grid">
+        <div class="col-md-2-5">
+          <h1>{{ sales_page.title }}</h1>
+          <div class="bar"></div>
+          {{ sales_page.body }}
+        </div>
+        <div class="col-md-3-5">
+          {% include "video" with sales_page.video, color: settings.color_primary, thumbnail: sales_page.thumbnail_url %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "offer_pricing" %}
+</div>
+{% endif %}

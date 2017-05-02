@@ -1,0 +1,21 @@
+<div class="cards">
+  <div class="container">
+    {% if products.size > 0 %}
+    {% paginate products by 6 %}
+    <div class="grid">
+      {% for product in paginate.collection %}
+      <div class="col-md-1-3">
+        {% include "product_listing" %}
+      </div>
+      {% endfor %}
+    </div>
+    {% if paginate.pages > 1 %}
+    {% include "pagination" %}
+    {% endif %}
+    {% endpaginate %}
+    {% else %}
+    <h2 kjb-settings-id="language_no_products_title">{{ settings.language_no_products_title }}</h2>
+    <h4 kjb-settings-id="language_no_products_subtitle">{{ settings.language_no_products_subtitle }}</h4>
+    {% endif %}
+  </div>
+</div>
