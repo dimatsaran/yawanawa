@@ -721,6 +721,10 @@
    }
    @include small-phone{
      width: 100%;
+     display: none;
+     &.img-mobile{
+       display: inline-block;
+     }
    }
    img{
      width: 100%;
@@ -1162,8 +1166,11 @@
     .termes-block{
       //padding-top: 30px;
       padding-top: 45px;
+      display: inline-block;
+      vertical-align: top;
       .termes{
-        max-width: 320px;
+        //max-width: 320px;
+        max-width: 340px;
         padding: 0 50px;
         display: inline-block;
         .dates{
