@@ -42,32 +42,5 @@
   </div>
 </div>
 <div class="img-bg-block integration-bg-block" style="background-image :url('{{ 'integration-and-embodiment-bg-block.jpg' | asset_url | img_tag }}')"></div>
-<div  class="components-integration-connect-block">
-  <div class="container container-connect">
-    <div class="row">
-      <div class="title-block">
-        <h2 class="title">Registration Opens Soon</h2>
-        <div class="desc">
-          <p>Enter your details below and receive 3 FREE introduction videos to the course</p>
-        </div>
-      </div>
-      <div class="form-block">
-        <div class="line-label"></div>
-        <form class="yawanawa-form form-grey" action="#">
-          <div class="form-item-pair">
-            <div class="form-item">
-              <input type="text" name="search" id="upload" placeholder="Your name">
-            </div>
-            <div class="form-item">
-              <input type="text" name="search" id="upload" placeholder="Your email">
-            </div>
-          </div>
-          <div class="form-actions">
-            <button  class="btn link-more">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+{% include "ready_form_block" %}
 
