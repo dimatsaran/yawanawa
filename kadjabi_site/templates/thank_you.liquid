@@ -1,0 +1,13 @@
+<div id="header-block" class="header-block header-thank-you-block" style="background-image :url('{{ 'blog-all-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    {{ settings.language_thank_you }}
+    <div class="thank-you text-center">
+      <div class="desc">
+        {{ offer.thank_you_body }}
+      </div>
+      <div class="link-more-block">
+        <a kjb-settings-id="language_library" href="/library" class="btn link-more">{{ settings.language_library }}</a>
+      </div>
+    </div>
+  </div>
+</div>

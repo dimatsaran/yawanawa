@@ -1,0 +1,49 @@
+.header-thank-you-block{
+  .title-block{
+    color: $color-white;
+    h1{
+      font-family: $font-open-sans;
+      color:  $color-white;
+      font-size: 4.8*$font-size;
+      line-height: $line-height;
+      font-weight: 600;
+      max-width: 700px;
+      margin: 0 auto;
+      text-transform: uppercase;
+      //letter-spacing: 3px;
+      @include tablet{
+        font-size: 6.5*$font-size;
+      }
+      @include phone{
+        font-size: 4.5*$font-size;
+      }
+      @include small-phone{
+        font-size: 3.5*$font-size;
+      }
+    }
+    .thank-you{
+      .desc{
+        padding-top: 30px;
+      }
+      .link-more-block{
+        padding-top: 30px;
+        .link-more{
+          width: auto;
+          //min-width: 290px;
+          color: $color-grey;
+          @include linear-gradient;
+          //padding-left: 10px;
+          //padding-right: 10px;
+          border: 0 none;
+          font-size: 1.8*$font-size;
+          @include phone{min-width: 270px;}
+          &:hover{
+            @include linear-gradient-back;
+            opacity: 1;
+            //@include transition(background 0.2s)
+          }
+        }
+      }
+    }
+  }
+}
