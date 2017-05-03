@@ -10376,3 +10376,27 @@ input:focus:-ms-input-placeholder {
 #carousel + .col-xs-12.ready-form-home-page .container {
   margin-top: 0;
 }
+
+/* line 4, ../assets/scss/partials/blocks/_menu_blocks.scss */
+.header ul li a {
+  -moz-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  -webkit-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+/* line 6, ../assets/scss/partials/blocks/_menu_blocks.scss */
+.header ul li a.active, .header ul li a:hover, .header ul li a:focus {
+  color: #af865b;
+}
+
+/* line 16, ../assets/scss/partials/blocks/_menu_blocks.scss */
+.footer ul li a {
+  -moz-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  -webkit-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+/* line 18, ../assets/scss/partials/blocks/_menu_blocks.scss */
+.footer ul li a.active, .footer ul li a:hover, .footer ul li a:focus {
+  color: #af865b;
+}

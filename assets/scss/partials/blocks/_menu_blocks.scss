@@ -1,0 +1,24 @@
+.header{
+  ul{
+    li{
+      a{
+        @include transition(all, 0.5s);
+        &.active,&:hover,&:focus{
+          color: $color-yellow-dark;
+        }
+      }
+    }
+  }
+}
+.footer{
+  ul{
+    li{
+      a{
+        @include transition(all, 0.5s);
+        &.active,&:hover,&:focus{
+          color: $color-yellow-dark;
+        }
+      }
+    }
+  }
+}
