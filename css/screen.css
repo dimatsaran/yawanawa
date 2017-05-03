@@ -2523,6 +2523,14 @@ input:focus:-ms-input-placeholder {
   padding-bottom: 18px;
   background-color: #ffffff;
 }
+/* line 316, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.social-block #st-1.st-has-labels .st-btn {
+  min-width: 40px;
+}
+/* line 318, ../assets/scss/partials/blocks/_blog_yawanawa.scss */
+.social-block #st-1.st-has-labels .st-btn .st-label {
+  display: none;
+}
 
 /* line 1, ../assets/scss/partials/blocks/_blog_yawanawa_single.scss */
 .blog-single-block {
