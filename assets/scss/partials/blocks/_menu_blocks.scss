@@ -3,7 +3,8 @@
     li{
       a{
         @include transition(all, 0.5s);
-        &.active,&:hover,&:focus{
+        &.active,&.active span,&:hover,&:focus{
+          text-decoration: underline;
           color: $color-yellow-dark;
         }
       }
@@ -15,7 +16,8 @@
     li{
       a{
         @include transition(all, 0.5s);
-        &.active,&:hover,&:focus{
+        &.active,&.active span,&:hover,&:focus{
+          text-decoration: underline;
           color: $color-yellow-dark;
         }
       }

@@ -1,4 +1,7 @@
-{% include "header_block" %}
-<div class="library">
-  {% include "product_listings" %}
+<div id="header-block" class="header-block header-library-block" style="background-image :url('{{ 'blog-all-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">Library</h1>
+  </div>
 </div>
+{% include "product_listings" %}
+

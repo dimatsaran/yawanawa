@@ -1,3 +1,21 @@
+<div class="item-block" id="product-{{ product.id }}">
+  <div class="img-block">
+    <a href="{{ product.url }}">
+      {% if product.thumbnail_url %}
+      <img class="img-responsive" src="{{ product.thumbnail_url }}">
+      {% else %}
+      <img class="img-responsive" src="{{ 'null_image.png' | asset_url }}">
+      {% endif %}
+    </a>
+  </div>
+  <div class="text-block">
+    <div class="title"><a href="{{ product.url }}"><h3>{{ product.title }}</h3></a></div>
+    <div class="desc">
+      <p>{{ product.description | strip_html | truncate: 250 }}</p>
+    </div>
+  </div>
+</div>
+{% comment %}
 <a href="{{ product.url }}" class="card" id="product-{{ product.id }}">
   <div class="card-img">
     {% if product.thumbnail_url %}
@@ -13,3 +31,4 @@
     <p>{{ product.description | strip_html | truncate: 250 }}</p>
   </div>
 </a>
+{% endcomment %}

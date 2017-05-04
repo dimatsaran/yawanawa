@@ -1,5 +1,5 @@
 .header-blog-all-block{
-  background-image: url('../img/blog-all-header.jpg');
+  //background-image: url('../img/blog-all-header.jpg');
   .title-block{
     .site-label{
       //font-family: QwigleyRegular;
@@ -186,9 +186,13 @@
   .img-block{
     position: relative;
     width: 100%;
+    border-width:  1px 1px 0 1px;
+    border-color: $color-grey-shadow;
+    border-style: solid;
     a{
+      display: block;
       opacity: 1;
-      //@include transition(opacity 0.3s);
+      @include transition(opacity 0.3s);
       &:hover{
         opacity: 0.7;
       }

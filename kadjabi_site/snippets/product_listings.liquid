@@ -1,3 +1,26 @@
+<div  class="intro-library-block block-scroll default">
+  <div class="container-fluid container-block">
+    <div class="row">
+      {% if products.size > 0 %}
+      {% paginate products by 6 %}
+        {% for product in paginate.collection %}
+        <div class="content-block col-lg-6 col-xs-12">
+          {% include "product_listing" %}
+        </div>
+        {% endfor %}
+      {% if paginate.pages > 1 %}
+      {% include "pagination" %}
+      {% endif %}
+      {% endpaginate %}
+      {% else %}
+      <h2 kjb-settings-id="language_no_products_title">{{ settings.language_no_products_title }}</h2>
+      <h4 kjb-settings-id="language_no_products_subtitle">{{ settings.language_no_products_subtitle }}</h4>
+      {% endif %}
+    </div>
+  </div>
+  {% include "scroll_up_block" %}
+</div>
+{% comment %}
 <div class="cards">
   <div class="container">
     {% if products.size > 0 %}
@@ -19,3 +42,5 @@
     {% endif %}
   </div>
 </div>
+{% endcomment %}
+
