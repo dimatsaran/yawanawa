@@ -10416,9 +10416,10 @@ input:focus:-ms-input-placeholder {
   height: 480px;
   width: 100%;
   background-size: cover;
+  background-position: bottom center;
   display: table;
 }
-/* line 6, ../assets/scss/partials/blocks/_library.scss */
+/* line 7, ../assets/scss/partials/blocks/_library.scss */
 .header-library-block .title-block {
   color: #ffffff;
   text-align: center;
@@ -10427,7 +10428,7 @@ input:focus:-ms-input-placeholder {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 13, ../assets/scss/partials/blocks/_library.scss */
+/* line 14, ../assets/scss/partials/blocks/_library.scss */
 .header-library-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
@@ -10440,66 +10441,66 @@ input:focus:-ms-input-placeholder {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
-  /* line 13, ../assets/scss/partials/blocks/_library.scss */
+  /* line 14, ../assets/scss/partials/blocks/_library.scss */
   .header-library-block .title-block .site-label {
     font-size: 65px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 13, ../assets/scss/partials/blocks/_library.scss */
+  /* line 14, ../assets/scss/partials/blocks/_library.scss */
   .header-library-block .title-block .site-label {
     font-size: 45px;
   }
 }
 @media (max-width: 420px) {
-  /* line 13, ../assets/scss/partials/blocks/_library.scss */
+  /* line 14, ../assets/scss/partials/blocks/_library.scss */
   .header-library-block .title-block .site-label {
     font-size: 35px;
   }
 }
 
-/* line 35, ../assets/scss/partials/blocks/_library.scss */
+/* line 36, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block {
   background-color: #eeeeee;
   padding-top: 31px;
   padding-bottom: 20px;
   position: relative;
 }
-/* line 41, ../assets/scss/partials/blocks/_library.scss */
+/* line 42, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .container-block {
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  /* line 41, ../assets/scss/partials/blocks/_library.scss */
+  /* line 42, ../assets/scss/partials/blocks/_library.scss */
   .intro-library-block .container-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 420px) {
-  /* line 41, ../assets/scss/partials/blocks/_library.scss */
+  /* line 42, ../assets/scss/partials/blocks/_library.scss */
   .intro-library-block .container-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 45, ../assets/scss/partials/blocks/_library.scss */
+/* line 46, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .content-block {
   padding: 10px 12px;
 }
 @media (max-width: 420px) {
-  /* line 45, ../assets/scss/partials/blocks/_library.scss */
+  /* line 46, ../assets/scss/partials/blocks/_library.scss */
   .intro-library-block .content-block {
     padding: 10px 0;
   }
 }
-/* line 51, ../assets/scss/partials/blocks/_library.scss */
+/* line 52, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .item-block {
   background-color: #ffffff;
 }
-/* line 54, ../assets/scss/partials/blocks/_library.scss */
+/* line 55, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block {
   position: relative;
   width: 100%;
@@ -10507,7 +10508,7 @@ input:focus:-ms-input-placeholder {
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 60, ../assets/scss/partials/blocks/_library.scss */
+/* line 61, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block a {
   display: block;
   opacity: 1;
@@ -10516,16 +10517,16 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
-/* line 64, ../assets/scss/partials/blocks/_library.scss */
+/* line 65, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block a:hover {
   opacity: 0.7;
 }
-/* line 68, ../assets/scss/partials/blocks/_library.scss */
+/* line 69, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block img {
   width: 100%;
   position: relative;
 }
-/* line 73, ../assets/scss/partials/blocks/_library.scss */
+/* line 74, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 24px 26px 21px;
@@ -10534,15 +10535,15 @@ input:focus:-ms-input-placeholder {
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 80, ../assets/scss/partials/blocks/_library.scss */
+/* line 81, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block a {
   text-decoration: none;
 }
-/* line 83, ../assets/scss/partials/blocks/_library.scss */
+/* line 84, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .title {
   padding-top: 5px;
 }
-/* line 85, ../assets/scss/partials/blocks/_library.scss */
+/* line 86, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .title a {
   color: #313131;
   font-size: 18px;
@@ -10553,15 +10554,15 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 92, ../assets/scss/partials/blocks/_library.scss */
+/* line 93, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 97, ../assets/scss/partials/blocks/_library.scss */
+/* line 98, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .desc {
   padding-top: 10px;
 }
-/* line 99, ../assets/scss/partials/blocks/_library.scss */
+/* line 100, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .desc p {
   font-size: 15px;
   line-height: 1.68;
@@ -10635,4 +10636,178 @@ input:focus:-ms-input-placeholder {
   background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   opacity: 1;
+}
+
+/* line 1, ../assets/scss/partials/blocks/_video.scss */
+.header-video-block {
+  height: 480px;
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-position: bottom center;
+}
+/* line 7, ../assets/scss/partials/blocks/_video.scss */
+.header-video-block .title-block {
+  color: #ffffff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 14, ../assets/scss/partials/blocks/_video.scss */
+.header-video-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 85px;
+  line-height: 0.96;
+  font-weight: 700;
+  max-width: 850px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 14, ../assets/scss/partials/blocks/_video.scss */
+  .header-video-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 14, ../assets/scss/partials/blocks/_video.scss */
+  .header-video-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 14, ../assets/scss/partials/blocks/_video.scss */
+  .header-video-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+
+/* line 36, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block {
+  background-color: #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+/* line 41, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .container-block {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  /* line 41, ../assets/scss/partials/blocks/_video.scss */
+  .intro-video-block .container-block {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 41, ../assets/scss/partials/blocks/_video.scss */
+  .intro-video-block .container-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 45, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .content-block {
+  padding: 10px 12px;
+}
+@media (max-width: 420px) {
+  /* line 45, ../assets/scss/partials/blocks/_video.scss */
+  .intro-video-block .content-block {
+    padding: 10px 0;
+  }
+}
+/* line 54, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+/* line 59, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 68, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .item-block {
+  background-color: #ffffff;
+}
+/* line 71, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .img-block {
+  position: relative;
+  width: 100%;
+  border-width: 1px 1px 0 1px;
+  border-color: #e2e2e2;
+  border-style: solid;
+}
+/* line 77, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .img-block a {
+  display: block;
+  opacity: 1;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+/* line 81, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .img-block a:hover {
+  opacity: 0.7;
+}
+/* line 85, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .img-block img {
+  width: 100%;
+  position: relative;
+}
+/* line 90, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .text-block {
+  font-family: "Open Sans", sans-serif;
+  padding: 24px 26px 21px;
+  min-height: 295px;
+  border-width: 0 1px 1px 1px;
+  border-color: #e2e2e2;
+  border-style: solid;
+}
+/* line 97, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .text-block a {
+  text-decoration: none;
+}
+/* line 100, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .text-block .title {
+  padding-top: 5px;
+}
+/* line 102, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .text-block .title a {
+  color: #313131;
+  font-size: 18px;
+  line-height: 1.56;
+  font-weight: 600;
+  -moz-transition: color 0.5;
+  -o-transition: color 0.5;
+  -webkit-transition: color 0.5;
+  transition: color 0.5;
+}
+/* line 109, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .text-block .title a:hover {
+  color: #eb5449;
+}
+/* line 114, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .text-block .desc {
+  padding-top: 10px;
+}
+/* line 116, ../assets/scss/partials/blocks/_video.scss */
+.intro-video-block .text-block .desc p {
+  font-size: 15px;
+  line-height: 1.68;
+  letter-spacing: -0.3px;
 }
