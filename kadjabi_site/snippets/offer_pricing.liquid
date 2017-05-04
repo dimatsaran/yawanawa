@@ -1,0 +1,26 @@
+<div class="cards cards-2">
+  <div class="container">
+    {% if sales_page.offers.size == 0 %}
+    <h4><strong>Warning</strong> You have not selected any offers. To sell your products, please add one or more offers in the admin.</h4>
+    {% else %}
+    <div class="grid">
+      {% for offer in sales_page.offers %}
+      <div class="col-lg-1-3">
+        <div class="card">
+          <form action="{{ sales_page.checkout_url }}" method="GET">
+            <div class="card-info">
+              <input type="hidden" name="offer_token" value="{{ offer.token }}" />
+              <i class="fa fa-tag" aria-hidden="true"></i>
+              <h6>{{ offer.title }}</h6>
+              <h2>{{ offer | display_price }}</h2>
+              <p>{{ offer.description }}</p>
+              <button kjb-settings-id="language_offer_purchase" class="btn" type="submit">{{ settings.language_offer_purchase }}</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

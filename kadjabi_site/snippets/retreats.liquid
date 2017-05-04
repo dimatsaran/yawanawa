@@ -1,5 +1,26 @@
-<div class="sales">
+<div id="intro-sales-block" class="intro-sales-block">
   <div class="container">
+    <div class="content-block">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12">
+          <div class="text-block">
+            <div class="title">
+              <h1>{{ sales_page.title }}</h1>
+            </div>
+            <div class="bar"></div>
+            <div class="desc">
+              {{ sales_page.body }}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-xs-12">
+          <div class="video-block">
+            {% include "video" with sales_page.video, color: settings.color_primary, thumbnail: sales_page.thumbnail_url %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% comment %}
     <div class="sales-content">
       <div class="grid">
         <div class="col-md-2-5">
@@ -12,6 +33,7 @@
         </div>
       </div>
     </div>
+    {% endcomment %}
   </div>
   {% include "offer_pricing" %}
 </div>

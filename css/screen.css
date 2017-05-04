@@ -10811,3 +10811,119 @@ input:focus:-ms-input-placeholder {
   line-height: 1.68;
   letter-spacing: -0.3px;
 }
+
+/* line 1, ../assets/scss/partials/blocks/_sales_page.scss */
+.header-sales-block {
+  height: 480px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom center;
+  display: table;
+}
+/* line 7, ../assets/scss/partials/blocks/_sales_page.scss */
+.header-sales-block .title-block {
+  color: #ffffff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 14, ../assets/scss/partials/blocks/_sales_page.scss */
+.header-sales-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 85px;
+  line-height: 0.96;
+  font-weight: 700;
+  max-width: 850px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 14, ../assets/scss/partials/blocks/_sales_page.scss */
+  .header-sales-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 14, ../assets/scss/partials/blocks/_sales_page.scss */
+  .header-sales-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 14, ../assets/scss/partials/blocks/_sales_page.scss */
+  .header-sales-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+
+/* line 36, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block {
+  background-color: #eeeeee;
+  padding-top: 31px;
+  padding-bottom: 20px;
+  position: relative;
+}
+/* line 42, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .container-block {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  /* line 42, ../assets/scss/partials/blocks/_sales_page.scss */
+  .intro-sales-block .container-block {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 42, ../assets/scss/partials/blocks/_sales_page.scss */
+  .intro-sales-block .container-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 46, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .content-block {
+  padding: 10px 12px;
+  background-color: #ffffff;
+}
+@media (max-width: 420px) {
+  /* line 46, ../assets/scss/partials/blocks/_sales_page.scss */
+  .intro-sales-block .content-block {
+    padding: 10px 0;
+  }
+}
+/* line 53, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .item-block {
+  background-color: #ffffff;
+}
+/* line 63, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .text-block a {
+  text-decoration: none;
+}
+/* line 66, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .text-block .title {
+  padding-top: 5px;
+  color: #984089;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* line 73, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .text-block .desc {
+  padding-top: 10px;
+}
+/* line 75, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .text-block .desc p {
+  font-size: 15px;
+  line-height: 1.68;
+  letter-spacing: -0.3px;
+}
+/* line 82, ../assets/scss/partials/blocks/_sales_page.scss */
+.intro-sales-block .video-block {
+  padding-top: 10px;
+}

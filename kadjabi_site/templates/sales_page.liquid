@@ -5,11 +5,42 @@ The else statement is used to hold the default content of this page.
 Retreats are ID: 22859
 ECourses are ID: 22861
 {% endcomment %}
+<div id="header-block" class="header-video-block"  style="background-image :url('{{ 'blog-all-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">Sales</h1>
+  </div>
+</div>
 {% if sales_page.id == 22861 %}
 {% include "ecourses" %}
 {% elsif sales_page.id == 22859 %}
 {% include "retreats" %}
 {% else %}
+<div id="intro-sales-block" class="intro-sales-block">
+  <div class="container">
+    <div class="content-block">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12">
+          <div class="text-block">
+            <div class="title">
+              <h1>{{ sales_page.title }}</h1>
+            </div>
+            <div class="bar"></div>
+            <div class="desc">
+              {{ sales_page.body }}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-xs-12">
+          <div class="video-block">
+            {% include "video" with sales_page.video, color: settings.color_primary, thumbnail: sales_page.thumbnail_url %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "offer_pricing" %}
+</div>
+{% comment %}
 <div class="sales">
   <div class="container">
     <div class="sales-content">
@@ -27,4 +58,5 @@ ECourses are ID: 22861
   </div>
   {% include "offer_pricing" %}
 </div>
+{% endcomment %}
 {% endif %}

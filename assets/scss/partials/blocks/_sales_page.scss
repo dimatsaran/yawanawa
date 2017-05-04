@@ -1,0 +1,102 @@
+.header-sales-block{
+  height: 480px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom center;
+  display: table;
+  .title-block{
+    color: $color-white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    .site-label{
+      font-family: $font-open-sans;
+      color:  $color-white;
+      font-size: 8.5*$font-size;
+      line-height: 0.8*$line-height;
+      font-weight: 700;
+      max-width: 850px;
+      margin: 0 auto;
+      letter-spacing: -0.8px;
+      text-transform: uppercase;
+      @include tablet{
+        font-size: 6.5*$font-size;
+      }
+      @include phone{
+        font-size: 4.5*$font-size;
+      }
+      @include small-phone{
+        font-size: 3.5*$font-size;
+      }
+    }
+  }
+}
+.intro-sales-block{
+  background-color: $color-grey;
+  //padding-top: 20px;
+  padding-top: 31px;
+  padding-bottom: 20px;
+  position: relative;
+  .container-block{
+    @include padding-cont-block;
+    position: relative;
+  }
+  .content-block{
+    padding: 10px 12px;
+    background-color: $color-white;
+    @include small-phone{
+      padding: 10px 0;
+    }
+  }
+  .item-block{
+    background-color: $color-white;
+  }
+  .text-block{
+    //font-family: $font-open-sans;
+    //padding: 24px 26px 21px;
+    //min-height: 295px;
+    //border-width: 0 1px 1px 1px;
+    //border-color: $color-grey-shadow;
+    //border-style: solid;
+    a{
+      text-decoration: none;
+    }
+    .title{
+      padding-top: 5px;
+      color: $color-purple;
+      font-size: 3*$font-size;
+      //line-height: 1.3*$line-height;
+      font-weight: 600;
+    }
+    .desc{
+      padding-top: 10px;
+      p{
+        font-size: 1.5*$font-size;
+        line-height: 1.4*$line-height;
+        letter-spacing: -0.3px;
+      }
+    }
+  }
+  .video-block{
+    padding-top: 10px;
+    //position: relative;
+    //width: 100%;
+    //border-width:  1px 1px 0 1px;
+    //border-color: $color-grey-shadow;
+    //border-style: solid;
+    //a{
+    //  display: block;
+    //  opacity: 1;
+    //  @include transition(opacity 0.3s);
+    //  &:hover{
+    //    opacity: 0.7;
+    //  }
+    //}
+    //img{
+    //  width: 100%;
+    //  position: relative;
+    //}
+  }
+}
