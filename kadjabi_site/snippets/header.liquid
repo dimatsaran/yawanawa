@@ -1,44 +1,100 @@
-<!--<script type='text/javascript' src='https://code.jquery.com/jquery-3.1.1.min.js'></script>-->
-<meta name="google-site-verification" content="FvV01kjzE93tptA0nRUr-HEJqnsHkhIrWHsBEAB0foY" />
-<link
-        href="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/113880/assets/custom_site_styles.css"
-        rel="stylesheet"
-        type="text/css"
->
+<script>
+    var identifier;
+    var page_id = parseInt({{ page.id }});
+    var sales_page_id = parseInt({{ sales_page.id }});
+    //console.log('.page_id_' + page_id, '.sales_page_id_' +sales_page_id);
+    if (Number.isInteger(page_id)) {
+        identifier = '.page_id_' + page_id;
+    }
+    else if (Number.isInteger(sales_page_id)) {
+        identifier = '.sales_page_id_' + sales_page_id;
+    }
+
+    jQuery(document).ready(function (){
+        jQuery(identifier).addClass('active');
+    });
+</script>
+<style>
+    .burger:not(.close_btn){
+        background-image :url("{{ 'burger.png' | asset_url | img_tag }}");
+    }
+    .burger.close_btn{   background-image: url("{{ 'close.png' | asset_url | img_tag }}");
+    }
+</style>
 <header class="header">
     <div class="container">
         {% if settings.show_header_menu %}
         <ul>
             {% for link in current_site.link_lists[settings.header_menu].links %}
-                {% if link.name == 'Offerings' %}
-                <li>
-                    <span>{{ link.name }}</span>
-                    <ul class='offerings'>
-                        {% for link in current_site.link_lists['7hwGBTFi'].links %}
-                        <li><a href="{{ link.url }}">{{link.name}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
-                {% elsif link.name == 'Retreats' %}
-                <li>
-                    <span>{{ link.name }}</span>
-                    <ul class='retreats'>
-                        {% for link in current_site.link_lists['amG2rL2m'].links %}
-                        <li><a href="{{ link.url }}" >{{link.name}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
-                {% else %}
-                <li><a href="#">{{ link.name }}</a> </li>
-                {% endif %}
+            {% if link.name == 'OFFERINGS' %}
+            <li>
+                <a href="#" class="page_id_56878 page_id_56868 page_id_36129 page_id_37162"><span>{{ link.name }}</span></a>
+                <ul class='offerings'>
+                    {% for link in current_site.link_lists['7hwGBTFi'].links %}
+                    <li><a href="{{ link.url }}">{{link.name}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% elsif link.name == 'RETREATS' %}
+            <li>
+                <a href="#" class="page_id_46908 page_id_46909 page_id_55681"><span>{{ link.name }}</span></a>
+                <ul class='retreats'>
+                    {% for link in current_site.link_lists['amG2rL2m'].links %}
+                    <li><a href="{{ link.url }}">{{link.name}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% else %}
+            {% assign linkName = link.name | downcase %}
+            {% assign pageTitle = page.title | downcase %}
+            {% if linkName == pageTitle %}
+            {% assign active = 'active' %}
+            {% else %}
+            {% assign active = '' %}
+            {% endif %}
+            <li><a href="{{link.url}}" class="{{ active }}">{{ link.name }}</a> </li>
+            {% endif %}
+
             {% endfor %}
         </ul>
         {% endif %}
         <ul>
             {% for link in current_site.link_lists['5d4pn9jc'].links %}
-            <li><a href="{{ link.url }}" >{{link.name}}</a></li>
+
+            {% assign linkName = link.name | downcase %}
+            {% assign pageTitle = page.title | downcase %}
+            {% if linkName == pageTitle %}
+            {% assign active = 'active' %}
+            {% else %}
+            {% assign active = '' %}
+            {% endif %}
+
+            {% if link.name == 'BLOG' and blog_posts != blank %}
+            <!-- blog link active -->
+            <li><a href="{{ link.url }}" class="active">BLOG</a></li>
+            {% elsif link.name == 'BLOG' and blog_posts == blank %}
+            <!-- blog link not active -->
+            <li><a href="{{ link.url }}">BLOG</a></li>
+
+            {% elsif link.name == 'LOGIN' and current_site_user == blank %}
+            <!-- login link -->
+            <li><a href="{{ link.url }}">LOGIN</a></li>
+            {% elsif link.name == 'LOGIN' and  current_site_user != blank  and products %}
+            <!-- library link active -->
+            <li><a href="{{ link.url }}" class="active">LIBRARY</a></li>
+            <li>{{ settings.language_logout | member_logout_link }}</li>
+            {% elsif link.name == 'LOGIN' and current_site_user != blank and products == blank %}
+            <!-- library link not active -->
+            <li><a href="{{ link.url }}">LIBRARY</a></li>
+            <li>{{ settings.language_logout | member_logout_link }}</li>
+            {% else %}
+            <!-- regular link -->
+            <li><a href="{{ link.url }}" class="{{ active }}">{{ link.name }}</a></li>
+            {% endif %}
+
+
             {% endfor %}
         </ul>
     </div>
-    <div class="burger" style="background-image :url('{{ 'burger.png' | asset_url | img_tag }}')"></div>
+    <div class="burger"></div>
 </header>

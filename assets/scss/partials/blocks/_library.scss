@@ -1,6 +1,15 @@
 .header-library-block{
+  height: 480px;
+  width: 100%;
+  background-size: cover;
+  display: table;
   .title-block{
     color: $color-white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
     .site-label{
       font-family: $font-open-sans;
       color:  $color-white;

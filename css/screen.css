@@ -1980,19 +1980,21 @@ input:focus:-ms-input-placeholder {
   transition: all, 0.5s;
 }
 /* line 6, ../assets/scss/partials/blocks/_menu_blocks.scss */
-.header ul li a.active, .header ul li a:hover, .header ul li a:focus {
+.header ul li a.active, .header ul li a.active span, .header ul li a:hover, .header ul li a:focus {
+  text-decoration: underline;
   color: #af865b;
 }
 
-/* line 16, ../assets/scss/partials/blocks/_menu_blocks.scss */
+/* line 17, ../assets/scss/partials/blocks/_menu_blocks.scss */
 .footer ul li a {
   -moz-transition: all, 0.5s;
   -o-transition: all, 0.5s;
   -webkit-transition: all, 0.5s;
   transition: all, 0.5s;
 }
-/* line 18, ../assets/scss/partials/blocks/_menu_blocks.scss */
-.footer ul li a.active, .footer ul li a:hover, .footer ul li a:focus {
+/* line 19, ../assets/scss/partials/blocks/_menu_blocks.scss */
+.footer ul li a.active, .footer ul li a.active span, .footer ul li a:hover, .footer ul li a:focus {
+  text-decoration: underline;
   color: #af865b;
 }
 
@@ -10409,11 +10411,23 @@ input:focus:-ms-input-placeholder {
   margin-top: 0;
 }
 
-/* line 2, ../assets/scss/partials/blocks/_library.scss */
+/* line 1, ../assets/scss/partials/blocks/_library.scss */
+.header-library-block {
+  height: 480px;
+  width: 100%;
+  background-size: cover;
+  display: table;
+}
+/* line 6, ../assets/scss/partials/blocks/_library.scss */
 .header-library-block .title-block {
   color: #ffffff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-/* line 4, ../assets/scss/partials/blocks/_library.scss */
+/* line 13, ../assets/scss/partials/blocks/_library.scss */
 .header-library-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
@@ -10426,66 +10440,66 @@ input:focus:-ms-input-placeholder {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
-  /* line 4, ../assets/scss/partials/blocks/_library.scss */
+  /* line 13, ../assets/scss/partials/blocks/_library.scss */
   .header-library-block .title-block .site-label {
     font-size: 65px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 4, ../assets/scss/partials/blocks/_library.scss */
+  /* line 13, ../assets/scss/partials/blocks/_library.scss */
   .header-library-block .title-block .site-label {
     font-size: 45px;
   }
 }
 @media (max-width: 420px) {
-  /* line 4, ../assets/scss/partials/blocks/_library.scss */
+  /* line 13, ../assets/scss/partials/blocks/_library.scss */
   .header-library-block .title-block .site-label {
     font-size: 35px;
   }
 }
 
-/* line 26, ../assets/scss/partials/blocks/_library.scss */
+/* line 35, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block {
   background-color: #eeeeee;
   padding-top: 31px;
   padding-bottom: 20px;
   position: relative;
 }
-/* line 32, ../assets/scss/partials/blocks/_library.scss */
+/* line 41, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .container-block {
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  /* line 32, ../assets/scss/partials/blocks/_library.scss */
+  /* line 41, ../assets/scss/partials/blocks/_library.scss */
   .intro-library-block .container-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 420px) {
-  /* line 32, ../assets/scss/partials/blocks/_library.scss */
+  /* line 41, ../assets/scss/partials/blocks/_library.scss */
   .intro-library-block .container-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 36, ../assets/scss/partials/blocks/_library.scss */
+/* line 45, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .content-block {
   padding: 10px 12px;
 }
 @media (max-width: 420px) {
-  /* line 36, ../assets/scss/partials/blocks/_library.scss */
+  /* line 45, ../assets/scss/partials/blocks/_library.scss */
   .intro-library-block .content-block {
     padding: 10px 0;
   }
 }
-/* line 42, ../assets/scss/partials/blocks/_library.scss */
+/* line 51, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .item-block {
   background-color: #ffffff;
 }
-/* line 45, ../assets/scss/partials/blocks/_library.scss */
+/* line 54, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block {
   position: relative;
   width: 100%;
@@ -10493,7 +10507,7 @@ input:focus:-ms-input-placeholder {
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 51, ../assets/scss/partials/blocks/_library.scss */
+/* line 60, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block a {
   display: block;
   opacity: 1;
@@ -10502,16 +10516,16 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
-/* line 55, ../assets/scss/partials/blocks/_library.scss */
+/* line 64, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block a:hover {
   opacity: 0.7;
 }
-/* line 59, ../assets/scss/partials/blocks/_library.scss */
+/* line 68, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .img-block img {
   width: 100%;
   position: relative;
 }
-/* line 64, ../assets/scss/partials/blocks/_library.scss */
+/* line 73, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 24px 26px 21px;
@@ -10520,15 +10534,15 @@ input:focus:-ms-input-placeholder {
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 71, ../assets/scss/partials/blocks/_library.scss */
+/* line 80, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block a {
   text-decoration: none;
 }
-/* line 74, ../assets/scss/partials/blocks/_library.scss */
+/* line 83, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .title {
   padding-top: 5px;
 }
-/* line 76, ../assets/scss/partials/blocks/_library.scss */
+/* line 85, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .title a {
   color: #313131;
   font-size: 18px;
@@ -10539,15 +10553,15 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 83, ../assets/scss/partials/blocks/_library.scss */
+/* line 92, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 88, ../assets/scss/partials/blocks/_library.scss */
+/* line 97, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .desc {
   padding-top: 10px;
 }
-/* line 90, ../assets/scss/partials/blocks/_library.scss */
+/* line 99, ../assets/scss/partials/blocks/_library.scss */
 .intro-library-block .text-block .desc p {
   font-size: 15px;
   line-height: 1.68;
