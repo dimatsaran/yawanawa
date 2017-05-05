@@ -1,3 +1,43 @@
+<div id="cards-block" class="cards-block">
+  <div class="container">
+    <div class="content-block">
+      {% if sales_page.offers.size == 0 %}
+        <div class="message-block">
+          <h4><strong>Warning</strong> You have not selected any offers. To sell your products, please add one or more offers in the admin.</h4>
+      </div>
+      {% else %}
+        <div class="list-items">
+          <div class="row">
+              {% for offer in sales_page.offers %}
+              <div class="col-lg-12">
+                  <form action="{{ sales_page.checkout_url }}" method="GET">
+                    <div class="card-info">
+                      <input type="hidden" name="offer_token" value="{{ offer.token }}" />
+                      <i class="fa fa-tag" aria-hidden="true"></i>
+                      <div class="title-block">
+                        <div class="title"><h2>{{ offer.title }}</h2></div>
+                      </div>
+                      <div class="price-block">
+                        <span class="price">{{ offer | display_price }}</span>
+                      </div>
+                      <div class="desc">
+                        <p>{{ offer.description }}</p>
+                      </div>
+                      <div class="link-purchase-block">
+                        <button kjb-settings-id="language_offer_purchase" class="btn link-purchase" type="submit">{{ settings.language_offer_purchase }}</button>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+              {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% comment %}
 <div class="cards cards-2">
   <div class="container">
     {% if sales_page.offers.size == 0 %}
@@ -24,3 +64,4 @@
     {% endif %}
   </div>
 </div>
+{% endcomment %}
