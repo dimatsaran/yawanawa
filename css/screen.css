@@ -1278,7 +1278,15 @@ input:focus:-ms-input-placeholder {
 .online-integration-block,
 .desc-integration-block,
 .integration-bg-block,
-.components-integration-connect-block {
+.components-integration-connect-block,
+.header-thank-you-block,
+.header-library-block,
+.intro-library-block,
+.header-video-block,
+.intro-video-block,
+.header-sales-block,
+.intro-sales-block,
+.cards-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -1376,11 +1384,19 @@ input:focus:-ms-input-placeholder {
   .online-integration-block,
   .desc-integration-block,
   .integration-bg-block,
-  .components-integration-connect-block {
+  .components-integration-connect-block,
+  .header-thank-you-block,
+  .header-library-block,
+  .intro-library-block,
+  .header-video-block,
+  .intro-video-block,
+  .header-sales-block,
+  .intro-sales-block,
+  .cards-block {
     overflow-x: hidden;
   }
 }
-/* line 100, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 108, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -1660,14 +1676,38 @@ input:focus:-ms-input-placeholder {
 .integration-bg-block *::before,
 .components-integration-connect-block *,
 .components-integration-connect-block *::after,
-.components-integration-connect-block *::before {
+.components-integration-connect-block *::before,
+.header-thank-you-block *,
+.header-thank-you-block *::after,
+.header-thank-you-block *::before,
+.header-library-block *,
+.header-library-block *::after,
+.header-library-block *::before,
+.intro-library-block *,
+.intro-library-block *::after,
+.intro-library-block *::before,
+.header-video-block *,
+.header-video-block *::after,
+.header-video-block *::before,
+.intro-video-block *,
+.intro-video-block *::after,
+.intro-video-block *::before,
+.header-sales-block *,
+.header-sales-block *::after,
+.header-sales-block *::before,
+.intro-sales-block *,
+.intro-sales-block *::after,
+.intro-sales-block *::before,
+.cards-block *,
+.cards-block *::after,
+.cards-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 106, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 114, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -1761,12 +1801,20 @@ input:focus:-ms-input-placeholder {
 .online-integration-block .container-retreat,
 .desc-integration-block .container-retreat,
 .integration-bg-block .container-retreat,
-.components-integration-connect-block .container-retreat {
+.components-integration-connect-block .container-retreat,
+.header-thank-you-block .container-retreat,
+.header-library-block .container-retreat,
+.intro-library-block .container-retreat,
+.header-video-block .container-retreat,
+.intro-video-block .container-retreat,
+.header-sales-block .container-retreat,
+.intro-sales-block .container-retreat,
+.cards-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 110, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 118, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -1860,12 +1908,20 @@ input:focus:-ms-input-placeholder {
   .online-integration-block .row,
   .desc-integration-block .row,
   .integration-bg-block .row,
-  .components-integration-connect-block .row {
+  .components-integration-connect-block .row,
+  .header-thank-you-block .row,
+  .header-library-block .row,
+  .intro-library-block .row,
+  .header-video-block .row,
+  .intro-video-block .row,
+  .header-sales-block .row,
+  .intro-sales-block .row,
+  .cards-block .row {
     margin: 0;
   }
 }
 
-/* line 117, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 125, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -1879,7 +1935,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 129, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 137, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -1888,7 +1944,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 136, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 144, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -1906,24 +1962,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 145, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 153, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 149, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 157, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 149, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 157, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 157, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 165, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -1939,12 +1995,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 170, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 178, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 176, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 184, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -1955,13 +2011,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 185, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 193, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 189, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 197, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
@@ -10932,42 +10988,42 @@ input:focus:-ms-input-placeholder {
 .cards-block .card-info {
   background-color: #ffffff;
 }
-/* line 127, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 124, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .title-block {
   padding-top: 10px;
 }
-/* line 129, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 126, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .title-block .title {
   color: #313131;
   font-size: 18px;
   line-height: 1.56;
   font-weight: 600;
 }
-/* line 136, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 133, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .price-block {
   padding-top: 10px;
 }
-/* line 138, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 135, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .price-block .price {
   color: #984089;
   font-weight: 600;
   font-size: 16px;
 }
-/* line 144, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 141, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .desc {
   padding-top: 10px;
 }
-/* line 146, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 143, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .desc p {
   font-size: 15px;
   line-height: 1.68;
   letter-spacing: -0.3px;
 }
-/* line 152, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 149, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .link-purchase-block {
   padding-top: 10px;
 }
-/* line 154, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 151, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .link-purchase-block .link-purchase {
   color: #eeeeee;
   background: #e09f8b;
@@ -10979,12 +11035,12 @@ input:focus:-ms-input-placeholder {
   font-size: 18px;
 }
 @media screen and (max-width: 640px) {
-  /* line 154, ../assets/scss/partials/blocks/_sales_page.scss */
+  /* line 151, ../assets/scss/partials/blocks/_sales_page.scss */
   .cards-block .link-purchase-block .link-purchase {
     width: 100%;
   }
 }
-/* line 166, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 163, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .link-purchase-block .link-purchase:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);

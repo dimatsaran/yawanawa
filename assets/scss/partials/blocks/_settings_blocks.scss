@@ -91,7 +91,15 @@
 .online-integration-block,
 .desc-integration-block,
 .integration-bg-block,
-.components-integration-connect-block
+.components-integration-connect-block,
+.header-thank-you-block,
+.header-library-block,
+.intro-library-block,
+.header-video-block,
+.intro-video-block,
+.header-sales-block,
+.intro-sales-block,
+.cards-block
 {
   min-width: 320px;
   @include extra-phone{
