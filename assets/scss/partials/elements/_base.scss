@@ -58,6 +58,11 @@ img{
   color: $color-purple;
   text-decoration: underline;
 }
+@mixin appearance-none {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
 @mixin transition($transition...) {
   -moz-transition:    $transition;

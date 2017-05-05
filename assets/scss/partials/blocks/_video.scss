@@ -1,4 +1,4 @@
-.header-video-block{
+.header-login-block{
   height: 480px;
   width: 100%;
   background-size: cover;
@@ -33,7 +33,7 @@
     }
   }
 }
-.intro-video-block{
+.intro-login-block{
   background-color: $color-grey;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -44,9 +44,6 @@
   }
   .content-block{
     padding: 10px 12px;
-    //text-align: center;
-    //max-width: 940px;
-    //margin: 0 auto;
     @include small-phone{
       padding: 10px 0;
     }

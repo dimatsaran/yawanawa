@@ -10625,6 +10625,251 @@ input:focus:-ms-input-placeholder {
   letter-spacing: -0.3px;
 }
 
+/* line 1, ../assets/scss/partials/blocks/_login.scss */
+.header-login-block {
+  height: 480px;
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-position: bottom center;
+}
+/* line 7, ../assets/scss/partials/blocks/_login.scss */
+.header-login-block .title-block {
+  color: #ffffff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 14, ../assets/scss/partials/blocks/_login.scss */
+.header-login-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 85px;
+  line-height: 0.96;
+  font-weight: 700;
+  max-width: 850px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 14, ../assets/scss/partials/blocks/_login.scss */
+  .header-login-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 14, ../assets/scss/partials/blocks/_login.scss */
+  .header-login-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 14, ../assets/scss/partials/blocks/_login.scss */
+  .header-login-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+
+/* line 36, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block {
+  background-color: #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+/* line 120, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 133, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 137, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box {
+  position: relative;
+  text-align: center;
+  padding: 60px 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 400px;
+  margin: 0 auto;
+  z-index: 999;
+  color: #313131;
+}
+@media screen and (max-width: 640px) {
+  /* line 137, ../assets/scss/partials/blocks/_login.scss */
+  .intro-login-block.auth .auth-box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 149, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box .notice {
+  display: block;
+  background: #eeeeee;
+  background: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+/* line 156, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box img {
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* line 161, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box .title-block {
+  padding-bottom: 20px;
+}
+/* line 163, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box .title-block h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+/* line 170, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"], .intro-login-block.auth .auth-box input[type="password"], .intro-login-block.auth .auth-box input[type="email"], .intro-login-block.auth .auth-box textarea {
+  margin-bottom: 15px;
+  width: 100%;
+  display: block;
+  padding: 20px;
+  font-size: 16px;
+  background: #f9f3f4;
+  color: #313131;
+  font-style: italic;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(49, 49, 49, 0.3);
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 182, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]::-webkit-input-placeholder, .intro-login-block.auth .auth-box input[type="password"]::-webkit-input-placeholder, .intro-login-block.auth .auth-box input[type="email"]::-webkit-input-placeholder, .intro-login-block.auth .auth-box textarea::-webkit-input-placeholder {
+  color: #313131;
+  opacity: 0.5;
+}
+/* line 183, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]::-moz-placeholder, .intro-login-block.auth .auth-box input[type="password"]::-moz-placeholder, .intro-login-block.auth .auth-box input[type="email"]::-moz-placeholder, .intro-login-block.auth .auth-box textarea::-moz-placeholder {
+  color: #313131;
+  opacity: 0.5;
+}
+/* line 184, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]:-moz-placeholder, .intro-login-block.auth .auth-box input[type="password"]:-moz-placeholder, .intro-login-block.auth .auth-box input[type="email"]:-moz-placeholder, .intro-login-block.auth .auth-box textarea:-moz-placeholder {
+  color: #313131;
+  opacity: 0.5;
+}
+/* line 185, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]:-ms-input-placeholder, .intro-login-block.auth .auth-box input[type="password"]:-ms-input-placeholder, .intro-login-block.auth .auth-box input[type="email"]:-ms-input-placeholder, .intro-login-block.auth .auth-box textarea:-ms-input-placeholder {
+  color: #313131;
+  opacity: 0.5;
+}
+/* line 186, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]:focus, .intro-login-block.auth .auth-box input[type="password"]:focus, .intro-login-block.auth .auth-box input[type="email"]:focus, .intro-login-block.auth .auth-box textarea:focus {
+  border-color: rgba(49, 49, 49, 0.5);
+  background-color: rgba(238, 238, 238, 0.3);
+  outline: none;
+  outline: 0;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+/* line 192, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]:focus::-webkit-input-placeholder, .intro-login-block.auth .auth-box input[type="password"]:focus::-webkit-input-placeholder, .intro-login-block.auth .auth-box input[type="email"]:focus::-webkit-input-placeholder, .intro-login-block.auth .auth-box textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 193, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]:focus::-moz-placeholder, .intro-login-block.auth .auth-box input[type="password"]:focus::-moz-placeholder, .intro-login-block.auth .auth-box input[type="email"]:focus::-moz-placeholder, .intro-login-block.auth .auth-box textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 194, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]:focus:-moz-placeholder, .intro-login-block.auth .auth-box input[type="password"]:focus:-moz-placeholder, .intro-login-block.auth .auth-box input[type="email"]:focus:-moz-placeholder, .intro-login-block.auth .auth-box textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 195, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="text"]:focus:-ms-input-placeholder, .intro-login-block.auth .auth-box input[type="password"]:focus:-ms-input-placeholder, .intro-login-block.auth .auth-box input[type="email"]:focus:-ms-input-placeholder, .intro-login-block.auth .auth-box textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 198, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #f9f3f4;
+  color: #313131;
+  float: left;
+  margin: 0 10px 20px 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(49, 49, 49, 0.6);
+}
+/* line 209, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input[type="checkbox"]:checked {
+  background: #eeeeee;
+  border-color: rgba(49, 49, 49, 0.6);
+}
+/* line 214, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box label {
+  float: left;
+  margin-top: 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* line 221, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input.btn-login {
+  width: 100%;
+  color: #eeeeee;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+  font-size: 18px;
+}
+@media screen and (max-width: 640px) {
+  /* line 221, ../assets/scss/partials/blocks/_login.scss */
+  .intro-login-block.auth .auth-box input.btn-login {
+    min-width: 270px;
+  }
+}
+/* line 230, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box input.btn-login:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
+}
+/* line 235, ../assets/scss/partials/blocks/_login.scss */
+.intro-login-block.auth .auth-box .link, .intro-login-block.auth .auth-box .link a {
+  margin-top: 20px;
+  margin-bottom: 0;
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #313131;
+}
+
 /* line 2, ../assets/scss/partials/blocks/_thank_you.scss */
 .header-thank-you-block .title-block {
   color: #ffffff;
@@ -10695,7 +10940,7 @@ input:focus:-ms-input-placeholder {
 }
 
 /* line 1, ../assets/scss/partials/blocks/_video.scss */
-.header-video-block {
+.header-login-block {
   height: 480px;
   width: 100%;
   background-size: cover;
@@ -10703,7 +10948,7 @@ input:focus:-ms-input-placeholder {
   background-position: bottom center;
 }
 /* line 7, ../assets/scss/partials/blocks/_video.scss */
-.header-video-block .title-block {
+.header-login-block .title-block {
   color: #ffffff;
   text-align: center;
   display: table-cell;
@@ -10712,7 +10957,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 /* line 14, ../assets/scss/partials/blocks/_video.scss */
-.header-video-block .title-block .site-label {
+.header-login-block .title-block .site-label {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   font-size: 85px;
@@ -10725,90 +10970,90 @@ input:focus:-ms-input-placeholder {
 }
 @media screen and (max-width: 768px) {
   /* line 14, ../assets/scss/partials/blocks/_video.scss */
-  .header-video-block .title-block .site-label {
+  .header-login-block .title-block .site-label {
     font-size: 65px;
   }
 }
 @media screen and (max-width: 640px) {
   /* line 14, ../assets/scss/partials/blocks/_video.scss */
-  .header-video-block .title-block .site-label {
+  .header-login-block .title-block .site-label {
     font-size: 45px;
   }
 }
 @media (max-width: 420px) {
   /* line 14, ../assets/scss/partials/blocks/_video.scss */
-  .header-video-block .title-block .site-label {
+  .header-login-block .title-block .site-label {
     font-size: 35px;
   }
 }
 
 /* line 36, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block {
+.intro-login-block {
   background-color: #eeeeee;
   padding-top: 30px;
   padding-bottom: 20px;
   position: relative;
 }
 /* line 41, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .container-block {
+.intro-login-block .container-block {
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   /* line 41, ../assets/scss/partials/blocks/_video.scss */
-  .intro-video-block .container-block {
+  .intro-login-block .container-block {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 420px) {
   /* line 41, ../assets/scss/partials/blocks/_video.scss */
-  .intro-video-block .container-block {
+  .intro-login-block .container-block {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 /* line 45, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .content-block {
+.intro-login-block .content-block {
   padding: 10px 12px;
 }
 @media (max-width: 420px) {
   /* line 45, ../assets/scss/partials/blocks/_video.scss */
-  .intro-video-block .content-block {
+  .intro-login-block .content-block {
     padding: 10px 0;
   }
 }
-/* line 54, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .videoWrapper {
+/* line 51, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
-/* line 59, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .videoWrapper iframe {
+/* line 56, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-/* line 68, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .item-block {
+/* line 65, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .item-block {
   background-color: #ffffff;
 }
-/* line 71, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .img-block {
+/* line 68, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .img-block {
   position: relative;
   width: 100%;
   border-width: 1px 1px 0 1px;
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 77, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .img-block a {
+/* line 74, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .img-block a {
   display: block;
   opacity: 1;
   -moz-transition: opacity 0.3s;
@@ -10816,17 +11061,17 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
-/* line 81, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .img-block a:hover {
+/* line 78, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .img-block a:hover {
   opacity: 0.7;
 }
-/* line 85, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .img-block img {
+/* line 82, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .img-block img {
   width: 100%;
   position: relative;
 }
-/* line 90, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .text-block {
+/* line 87, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .text-block {
   font-family: "Open Sans", sans-serif;
   padding: 24px 26px 21px;
   min-height: 295px;
@@ -10834,16 +11079,16 @@ input:focus:-ms-input-placeholder {
   border-color: #e2e2e2;
   border-style: solid;
 }
-/* line 97, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .text-block a {
+/* line 94, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .text-block a {
   text-decoration: none;
 }
-/* line 100, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .text-block .title {
+/* line 97, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .text-block .title {
   padding-top: 5px;
 }
-/* line 102, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .text-block .title a {
+/* line 99, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .text-block .title a {
   color: #313131;
   font-size: 18px;
   line-height: 1.56;
@@ -10853,16 +11098,16 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.5;
   transition: color 0.5;
 }
-/* line 109, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .text-block .title a:hover {
+/* line 106, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .text-block .title a:hover {
   color: #eb5449;
 }
-/* line 114, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .text-block .desc {
+/* line 111, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .text-block .desc {
   padding-top: 10px;
 }
-/* line 116, ../assets/scss/partials/blocks/_video.scss */
-.intro-video-block .text-block .desc p {
+/* line 113, ../assets/scss/partials/blocks/_video.scss */
+.intro-login-block .text-block .desc p {
   font-size: 15px;
   line-height: 1.68;
   letter-spacing: -0.3px;
@@ -10924,48 +11169,48 @@ input:focus:-ms-input-placeholder {
   position: relative;
 }
 @media screen and (max-width: 640px) {
-  /* line 42, ../assets/scss/partials/blocks/_sales_page.scss */
+  /* line 41, ../assets/scss/partials/blocks/_sales_page.scss */
   .intro-sales-block .container {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 47, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 46, ../assets/scss/partials/blocks/_sales_page.scss */
 .intro-sales-block .content-block {
   padding: 10px 12px;
   background-color: #ffffff;
 }
-/* line 54, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 53, ../assets/scss/partials/blocks/_sales_page.scss */
 .intro-sales-block .item-block {
   background-color: #ffffff;
 }
-/* line 64, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 63, ../assets/scss/partials/blocks/_sales_page.scss */
 .intro-sales-block .text-block a {
   text-decoration: none;
 }
-/* line 67, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 66, ../assets/scss/partials/blocks/_sales_page.scss */
 .intro-sales-block .text-block .title {
   padding-top: 5px;
   color: #984089;
   font-size: 30px;
   font-weight: 600;
 }
-/* line 74, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 73, ../assets/scss/partials/blocks/_sales_page.scss */
 .intro-sales-block .text-block .desc {
   padding-top: 10px;
 }
-/* line 76, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 75, ../assets/scss/partials/blocks/_sales_page.scss */
 .intro-sales-block .text-block .desc p {
   font-size: 15px;
   line-height: 1.68;
   letter-spacing: -0.3px;
 }
-/* line 83, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 82, ../assets/scss/partials/blocks/_sales_page.scss */
 .intro-sales-block .video-block {
   padding-top: 10px;
 }
 
-/* line 104, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 103, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block {
   background-color: #eeeeee;
   padding-top: 10px;
@@ -10973,57 +11218,57 @@ input:focus:-ms-input-placeholder {
   position: relative;
 }
 @media screen and (max-width: 640px) {
-  /* line 109, ../assets/scss/partials/blocks/_sales_page.scss */
+  /* line 108, ../assets/scss/partials/blocks/_sales_page.scss */
   .cards-block .container {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-/* line 114, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 113, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .content-block {
   padding: 10px 12px;
   background-color: #ffffff;
 }
-/* line 121, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 120, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .card-info {
   background-color: #ffffff;
 }
-/* line 124, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 123, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .title-block {
   padding-top: 10px;
 }
-/* line 126, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 125, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .title-block .title {
   color: #313131;
   font-size: 18px;
   line-height: 1.56;
   font-weight: 600;
 }
-/* line 133, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 132, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .price-block {
   padding-top: 10px;
 }
-/* line 135, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 134, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .price-block .price {
   color: #984089;
   font-weight: 600;
   font-size: 16px;
 }
-/* line 141, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 140, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .desc {
   padding-top: 10px;
 }
-/* line 143, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 142, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .desc p {
   font-size: 15px;
   line-height: 1.68;
   letter-spacing: -0.3px;
 }
-/* line 149, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 148, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .link-purchase-block {
   padding-top: 10px;
 }
-/* line 151, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 150, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .link-purchase-block .link-purchase {
   color: #eeeeee;
   background: #e09f8b;
@@ -11035,12 +11280,12 @@ input:focus:-ms-input-placeholder {
   font-size: 18px;
 }
 @media screen and (max-width: 640px) {
-  /* line 151, ../assets/scss/partials/blocks/_sales_page.scss */
+  /* line 150, ../assets/scss/partials/blocks/_sales_page.scss */
   .cards-block .link-purchase-block .link-purchase {
     width: 100%;
   }
 }
-/* line 163, ../assets/scss/partials/blocks/_sales_page.scss */
+/* line 162, ../assets/scss/partials/blocks/_sales_page.scss */
 .cards-block .link-purchase-block .link-purchase:hover {
   background: #b4634f;
   background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);

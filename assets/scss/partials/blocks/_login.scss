@@ -1,0 +1,247 @@
+.header-login-block{
+  height: 480px;
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-position: bottom center;
+  .title-block{
+    color: $color-white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    .site-label{
+      font-family: $font-open-sans;
+      color:  $color-white;
+      font-size: 8.5*$font-size;
+      line-height: 0.8*$line-height;
+      font-weight: 700;
+      max-width: 850px;
+      margin: 0 auto;
+      letter-spacing: -0.8px;
+      text-transform: uppercase;
+      @include tablet{
+        font-size: 6.5*$font-size;
+      }
+      @include phone{
+        font-size: 4.5*$font-size;
+      }
+      @include small-phone{
+        font-size: 3.5*$font-size;
+      }
+    }
+  }
+}
+.intro-login-block{
+  background-color: $color-grey;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  //.container-block{
+  //  @include padding-cont-block;
+  //  position: relative;
+  //}
+  //.content-block{
+  //  padding: 10px 12px;
+  //  @include small-phone{
+  //    padding: 10px 0;
+  //  }
+  //}
+  //.videoWrapper{
+  //  position: relative;
+  //  padding-bottom: 56.25%; /* 16:9 */
+  //  padding-top: 25px;
+  //  height: 0;
+  //  iframe{
+  //    position: absolute;
+  //    top: 0;
+  //    left: 0;
+  //    width: 100%;
+  //    height: 100%;
+  //  }
+  //}
+  //.item-block{
+  //  background-color: $color-white;
+  //}
+  //.img-block{
+  //  position: relative;
+  //  width: 100%;
+  //  border-width:  1px 1px 0 1px;
+  //  border-color: $color-grey-shadow;
+  //  border-style: solid;
+  //  a{
+  //    display: block;
+  //    opacity: 1;
+  //    @include transition(opacity 0.3s);
+  //    &:hover{
+  //      opacity: 0.7;
+  //    }
+  //  }
+  //  img{
+  //    width: 100%;
+  //    position: relative;
+  //  }
+  //}
+  //.text-block{
+  //  font-family: $font-open-sans;
+  //  padding: 24px 26px 21px;
+  //  min-height: 295px;
+  //  border-width: 0 1px 1px 1px;
+  //  border-color: $color-grey-shadow;
+  //  border-style: solid;
+  //  a{
+  //    text-decoration: none;
+  //  }
+  //  .title{
+  //    padding-top: 5px;
+  //    a{
+  //      color: $color-grey-dark;
+  //      //font-size: 2*$font-size;
+  //      font-size: 1.8*$font-size;
+  //      line-height: 1.3*$line-height;
+  //      font-weight: 600;
+  //      @include transition(color 0.5);
+  //      &:hover{
+  //        color: $color-red;
+  //      }
+  //    }
+  //  }
+  //  .desc{
+  //    padding-top: 10px;
+  //    p{
+  //      font-size: 1.5*$font-size;
+  //      line-height: 1.4*$line-height;
+  //      letter-spacing: -0.3px;
+  //    }
+  //  }
+  //}
+
+  &.auth {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .auth-wrapper {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .auth-box {
+      position: relative;
+      text-align: center;
+      padding: 60px 40px;
+      background-color: rgba($color-white, 0.5);
+      max-width: 400px;
+      margin: 0 auto;
+      z-index: 999;
+      color: $color-grey-dark;
+      @include phone{
+        @include padding-screen;
+      }
+      .notice {
+        display: block;
+        background: $color-grey;
+        background: $color-white;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+      }
+      img {
+        height: 70px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+      .title-block{
+        padding-bottom: 20px;
+        h1 {
+          font-size: 2.4*$font-size;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 600;
+        }
+      }
+      input[type="text"],input[type="password"],input[type="email"], textarea {
+        margin-bottom: 15px;
+        width: 100%;
+        display: block;
+        padding: 20px;
+        font-size: 1.6*$font-size;
+        background: $color-grey-opacity;
+        color: $color-grey-dark;
+        font-style: italic;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba($color-grey-dark, 0.3);
+        &::-webkit-input-placeholder {color:$color-grey-dark; opacity: 0.5;}
+        &::-moz-placeholder          {color:$color-grey-dark; opacity: 0.5;}/* Firefox 19+ */
+        &:-moz-placeholder           {color:$color-grey-dark; opacity: 0.5;}/* Firefox 18- */
+        &:-ms-input-placeholder      {color:$color-grey-dark; opacity: 0.5;}
+        &:focus{
+          border-color: rgba($color-grey-dark, 0.5);
+          background-color: rgba($color-grey, 0.3);
+          outline: none;
+          outline: 0;
+          //box-shadow: 0 0 8px 0 $color-sap-green, inset 0 1px 3px 0 rgba(0, 0, 0, 0.31);
+          &::-webkit-input-placeholder {color: transparent;}
+          &::-moz-placeholder          {color: transparent;}/* Firefox 19+ */
+          &:-moz-placeholder           {color: transparent;}/* Firefox 18- */
+          &:-ms-input-placeholder      {color: transparent;}
+        }
+      }
+      input[type="checkbox"] {
+        @include appearance-none();
+        width: 30px;
+        height: 30px;
+        background: $color-grey-opacity;
+        color: $color-grey-dark;
+        float: left;
+        margin: 0 10px 20px 0;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba($color-grey-dark, 0.6);
+        &:checked {
+          background: $color-grey;
+          border-color: rgba($color-grey-dark, 0.6);
+        }
+      }
+      label {
+        float: left;
+        margin-top: 6px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      input.btn-login{
+        width: 100%;
+        color: $color-grey;
+        @include linear-gradient;
+        border: 0 none;
+        font-size: 1.8*$font-size;
+        @include phone{
+          min-width: 270px;
+        }
+        &:hover{
+          @include linear-gradient-back;
+          opacity: 1;
+        }
+      }
+      .link, .link a {
+        margin-top: 20px;
+        margin-bottom: 0;
+        display: block;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $color-grey-dark;
+      }
+    }
+
+  }
+}
