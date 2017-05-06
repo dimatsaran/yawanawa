@@ -10,7 +10,7 @@ setTimeout(function() {
 	console.log("$(\".image-cache\").css(\"display\") = " + $(".image-cache").css("display"));
 	
 	if ($(".image-cache").css("display") === "block") {
-		$(".preloader img").css("display", "block");
+		$(".preloader .img-preloader").css("display", "block");
 		
 	}
 }, 600);
@@ -966,11 +966,11 @@ $(document).ready(function() {
 
 		
 		$(".image-cache").css("display", "none");
-		if ($(".preloader img").css("display") === "none") {
+		if ($(".preloader .img-preloader").css("display") === "none") {
 			window.arrowInit();
 		} else {
 			setTimeout(function() {
-				$(".preloader img").fadeOut(
+				$(".preloader .img-preloader").fadeOut(
 				300,
 				function() {
 					window.arrowInit();
