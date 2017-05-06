@@ -72,8 +72,6 @@ table {
 /* line 25, ../assets/scss/partials/elements/_base.scss */
 body {
   font-family: "Open Sans", sans-serif;
-  width: 100%;
-  height: 100%;
   position: relative;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
@@ -992,7 +990,13 @@ input:focus:-ms-input-placeholder {
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-/* line 390, ../assets/scss/partials/elements/_forms.scss */
+@media screen and (max-width: 640px) {
+  /* line 382, ../assets/scss/partials/elements/_forms.scss */
+  .ready-form-block .title-block {
+    padding-top: 40px;
+  }
+}
+/* line 393, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .desc {
   padding-top: 40px;
   color: #ffffff;
@@ -1000,21 +1004,21 @@ input:focus:-ms-input-placeholder {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
 }
-/* line 396, ../assets/scss/partials/elements/_forms.scss */
+/* line 399, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .desc p {
   padding-bottom: 10px;
 }
-/* line 400, ../assets/scss/partials/elements/_forms.scss */
+/* line 403, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .yawanawa-form {
   padding-top: 20px;
   max-width: 475px;
   margin: 0 auto;
 }
-/* line 405, ../assets/scss/partials/elements/_forms.scss */
+/* line 408, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item-pair {
   margin: 0 auto;
 }
-/* line 414, ../assets/scss/partials/elements/_forms.scss */
+/* line 417, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select,
 .ready-form-block .form-item input[type="text"],
 .ready-form-block .form-item input[type="tel"],
@@ -1028,7 +1032,7 @@ input:focus:-ms-input-placeholder {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 424, ../assets/scss/partials/elements/_forms.scss */
+/* line 427, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select::-webkit-input-placeholder,
 .ready-form-block .form-item input[type="text"]::-webkit-input-placeholder,
 .ready-form-block .form-item input[type="tel"]::-webkit-input-placeholder,
@@ -1039,7 +1043,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 425, ../assets/scss/partials/elements/_forms.scss */
+/* line 428, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select::-moz-placeholder,
 .ready-form-block .form-item input[type="text"]::-moz-placeholder,
 .ready-form-block .form-item input[type="tel"]::-moz-placeholder,
@@ -1050,7 +1054,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 426, ../assets/scss/partials/elements/_forms.scss */
+/* line 429, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select:-moz-placeholder,
 .ready-form-block .form-item input[type="text"]:-moz-placeholder,
 .ready-form-block .form-item input[type="tel"]:-moz-placeholder,
@@ -1061,7 +1065,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 427, ../assets/scss/partials/elements/_forms.scss */
+/* line 430, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select:-ms-input-placeholder,
 .ready-form-block .form-item input[type="text"]:-ms-input-placeholder,
 .ready-form-block .form-item input[type="tel"]:-ms-input-placeholder,
@@ -1072,7 +1076,7 @@ input:focus:-ms-input-placeholder {
   color: #eeeeee;
   opacity: 1;
 }
-/* line 428, ../assets/scss/partials/elements/_forms.scss */
+/* line 431, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select:focus,
 .ready-form-block .form-item input[type="text"]:focus,
 .ready-form-block .form-item input[type="tel"]:focus,
@@ -1085,7 +1089,7 @@ input:focus:-ms-input-placeholder {
   /* Firefox 19+ */
   /* Firefox 18- */
 }
-/* line 431, ../assets/scss/partials/elements/_forms.scss */
+/* line 434, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select:focus::-webkit-input-placeholder,
 .ready-form-block .form-item input[type="text"]:focus::-webkit-input-placeholder,
 .ready-form-block .form-item input[type="tel"]:focus::-webkit-input-placeholder,
@@ -1095,7 +1099,7 @@ input:focus:-ms-input-placeholder {
 .ready-form-block .form-item input[type="search"]:focus::-webkit-input-placeholder {
   color: transparent;
 }
-/* line 432, ../assets/scss/partials/elements/_forms.scss */
+/* line 435, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select:focus::-moz-placeholder,
 .ready-form-block .form-item input[type="text"]:focus::-moz-placeholder,
 .ready-form-block .form-item input[type="tel"]:focus::-moz-placeholder,
@@ -1105,7 +1109,7 @@ input:focus:-ms-input-placeholder {
 .ready-form-block .form-item input[type="search"]:focus::-moz-placeholder {
   color: transparent;
 }
-/* line 433, ../assets/scss/partials/elements/_forms.scss */
+/* line 436, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select:focus:-moz-placeholder,
 .ready-form-block .form-item input[type="text"]:focus:-moz-placeholder,
 .ready-form-block .form-item input[type="tel"]:focus:-moz-placeholder,
@@ -1115,7 +1119,7 @@ input:focus:-ms-input-placeholder {
 .ready-form-block .form-item input[type="search"]:focus:-moz-placeholder {
   color: transparent;
 }
-/* line 434, ../assets/scss/partials/elements/_forms.scss */
+/* line 437, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-item select:focus:-ms-input-placeholder,
 .ready-form-block .form-item input[type="text"]:focus:-ms-input-placeholder,
 .ready-form-block .form-item input[type="tel"]:focus:-ms-input-placeholder,
@@ -1125,11 +1129,11 @@ input:focus:-ms-input-placeholder {
 .ready-form-block .form-item input[type="search"]:focus:-ms-input-placeholder {
   color: transparent;
 }
-/* line 439, ../assets/scss/partials/elements/_forms.scss */
+/* line 442, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .form-actions {
   padding-top: 10px;
 }
-/* line 442, ../assets/scss/partials/elements/_forms.scss */
+/* line 445, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .btn {
   color: #e09f8b;
   border: 1px solid #e09f8b;
@@ -1142,7 +1146,7 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 456, ../assets/scss/partials/elements/_forms.scss */
+/* line 459, ../assets/scss/partials/elements/_forms.scss */
 .ready-form-block .btn:hover {
   opacity: 0.7;
   color: #b4634f;
@@ -2031,6 +2035,12 @@ input:focus:-ms-input-placeholder {
   min-height: 432px;
   background-size: cover;
   text-align: center;
+}
+@media (max-width: 420px) {
+  /* line 197, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  .ready-form {
+    min-height: 450px;
+  }
 }
 
 /* line 4, ../assets/scss/partials/blocks/_menu_blocks.scss */
