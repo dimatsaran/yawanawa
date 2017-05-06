@@ -69,12 +69,9 @@ table {
   outline: 0;
 }
 
-/* line 25, ../assets/scss/partials/elements/_base.scss */
+/* line 28, ../assets/scss/partials/elements/_base.scss */
 body {
   font-family: "Open Sans", sans-serif;
-  position: relative;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 /* line 11, ../assets/scss/partials/elements/_base.scss */
@@ -86,42 +83,42 @@ body {
   height: 0;
 }
 
-/* line 38, ../assets/scss/partials/elements/_base.scss */
+/* line 36, ../assets/scss/partials/elements/_base.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 41, ../assets/scss/partials/elements/_base.scss */
+/* line 39, ../assets/scss/partials/elements/_base.scss */
 .bold-style {
   font-weight: 600;
 }
 
-/* line 44, ../assets/scss/partials/elements/_base.scss */
+/* line 42, ../assets/scss/partials/elements/_base.scss */
 .italy-style {
   font-style: italic;
 }
 
-/* line 47, ../assets/scss/partials/elements/_base.scss */
+/* line 45, ../assets/scss/partials/elements/_base.scss */
 .under-style {
   border-bottom: 1px solid #8e8a8a;
 }
 
-/* line 52, ../assets/scss/partials/elements/_base.scss */
+/* line 50, ../assets/scss/partials/elements/_base.scss */
 .desc-red {
   color: #eb5449;
 }
 
-/* line 56, ../assets/scss/partials/elements/_base.scss */
+/* line 54, ../assets/scss/partials/elements/_base.scss */
 .container-normal {
   max-width: 940px;
 }
 
-/* line 59, ../assets/scss/partials/elements/_base.scss */
+/* line 57, ../assets/scss/partials/elements/_base.scss */
 .container-custom {
   max-width: 900px;
 }
 
-/* line 62, ../assets/scss/partials/elements/_base.scss */
+/* line 60, ../assets/scss/partials/elements/_base.scss */
 .desc a {
   color: #984089;
   text-decoration: underline;
