@@ -27,6 +27,8 @@ html{
 }
 body{
   font-family: $font-open-sans;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .clearfix{

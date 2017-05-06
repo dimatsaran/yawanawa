@@ -134,13 +134,13 @@
 }
 @media only screen and (max-width: 991px) {
 	body {
-		overflow: hidden;
+		/*overflow: hidden;*/
 	}
 	.content {
-		position: relative;
-		height: 100%;
-		overflow-x: hidden;
-		overflow-y: scroll;
+		/*position: relative;*/
+		/*height: 100%;*/
+		/*overflow-x: hidden;*/
+		/*overflow-y: scroll;*/
 	}
 	.header {
 		background-color: #0d1516;
@@ -203,8 +203,8 @@
 }
 @media only screen and (min-width: 992px) {
 	body {
-		overflow-x: hidden;
-		overflow-y: scroll;
+		/*overflow-x: hidden;*/
+		/*overflow-y: scroll;*/
 	}
 
 

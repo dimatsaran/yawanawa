@@ -428,6 +428,7 @@ $(document).ready(function() {
 						$(this).css({
 							"width": "100%",
 							"height": "100%",
+							"position": "fixed",
 						});
 						$(".header .container").css("display", "block");
 						$(".burger").before("<div class=\"burger_menu_top\"></div>");
@@ -469,11 +470,12 @@ $(document).ready(function() {
 			var speed = 2000;
 			var el = $(this).attr("href");
 			var top = $(el).offset().top;
-			if (window.isBreakpoint("lg") || window.isBreakpoint("md")) {
-				$("html, body").animate({scrollTop: top}, speed);
-			} else {
-				$(".content").animate({scrollTop: top}, speed);
-			}
+			$("html, body").animate({scrollTop: top}, speed);
+			// if (window.isBreakpoint("lg") || window.isBreakpoint("md")) {
+			// 	$("html, body").animate({scrollTop: top}, speed);
+			// } else {
+			// 	$(".content").animate({scrollTop: top}, speed);
+			// }
 			return false;
 		});
 		var $menuBlockScroll = $(".block-scroll");
