@@ -11382,3 +11382,260 @@ input:focus:-ms-input-placeholder {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
   opacity: 1;
 }
+
+/* line 4, ../assets/scss/partials/blocks/_who_are_we.scss */
+.header-who-are-we-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600;
+  max-width: 700px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 4, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .header-who-are-we-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .header-who-are-we-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 4, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .header-who-are-we-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+/* line 23, ../assets/scss/partials/blocks/_who_are_we.scss */
+.header-who-are-we-block .title-block .title-description {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 35px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+  /* line 23, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .header-who-are-we-block .title-block .title-description {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 23, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .header-who-are-we-block .title-block .title-description {
+    font-size: 22px;
+  }
+}
+
+/* line 40, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 46px;
+  padding-bottom: 23px;
+  position: relative;
+}
+/* line 47, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .container-terms {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 50, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .into-who-are-we-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 54, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  /* line 54, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .into-who-are-we-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 54, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .into-who-are-we-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 54, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .into-who-are-we-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 64, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .title-block .desc {
+  padding-top: 23px;
+  color: #313131;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 64, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .into-who-are-we-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 64, ../assets/scss/partials/blocks/_who_are_we.scss */
+  .into-who-are-we-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 74, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+/* line 78, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .title-block .desc-bold {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+/* line 82, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .title-block .desc-bold p {
+  padding-bottom: 30px;
+}
+/* line 87, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .content-block {
+  padding-top: 30px;
+}
+/* line 89, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .content-block .desc {
+  text-align: left;
+}
+/* line 91, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .content-block .desc p {
+  padding-bottom: 24px;
+  line-height: 1.74;
+  font-size: 14px;
+}
+/* line 95, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .content-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 99, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .content-block .desc p.before-ul {
+  padding-bottom: 0;
+}
+/* line 103, ../assets/scss/partials/blocks/_who_are_we.scss */
+.into-who-are-we-block .content-block .desc ul {
+  padding-top: 5px;
+  line-height: 2.04;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+/* line 118, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block {
+  background-color: #f9f3f4;
+}
+/* line 120, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block {
+  padding: 110px 5%;
+}
+/* line 122, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .title-block {
+  display: inline-block;
+  width: 100%;
+  max-width: 450px;
+  margin: 12px 0;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01px;
+  line-height: 24px;
+  text-align: left;
+}
+/* line 132, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .title-block h2 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 450px;
+  font-size: 36px;
+  letter-spacing: 0.01px;
+  line-height: 48px;
+  text-align: left;
+  padding: 156px 0 24px;
+  /**/
+  font-family: "Open Sans", sans-serif;
+}
+/* line 143, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .title-block h2:after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  /*	left: 50%;
+    margin-left: -45px;/**/
+  width: 90px;
+  height: 9px;
+  background-color: #e1a08c;
+  background-image: -webkit-gradient(linear, left, right, from(#e1a08c), to(#b4634f));
+  background-image: -webkit-linear-gradient(left, #e1a08c, #b4634f);
+  background-image: -moz-linear-gradient(right, #e1a08c, #b4634f);
+  background-image: -o-linear-gradient(right, #e1a08c, #b4634f);
+  background-image: linear-gradient(to right, #e1a08c, #b4634f);
+  /**/
+}
+/* line 161, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .content-block {
+  display: inline-block;
+  width: 100%;
+  max-width: 450px;
+  margin: 12px 0;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01px;
+  line-height: 24px;
+  text-align: left;
+}
+/* line 171, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .content-block .desc {
+  text-align: left;
+}
+/* line 173, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .content-block .desc p {
+  padding-bottom: 24px;
+  line-height: 1.74;
+  font-size: 14px;
+}
+/* line 177, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .content-block .desc p a {
+  color: #984089;
+  text-decoration: underline;
+}
+/* line 181, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .text-block .content-block .desc p.before-ul {
+  padding-bottom: 0;
+}
+/* line 188, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .img-block {
+  padding: 0;
+}
+/* line 190, ../assets/scss/partials/blocks/_who_are_we.scss */
+.who-are-we-block .img-block img {
+  width: 100%;
+  height: auto;
+}
