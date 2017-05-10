@@ -5,6 +5,7 @@ ready-form-block for several pages
 default ready form with bg
 {% endcomment %}
 {% if page.id == 28532 %}
+{% comment %}Terms of Use{% endcomment %}
 <div class="ready-form ready-form-block" style="background-image :url('{{ 'ready-form-connect-block.jpg' | asset_url | img_tag }}')">
   <div class="container container-form">
     <div class="row">
@@ -21,7 +22,7 @@ default ready form with bg
           </div>
         </div>
         <div id="cid_2" class="form-actions">
-          <button id="input_2" type="submit" class="btn form-submit-button" data-component="button"> Sign Up </button>
+          <button id="input_2" type="submit" class="btn form-submit-button" data-component="button" style="width:250px"> YES to a FREE Meditation </button>
         </div>
         <div style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </div>
         <script>//JotForm.showJotFormPowered = true; </script>
@@ -32,6 +33,7 @@ default ready form with bg
   </div>
 </div>
 {% elsif page.id == 53265 %}
+{% comment %}Mission & Values{% endcomment %}
 <div class="ready-form ready-form-block" style="background-image :url('{{ 'ready-form-connect-block.jpg' | asset_url | img_tag }}')">
   <div class="container container-form">
     <div class="row">
@@ -48,7 +50,7 @@ default ready form with bg
           </div>
         </div>
         <div id="cid_2" class="form-actions">
-          <button id="input_2" type="submit" class="btn form-submit-button" data-component="button"> Sign Up </button>
+          <button id="input_2" type="submit" class="btn form-submit-button" data-component="button" style="width:250px";> YES to a FREE Meditation </button>
         </div>
         <div style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </div>
         <script>//JotForm.showJotFormPowered = true; </script>
@@ -59,6 +61,7 @@ default ready form with bg
   </div>
 </div>
 {% elsif page.id == 28533 %}
+{% comment %} Privacy Policy {% endcomment %}
 <div class="ready-form ready-form-block" style="background-image :url('{{ 'ready-form-connect-block.jpg' | asset_url | img_tag }}')">
   <div class="container container-form">
     <div class="row">
@@ -75,7 +78,7 @@ default ready form with bg
           </div>
         </div>
         <div id="cid_2" class="form-actions">
-          <button id="input_2" type="submit" class="btn form-submit-button" data-component="button"> Sign Up </button>
+          <button id="input_2" type="submit" class="btn form-submit-button" data-component="button" style="width:250px"> YES to a FREE Meditation </button>
         </div>
         <div style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </div>
         <script> JotForm.showJotFormPowered = true; </script>
@@ -123,45 +126,59 @@ default ready form with bg
   </div>
 </div>
 {% elsif page.id == 55677 %}
+{% comment %} Private ceremonies {% endcomment %}
+{% assign formId = 71244384827259 %}
 <div  class="components-custom-connect-block">
   <div class="container container-connect">
     <div class="row">
       <div class="title-block">
         <div class="desc"><p>Contact us at  <a href="mailto:mail@sacredjourney.earth">mail@sacredjourney.earth</a> for more information.</p>
-          <p>SacredJourney.Earth keeps your customized retreat completely confidential. </p>
+          <p>SacredJourney.Earth keeps all information regarding your customized retreat strictly confidential.</p>
         </div>
       </div>
       <div class="form-block">
         <div class="line-label"></div>
-        <form class="yawanawa-form form-grey" action="#">
-          <div class="col-form col-form-left">
-            <div class="form-item">
-              <input type="text" name="first-name" id="first-name" placeholder="First name">
+        <form
+            class="yawanawa-form jotform-form"
+            action="https://submit.jotform.ca/submit/{{ formId }}/"
+            method="post"
+            name="form_{{ formId }}"
+            id="{{ formId }}"
+            accept-charset="utf-8"
+        >
+          <input type="hidden" name="formID" value="{{ formId }}" />
+
+          <form class="yawanawa-form form-grey" action="#">
+            <div class="col-form col-form-left">
+              <div class="form-item">
+                <input type="text" name="q8_name[first]" id="first_8" placeholder="First name" data-component="first">
+              </div>
+              <div class="form-item">
+                <input type="text" name="last-name" id="last-name" placeholder="Last name">
+              </div>
+              <div class="form-item">
+                <input type="email" name="email" id="email" placeholder="Email">
+              </div>
             </div>
-            <div class="form-item">
-              <input type="text" name="last-name" id="last-name" placeholder="Last name">
+            <div class="col-form col-form-right">
+              <div class="form-item">
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+              </div>
+              <div class="form-item">
+                <textarea type="textarea" name="message" id="message" placeholder="Message"></textarea>
+              </div>
+              <div class="form-actions">
+                <button  class="btn link-more">Submit</button>
+              </div>
             </div>
-            <div class="form-item">
-              <input type="email" name="email" id="email" placeholder="Email">
-            </div>
-          </div>
-          <div class="col-form col-form-right">
-            <div class="form-item">
-              <input type="text" name="subject" id="subject" placeholder="Subject">
-            </div>
-            <div class="form-item">
-              <textarea type="textarea" name="message" id="message" placeholder="Message"></textarea>
-            </div>
-            <div class="form-actions">
-              <button  class="btn link-more">Submit</button>
-            </div>
-          </div>
-        </form>
+          </form>
       </div>
     </div>
   </div>
 </div>
 {% elsif page.id == 55681 %}
+{% comment %} Custom retreat {% endcomment %}
+{% assign formId = 71244384827259 %}
 <div class="components-custom-connect-block">
   <div class="container container-connect">
     <div class="row">
@@ -172,7 +189,15 @@ default ready form with bg
       </div>
       <div class="form-block">
         <div class="line-label"></div>
-        <form class="yawanawa-form form-grey" action="#">
+        <form
+            class="yawanawa-form jotform-form"
+            action="https://submit.jotform.ca/submit/{{ formId }}/"
+            method="post"
+            name="form_{{ formId }}"
+            id="{{ formId }}"
+            accept-charset="utf-8"
+        >
+          <input type="hidden" name="formID" value="{{ formId }}" />
           <div class="col-form col-form-left">
             <div class="form-item">
               <input type="text" name="first-name" id="first-name" placeholder="First name">
@@ -201,6 +226,8 @@ default ready form with bg
   </div>
 </div>
 {% elsif page.id == 37156 %}
+{% comment %} Calendar {% endcomment %}
+{% assign formId = 71244384827259 %}
 <div class="sentence-connect-block calendar-connect-block">
   <div class="container container-connect">
     <div class="row">
@@ -241,6 +268,8 @@ default ready form with bg
   </div>
 </div>
 {% elsif page.id == 28920 %}
+{% comment %} Connect {% endcomment %}
+{% assign formId = 71244384827259 %}
 <div id="sentence-connect-block" class="block-scroll block-scroll-connect sentence-connect-block default">
   <div class="container container-connect">
     <div class="row">
@@ -271,7 +300,7 @@ default ready form with bg
 </div>
 {% elsif page.id == 46909 %}
 <form class="yawanawa-form form-grey jotform-form" action="https://submit.jotform.ca/submit/70726609141252/" method="post" name="form_70726609141252" id="70726609141252" accept-charset="utf-8"> <input type="hidden" name="formID" value="70726609141252" />
-  <p class="desc-red">At the moment we do not have a Journey planned, stay tuned for new dates!</p>
+  <p class="desc-red">At the moment, we do not have a Journey planned. Please stay tuned for new dates!</p>
   <div class="form-item-pair">
     <div id="cid_5" class="form-item">
       <input type="text" id="input_5" name="q5_input5" data-type="input-textbox" class="form-textbox" size="20" value="" placeholder="Your Name" data-component="textbox" />
@@ -295,7 +324,7 @@ default ready form with bg
       <div class="title-block">
         <h2 class="title">Registration Opens Soon</h2>
         <div class="desc">
-          <p>Enter your details below and receive 3 FREE introduction videos to the course</p>
+          <p>Enter your details below to receive 3 FREE introductory videos</p>
         </div>
       </div>
       <div class="form-block">
@@ -310,7 +339,7 @@ default ready form with bg
             </div>
           </div>
           <div id="cid_2" class="form-actions">
-            <button id="input_2" type="submit" class="btn link-more" data-component="button"> Submit </button>
+            <button style="width:250px" id="input_2" type="submit" class="btn link-more" data-component="button">YES TO 3 FREE VIDEOS!</button>
           </div>
           <div style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </div>
           <script>//JotForm.showJotFormPowered = true; </script>
@@ -322,6 +351,11 @@ default ready form with bg
   </div>
 </div>
 {% else %}
+{% comment %}
+Homepage
+Blog
+Testimonials
+{% endcomment %}
 <div id="ready-form" class="ready-form ready-form-block ready-terms-form-block" style="background-image :url('{{ 'ready-form-block.jpg' | asset_url | img_tag }}')">
   <div class="container container-form">
     <div class="row">
@@ -338,13 +372,13 @@ default ready form with bg
           </div>
         </div>
         <div id="cid_2" class="form-actions">
-          <button id="input_2" type="submit" class="btn form-submit-button" data-component="button"> Sign Up </button>
+          <button id="input_2" type="submit" style="width:250px" class="btn form-submit-button" data-component="button"> YES to a FREE Meditation </button>
         </div>
         <div style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </div>
-        <script>//JotForm.showJotFormPowered = true; </script>
+        <script>JotForm.showJotFormPowered = true; </script>
         <input type="hidden" id="simple_spc" name="simple_spc" value="70726609141252" /> <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "70726609141252-70726609141252"; </script>
       </form>
-      <script type="text/javascript">//JotForm.ownerView=true;</script><script type="text/javascript">//JotForm.forwardToEu=true;</script>
+      <script type="text/javascript">JotForm.ownerView=true;</script><script type="text/javascript">JotForm.forwardToEu=true;</script>
     </div>
   </div>
 </div>
