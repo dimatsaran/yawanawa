@@ -40,6 +40,7 @@
 <div class="content">
     <a href="/" class="logo" style="background-image :url('{{ 'logo.svg' | asset_url | img_tag }}')"></a>
     {% include "alert_messages" %}
+
     {{ content_for_layout }}
     {% include "footer" %}
 </div>

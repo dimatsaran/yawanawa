@@ -11653,3 +11653,45 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   height: auto;
 }
+
+/* line 2, ../assets/scss/partials/blocks/_product_categories.scss */
+.header-category-block .section--product_hero {
+  height: 100vh;
+  width: 100%;
+  display: table;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 7, ../assets/scss/partials/blocks/_product_categories.scss */
+.header-category-block .section--product_hero .container {
+  vertical-align: middle;
+  display: table-cell;
+}
+/* line 10, ../assets/scss/partials/blocks/_product_categories.scss */
+.header-category-block .section--product_hero .container h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600;
+  max-width: 700px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 10, ../assets/scss/partials/blocks/_product_categories.scss */
+  .header-category-block .section--product_hero .container h1 {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 10, ../assets/scss/partials/blocks/_product_categories.scss */
+  .header-category-block .section--product_hero .container h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 10, ../assets/scss/partials/blocks/_product_categories.scss */
+  .header-category-block .section--product_hero .container h1 {
+    font-size: 35px;
+  }
+}

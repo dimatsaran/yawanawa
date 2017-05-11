@@ -1,0 +1,55 @@
+<div class="social-block">
+  <div class="container">
+    <div class="sharethis-inline-share-buttons"></div>
+  </div>
+</div>
+<footer class="footer" style="background-image :url('{{ 'bg-bottom.png' | asset_url | img_tag }}')">
+  <div class="container-fluid">
+    <div class="row reorder-md">
+      <div class="col-xs-12">
+        <a href="/pages/connect">Connect</a>
+      </div>
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="container">
+            <div class="col-md-3 col-md-push-9 col-sm-12">
+              <div class="row">
+                {% if current_site_user == blank %}
+                {% include "login_footer_block" %}
+                {% else %}
+                <div style="margin:55px auto">
+                  <img src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/113880/assets/logo.svg?1493749582417151" />
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            <div class="col-md-3 col-md-pull-3 col-sm-4">
+              <h6>SacredJourney.Earth</h6>
+              <ul>
+                {% for link in current_site.link_lists[settings.footer_menu].links %}
+                <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-md-3 col-md-pull-3 col-sm-4">
+              <h6>Offerings</h6>
+              <ul>
+                {% for link in current_site.link_lists['doKeVAbb'].links %}
+                <li><a href="{{ link.url }}">{{link.name}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-md-3 col-md-pull-3 col-sm-4">
+              <h6>Just for you</h6>
+              <ul>
+                {% for link in current_site.link_lists['54PMXR6M'].links %}
+                <li><a href="{{ link.url }}">{{link.name}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
