@@ -1,7 +1,7 @@
 <script>
   function initMap() {
     var mapOptions = {
-      center: {lat: 19.016060, lng: -99.178194},
+      center: {lat: 34.446583, lng: -119.252384},
       zoom: 8,
       disableDefaultUI: true
     }
@@ -9,13 +9,13 @@
     <!--var anchor = '../img/icon/icon-anchor.png';-->
     var anchor = '{{'icon-anchor.png' | asset_url | img_tag }}';
     /* position marker*/
-    var companyPos = new google.maps.LatLng(19.016060, -99.178194);
+    var companyPos = new google.maps.LatLng(34.446583, -119.252384);
     companyMarker = new google.maps.Marker({
       map: map,
       icon: anchor,
       animation: google.maps.Animation.DROP,
       position: companyPos,
-      title: "Soma Immersion"
+      title: "Weekend Reatreat"
     });
   }
 </script>

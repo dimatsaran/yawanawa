@@ -3,7 +3,7 @@ blocks with images for background
 {% endcomment %}
 {% if page.id == 36129 %}
 <div class="img-bg-block personal-bg-block">
-  <img src="{{ 'personal-bg-block.jpg' | asset_url | img_tag }}" alt="" class="responsify" data-focus-left=".53" data-focus-top=".06" data-focus-right=".71" data-focus-bottom=".45">
+  <img src="{{ 'personal-bg-block.jpg' | asset_url | img_tag }}" alt="Dennis" class="responsify" data-focus-left=".53" data-focus-top=".06" data-focus-right=".71" data-focus-bottom=".45"/>
 </div>
 {% elsif page.id == 46908 and id == 1  %}
 <div class="img-bg-block exterior-bg-block" style="background-image :url('{{ 'exterior-bg-block.jpg' | asset_url | img_tag }}')"></div>
@@ -23,4 +23,10 @@ blocks with images for background
 <div class="img-bg-block custom-retreat-bg-block" style="background-image :url('{{ 'custom-retreat-bg-block.jpg' | asset_url | img_tag }}')"></div>
 {% elsif page.id == 56609 and id == 1  %}
 <div class="img-bg-block testimonials-bg-block" style="background-image :url('{{ 'testimonials-block-bg.jpg' | asset_url | img_tag }}')"></div>
+{% elsif page.id == 56878 and id == 1  %}
+<div class="img-bg-block testimonials-bg-block" style="background-image :url('{{ 'integration-and-embodiment-bg-block.jpg' | asset_url | img_tag }}')"></div>
+{% elsif page.id == 57985 and id == 1  %}
+<div class="img-bg-block weekend-play-bg-block" style="background-image :url('{{ 'weekend-play-img-block.jpg' | asset_url | img_tag }}')"></div>
+{% elsif page.id == 57985 and id == 2  %}
+<div class="img-bg-block weekend-rose-bg-block" style="background-image :url('{{ 'weekend-rose-img-block.jpg' | asset_url | img_tag }}')"></div>
 {% endif %}

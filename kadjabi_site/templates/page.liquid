@@ -43,11 +43,15 @@ The else statement is used to hold the default content of this page.
 {% elsif page.id == 57985 %}
 {% include "page_weekend" %}
 {% else %}
-<div class="container">
-  <div class="page">
-    <h1>{{ page.title }}</h1>
-    <div class="bar"></div>
-    {{ page.content }}
+{% include "header_block" %}
+<div id="intro-video-block" class="block-scroll intro-video-block default" >
+  <div class="container">
+    <div class="row">
+      <div class="content-block">
+        {{ page.content }}
+      </div>
+    </div>
   </div>
+  {% include "scroll_up_block" %}
 </div>
 {% endif %}

@@ -1368,7 +1368,9 @@ input:focus:-ms-input-placeholder {
 .intro-sales-block,
 .cards-block,
 .header-who-are-we-block,
-.into-who-are-we-block {
+.into-who-are-we-block
+.into-weekend-block,
+.booking-weekend-block {
   min-width: 320px;
 }
 @media (max-width: 420px) {
@@ -1476,11 +1478,13 @@ input:focus:-ms-input-placeholder {
   .intro-sales-block,
   .cards-block,
   .header-who-are-we-block,
-  .into-who-are-we-block {
+  .into-who-are-we-block
+  .into-weekend-block,
+  .booking-weekend-block {
     overflow-x: hidden;
   }
 }
-/* line 111, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 112, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block *, .header-blog-all-block *::after, .header-blog-all-block *::before,
 .menu-blog-all-block *,
 .menu-blog-all-block *::after,
@@ -1788,16 +1792,22 @@ input:focus:-ms-input-placeholder {
 .header-who-are-we-block *,
 .header-who-are-we-block *::after,
 .header-who-are-we-block *::before,
-.into-who-are-we-block *,
-.into-who-are-we-block *::after,
-.into-who-are-we-block *::before {
+.into-who-are-we-block
+.into-weekend-block *,
+.into-who-are-we-block
+.into-weekend-block *::after,
+.into-who-are-we-block
+.into-weekend-block *::before,
+.booking-weekend-block *,
+.booking-weekend-block *::after,
+.booking-weekend-block *::before {
   box-sizing: border-box;
   -moz-transition: all ease-out 0.3s;
   -o-transition: all ease-out 0.3s;
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 }
-/* line 117, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 118, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-blog-all-block .container-retreat,
 .menu-blog-all-block .container-retreat,
 .ready-form-block .container-retreat,
@@ -1901,12 +1911,14 @@ input:focus:-ms-input-placeholder {
 .intro-sales-block .container-retreat,
 .cards-block .container-retreat,
 .header-who-are-we-block .container-retreat,
-.into-who-are-we-block .container-retreat {
+.into-who-are-we-block
+.into-weekend-block .container-retreat,
+.booking-weekend-block .container-retreat {
   max-width: 930px;
   margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
-  /* line 121, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 122, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .header-blog-all-block .row,
   .menu-blog-all-block .row,
   .ready-form-block .row,
@@ -2010,14 +2022,16 @@ input:focus:-ms-input-placeholder {
   .intro-sales-block .row,
   .cards-block .row,
   .header-who-are-we-block .row,
-  .into-who-are-we-block .row {
+  .into-who-are-we-block
+  .into-weekend-block .row,
+  .booking-weekend-block .row {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0;
   }
 }
 
-/* line 129, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 130, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -2031,7 +2045,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 141, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 142, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -2040,7 +2054,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 148, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 149, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -2058,24 +2072,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 157, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 158, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 161, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 162, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 161, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 162, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 169, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 170, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -2091,12 +2105,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 182, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 183, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 188, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 189, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -2107,13 +2121,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 197, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 198, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 201, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 202, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
@@ -2124,7 +2138,7 @@ input:focus:-ms-input-placeholder {
   text-align: center;
 }
 @media (max-width: 420px) {
-  /* line 201, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 202, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .ready-form {
     min-height: 450px;
   }

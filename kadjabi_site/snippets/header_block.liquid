@@ -123,6 +123,13 @@
     <h1 class="site-label">{{ page.title }}</h1>
   </div>
 </div>
+{% elsif page.id == 57985 %}
+<div id="header-block" class="header-block header-weekend-block"  style="background-image :url('{{ 'weekend-retreat-header.jpg' | asset_url | img_tag }}')">
+  <div class="title-block">
+    <h1 class="site-label">{{ page.title }}</h1>
+    {% include "scroll_bottom_block" %}
+  </div>
+</div>
 {% else %}
 <div id="header-block" class="header-block header-terms-block" style="background-image :url('{{ 'blog-all-header.jpg' | asset_url | img_tag }}')">
   <div class="title-block">
