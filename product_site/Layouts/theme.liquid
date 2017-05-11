@@ -37,12 +37,13 @@
   <link href="//fonts.googleapis.com/css?family={{ settings.font_family | replace: ' ', '+' }}:400,700,400italic,700italic|{{ settings.heading_font_family | replace: ' ', '+' }}:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   {% endif %}
   {% endcomment %}
-  {{ 'styles.css' | asset_url | stylesheet_tag }}
+
   {{ 'overrides.css' | asset_url | stylesheet_tag }}
 
   {{ 'fonts.css' | asset_url | stylesheet_tag }}
   {{ 'media.css' | asset_url | stylesheet_tag }}
   {{ 'style.css' | asset_url | stylesheet_tag }}
+  {{ 'styles.css' | asset_url | stylesheet_tag }}
   {{ 'screen.css' | asset_url | stylesheet_tag }}
   {{ 'jquery.min.js' | asset_url | script_tag }}
 
@@ -90,6 +91,16 @@
   {% content_for_header %}
 </head>
 <body>
+<div class="container container--main">
+  <div class="content-wrap">
+    <div class="section-wrap section-wrap--{{ v-Align }}">
+      {% section "header" %}
+      {{ content_for_layout }}
+    </div>
+  </div>
+  {% include "footer" %}
+</div>
+{% comment %}
 {% include "header" %}
 <div class="content">
   <a href="/" class="logo" style="background-image :url('{{ 'logo.svg' | asset_url | img_tag }}')"></a>
@@ -105,26 +116,17 @@
   </div>
   {% include "footer" %}
 </div>
+{% endcomment %}
 <!-- Javascripts ================================================== -->
 
-<!--[if lt IE 9]>
-{{ 'es5-shim.min.js' | asset_url | script_tag }}
-{{ 'html5shiv.min.js' | asset_url | script_tag }}
-{{ 'html5shiv-printshiv.min.js' | asset_url | script_tag }}
-<![endif]-->
 
 {{ 'core.js' | kajabi_asset_url | script_tag }}
 <script charset='ISO-8859-1' src='https://fast.wistia.com/assets/external/E-v1.js'></script>
 <script charset='ISO-8859-1' src='https://fast.wistia.com/labs/crop-fill/plugin.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.12/ouibounce.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-{{ 'scripts.js' | asset_url | script_tag }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.8/js/tether.min.js"></script><!-- Tether for Bootstrap -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-
-{{ 'bootstrap.min.js' | asset_url | script_tag }}
-{{ 'scripts.js' | asset_url | script_tag }}
-{{ 'main.js' | asset_url | script_tag }}
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58a23b816e5792001278c642&product=inline-share-buttons"></script>
