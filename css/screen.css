@@ -2011,11 +2011,13 @@ input:focus:-ms-input-placeholder {
   .cards-block .row,
   .header-who-are-we-block .row,
   .into-who-are-we-block .row {
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0;
   }
 }
 
-/* line 128, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 129, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block {
   position: relative;
   background-image: url("../img/blog-all-header.jpg");
@@ -2029,7 +2031,7 @@ input:focus:-ms-input-placeholder {
   width: 100%;
   display: table;
 }
-/* line 140, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 141, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .header-block .title-block {
   text-align: center;
   display: table-cell;
@@ -2038,7 +2040,7 @@ input:focus:-ms-input-placeholder {
   padding-right: 10px;
 }
 
-/* line 147, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 148, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block {
   position: relative;
   text-align: center;
@@ -2056,24 +2058,24 @@ input:focus:-ms-input-placeholder {
   clear: both;
   height: 0;
 }
-/* line 156, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 157, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .menu {
   display: inline-block;
   vertical-align: top;
 }
-/* line 160, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 161, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  /* line 160, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 161, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .menu-block .item-menu {
     width: 100%;
   }
 }
-/* line 168, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 169, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a {
   display: inline-block;
   text-transform: uppercase;
@@ -2089,12 +2091,12 @@ input:focus:-ms-input-placeholder {
   -webkit-transition: color 0.3;
   transition: color 0.3;
 }
-/* line 181, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 182, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .menu-block .item-menu a:hover {
   color: #eb5449;
 }
 
-/* line 187, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 188, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .img-bg-block {
   background-image: url("../img/hero-bg-block.jpg");
   background-color: transparent;
@@ -2105,13 +2107,13 @@ input:focus:-ms-input-placeholder {
   min-height: 720px;
 }
 
-/* line 196, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 197, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .social-block {
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
-/* line 200, ../assets/scss/partials/blocks/_settings_blocks.scss */
+/* line 201, ../assets/scss/partials/blocks/_settings_blocks.scss */
 .ready-form {
   position: relative;
   background-attachment: scroll;
@@ -2122,7 +2124,7 @@ input:focus:-ms-input-placeholder {
   text-align: center;
 }
 @media (max-width: 420px) {
-  /* line 200, ../assets/scss/partials/blocks/_settings_blocks.scss */
+  /* line 201, ../assets/scss/partials/blocks/_settings_blocks.scss */
   .ready-form {
     min-height: 450px;
   }
@@ -11654,15 +11656,14 @@ input:focus:-ms-input-placeholder {
   height: auto;
 }
 
-/* line 35, ../assets/scss/partials/blocks/_product_categories.scss */
-.header .logo {
+/* line 3, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category.header .logo {
   top: 0;
   width: auto;
 }
-
 @media only screen and (max-width: 991px) {
-  /* line 42, ../assets/scss/partials/blocks/_product_categories.scss */
-  .header .container {
+  /* line 8, ../assets/scss/partials/blocks/_product_categories.scss */
+  .product-category.header .container {
     width: auto;
     height: 100%;
     padding: 0;
@@ -11671,12 +11672,41 @@ input:focus:-ms-input-placeholder {
     display: block;
   }
 }
-/* line 54, ../assets/scss/partials/blocks/_product_categories.scss */
-.hero-background .panel__block {
+/* line 31, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category .header {
+  position: absolute;
+  z-index: 10000;
+}
+/* line 35, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category .header .container {
+  width: 100%;
+}
+/* line 38, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category .logo {
+  display: block;
+  position: absolute;
+  left: 50%;
+  z-index: 10000;
+}
+/* line 44, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category a.logo {
+  background-image: url(img/logo.svg);
+  background-size: 100% 100%;
+}
+/* line 48, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category .burger {
+  position: fixed;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 20000;
+}
+/* line 58, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category .hero-background .panel__block {
   margin: 3.5rem 0;
 }
-/* line 57, ../assets/scss/partials/blocks/_product_categories.scss */
-.hero-background h1 {
+/* line 61, ../assets/scss/partials/blocks/_product_categories.scss */
+.product-category .hero-background h1 {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   font-size: 48px;
@@ -11687,20 +11717,547 @@ input:focus:-ms-input-placeholder {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
-  /* line 57, ../assets/scss/partials/blocks/_product_categories.scss */
-  .hero-background h1 {
+  /* line 61, ../assets/scss/partials/blocks/_product_categories.scss */
+  .product-category .hero-background h1 {
     font-size: 65px;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 57, ../assets/scss/partials/blocks/_product_categories.scss */
-  .hero-background h1 {
+  /* line 61, ../assets/scss/partials/blocks/_product_categories.scss */
+  .product-category .hero-background h1 {
     font-size: 45px;
   }
 }
 @media (max-width: 420px) {
-  /* line 57, ../assets/scss/partials/blocks/_product_categories.scss */
-  .hero-background h1 {
+  /* line 61, ../assets/scss/partials/blocks/_product_categories.scss */
+  .product-category .hero-background h1 {
     font-size: 35px;
   }
+}
+
+/* line 1, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.header-weekend-block {
+  background-image: url("../img/weekend-retreat-header.jpg");
+}
+/* line 4, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.header-weekend-block .title-block .site-label {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 85px;
+  line-height: 0.96;
+  font-weight: 700;
+  max-width: 850px;
+  margin: 0 auto;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  /* line 4, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .header-weekend-block .title-block .site-label {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .header-weekend-block .title-block .site-label {
+    font-size: 45px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 4, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .header-weekend-block .title-block .site-label {
+    font-size: 35px;
+  }
+}
+/* line 24, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.header-weekend-block .title-block .title-description {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 55px;
+  letter-spacing: 1.2px;
+}
+@media screen and (max-width: 768px) {
+  /* line 24, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .header-weekend-block .title-block .title-description {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 24, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .header-weekend-block .title-block .title-description {
+    font-size: 22px;
+  }
+}
+
+/* line 42, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 67px;
+  position: relative;
+}
+/* line 43, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .container-sentence {
+  max-width: 940px;
+}
+@media screen and (max-width: 768px) {
+  /* line 52, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 56, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .title-block .title {
+  color: #984089;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  /* line 56, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block .title {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 56, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 56, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block .title {
+    font-size: 21px;
+  }
+}
+/* line 66, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .title-block .desc-bold {
+  padding-top: 20px;
+  color: #000000;
+  font-size: 19px;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 66, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block .desc-bold {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 66, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block .desc-bold {
+    font-size: 14px;
+  }
+}
+/* line 76, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .title-block .desc {
+  padding-top: 45px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 76, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block .desc {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 76, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .title-block .desc {
+    font-size: 13px;
+  }
+}
+/* line 86, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .title-block .desc p {
+  padding-bottom: 30px;
+}
+/* line 93, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .line-label:before {
+  background: #dedede;
+  background-position: center center;
+  height: 1px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 10px;
+}
+/* line 104, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .line-label .label {
+  background-color: #eeeeee;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0 50px;
+  display: inline-block;
+  z-index: 50;
+  position: relative;
+}
+/* line 116, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .price-block {
+  position: relative;
+  padding-bottom: 27px;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+/* line 122, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .price-block .price {
+  color: #eb5449;
+  text-transform: uppercase;
+  padding-top: 30px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+/* line 128, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .price-block .price span {
+  display: inline-block;
+}
+/* line 131, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .price-block .price .big {
+  padding-right: 10px;
+  font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+  /* line 131, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .price-block .price .big {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 131, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .price-block .price .big {
+    font-size: 34px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 131, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .price-block .price .big {
+    font-size: 31px;
+  }
+}
+/* line 138, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .price-block .price .down-payment {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: 600;
+}
+@media screen and (max-width: 640px) {
+  /* line 138, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .price-block .price .down-payment {
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+/* line 152, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .dates-block {
+  position: relative;
+  padding-bottom: 27px;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+/* line 158, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .dates-block .termes-block {
+  padding-top: 40px;
+}
+/* line 161, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .dates-block .termes-block .termes {
+  max-width: 320px;
+  padding: 0 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 166, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .dates-block .termes-block .termes .dates {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+}
+/* line 171, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .dates-block .termes-block .termes .desc {
+  width: 100%;
+  display: inline-block;
+  font-size: 15px;
+  padding-top: 10px;
+}
+/* line 177, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .dates-block .termes-block .termes .desc-red {
+  color: #eb5449;
+}
+@media screen and (max-width: 640px) {
+  /* line 177, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .into-weekend-block .dates-block .termes-block .termes .desc-red {
+    padding-bottom: 20px;
+  }
+}
+/* line 186, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .link-more-block {
+  padding-top: 30px;
+}
+/* line 189, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .link-more-block .link-more {
+  color: #eeeeee;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 193, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.into-weekend-block .link-more-block .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
+}
+
+/* line 201, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.weekend-play-bg-block {
+  background-image: url("../img/weekend-play-img-block.jpg");
+}
+
+/* line 204, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.weekend-rose-bg-block {
+  background-image: url("../img/weekend-rose-img-block.jpg");
+}
+
+/* line 207, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+/* line 215, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .title-block .title {
+  color: #984089;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+/* line 222, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .title-block .desc {
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.68;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+/* line 236, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .title-block .desc a {
+  text-decoration: underline;
+  color: #984089;
+}
+/* line 240, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .title-block .desc .italy-style {
+  font-style: italic;
+}
+/* line 243, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .title-block .desc .bold-style {
+  font-weight: 600;
+}
+/* line 250, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .line-label:before {
+  background: #dedede;
+  background-position: center center;
+  height: 1px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 10px;
+}
+/* line 261, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .line-label .label {
+  background-color: #eeeeee;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0 50px;
+  display: inline-block;
+  z-index: 50;
+  position: relative;
+}
+/* line 273, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block {
+  position: relative;
+  padding-bottom: 30px;
+  margin: 20px  auto 0;
+  max-width: 800px;
+}
+/* line 279, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .price {
+  color: #eb5449;
+  text-transform: uppercase;
+  padding-top: 30px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+/* line 285, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .price span {
+  display: inline-block;
+}
+/* line 288, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .price .big {
+  font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+  /* line 288, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .booking-weekend-block .price-block .price .big {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 288, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .booking-weekend-block .price-block .price .big {
+    font-size: 34px;
+  }
+}
+@media (max-width: 420px) {
+  /* line 288, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .booking-weekend-block .price-block .price .big {
+    font-size: 31px;
+  }
+}
+/* line 295, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .price .down-payment {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: 600;
+}
+@media screen and (max-width: 640px) {
+  /* line 295, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .booking-weekend-block .price-block .price .down-payment {
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+/* line 308, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .card-block {
+  padding-top: 20px;
+}
+/* line 310, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .card-block .icon {
+  margin: 7px;
+  width: 47px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/icon/icon-visa.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* line 319, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .card-block .icon.na:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 47px;
+  height: 32px;
+  display: inline-block;
+  background: rgba(238, 238, 238, 0.5);
+}
+/* line 334, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .card-block .icon.icon-visa {
+  background-image: url("../img/icon/icon-visa.png");
+}
+/* line 337, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .card-block .icon.icon-mastercard {
+  background-image: url("../img/icon/icon-mastercard.png");
+}
+/* line 340, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .price-block .card-block .icon.icon-paypal {
+  background-image: url("../img/icon/icon-paypal.png");
+}
+/* line 347, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .dates-block {
+  position: relative;
+  padding-bottom: 27px;
+  margin: 20px auto 0;
+  max-width: 800px;
+}
+/* line 352, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .dates-block .termes-block {
+  padding-top: 45px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 357, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .dates-block .termes-block .termes {
+  max-width: 340px;
+  padding: 0 50px;
+  display: inline-block;
+}
+/* line 362, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .dates-block .termes-block .termes .dates {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+}
+/* line 367, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .dates-block .termes-block .termes .desc {
+  width: 100%;
+  display: inline-block;
+  font-size: 15px;
+  padding-top: 10px;
+}
+/* line 373, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .dates-block .termes-block .termes .desc-red {
+  color: #eb5449;
+}
+@media screen and (max-width: 640px) {
+  /* line 373, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+  .booking-weekend-block .dates-block .termes-block .termes .desc-red {
+    padding-bottom: 20px;
+  }
+}
+/* line 381, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .link-more-block {
+  padding-top: 30px;
+}
+/* line 383, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .link-more-block .link-more {
+  color: #ffffff;
+  background: #e09f8b;
+  background: -moz-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: -webkit-linear-gradient(left, #e09f8b 0%, #b4634f 100%);
+  background: linear-gradient(to right, #e09f8b 0%, #b4634f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e09f8b', endColorstr='#b4634f',GradientType=1 );
+  border: 0 none;
+}
+/* line 387, ../assets/scss/partials/blocks/_weekend_retreat.scss */
+.booking-weekend-block .link-more-block .link-more:hover {
+  background: #b4634f;
+  background: -moz-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: -webkit-linear-gradient(left, #b4634f 0%, #e09f8b 100%);
+  background: linear-gradient(to right, #b4634f 0%, #e09f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4634f', endColorstr='#e09f8b',GradientType=1 );
+  opacity: 1;
 }

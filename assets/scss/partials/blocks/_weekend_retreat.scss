@@ -1,0 +1,394 @@
+.header-weekend-block{
+  background-image:  url('../img/weekend-retreat-header.jpg');
+  .title-block{
+    .site-label{
+      font-family: $font-open-sans;
+      color:  $color-white;
+      font-size: 8.5*$font-size;
+      line-height: 0.8*$line-height;
+      font-weight: 700;
+      max-width: 850px;
+      margin: 0 auto;
+      letter-spacing: -0.8px;
+      text-transform: uppercase;
+      @include tablet{
+        font-size: 6.5*$font-size;
+      }
+      @include phone{
+        font-size: 4.5*$font-size;
+      }
+      @include small-phone{
+        font-size: 3.5*$font-size;
+      }
+    }
+    .title-description{
+      font-family: $font-open-sans;
+      color: $color-black;
+      text-transform: uppercase;
+      font-size: 3*$font-size;
+      font-weight: 700;
+      //padding-top: 44px;
+      padding-top: 55px;
+      letter-spacing: 1.2px;
+      @include tablet{
+        font-size: 2.6*$font-size;
+      }
+      @include phone{
+        font-size: 2.2*$font-size;
+      }
+    }
+  }
+}
+.into-weekend-block{
+  .container-sentence{
+    max-width: 940px;
+  }
+  text-align: center;
+  background-color: $color-grey;
+  padding-top: 50px;
+  //padding-bottom: 65px;
+  padding-bottom: 67px;
+  position: relative;
+  .title-block{
+    @include tablet{
+      @include padding-screen;
+    }
+    .title{
+      color: $color-purple;
+      text-transform: uppercase;
+      font-size: 3*$font-size;
+      font-weight: 600;
+      @include tablet{font-size: 2.7*$font-size;}
+      @include phone{font-size: 2.4*$font-size;}
+      @include small-phone{font-size: 2.1*$font-size;}
+
+    }
+    .desc-bold{
+      padding-top: 20px;
+      color: $color-black;
+      font-size: 1.9*$font-size;
+      line-height: 1.5*$line-height;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      @include tablet{font-size: 1.6*$font-size;}
+      @include phone{font-size: 1.4*$font-size;}
+    }
+    .desc{
+      //padding-top: 20px;
+      padding-top: 45px;
+      color: $color-black;
+      font-size: 1.7*$font-size;
+      line-height: 1.5*$line-height;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      @include tablet{font-size: 1.4*$font-size;}
+      @include phone{font-size: 1.3*$font-size;}
+      p{
+        padding-bottom: 30px;
+      }
+    }
+  }
+  .line-label{
+    //margin-bottom: 20px;
+    &:before{
+      background: $color-grey-line;
+      background-position: center center;
+      height: 1px;
+      width: 100%;
+      content: '';
+      position: absolute;
+      display: inline-block;
+      left: 0;
+      top: 10px
+    }
+    .label{
+      background-color: $color-grey;
+      color: $color-black;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.2*$font-size;
+      padding: 0 50px;
+      display: inline-block;
+      z-index: 50;
+      position: relative;
+    }
+  }
+  .price-block{
+    position: relative;
+    padding-bottom: 27px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 20px;
+    .price{
+      color: $color-red;
+      text-transform: uppercase;
+      padding-top: 30px;
+      max-width: 450px;
+      margin: 0 auto;
+      span{
+        display: inline-block;
+      }
+      .big{
+        padding-right: 10px;
+        font-size: 4*$font-size;
+        @include tablet{font-size: 3.7*$font-size;}
+        @include phone{font-size: 3.4*$font-size;}
+        @include small-phone{font-size: 3.1*$font-size;}
+      }
+      .down-payment{
+        display: inline-block;
+        max-width: 180px;
+        text-align: left;
+        margin-left: 10px;
+        font-weight: 600;
+        @include phone{
+          font-size: 1.4*$font-size;
+          padding-top: 10px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .dates-block{
+    position: relative;
+    padding-bottom: 27px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 20px;
+    .termes-block{
+      //padding-top: 30px;
+      padding-top: 40px;
+      .termes{
+        max-width: 320px;
+        padding: 0 50px;
+        display: inline-block;
+        vertical-align: top;
+        .dates{
+          width: 100%;
+          display: inline-block;
+          font-size: 2*$font-size;
+        }
+        .desc{
+          width: 100%;
+          display: inline-block;
+          font-size: 1.5*$font-size;
+          padding-top: 10px;
+        }
+        .desc-red{
+          color: $color-red;
+          @include phone{
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  .link-more-block{
+    //padding-top: 37px;
+    padding-top: 30px;
+    .link-more{
+      color: $color-grey;
+      @include linear-gradient;
+      border: 0 none;
+      &:hover{
+        @include linear-gradient-back;
+        opacity: 1;
+        //@include transition(background 0.2s)
+      }
+    }
+  }
+}
+.weekend-play-bg-block{
+  background-image: url('../img/weekend-play-img-block.jpg');
+}
+.weekend-rose-bg-block{
+  background-image: url('../img/weekend-rose-img-block.jpg');
+}
+.booking-weekend-block{
+  text-align: center;
+  background-color: $color-grey;
+  padding-top: 50px;
+  //padding-bottom: 65px;
+  padding-bottom: 75px;
+  .title-block{
+    //padding-top: 50px;
+    .title{
+      color: $color-purple;
+      //text-transform: uppercase;
+      font-size: 2*$font-size;
+      font-weight: 600;
+      padding-bottom: 40px;
+    }
+    .desc{
+      //padding-top: 20px;
+      //padding-top: 40px;
+      color: $color-black;
+      font-size: 1.4*$font-size;
+      //line-height: 1.2*$line-height;
+      line-height: 1.4*$line-height;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-bottom: 25px;
+      //font-weight: 600;
+      p{
+        //padding-bottom: 30px;
+      }
+      a{
+        text-decoration: underline;
+        color: $color-purple;
+      }
+      .italy-style{
+        font-style: italic;
+      }
+      .bold-style{
+        font-weight: 600;
+      }
+    }
+  }
+  .line-label{
+    //margin-bottom: 20px;
+    &:before{
+      background: $color-grey-line;
+      background-position: center center;
+      height: 1px;
+      width: 100%;
+      content: '';
+      position: absolute;
+      display: inline-block;
+      left: 0;
+      top: 10px
+    }
+    .label{
+      background-color: $color-grey;
+      color: $color-black;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.2*$font-size;
+      padding: 0 50px;
+      display: inline-block;
+      z-index: 50;
+      position: relative;
+    }
+  }
+  .price-block{
+    position: relative;
+    //padding-bottom: 20px;
+    padding-bottom: 30px;
+    margin: 20px  auto 0;
+    max-width: 800px;
+    .price{
+      color: $color-red;
+      text-transform: uppercase;
+      padding-top: 30px;
+      max-width: 450px;
+      margin: 0 auto;
+      span{
+        display: inline-block;
+      }
+      .big{
+        font-size: 4*$font-size;
+        //padding-right: 10px;
+        @include tablet{font-size: 3.7*$font-size;}
+        @include phone{font-size: 3.4*$font-size;}
+        @include small-phone{font-size: 3.1*$font-size;}
+      }
+      .down-payment{
+        display: inline-block;
+        max-width: 180px;
+        text-align: left;
+        margin-left: 10px;
+        font-weight: 600;
+        @include phone{
+          font-size: 1.4*$font-size;
+          padding-top: 10px;
+          text-align: center;
+        }
+      }
+    }
+    .card-block{
+      padding-top: 20px;
+      .icon{
+        margin: 7px;
+        width: 47px;
+        height: 32px;
+        display: inline-block;
+        vertical-align: middle;
+        background-image: url("../img/icon/icon-visa.png");
+        background-repeat: no-repeat;
+        position: relative;
+        &.na:after{
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 47px;
+          height: 32px;
+          display: inline-block;
+          background: rgba( $color-grey, 0.5);
+        }
+        //opacity: 1;
+        //@include transition(opacity 0.2s);
+        //&:hover{
+        //  opacity: 0.8;
+        //}
+        &.icon-visa{
+          background-image: url("../img/icon/icon-visa.png");
+        }
+        &.icon-mastercard{
+          background-image: url("../img/icon/icon-mastercard.png");
+        }
+        &.icon-paypal{
+          background-image: url("../img/icon/icon-paypal.png");
+        }
+      }
+
+    }
+  }
+  .dates-block{
+    position: relative;
+    padding-bottom: 27px;
+    margin: 20px auto 0;
+    max-width: 800px;
+    .termes-block{
+      //padding-top: 30px;
+      padding-top: 45px;
+      display: inline-block;
+      vertical-align: top;
+      .termes{
+        //max-width: 320px;
+        max-width: 340px;
+        padding: 0 50px;
+        display: inline-block;
+        .dates{
+          width: 100%;
+          display: inline-block;
+          font-size: 2*$font-size;
+        }
+        .desc{
+          width: 100%;
+          display: inline-block;
+          font-size: 1.5*$font-size;
+          padding-top: 10px;
+        }
+        .desc-red{
+          color: $color-red;
+          @include phone{padding-bottom: 20px}
+        }
+      }
+
+    }
+  }
+  .link-more-block{
+    padding-top: 30px;
+    .link-more{
+      color: $color-white;
+      @include linear-gradient;
+      border: 0 none;
+      &:hover{
+        @include linear-gradient-back;
+        opacity: 1;
+        //@include transition(background 0.2s)
+      }
+    }
+  }
+}

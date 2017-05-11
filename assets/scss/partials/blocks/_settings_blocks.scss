@@ -120,6 +120,7 @@
   }
   .row{
     @include phone{
+      @include padding-screen;
       margin: 0;
     }
   }

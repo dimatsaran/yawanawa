@@ -1,0 +1,243 @@
+{% if section.settings.show_header %}
+{% include "header_style" %}
+{% include "header_announcement" %}
+<div class="header header-category-block header--{{ h-AutoTextColor }} header--{{ h-Alignment }}" kjb-settings-id="{{ 'background_color' | settings_id: section: section }}">
+  <div class="container">
+    {% if section.settings.logo_type == "text" %}
+    <h1 class="logo logo--text">
+      {% if section.settings.logo_action == "product" %}
+      <a href="{{ current_product.url }}" kjb-settings-id="{{ 'logo_text' | settings_id: section: section }}">
+        {{ section.settings.logo_text }}
+      </a>
+      {% elsif section.settings.logo_action == "site" %}
+      <a href="/" kjb-settings-id="{{ 'logo_text' | settings_id: section: section }}">
+        {{ section.settings.logo_text }}
+      </a>
+      {% endif %}
+    </h1>
+    {% else %}
+    {% if section.settings.logo_action == "product" %}
+    <a href="{{ current_product.url }}" class="logo logo--image">
+      <img src="{{ section.settings.logo | image_picker_url: 'logo.png'}}" kjb-settings-id="{{ 'logo' | settings_id: section: section }}"/>
+    </a>
+    {% elsif section.settings.logo_action == "site" %}
+    <a href="/" class="logo logo--image">
+      <img src="{{ section.settings.logo | image_picker_url: 'logo.png'}}" kjb-settings-id="{{ 'logo' | settings_id: section: section }}"/>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% if section.settings.show_menu %}
+    <div class="header-ham">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    {% endif %}
+    <div kjb-settings-id="{{ 'menu' | settings_id: section: section }}" class="header-menu">
+      {% if section.settings.show_menu %}
+      {% for link in current_site.link_lists[section.settings.menu].links %}
+      <a href="{{ link.url }}">{{ link.name }}</a>
+      {% endfor %}
+      {% endif %}
+      <a class="search__toggle" kjb-settings-id="{{ 'search_toggle' | settings_id: section: section }}">{{ section.settings.search_toggle }}</a>
+        <span class="user">
+          <img class="user__avatar" src="{{ current_site_user | avatar_url }}"/>
+          <div class="user__dropdown user__dropdown--{{ h-DropDownAutoTextColor }}" kjb-settings-id="{{ 'background_color' | settings_id: section: section }}">
+            <a kjb-settings-id="{{ 'language_library' | settings_id: section: section }}" href="/library">{{ section.settings.language_library }}</a>
+            <a kjb-settings-id="{{ 'language_announcements' | settings_id: section: section }}" href="{{ current_product.announcements_url}}">{{ section.settings.language_announcements }}</a>
+            <span kjb-settings-id="{{ 'language_settings' | settings_id: section: section }}">{{ section.settings.language_settings | member_settings_link }}</span>
+            <span kjb-settings-id="{{ 'language_logout' | settings_id: section: section }}">{{ section.settings.language_logout | member_logout_link }}</span>
+          </div>
+        </span>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+"name": "Header",
+"elements": [
+{
+"type": "checkbox",
+"id": "show_header",
+"label": "Show Header",
+"default": "true"
+},
+{
+"type": "header",
+"content": "Logo",
+"style": "subheading"
+},
+{
+"type": "radio",
+"id": "logo_type",
+"label": "Logo Type",
+"default": "text",
+"options": [
+{"value": "text", "label": "Text"},
+{"value": "image", "label": "Image"}
+]
+},
+{
+"type": "radio",
+"id": "logo_action",
+"label": "Logo Action",
+"default": "site",
+"options": [
+{"value": "site", "label": "Site Home"},
+{"value": "product", "label": "Product Home"}
+]
+},
+{
+"type": "text",
+"label": "Logo Text",
+"id": "logo_text",
+"default": "PREMIER"
+},
+{
+"type": "image_picker",
+"id": "logo",
+"label": "Logo Image",
+"fit": "max",
+"width": 1000,
+"height": 1000,
+"info": "Suggested dimensions: 360x80"
+},
+{
+"type": "text",
+"id": "header_height",
+"label": "Custom Logo Height",
+"info": "You may use the format 10px or simply 10. Works Best Between 30 and 100.",
+"default": ""
+},
+{
+"type": "header",
+"content": "Menu",
+"style": "subheading"
+},
+{
+"type": "checkbox",
+"id": "show_menu",
+"label": "Show Menu",
+"default": "true"
+},
+{
+"type": "link_list",
+"id": "menu",
+"label": "Menu",
+"info": "The topmost menu for the site.",
+"default": "main-menu"
+},
+{
+"type": "text",
+"id": "search_toggle",
+"label": "Search Toggle Text",
+"default": "Search"
+},
+{
+"type": "header",
+"content": "User Menu",
+"style": "subheading"
+},
+{
+"type": "text",
+"id": "language_logout",
+"label": "Logout Text",
+"default": "Logout"
+},
+{
+"type": "text",
+"id": "language_settings",
+"label": "Settings Text",
+"default": "Settings"
+},
+{
+"type": "text",
+"id": "language_library",
+"label": "Library Text",
+"default": "My Library"
+},
+{
+"type": "text",
+"id": "language_announcements",
+"label": "Announcements Text",
+"default": "Announcements"
+},
+{
+"type": "color",
+"label": "Background Color Override",
+"id": "background_color_user",
+"allow_blank": true
+},
+{
+"type": "color",
+"label": "Text Color Override",
+"id": "text_color_user",
+"allow_blank": true
+},
+{
+"type": "header",
+"content": "Optional Announcement",
+"style": "subheading"
+},
+{
+"type": "checkbox",
+"id": "show_header_announcement",
+"label": "Show Announcement",
+"default": "false"
+},
+{
+"type": "text",
+"label": "Announcement text",
+"id": "announcement_text",
+"default": "Announcement"
+},
+{
+"type": "action",
+"label": "Announcement link URL",
+"id": "announcement_link",
+"default": ""
+},
+{
+"type": "color",
+"id": "announcement_color",
+"label": "Announcement Color",
+"default": "#1abc9c"
+},
+{
+"type": "color",
+"id": "announcement_text_color",
+"label": "Announcement Text Color",
+"default": "#fff"
+},
+{
+"type": "header",
+"content": "Section Appearance",
+"style": "subheading"
+},
+{
+"type": "color",
+"label": "Background Color Override",
+"id": "background_color",
+"allow_blank": true
+},
+{
+"type": "color",
+"label": "Text Color Override",
+"id": "text_color",
+"allow_blank": true
+},
+{
+"type": "radio",
+"id": "align_logo",
+"label": "Alignment",
+"default": "left",
+"options": [
+{"value": "left", "label": "Inline"},
+{"value": "center", "label": "Stacked"}
+]
+}
+]
+}
+{% endschema %}

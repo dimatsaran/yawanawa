@@ -50,7 +50,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 /* for product*/
-/*
+
 .header {
 	position: absolute;
 	z-index: 10000;
@@ -75,7 +75,7 @@ a.logo {
 	cursor: pointer;
 	z-index: 20000;
 }
-*/
+
 .burger:not(.close_btn) {
 	background-mage: url(img/burger.png);
 	background-repeat: no-repeat;
