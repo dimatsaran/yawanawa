@@ -128,7 +128,7 @@ default ready form with bg
 {% elsif page.id == 55677 %}
 {% comment %} Private ceremonies {% endcomment %}
 {% assign formId = 71244384827259 %}
-<div  class="components-custom-connect-block">
+<div  class="sentence-connect-block components-custom-connect-block">
   <div class="container container-connect">
     <div class="row">
       <div class="title-block">
@@ -139,7 +139,7 @@ default ready form with bg
       <div class="form-block">
         <div class="line-label"></div>
         <form
-            class="yawanawa-form jotform-form"
+            class="yawanawa-form form-grey"
             action="https://submit.jotform.ca/submit/{{ formId }}/"
             method="post"
             name="form_{{ formId }}"
@@ -147,28 +147,27 @@ default ready form with bg
             accept-charset="utf-8"
         >
           <input type="hidden" name="formID" value="{{ formId }}" />
-
           <form class="yawanawa-form form-grey" action="#">
             <div class="col-form col-form-left">
               <div class="form-item">
-                <input type="text" name="q8_name[first]" id="first_8" placeholder="First name" data-component="first">
+                <input type="text" name="q8_name[first]" id="first_8" placeholder="First name" size="10" value="" data-component="first" />
               </div>
               <div class="form-item">
-                <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                <input type="text" id="last_8" name="q8_name[last]" placeholder="Last name" size="15" value="" data-component="last" />
               </div>
               <div class="form-item">
-                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="email" id="input_5" name="q5_email5" placeholder="Email" size="30" value="" data-component="email" />
               </div>
             </div>
             <div class="col-form col-form-right">
               <div class="form-item">
-                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <input type="text" id="input_6" name="q6_subject" data-type="input-textbox" placeholder="Subject" size="20" value="" data-component="textbox" />
               </div>
               <div class="form-item">
-                <textarea type="textarea" name="message" id="message" placeholder="Message"></textarea>
+                <textarea type="textarea" name="q7_message" id="input_7"  placeholder="Message" data-component="textarea"></textarea>
               </div>
               <div class="form-actions">
-                <button  class="btn link-more">Submit</button>
+                <button id="input_2" type="submit" class="btn link-more" data-component="button">Submit</button>
               </div>
             </div>
           </form>
@@ -179,7 +178,7 @@ default ready form with bg
 {% elsif page.id == 55681 %}
 {% comment %} Custom retreat {% endcomment %}
 {% assign formId = 71244384827259 %}
-<div class="components-custom-connect-block">
+<div class="sentence-connect-block components-custom-connect-block">
   <div class="container container-connect">
     <div class="row">
       <div class="title-block">
@@ -190,7 +189,7 @@ default ready form with bg
       <div class="form-block">
         <div class="line-label"></div>
         <form
-            class="yawanawa-form jotform-form"
+            class="yawanawa-form form-grey"
             action="https://submit.jotform.ca/submit/{{ formId }}/"
             method="post"
             name="form_{{ formId }}"
@@ -200,24 +199,24 @@ default ready form with bg
           <input type="hidden" name="formID" value="{{ formId }}" />
           <div class="col-form col-form-left">
             <div class="form-item">
-              <input type="text" name="first-name" id="first-name" placeholder="First name">
+              <input type="text" name="q8_name[first]" id="first_8" placeholder="First name" size="10" value="" data-component="first" />
             </div>
             <div class="form-item">
-              <input type="text" name="last-name" id="last-name" placeholder="Last name">
+              <input type="text" id="last_8" name="q8_name[last]" placeholder="Last name" size="15" value="" data-component="last" />
             </div>
             <div class="form-item">
-              <input type="email" name="email" id="email" placeholder="Email">
+              <input type="email" id="input_5" name="q5_email5" placeholder="Email" size="30" value="" data-component="email" />
             </div>
           </div>
           <div class="col-form col-form-right">
             <div class="form-item">
-              <input type="text" name="subject" id="subject" placeholder="Subject">
+              <input type="text" id="input_6" name="q6_subject" data-type="input-textbox" placeholder="Subject" size="20" value="" data-component="textbox" />
             </div>
             <div class="form-item">
-              <textarea type="textarea" name="message" id="message" placeholder="Message"></textarea>
+              <textarea type="textarea" name="q7_message" id="input_7"  placeholder="Message" data-component="textarea"></textarea>
             </div>
             <div class="form-actions">
-              <button  class="btn link-more">Submit</button>
+              <button id="input_2" type="submit" class="btn link-more" data-component="button">Submit</button>
             </div>
           </div>
         </form>
@@ -242,24 +241,24 @@ default ready form with bg
         <form class="yawanawa-form form-grey" action="#">
           <div class="col-form col-form-left">
             <div class="form-item">
-              <input type="text" name="first-name" id="first-name" placeholder="First name">
+              <input type="text" name="q8_name[first]" id="first_8" placeholder="First name" size="10" value="" data-component="first" />
             </div>
             <div class="form-item">
-              <input type="text" name="last-name" id="last-name" placeholder="Last name">
+              <input type="text" id="last_8" name="q8_name[last]" placeholder="Last name" size="15" value="" data-component="last" />
             </div>
             <div class="form-item">
-              <input type="email" name="email" id="email" placeholder="Email">
+              <input type="email" id="input_5" name="q5_email5" placeholder="Email" size="30" value="" data-component="email" />
             </div>
           </div>
           <div class="col-form col-form-right">
             <div class="form-item">
-              <input type="text" name="subject" id="subject" placeholder="Subject">
+              <input type="text" id="input_6" name="q6_subject" data-type="input-textbox" placeholder="Subject" size="20" value="" data-component="textbox" />
             </div>
             <div class="form-item">
-              <textarea type="textarea" name="message" id="message" placeholder="Message"></textarea>
+              <textarea type="textarea" name="q7_message" id="input_7"  placeholder="Message" data-component="textarea"></textarea>
             </div>
             <div class="form-actions">
-              <button  class="btn link-more">Submit</button>
+              <button id="input_2" type="submit" class="btn link-more" data-component="button">Submit</button>
             </div>
           </div>
         </form>
@@ -284,14 +283,26 @@ default ready form with bg
         <div class="line-label">&nbsp;</div>
         <form class="yawanawa-form form-grey" action="#">
           <div class="col-form col-form-left">
-            <div class="form-item"><input id="first-name" name="first-name" type="text" placeholder="First name" /></div>
-            <div class="form-item"><input id="last-name" name="last-name" type="text" placeholder="Last name" /></div>
-            <div class="form-item"><input id="email" name="email" type="email" placeholder="Email" /></div>
+            <div class="form-item">
+              <input type="text" name="q8_name[first]" id="first_8" placeholder="First name" size="10" value="" data-component="first" />
+            </div>
+            <div class="form-item">
+              <input type="text" id="last_8" name="q8_name[last]" placeholder="Last name" size="15" value="" data-component="last" />
+            </div>
+            <div class="form-item">
+              <input type="email" id="input_5" name="q5_email5" placeholder="Email" size="30" value="" data-component="email" />
+            </div>
           </div>
           <div class="col-form col-form-right">
-            <div class="form-item"><input id="subject" name="subject" type="text" placeholder="Subject" /></div>
-            <div class="form-item"><textarea id="message" name="message" placeholder="Message"></textarea></div>
-            <div class="form-actions"><button class="btn link-more">Submit</button></div>
+            <div class="form-item">
+              <input type="text" id="input_6" name="q6_subject" data-type="input-textbox" placeholder="Subject" size="20" value="" data-component="textbox" />
+            </div>
+            <div class="form-item">
+              <textarea type="textarea" name="q7_message" id="input_7"  placeholder="Message" data-component="textarea"></textarea>
+            </div>
+            <div class="form-actions">
+              <button id="input_2" type="submit" class="btn link-more" data-component="button">Submit</button>
+            </div>
           </div>
         </form></div>
     </div>
