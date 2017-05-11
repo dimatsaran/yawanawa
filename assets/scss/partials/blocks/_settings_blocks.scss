@@ -99,7 +99,10 @@
 .intro-video-block,
 .header-sales-block,
 .intro-sales-block,
-.cards-block
+.cards-block,
+.header-who-are-we-block,
+.into-who-are-we-block
+
 {
   min-width: 320px;
   @include extra-phone{

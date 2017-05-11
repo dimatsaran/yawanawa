@@ -1,5 +1,5 @@
 .header-who-are-we-block{
-  //background-image: url('../img/terms-header.jpg');
+  //background-image: url('../img/who-are-we-header.jpg');
   .title-block{
     .site-label{
       font-family: $font-open-sans;
@@ -85,7 +85,7 @@
     }
   }
   .content-block{
-    padding-top: 30px;
+    //padding-top: 30px;
     .desc{
       text-align: left;
       p{
@@ -119,16 +119,22 @@
   background-color: $color-grey-opacity;
   .text-block {
     padding: 110px 5%;
-    .title-block{
+    text-align: center;
+    @include tablet{
+      @include padding-screen;
+    }
+    .content-block{
       display: inline-block;
+      //display: table-cell;
       width: 100%;
       max-width: 450px;
       margin: 12px 0;
-      font-family: "OpenSansRegular", sans-serif;
-      font-size: 14px;
+      font-family: $font-open-regular;
+      font-size: 1.4*$font-size;
       letter-spacing: 0.01px;
       line-height: 24px;
       text-align: left;
+      vertical-align: middle;
       h2{
         position: relative;
         display: inline-block;
@@ -138,16 +144,21 @@
         letter-spacing: 0.01px;
         line-height: 48px;
         text-align: left;
-        padding: 156px 0 24px;/**/
+        //padding: 156px 0 24px;
         font-family: $font-open-sans;
+        margin-bottom: 65px;
+        b{
+          font-family: $font-open-semibold;
+        }
         &:after {
           content: "";
           position: absolute;
-          bottom: 3px;
+          bottom: -26px;
           /*	left: 50%;
             margin-left: -45px;/**/
           width: 90px;
           height: 9px;
+          left: 0;
           background-color: #e1a08c;
           background-image: -webkit-gradient(linear, left, right, from(#e1a08c), to(#b4634f));
           background-image: -webkit-linear-gradient(left, #e1a08c, #b4634f);
@@ -157,30 +168,23 @@
 
         }
       }
-    }
-    .content-block{
-      display: inline-block;
-      width: 100%;
-      max-width: 450px;
-      margin: 12px 0;
-      font-family: "OpenSansRegular", sans-serif;
-      font-size: 14px;
-      letter-spacing: 0.01px;
-      line-height: 24px;
-      text-align: left;
       .desc{
         text-align: left;
         p{
           padding-bottom: 24px;
-          line-height: 1.45*$line-height;
           font-size: 1.4*$font-size;
+          letter-spacing: 0.01px;
+          line-height: 24px;
+          b{
+            font-family: $font-open-semibold;
+            font-size: 1.6*$font-size;
+            letter-spacing: 0.1px;
+          }
           a{
             color: $color-purple;
             text-decoration: underline;
           }
-          &.before-ul{
-            padding-bottom: 0;
-          }
+
         }
       }
     }

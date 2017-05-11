@@ -26,7 +26,7 @@
   {% endif %}
   {% endcomment %}
   <link href="https://fonts.googleapis.com/css?family=Qwigley|Amatic+SC|Raleway:400,800" rel="stylesheet">
-
+  {{ 'fonts.css' | asset_url | stylesheet_tag }}
   {{ 'media.css' | asset_url | stylesheet_tag }}
   {{ 'style.css' | asset_url | stylesheet_tag }}
   {{ 'screen.css' | asset_url | stylesheet_tag }}

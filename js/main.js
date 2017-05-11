@@ -13,10 +13,11 @@ $(document).ready(function(){
       $menuBlockScroll.removeClass("fixed").addClass("default");
     }
   });
+
 });
 $(window).load(function() {
   $('img.responsify').responsify();
 });
 $(window).resize(function(){
   $('img.responsify').responsify();
-})
+});

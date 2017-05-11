@@ -74,13 +74,17 @@ a.logo {
 	z-index: 20000;
 }
 .burger:not(.close_btn) {
-	background: url(img/burger.png) no-repeat 0 7px;
+	background-mage: url(img/burger.png);
+	background-repeat: no-repeat;
+	background-position: 0 7px;
 }
 .burger.close_btn {
 	top: 32px;
 	left: 32px;
-	background: url(img/close.png) no-repeat 6px 6px;
-	-webkit-transition: all .3s ease-in-out;
+	background-mage: url(img/close.png);
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+	-webkit-transition: all .3s ease-in-ot;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;

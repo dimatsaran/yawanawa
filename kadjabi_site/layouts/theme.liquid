@@ -25,13 +25,11 @@
     <link href="//fonts.googleapis.com/css?family={{ settings.font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic|{{ settings.heading_font_family | replace: ' ', '+' }}:300,400,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
     {% endif %}
     {% endcomment %}
-    <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Qwigley|Amatic+SC|Raleway:400,800" rel="stylesheet">
     {{ 'fonts.css' | asset_url | stylesheet_tag }}
     {{ 'media.css' | asset_url | stylesheet_tag }}
     {{ 'style.css' | asset_url | stylesheet_tag }}
     {{ 'screen.css' | asset_url | stylesheet_tag }}
-
     {{ 'jquery.min.js' | asset_url | script_tag }}
 
     {% content_for_header %}
@@ -57,16 +55,6 @@
 {{ 'responsify.min.js' | asset_url | script_tag }}
 {{ 'scripts.js' | asset_url | script_tag }}
 {{ 'main.js' | asset_url | script_tag }}
-
-
-{{ 'jquery.mobile.custom.min.js' | asset_url | script_tag }}
-{{ 'createjs-2015.11.26.min.js' | asset_url | script_tag }}
-
-{{ 'logo.js' | asset_url | script_tag }}
-{{ 'hero.js' | asset_url | script_tag }}
-{{ 'sje.js' | asset_url | script_tag }}
-{{ 'arrow.js' | asset_url | script_tag }}
-{{ 'index.js' | asset_url | script_tag }}
 
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.2/release/featherlight.min.css" type="text/css" rel="stylesheet" />
